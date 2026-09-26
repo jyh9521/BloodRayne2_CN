@@ -1,0 +1,13 @@
+--- COMMON.POD / WORLD\A2_UNIONSTATION_PART3.SCB (baseline)
++++ COMMON.POD / WORLD\A2_UNIONSTATION_PART3.SCB (modified)
+@@ :ChitChat (script line 1532) @@
+ :ChitChat
++dbBoxedDisplay(a2s2_Severin_9.wav)
+ dbSay(a2s2_Severin_9.wav)
++dbBoxedDisplay(a2s2_Rayne_26.wav)
+ dbSay(a2s2_Rayne_26.wav)
++dbBoxedDisplay(a2s2_Severin_10.wav)
+ dbSay(a2s2_Severin_10.wav)
+ return
+
+SCB header count and text size increase; trailing source-line index is rebuilt as 1..1766. Every other script command and POD entry remains byte-identical. LANGUAGE.POD stays at the restored baseline hash.

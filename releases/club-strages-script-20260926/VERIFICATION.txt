@@ -1,0 +1,48 @@
+Club Strages three opening captions via SCB script, 2026-09-26.
+Changed branch/field: COMMON.POD / WORLD\A2_UNIONSTATION_PART3.SCB / :ChitChat script block, around original line 1533. Insert dbBoxedDisplay for a2s2_Severin_9.wav, a2s2_Rayne_26.wav, and a2s2_Severin_10.wav immediately before their unchanged dbSay calls. SCB header command count, body length, and sequential line index rebuilt. Other 3,347 POD entries unchanged. LANGUAGE.POD actor metadata restored to $; W32ART.POD, W32ENSND.POD, English voice, and Chinese subtitle bytes unchanged.
+Cause evidence: the user observed a script popup at original line 1533, "Actor \"SEVERIN\" does not exist" after the preceding trial changed the actor metadata field. Extracted SCB contains only dbSay for these three lines, while nearby captioned speech uses dbBoxedDisplay followed by dbSay. The bad actor-metadata trial was rolled back. User in-game verification of the new script insertion is pending; Codex did not launch the game.
+
+Original COMMON.POD SHA256: 1CC9A191D478AE87F97B454FD1D0419CE06A31709F8CB5B9D011D75EF83E3F18
+Modified COMMON.POD SHA256: 7E07F40F473DC056D289D6F583EAB4A890FD9CEA72BAB667E23E70CEE70C4EE3
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-script-20260926\payload\COMMON.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-script-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-script-20260926\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-script-20260926\ROLLBACK.sh
+Version-control test ZIP: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\dist\BloodRayne2_CN_club_strages_script_test.zip; ZIP SHA256 14E1DD0CED6D5CED59FDB424900495CA3BC204146457635231EE50C53A4C6D87; payload inside ZIP SHA256 7E07F40F473DC056D289D6F583EAB4A890FD9CEA72BAB667E23E70CEE70C4EE3.
+
+PREVIOUS TRIAL ROLLBACK command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\club-strages-subtitles-20260926\rollback.ps1'
+PREVIOUS TRIAL ROLLBACK input: live LANGUAGE.POD with invalid SEVERIN/RAYNE actor fields plus verified backup
+PREVIOUS TRIAL ROLLBACK literal output: ROLLBACK_OK LANGUAGE.POD=restored other_game_files=unchanged
+PREVIOUS TRIAL ROLLBACK exit status: 0
+PREVIOUS TRIAL ROLLBACK restored status: live LANGUAGE.POD SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97; original $ actor metadata restored.
+
+BASELINE command: python '_cn_project\releases\club-strages-script-20260926\verify.py' baseline
+BASELINE input: original live COMMON.POD, SHA256 1CC9A191D478AE87F97B454FD1D0419CE06A31709F8CB5B9D011D75EF83E3F18
+BASELINE literal output: SCB_BASELINE commands=1763 target_says=3 boxed=0 entries=3348
+BASELINE exit status: 0
+
+MODIFIED command: python '_cn_project\releases\club-strages-script-20260926\verify.py' modified
+MODIFIED input: original live COMMON.POD and modified payload, SHA256 7E07F40F473DC056D289D6F583EAB4A890FD9CEA72BAB667E23E70CEE70C4EE3
+MODIFIED literal output: SCB_MODIFIED commands=1766 target_says=3 boxed=3 changed_entries=1 entries=3348
+MODIFIED exit status: 0
+MODIFIED CRC command: python -c "from pathlib import Path;import sys;sys.path.insert(0,str(Path('_cn_project/tools').resolve()));from pod3 import Pod3;p=Pod3.read(Path('_cn_project/releases/club-strages-script-20260926/payload/COMMON.POD'));print('CRC_FAILURES',len(p.verify_crcs()))"
+MODIFIED CRC literal output: CRC_FAILURES 0
+MODIFIED CRC exit status: 0
+
+ISOLATED INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\club-strages-script-20260926\install.ps1' -GameRoot '_cn_project\releases\club-strages-script-20260926\testroot'
+ISOLATED INSTALL input: separate testroot copied from original COMMON.POD
+ISOLATED INSTALL literal output: INSTALL_OK COMMON.POD=club_strages_boxed_display other_game_files=unchanged
+ISOLATED INSTALL exit status: 0
+ISOLATED INSTALL status: testroot COMMON.POD SHA256 7E07F40F473DC056D289D6F583EAB4A890FD9CEA72BAB667E23E70CEE70C4EE3
+
+ROLLBACK command: "C:\Program Files\Git\bin\bash.exe" '_cn_project\releases\club-strages-script-20260926\ROLLBACK.sh' -GameRoot '_cn_project\releases\club-strages-script-20260926\testroot'
+ROLLBACK input: isolated installed POD and original backup
+ROLLBACK literal output: ROLLBACK_OK COMMON.POD=restored other_game_files=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored behavior/status: testroot COMMON.POD SHA256 1CC9A191D478AE87F97B454FD1D0419CE06A31709F8CB5B9D011D75EF83E3F18; original :ChitChat block (three dbSay without boxed captions) restored.
+
+LIVE INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\club-strages-script-20260926\install.ps1'
+LIVE INSTALL input: original live COMMON.POD, game not running
+LIVE INSTALL literal output: INSTALL_OK COMMON.POD=club_strages_boxed_display other_game_files=unchanged
+LIVE INSTALL exit status: 0
+LIVE STATUS: COMMON.POD SHA256 7E07F40F473DC056D289D6F583EAB4A890FD9CEA72BAB667E23E70CEE70C4EE3; LANGUAGE.POD restored SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97; diagnostic dinput8.dll SHA256 9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9.
