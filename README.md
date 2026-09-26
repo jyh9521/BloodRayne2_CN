@@ -23,3 +23,13 @@
 当前缺失字幕修订的范围与未确认音频清单详见 `releases/missing-dialogue-20260926/VERIFICATION.txt`。不能把离线脚本覆盖率当作全游戏人工测试结果。
 
 在本目录运行 `python build_release_zip.py` 可从本机游戏目录重新生成 `dist/BloodRayne2_CN_current.zip` 和校验清单。此命令只读取游戏文件，不启动游戏。
+
+## 后续推送
+
+今后的改动先在此仓库本地提交；交付时附上本次提交号和可直接复制的推送命令，由仓库使用者执行。当前分支为 `main`，远端为 `origin`。通用命令：
+
+```powershell
+git -C 'C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project' push origin main
+```
+
+每次修改后都要重新构建并校验安装包，再提交源文件、差异记录及对应的 `dist/` 文件；单独推送翻译表而漏掉测试包会使仓库版本与游戏实装版不一致。
