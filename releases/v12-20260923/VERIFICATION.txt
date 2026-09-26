@@ -1,0 +1,109 @@
+﻿BloodRayne 2 Chinese test release v12 / 2026-09-23
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\full_translation\LANGUAGE.POD
+PROXY: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\proxy\dinput8.dll
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\v12-20260923\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\v12-20260923\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\test_package\ROLLBACK.sh
+WINDOWS_ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\test_package\RESTORE_PURE.cmd
+ZIP: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\v12-20260923\BloodRayne2_CN_v12_20260923.zip
+Changed field: full translation resources; E9 displacement based on execution_address rather than scratch buffer.
+Baseline diagnostic input: copied old proxy source + synthetic x86 font function (no game loaded).
+Modified diagnostic input: fixed proxy source + same synthetic x86 function.
+Rollback input: temporary game-directory fixtures and isolated copy of installed v10.
+Restored behavior: original language bytes, no test DLL, replacement art/sound mods preserved.
+Original game files were read and hashed only; no game launch, no in-place install.
+LANGUAGE.POD SHA256: 5CF475C4E80F3245ABA654870DDEF5F2BABF6A4805537C521B01CAC44B9EE577
+dinput8.dll SHA256: 91326E4B91662C0ABE4DD8628CA7CBFBC19637154A717724DBEF353CFC51FC43
+ZIP SHA256: 6248FD255CDF5650DAFDA7D2DDF1CFC55C96F56E3CA8B57FBD0902FC23B012FC
+Previous build LANGUAGE.POD SHA256: 6A8CDEDBBD78BA169C904620A16A057184195ACE31AF7CAD563BD36FB10EC9C5
+Original proxy source SHA256: 9D3F59521F28F42CF19E2471B806C142BB6A8EBFE0789E4B61515B79A8C41ED3
+Current installed hashes unchanged: [{"Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\rayne2.exe", "Hash": "EAE3925A344668500F3533EBEC146376C8B1BBDB168ED2C3B1D4DECB0ABF0952"}, {"Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\LANGUAGE.POD", "Hash": "DAC807D9045EC6B15B8DFC6AF45DAEFE989186036E82626853D16D762A6AE04D"}, {"Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\W32ART.POD", "Hash": "3FDF3834775EAFAC57C56EE4A05137B0AE4F5597F93CD89AB123CF5352BC0945"}, {"Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\W32ENSND.POD", "Hash": "45CF9B6786136161330EC727D4C64B391809E06FE54F58140B3CB41B29D29FE2"}, {"Path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\dinput8.dll", "Hash": "67AFAD6D8F3EE13FB5C36632B57EF2B9B98E572EB3D82E11AFD8BC815190901C"}]
+Tests are resource/standalone/isolated-file tests, not in-game validation.
+Payload counts: menu=740 (739 Chinese + 1 blank), moves=94, dialogue=2595 Chinese + 3 clear, unique=1704 Chinese + 2 blank.
+English credits byte-exact; English voice memory branch retained; W32ART/W32ENSND files excluded.
+User steps on this host: RESTORE_PURE.cmd (v10) -> INSTALL_FULL_TRANSLATION_TEST.cmd (v12) -> user launches game with Russian text container.
+No extraction is needed on this host; ZIP is an optional portable copy.
+
+BASELINE
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\test_dynamic_hook.ps1" -Baseline
+LITERAL STDOUT:
+test_dynamic_hook.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+BASELINE_FAIL relocated E9 resolves to wrong destination; execution skipped
+LITERAL STDERR:
+
+EXIT: 1
+
+MODIFIED
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\test_dynamic_hook.ps1"
+LITERAL STDOUT:
+test_dynamic_hook.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+MODIFIED_PASS E9 destination; executable trampoline; thiscall arguments; Chinese glyph slots; ASCII passthrough
+LITERAL STDERR:
+
+EXIT: 0
+
+POD_REBUILD
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\test_pod3_rebuild.py"
+LITERAL STDOUT:
+OK: arbitrary-size POD3 replacement and addition rebuild
+LITERAL STDERR:
+
+EXIT: 0
+
+FULL_RESOURCE_VALIDATION
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\validate_full_translation.py"
+LITERAL STDOUT:
+{
+  "build_id": "full-zh-v12-20260923",
+  "language_sha256": "5CF475C4E80F3245ABA654870DDEF5F2BABF6A4805537C521B01CAC44B9EE577",
+  "language_entries": 388,
+  "changed_existing_entries": 64,
+  "added_entries": [
+    "ART\\GOTHICTITLE_RU.TEX",
+    "DATA\\GOTHICTITLE_RU.FNT"
+  ],
+  "menu_rows": 740,
+  "move_rows": 94,
+  "dialogue_occurrences": 2598,
+  "dialogue_modes": {
+    "blank": 3,
+    "translated": 2595
+  },
+  "dynamic_glyphs": 1725,
+  "carrier_capacity": 2914,
+  "per_draw_capacity": 94,
+  "maximum_distinct_in_one_draw": 48,
+  "maximum_distinct_location": "WORLD\\RU\\A4_PARK_1.TXT",
+  "proxy_sha256": "91326E4B91662C0ABE4DD8628CA7CBFBC19637154A717724DBEF353CFC51FC43",
+  "proxy_machine": "x86",
+  "credits": "byte-exact English fallback"
+}
+LITERAL STDERR:
+
+EXIT: 0
+
+ROLLBACK_AND_DEPLOYMENT
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\test_self_contained_deployment.py"
+LITERAL STDOUT:
+OK: self-contained install/restore round trip
+Original W32ART marker: 26C2FC77D34B6D1990F1F0199713B14B42F7EF20F841FC12E0EAAEC40E315A96
+Modded W32ART marker:   54689829F22AE8EEC2DBE744A179FB8E88EC583EA68E6F4487C16CCCAF93FF0A
+Installer reported untouched: True
+Restore reported state: True
+PASS: W32ENSND.POD mod unchanged by install/restore
+PASS: mismatched DLL/POD/EXE rejected before writes
+LITERAL STDERR:
+
+EXIT: 0
+
+INSTALLED_V10_ROLLBACK_COPY
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\test_legacy_v9_restore.py"
+LITERAL STDOUT:
+OK: installed menu-ui-v10-language-font-overlay restore on isolated copy
+W32ART.POD:   3FDF3834775EAFAC57C56EE4A05137B0AE4F5597F93CD89AB123CF5352BC0945
+LANGUAGE.POD: 2E3E0797E147E58B7308D3FCEDBDF0A06CB433FB099FC24B8FB38943D8B358E4
+LITERAL STDERR:
+
+EXIT: 0

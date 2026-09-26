@@ -1,0 +1,431 @@
+key	translation_zh
+Move forward	前进
+Move forward/back	前进/后退
+Strafe right	向右平移
+Strafe left/right	左右平移
+Turn right	右转
+Turn left/right	左右转向
+Look up	向上看
+Look up/down	上下观察
+Harpoon / Bite	鱼叉/吸血
+Target Lock	锁定目标
+Center view	视角居中
+Jump	跳跃
+Blade Attack	刀刃攻击
+Kick	踢击
+Fire Weapon	武器射击
+Powers Off	关闭能力
+Powers Off2	关闭能力
+Activate Aura Vision	启用灵视
+Activate Blood Rage	启用血怒
+Activate Dilated Perception	启用时间感知
+Cycle Weapons	切换武器
+Cycle Lock-On Target	切换锁定目标
+Screen Shot	截图
+Debug	调试
+Start/Pause	开始/暂停
+View Objectives	查看目标
+Perform Circle Combo	施展环形连招
+Move Forward	前进
+Move Backward	后退
+Move Left	向左移动
+Move Right	向右移动
+Look Up	向上看
+Look Down	向下看
+Turn Left	左转
+Turn Right	右转
+Walk	步行
+D-Pad Left	方向键左
+D-Pad Right	方向键右
+D-Pad Up	方向键上
+D-Pad Down	方向键下
+B%d	按键%d
+Axis %d	轴%d
+Standard Outfit	标准服装
+Evening Gown	晚礼服
+Blue Gown	蓝色礼服
+Red Gown	红色礼服
+Dragon Gown	龙纹礼服
+Green Gown	绿色礼服
+Dark Rayne	暗黑莱恩
+Cowgirl Rayne	牛仔莱恩
+Rayne in Armor	铠甲莱恩
+Schoolgirl Rayne	学生装莱恩
+Pistol	手枪
+Sawed Off shotgun	短管霰弹枪
+SMG	冲锋枪
+Grenade	手榴弹
+Grenade Launcher	榴弹发射器
+Assault Rifle	突击步枪
+Flame Thrower	火焰喷射器
+Rocket Launcher	火箭筒
+Snip[er Rifle	狙击步枪
+Unknown Gun	未知枪械
+Saved Games	存档
+No BloodRayne 2 save data found	未找到《吸血莱恩2》存档
+New save	新建存档
+%d%% complete.	完成%d%%
+Mansion - Entry	宅邸：入口
+Mansion - Courtyard	宅邸：庭院
+Mansion - Roof	宅邸：屋顶
+Mansion - Ballroom	宅邸：舞厅
+Mansion - Zerenski	宅邸：泽伦斯基
+Meatpacking District - O'Leary's Cow	肉类加工区：奥利里的奶牛
+Meatpacking District - Alleys and Rooftops	肉类加工区：小巷与屋顶
+Union Station - Abandoned Train Bay	联合车站：废弃站台
+Union Station - Abandoned Shopping Plaza	联合车站：废弃商场
+Union Station - Club Strages	联合车站：斯特拉吉斯俱乐部
+Sewers - Access Tunnels	下水道：入口隧道
+Sewers - Smuggling Route	下水道：走私路线
+Sewers - Slezz	下水道：斯莱兹
+Wetworks - Electrification Silos	湿作业厂：电气筒仓
+Wetworks - Mess Hall	湿作业厂：食堂
+Wetworks - Chemical Processing	湿作业厂：化学处理区
+Wetworks - Turbine	湿作业厂：涡轮机
+Wetworks - Furnace	湿作业厂：熔炉
+Wetworks - Loading Bay	湿作业厂：装卸区
+Shroud Tower - Ascent	暗幕塔：攀登
+Shroud Tower - Ferril	暗幕塔：费里尔
+Twisted Park - Zoo Entrance	扭曲公园：动物园入口
+Twisted Park - The Aquarium	扭曲公园：水族馆
+Twisted Park - Ephemera	扭曲公园：埃菲梅拉
+Kagan's Tower - Xerx's Labs	卡根塔：泽克斯实验室
+Kagan's Tower - Llewelyn Corporate	卡根塔：卢埃林公司
+Kagan's Tower - Unraveller	卡根塔：拆解者
+Kagan's Tower - Media Center	卡根塔：媒体中心
+Kagan's Tower - Skybridge	卡根塔：空中连桥
+Kagan's Tower - Rooftop	卡根塔：屋顶
+Kagan's Tower - Throne room	卡根塔：王座厅
+(none)	（无）
+Mouse X-Axis	鼠标X轴
+Mouse Y-Axis	鼠标Y轴
+Mouse B1	鼠标键1
+Mouse B2	鼠标键2
+Mouse B3	鼠标键3
+Mouse B4	鼠标键4
+Mouse B5	鼠标键5
+Traditional 3rd Person	传统第三人称
+3rd person with strafe	平移式第三人称
+1st person	第一人称
+Traditional 3rd person LH	传统第三人称（左手）
+3rd person with strafe LH	平移式第三人称（左手）
+1st person LH	第一人称（左手）
+Can't read the gamepad.  Make sure a gamepad is plugged in and try again.	无法读取手柄。请确认手柄已连接后重试。
+Your gamepad hasn't been properly calibrated.  Please calibrate your gamepad.	手柄尚未正确校准。请先校准手柄。
+Save game is damaged and cannot be loaded	存档已损坏，无法载入
+Unable to load saved game.	无法载入存档。
+%s\nLoad failed.	%s\n载入失败。
+%s\nSave failed.	%s\n保存失败。
+New Game	新游戏
+Load Game	载入游戏
+Options	选项
+Extras	额外内容
+Quit	退出
+Choose Level	选择关卡
+Choose difficulty level	选择难度
+Minion	喽啰
+Dhampir	达姆皮尔
+Overlord	霸主
+Load Game - Select Storage Device	载入游戏：选择存储设备
+Save Game - Select Storage Device	保存游戏：选择存储设备
+(Unformatted)	（未格式化）
+ free	可用
+Xbox hard disk	硬盘
+(full)	（已满）
+Please insert a memory unit	请插入存储设备
+Load Game - Select Save Game	载入游戏：选择存档
+Save Game - Select Save Game	保存游戏：选择存档
+Only one save configuration is allowed	只允许保存一套配置
+Game Complete	游戏完成
+Save Game	保存游戏
+Your current progress has been saved successfully.	当前进度已成功保存。
+Resume game	继续游戏
+Enter pause menu	打开暂停菜单
+Error	错误
+Memory unit not formatted	存储设备尚未格式化
+Select a different memory unit	选择其他存储设备
+Save Game?	是否保存游戏？
+Quick save	快速保存
+Save game	保存游戏
+Don't save game	不保存
+Controller Disconnected!	手柄连接已断开！
+Please reconnect the controller and press START to continue.	请重新连接手柄，然后按开始键继续。
+Continue	继续
+Control options	控制选项
+Please insert a controller and press START to continue.	请连接手柄，然后按开始键继续。
+Pause	暂停
+Resume	继续
+Moves List	招式表
+Cheats	秘籍
+Restart level	重新开始关卡
+Exit to main menu	返回主菜单
+Moves	招式
+Quit game and load another game?	退出当前游戏并载入其他存档？
+No	否
+Yes	是
+Are you sure you wish to overwrite this save game?	确定要覆盖此存档吗？
+Quit game and lose current progress?	退出游戏并放弃当前进度？
+This save data is corrupt. Overwrite?	此存档已损坏。是否覆盖？
+Restart level and lose current progress?	重新开始关卡并放弃当前进度？
+Game Over	游戏结束
+Retry From Last Checkpoint	从上个检查点重试
+Exit To Main Menu	返回主菜单
+Enter Cheat	输入秘籍
+Outfits	服装
+Movies	影片
+Slideshows	幻灯片
+Overlord mode	霸主模式
+Credits	制作人员
+Restore default camera and lose custom settings?	恢复默认视角并放弃自定义设置？
+Restore default audio and lose custom settings?	恢复默认音频并放弃自定义设置？
+Restore default configuration and lose custom settings?	恢复默认配置并放弃自定义设置？
+Art dailies 1	每日美术稿1
+Art dailies 2	每日美术稿2
+Art dailies 3	每日美术稿3
+Art dailies 4	每日美术稿4
+Art dailies 5	每日美术稿5
+Art dailies 6	每日美术稿6
+Art dailies 7	每日美术稿7
+Art dailies 8	每日美术稿8
+Art dailies 9	每日美术稿9
+Art dailies 10	每日美术稿10
+Art dailies 11	每日美术稿11
+Art dailies 12	每日美术稿12
+Art dailies 13	每日美术稿13
+Demo Reel	演示集锦
+BloodRayne Movie Trailer	《吸血莱恩》电影预告片
+Advent Rising Trailer	《降临》预告片
+The Making of Advent Rising	《降临》制作特辑
+Vesper Shard Flashback	维斯珀碎片：闪回
+Dawn of the Vampire Age	吸血鬼时代黎明
+Denouement	终局
+Show all movies	显示所有影片
+Killing Floors	杀戮楼层
+Basic Combat Training	基础战斗训练
+Controls	控制
+Camera	视角
+Audio	音频
+Display	显示
+Control Options	控制选项
+Keyboard/mouse	键盘/鼠标
+Gamepad	手柄
+Customize keys	自定义按键
+Look up/down style	上下观察方式
+Normal	正常
+Reversed	反转
+Mouse X sensitivity	鼠标横轴灵敏度
+Mouse Y sensitivity	鼠标纵轴灵敏度
+Customize gamepad buttons	自定义手柄按键
+Customize gamepad axes	自定义手柄摇杆
+Calibrate gamepad	校准手柄
+Look up/down speed	上下观察速度
+Turn left/right speed	左右转向速度
+Look up/down autocenter	上下观察自动回中
+Restore default controls	恢复默认控制
+ROTATION DIRECTION	旋转方向
+Vertical Control	垂直控制
+Horizontal Control	水平控制
+Vertical Autocenter	垂直自动回中
+ROTATION SPEED	旋转速度
+Vertical Speed	垂直速度
+Horizontal Speed	水平速度
+RESET	重置
+Restore Default Camera	恢复默认视角
+Controller Options	手柄选项
+INPUT CONFIGURATION	输入配置
+CONTROLLER CONFIGURATION	手柄配置
+Customize gamepad controls	自定义手柄控制
+OPTIONS	选项
+Auto Lock on Attacker	自动锁定攻击者
+Off	关
+On	开
+Customize Buttons	自定义按键
+Vibration	振动
+Audio Options	音频选项
+VOLUME SETTINGS	音量设置
+Effects Volume	音效音量
+Music / Ambience Volume	音乐/环境音量
+Dialog Volume	对白音量
+Restore Default Audio	恢复默认音频
+No sound devices.	未检测到声音设备。
+Mute	静音
+Music Volume	音乐音量
+Select Device	选择设备
+Quality (Bits)	质量（位深）
+8-bit	8位
+16-bit	16位
+Quality (Hz)	质量（采样率）
+22 Khz	22千赫
+44 Khz	44千赫
+Acceleration	硬件加速
+2D	二维
+3D	三维
+Display Options	显示选项
+Brightness	亮度
+Wide screen	宽屏
+Custom Controls	自定义控制
+Restore Default Controls	恢复默认控制
+Customize Keys	自定义按键
+Customize Axes	自定义轴
+Customize Gamepad Button	自定义手柄按键
+Customize Gamepad Axis	自定义手柄摇杆
+Gamepad calibration: Step 1	手柄校准：步骤1
+Move all gamepad axes in all directions, then press ENTER.	向各个方向移动所有手柄摇杆，然后按回车键。
+Gamepad calibration: Step 2	手柄校准：步骤2
+Center gamepad on all axes, then press ENTER	让所有手柄摇杆回到中央，然后按回车键
+Sound Device	声音设备
+Select the desired sound device.	选择要使用的声音设备。
+Warning	警告
+OK	确定
+Cannot Save	无法保存
+Insufficient space available for this save.	可用空间不足，无法保存。
+Your game will be saved at the start of the current level.  Continue with save?	游戏将保存到当前关卡的起点。是否继续？
+Don't save	不保存
+Entry Results	输入结果
+Try again	重试
+Back	返回
+Physics-Simulation	物理模拟
+Enemies	敌人
+Thawed	解冻
+Frozen	冻结
+God Mode	无敌模式
+Time factor	时间倍率
+Refill ammo	补充弹药
+Credit carnage 1000 points	增加1000杀戮点数
+Credit gun 1000 points	增加1000枪械点数
+Go to Warp room	前往传送室
+Bump map set	切换凹凸贴图
+Enable all gun modes	解锁全部枪械模式
+Enable all combos	解锁全部连招
+Enable all powers	解锁全部能力
+Restore health	恢复生命
+Fill bloodlust	填满血欲
+Unlimited Rage	无限怒气
+Unlimited Ammo	无限弹药
+Juggy mode	胸部夸张模式
+Gratuitous dismemberment	血腥肢解
+Enter Cheat Code	输入秘籍代码
+Start game without saving	不保存并开始游戏
+Are you sure?	确定吗？
+Warning!	警告！
+You will not be able to save your game	之后将无法保存游戏
+Retry	重试
+Some actions are assigned to more than one button.	部分操作被分配给多个按键。
+Some Actions have been left unmapped.	部分操作尚未分配按键。
+Some actions are double assigned.	部分操作存在重复分配。
+Silver Circlet	银环
+Twisted Wind	扭曲之风
+Quiet Thunder	寂静雷霆
+Curtain Twice Torn	撕裂帷幕
+Shiva Aspect	湿婆化身
+@@moveaxis@@ (circle)	@@moveaxis@@（环形）
+Push a new key for 	请为此操作按下新按键：
+Push gamepad button for 	请为此操作按下手柄按键：
+Push gamepad axis for 	请为此操作推动手柄摇杆：
+@@okButtonName@@ Accept   @@cancelButtonName@@ Cancel   @@startButtonName@@ Accept & Resume	@@okButtonName@@ 接受   @@cancelButtonName@@ 取消   @@startButtonName@@ 接受并继续
+@@okButtonName@@ Accept    @@cancelButtonName@@ Cancel	@@okButtonName@@ 接受    @@cancelButtonName@@ 取消
+@@okButtonName@@ Select   @@cancelButtonName@@ Cancel   @@startButtonName@@ Accept & Resume	@@okButtonName@@ 选择   @@cancelButtonName@@ 取消   @@startButtonName@@ 接受并继续
+@@okButtonName@@ Select   @@cancelButtonName@@ Cancel	@@okButtonName@@ 选择   @@cancelButtonName@@ 取消
+@@okButtonName@@ Select	@@okButtonName@@ 选择
+@@okButtonName@@ Continue    @@cancelButtonName@@ Back	@@okButtonName@@ 继续    @@cancelButtonName@@ 返回
+@@okButtonName@@ Reset    @@tagButtonName@@ Tag    @@cancelButtonName@@ Back    @@startButtonName@@ Resume	@@okButtonName@@ 重置    @@tagButtonName@@ 标记    @@cancelButtonName@@ 返回    @@startButtonName@@ 继续
+@@okButtonName@@ Select    @@cancelButtonName@@ Back    @@startButtonName@@ Resume	@@okButtonName@@ 选择    @@cancelButtonName@@ 返回    @@startButtonName@@ 继续
+@@okButtonName@@ Select    @@cancelButtonName@@ Back	@@okButtonName@@ 选择    @@cancelButtonName@@ 返回
+@@okButtonName@@ OK	@@okButtonName@@ 确定
+@@okButtonName@@ Select    @@cancelButtonName@@ Back                @@cameraAxisAll@@ Camera    @@tagButtonName@@ Hide Menu	@@okButtonName@@ 选择    @@cancelButtonName@@ 返回    @@cameraAxisAll@@ 视角    @@tagButtonName@@ 隐藏菜单
+@@okButtonName@@ Select    @@cancelButtonName@@ Back                @@cameraAxisAll@@ Camera    @@tagButtonName@@ Show Menu	@@okButtonName@@ 选择    @@cancelButtonName@@ 返回    @@cameraAxisAll@@ 视角    @@tagButtonName@@ 显示菜单
+@@okButtonName@@ Continue	@@okButtonName@@ 继续
+@@cancelButtonName@@ Back    @@dpadLeftButtonName@@ Previous    @@dpadRightButtonName@@ Next	@@cancelButtonName@@ 返回    @@dpadLeftButtonName@@ 上一个    @@dpadRightButtonName@@ 下一个
+Select Slot	选择栏位
+Total gameplay time: %s	总游戏时间：%s
+@@minorIncAxis@@ Fine Tune         @@majorIncAxis@@ Coarse Adjustment	@@minorIncAxis@@ 微调         @@majorIncAxis@@ 粗调
+@@resetButtonName@@ Reset     @@decreaseButtonName@@ / @@increaseButtonName@@ Prescribed -/+ and toggle 	@@resetButtonName@@ 重置     @@decreaseButtonName@@ / @@increaseButtonName@@ 减少/增加与切换
+Current Objectives	当前目标
+Current Objective	当前目标
+Explore the area	探索该区域
+Remove All Tags	移除全部标记
+Cheat already unlocked	秘籍已经解锁
+Cheat unlocked!	秘籍已解锁！
+Locked	未解锁
+Aura Powers	灵视能力
+Rage Powers	怒气能力
+Speed Powers	时间能力
+Try again later	请稍后再试
+Game unlocked!	游戏内容已解锁！
+Have a nice day!	祝你愉快！
+Level select enabled	关卡选择已启用
+Cheat Invalid	秘籍无效
+Take screenshot	截图
+Subtitles	字幕
+Unlimited Health	无限生命
+Checkpoint	检查点
+Rayne needs to feed!	莱恩需要吸血！
+Blood Rage	血怒
+Blood Fury	血之狂暴
+Blood Storm	血之风暴
+Aura Vision	灵视
+Ghost Feed	幽灵吸血
+Enthrall	魅惑
+Dilated Perception	时间感知
+Super Speed	超级速度
+Freeze Time	时间冻结
+Default	默认
+ESC	Esc
+Right Arrow	右方向键
+Left Arrow	左方向键
+Analog	摇杆
+Mouse	鼠标
+Select	选择
+BackSpace	退格键
+Tab	Tab键
+Enter	回车键
+LeftCtrl	左Ctrl
+LeftShift	左Shift
+RightShift	右Shift
+NumPad*	小键盘*
+LeftAlt	左Alt
+Space	空格键
+CapsLock	大写锁定
+ScrollLock	滚动锁定
+NumPad7	小键盘7
+NumPad8	小键盘8
+NumPad9	小键盘9
+NumPad-	小键盘-
+NumPad4	小键盘4
+NumPad5	小键盘5
+NumPad6	小键盘6
+NumPad+	小键盘+
+NumPad1	小键盘1
+NumPad2	小键盘2
+NumPad3	小键盘3
+NumPad0	小键盘0
+NumPad.	小键盘.
+NumPadEnter	小键盘回车
+RightCtrl	右Ctrl
+NumPad/	小键盘/
+RightAlt	右Alt
+NumLock	数字锁定
+Home	Home键
+Up	上
+PgUp	PageUp
+Left	左
+Right	右
+End	End键
+Down	下
+PgDn	PageDown
+Ins	Insert键
+Del	Delete键
+Left Mouse Button	鼠标左键
+Right Mouse Button	鼠标右键
+Middle Mouse Button	鼠标中键
+Mouse Button X1	鼠标侧键1
+Mouse Button X2	鼠标侧键2
+Mouse wheel forward	鼠标滚轮向前
+Mouse wheel back	鼠标滚轮向后
+Hard disk	硬盘
+Loading	正在载入
+Saving	正在保存
+Not enough free disk space.	磁盘可用空间不足。
+Error reading hard disk.	读取硬盘时出错。
+Unable to load.	无法载入。
+None	无

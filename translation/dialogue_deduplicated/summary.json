@@ -1,0 +1,49 @@
+{
+  "policy": {
+    "menu": "translate and import",
+    "moves": "translate and import",
+    "dialogue": "translate unique units; import each unit into every mapped shipped occurrence",
+    "credits": "do not translate; keep current English fallback"
+  },
+  "menu": {
+    "rows": 740,
+    "translated": 739,
+    "structural_blank": 1,
+    "completed_keys": [],
+    "backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\backups\\menu.70FBDAF1ED6D.tsv",
+    "sha256_before": "70FBDAF1ED6DA2DB2F0F352AB3E4222A28258A037702624F14E9E3BDF399AEA6",
+    "sha256_after": "70FBDAF1ED6DA2DB2F0F352AB3E4222A28258A037702624F14E9E3BDF399AEA6"
+  },
+  "moves": {
+    "rows": 94,
+    "translated": 94,
+    "backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\backups\\moves.DD5CC64AE99D.tsv",
+    "sha256_before": "DD5CC64AE99DC5DD92A70E0BC251BBD96DE19E45A197C032FA181E0CF28249D5",
+    "sha256_after": "DD5CC64AE99DC5DD92A70E0BC251BBD96DE19E45A197C032FA181E0CF28249D5"
+  },
+  "dialogue": {
+    "source_rows": 2598,
+    "source_files": 61,
+    "unique_units": 1706,
+    "duplicate_rows_eliminated": 892,
+    "duplicate_groups": 454,
+    "translated_units": 114,
+    "pending_units": 1465,
+    "blank_units": 2,
+    "needs_review_units": 125,
+    "translation_conflict_groups": 125,
+    "token_review_groups": 0,
+    "unique_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\dialogue_unique.tsv",
+    "occurrences_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\dialogue_occurrences.tsv",
+    "unique_sha256": "148CC725BEB24FFA5F3081FB744598822C98DF19247351AB4B8BFCB5FD0C8B0E",
+    "occurrences_sha256": "A71ABA07208731E075F43A2BF6577C3197F9BB879441B1B3D5AFB4C7A8DA8E35"
+  },
+  "catalog": {
+    "rows": 3715,
+    "synchronized_rows": 3432,
+    "credits_policy": "not translated; keep English fallback",
+    "backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\backups\\catalog.35552F2314E2.tsv",
+    "sha256_before": "35552F2314E2CF92613D89620B256F76ADF643A985F077A12DA222119B93E843",
+    "sha256_after": "91AF60280BE2FF03195750925580407514084D5CF181FD9FFD51AD4213CA9C05"
+  }
+}

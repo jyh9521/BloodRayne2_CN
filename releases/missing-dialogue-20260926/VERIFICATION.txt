@@ -1,0 +1,47 @@
+Change: LANGUAGE.POD WORLD\RU\*.TXT missing script-backed WAV caption keys.
+Original archive SHA256: 1A068F7BA4430B2BA8607B3D81B44F80BFB44E0A95729FBBF8D48F678F01E9A4
+Modified archive SHA256: 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97
+W32ART.POD and W32ENSND.POD: unchanged.
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\payload\LANGUAGE.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\ROLLBACK.sh
+Full audio inventory: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\audio_audit.tsv
+Unmapped scene-audio ASR triage: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\unmapped_scene_asr.tsv
+
+BASELINE command: python '_cn_project\releases\missing-dialogue-20260926\validate_missing.py' 'LANGUAGE.POD'
+BASELINE input: previous LANGUAGE.POD, SHA256 1A068F7BA4430B2BA8607B3D81B44F80BFB44E0A95729FBBF8D48F678F01E9A4
+BASELINE literal result: entries=388 scripted_audio_keys=1076 missing_files=4 missing_keys=12 blank_rows=10 tag_mismatches=0 long_runs=0
+BASELINE exit status: 0
+
+MODIFIED command: python '_cn_project\releases\missing-dialogue-20260926\validate_missing.py' '_cn_project\releases\missing-dialogue-20260926\payload\LANGUAGE.POD' --require-complete
+MODIFIED input: modified payload, SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97
+MODIFIED literal result: entries=392 scripted_audio_keys=1096 missing_files=0 missing_keys=0 blank_rows=5 tag_mismatches=0 long_runs=0
+MODIFIED exit status: 0
+POD checksum command: python -c "import sys;from pathlib import Path;sys.path.insert(0,r'_cn_project/tools');from pod3 import Pod3;p=Pod3.read(Path(r'_cn_project/releases/missing-dialogue-20260926/payload/LANGUAGE.POD')); print('CRC_FAILURES',len(p.verify_crcs()))"
+POD checksum literal output: CRC_FAILURES 0
+POD checksum exit status: 0
+Audio audit command: python '_cn_project\releases\missing-dialogue-20260926\audio_audit.py'
+Audio audit literal output: AUDIO_AUDIT no_english_script_key_audio_or_unmapped=2713 script_blank_nonverbal_or_review=4 script_captioned=1092
+Audio audit exit status: 0
+
+ROLLBACK test input: separate testroot copied from baseline LANGUAGE.POD.
+ROLLBACK test install command: powershell -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\missing-dialogue-20260926\install.ps1' -GameRoot (Resolve-Path '_cn_project\releases\missing-dialogue-20260926\testroot').Path
+ROLLBACK test install literal output: INSTALL_OK LANGUAGE.POD=missing_dialogue_patch W32ART.POD=unchanged W32ENSND.POD=unchanged
+ROLLBACK test install exit status: 0
+ROLLBACK command: powershell -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\missing-dialogue-20260926\rollback.ps1' -GameRoot (Resolve-Path '_cn_project\releases\missing-dialogue-20260926\testroot').Path
+ROLLBACK literal output: ROLLBACK_OK LANGUAGE.POD=previous_patch W32ART.POD=unchanged W32ENSND.POD=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored behavior/status: testroot LANGUAGE.POD restored to original SHA256 1A068F7BA4430B2BA8607B3D81B44F80BFB44E0A95729FBBF8D48F678F01E9A4. Live LANGUAGE.POD remains modified, SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97.
+ROLLBACK.sh test command: & 'C:\Program Files\Git\bin\bash.exe' '_cn_project\releases\missing-dialogue-20260926\ROLLBACK.sh' (Resolve-Path '_cn_project\releases\missing-dialogue-20260926\testroot_sh').Path
+ROLLBACK.sh test input: another testroot_sh copy containing modified LANGUAGE.POD.
+ROLLBACK.sh literal output: ROLLBACK_OK LANGUAGE.POD=previous_patch W32ART.POD=unchanged W32ENSND.POD=unchanged
+ROLLBACK.sh exit status: 0
+ROLLBACK.sh restored SHA256: 1A068F7BA4430B2BA8607B3D81B44F80BFB44E0A95729FBBF8D48F678F01E9A4
+
+LIVE install command: powershell -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\missing-dialogue-20260926\install.ps1'
+LIVE literal output: INSTALL_OK LANGUAGE.POD=missing_dialogue_patch W32ART.POD=unchanged W32ENSND.POD=unchanged
+LIVE exit status: 0
+
+Bounded result: all 1,096 distinct English-scripted WAV keys present in the audio archive now have a corresponding RU-script key; 4 absent RU scripts added, 9 existing scripts amended, and 379 original POD entries unchanged. Five blank script rows remain for four nonverbal/uncertain clips. The 2,713 WAVs without English-script keys are inventory-only: 370 are in scenes with existing Chinese FMV SRT, 2,283 are generic sound names, and 60 are scene-numbered orphan clips. ASR of the 60 shows several alternate/unused takes and is not yet a reliable game-use map. This patch does not assert captions for the 2,713. No in-game launch or play-test performed.

@@ -1,0 +1,35 @@
+Branch/field: LANGUAGE.POD / WORLD\RU\A1-A4 stage script entries / comma-separated text field.
+User result: the rooftop test progressed to the later bar scene, then froze. The screenshot does not prove which file or instruction caused that freeze. The last existing errorlog.txt entry remains the earlier 0048DEBE access violation; there is no new errorlog entry for this freeze.
+Modification: all 45 A1-A4 stage entries were scanned. 478 over-48-byte uninterrupted text runs across 36 entries gained ASCII-space wrap opportunities; max is now 48 bytes instead of 114. Existing PART4 and ROOFARENA fixes are preserved. Audio IDs, speaker fields, @@...@@ tags, and all non-space text bytes are preserved. The 352 other POD entries, including menus, movelist, credits, fonts, and non-stage entries, are unchanged. dinput8.dll is unchanged. No game process was started by the assistant.
+Previous live LANGUAGE.POD SHA256: 913E8B65727E9EB5146F276F5680E12C4083D122694A25692AA24325947BF8A4
+Modified live LANGUAGE.POD SHA256: 1A068F7BA4430B2BA8607B3D81B44F80BFB44E0A95729FBBF8D48F678F01E9A4
+Unchanged dinput8.dll SHA256: 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\all-dialogue-softwrap-20260926\payload\LANGUAGE.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\all-dialogue-softwrap-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\all-dialogue-softwrap-20260926\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\all-dialogue-softwrap-20260926\ROLLBACK.sh
+
+BASELINE command: & 'C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '_cn_project\releases\all-dialogue-softwrap-20260926\validate_all.py' --baseline
+BASELINE input: previous live LANGUAGE.POD (SHA256 913E8B65727E9EB5146F276F5680E12C4083D122694A25692AA24325947BF8A4), now backed up at _cn_project\test_backup\all_dialogue_softwrap_20260926\LANGUAGE.POD
+BASELINE literal output: BASELINE_PASS stage_entries=45 over_48=478 max_unbroken=114
+BASELINE exit status: 0
+
+MODIFIED command: & 'C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '_cn_project\releases\all-dialogue-softwrap-20260926\validate_all.py' --modified
+MODIFIED input: MODIFIED_FILE and previous live LANGUAGE.POD
+MODIFIED literal output: MODIFIED_PASS stage_entries=45 changed_entries=36 changed_lines=478 max_unbroken=48 other_entries=352_unchanged tags=preserved crc=ok
+MODIFIED exit status: 0
+
+INSTALL command: & powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\all-dialogue-softwrap-20260926\install.ps1'
+INSTALL input: previous live LANGUAGE.POD and MODIFIED_FILE
+INSTALL literal output: INSTALL_OK stage_dialogue_softwrap=all changed_entries=36 other_entries=unchanged
+INSTALL exit status: 0
+INSTALL result: live LANGUAGE.POD SHA256 1A068F7BA4430B2BA8607B3D81B44F80BFB44E0A95729FBBF8D48F678F01E9A4
+
+ROLLBACK command: & 'C:\Program Files\Git\bin\bash.exe' '_cn_project\releases\all-dialogue-softwrap-20260926\ROLLBACK.sh' '_cn_project\releases\all-dialogue-softwrap-20260926\testroot'
+ROLLBACK input: separate testroot copy of MODIFIED_FILE plus previous live POD copied to testroot\_cn_project\test_backup\all_dialogue_softwrap_20260926\LANGUAGE.POD
+ROLLBACK literal output: ROLLBACK_OK LANGUAGE.POD=previous_roof_softwrap dinput8.dll=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored result: testroot\LANGUAGE.POD SHA256 913E8B65727E9EB5146F276F5680E12C4083D122694A25692AA24325947BF8A4. Live MODIFIED_FILE and live LANGUAGE.POD remain changed.
+
+Game status: Static build/validation and isolated rollback passed. In-game confirmation for this global package is pending user test; freezing could have a different cause.

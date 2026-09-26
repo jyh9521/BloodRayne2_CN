@@ -1,0 +1,83 @@
+[
+  {
+    "label": "BASELINE",
+    "command": "C:\\Users\\noway\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -X utf8 \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\tools\\validate_fmv_full.py\" --baseline",
+    "input": "222 translated cues through the legacy 64-byte native video wrapper at 1920x1080",
+    "stdout": "BASELINE_FAIL legacy_fmv_wrap damaged_cues=33 of=222 at=1920x1080 first=A1S01P02:11 split_pair\nBASELINE_PUNCTUATION cue=A1S01P01:5 old=是啊。 new=是啊，\n",
+    "stderr": "",
+    "exit": 1,
+    "expected": 1
+  },
+  {
+    "label": "MODIFIED",
+    "command": "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\test_fmv_full.exe\"",
+    "input": "Compiled production FMV wrapper; 222 cues, 7 resolutions; real dynamic glyph preparation; isolated synthetic call patch",
+    "stdout": "MODIFIED_PASS cues=222 layout_cases=1554 glyph_draws=1785 pair_splits=0 text_loss=0 punctuation_orphans=0\nPATCH_PASS E8_target=verified non_Chinese=native signature_guard=no_write game_launch=no\n",
+    "stderr": "",
+    "exit": 0,
+    "expected": 0
+  },
+  {
+    "label": "RESOURCE_VALIDATION",
+    "command": "C:\\Users\\noway\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -X utf8 \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\tools\\validate_fmv_full.py\"",
+    "input": "Rebuilt LANGUAGE archive, old glyph pixels and indices, 15 SRT timecodes, new font cmap/glyph coverage",
+    "stdout": "FONT_COVERAGE_PASS glyphs=1725 missing=0 negative_control=PASS\nRESOURCE_PASS movies=15 cues=222 timing=exact carrier_roundtrip=exact raw_reader=exact\nFONT_PASS old_indices_and_pixels=1725_unchanged new_glyphs=62 missing=0 archive_changed_entries=1 menus_dialogue_credits=unchanged\nTIMING_REVIEW inherited_overlaps=78 long_text_short_duration=3 audio_sync=pending_user_test\n",
+    "stderr": "",
+    "exit": 0,
+    "expected": 0
+  },
+  {
+    "label": "EXISTING_HOOK_REGRESSION",
+    "command": "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\test_dynamic.exe\"",
+    "input": "Isolated executable trampoline and thiscall regression using the new proxy source",
+    "stdout": "MODIFIED_PASS E9 destination; executable trampoline; thiscall arguments; Chinese glyph slots; ASCII passthrough\n",
+    "stderr": "",
+    "exit": 0,
+    "expected": 0
+  },
+  {
+    "label": "INSTALL_ISOLATED",
+    "command": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\releases\\fmv-full-20260925\\install.ps1\" -GameRoot \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\deployment_fixture\"",
+    "input": "Isolated copy of v12 + installed opening probe, one other pre-existing user SRT, mod markers, other SRT files absent",
+    "stdout": "INSTALL_PASS movies=15 cues=222 backed_up=yes W32ART_W32ENSND_BIK=untouched game_launch=no\n",
+    "stderr": "",
+    "exit": 0,
+    "expected": 0
+  },
+  {
+    "label": "ROLLBACK_EDIT_GUARD",
+    "command": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\releases\\fmv-full-20260925\\rollback.ps1\" -GameRoot \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\deployment_fixture\"",
+    "input": "Later user edit: reject before restoring any file",
+    "stdout": "",
+    "stderr": "File changed since installation; preserve your edits first: video/A1S01P02_RU.srt\nAt C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\releases\\fmv-full-20260925\\rollb\nack.ps1:28 char:78\n+ ... l_sha256) { throw \"File changed since installation; preserve your edi ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : OperationStopped: (File changed si...A1S01P02_RU.srt:String) [], RuntimeException\n    + FullyQualifiedErrorId : File changed since installation; preserve your edits first: video/A1S01P02_RU.srt\n \n",
+    "exit": 1,
+    "expected": 1
+  },
+  {
+    "label": "ROLLBACK",
+    "command": "\"C:/Program Files/Git/bin/bash.exe\" \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\releases\\fmv-full-20260925\\ROLLBACK.sh\" -GameRoot \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\deployment_fixture\"",
+    "input": "Isolated installed copy: restore original hashes and originally absent files; preserve newer mods",
+    "stdout": "ROLLBACK_PASS prior LANGUAGE_DLL_SRT hashes_and_absence=restored mods=untouched\n",
+    "stderr": "",
+    "exit": 0,
+    "expected": 0
+  },
+  {
+    "label": "PACKAGE_HASH_GUARD",
+    "command": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\tampered_package\\install.ps1\" -GameRoot \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\deployment_fixture\"",
+    "input": "Tampered final video SRT: all preflight checks happen before writes",
+    "stdout": "",
+    "stderr": "Package hash mismatch: video/A4S03P04_RU.srt\nAt C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\tampered\n_package\\install.ps1:27 char:37\n+ ... ash $src) -ne $p.Value) { throw \"Package hash mismatch: $($p.Name)\" }\n+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : OperationStopped: (Package hash mi...A4S03P04_RU.srt:String) [], RuntimeException\n    + FullyQualifiedErrorId : Package hash mismatch: video/A4S03P04_RU.srt\n \n",
+    "exit": 1,
+    "expected": 1
+  },
+  {
+    "label": "DLL_CONFLICT_GUARD",
+    "command": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\releases\\fmv-full-20260925\\install.ps1\" -GameRoot \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\build\\fmv_full_20260925\\deployment_fixture\"",
+    "input": "Different installed DLL must remain untouched",
+    "stdout": "",
+    "stderr": "Requires the matching v12 file: dinput8.dll\nAt C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\releases\\fmv-full-20260925\\insta\nll.ps1:18 char:62\n+ ...  -ne $p.Value) { throw \"Requires the matching v12 file: $($p.Name)\" }\n+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : OperationStopped: (Requires the ma...le: dinput8.dll:String) [], RuntimeException\n    + FullyQualifiedErrorId : Requires the matching v12 file: dinput8.dll\n \n",
+    "exit": 1,
+    "expected": 1
+  }
+]

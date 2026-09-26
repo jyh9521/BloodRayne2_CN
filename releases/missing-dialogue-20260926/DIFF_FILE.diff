@@ -1,0 +1,82 @@
+--- current LANGUAGE.POD
++++ missing subtitle additions
+@@ REPLACE WORLD\RU\A1_MANSION_PART1.TXT @@
+-sha256=1FF29609735092ECA233674945846A5FE416FF83F08EF29ACEA189247CF956B9 size=13786
++sha256=0CFB51923AA37631EE775DC1C4753169207DA69E0352A0D1810D4AB47D718FE0 size=13789
+@@ REPLACE WORLD\RU\A2_MEATPACKING_1.TXT @@
+-sha256=4AA62A63FA4861111B5119580C2F8BE3CDFD24ABEACB61A826913F7B65819E12 size=881
++sha256=8014B0559D5DFDF618F8DC29CBB410C93D26B472A6D19D9C4245F585742FD8D3 size=1090
+@@ REPLACE WORLD\RU\A2_MEATPACKING_2.TXT @@
+-sha256=06F7AFD99BEA0C6865811D5A5F5D131962A44B7F06E41789E532855F9489168D size=5302
++sha256=DF426DECF1AF5E93B19A5DF97B913D0C1E2BA7551DBC91C95546100703FD5737 size=6579
+@@ REPLACE WORLD\RU\A2_SEWER_SLEZZARENA.TXT @@
+-sha256=5BEE8FEEC5ECF32BFD91493E7A52B6682B55500FBC7AA287979A70623493F08C size=3543
++sha256=6F6D3B2644FC474F008C100C06C9C7F700560C593345073FE63CB699963C5E17 size=3599
+@@ REPLACE WORLD\RU\A2_UNIONSTATION_PART1.TXT @@
+-sha256=C67C86BE1EC6B86C3A8C8604F029CE430DC994742D63CF1F3866D71872B8A4DE size=12685
++sha256=F3260863AFCDA5FC2DAC6822A6F32465CE8F89164ACBD974A4F3FB8BD3E10902 size=12697
+@@ REPLACE WORLD\RU\A2_UNIONSTATION_PART3.TXT @@
+-sha256=7A97405E8FF0F56FB5AEBB2B39380B83C4C7FDDA52AB6FD0B655F17063A0B842 size=6915
++sha256=4A0E36565315F40C5323B495993E079832F150D2C986F27B690752D2AD493588 size=6927
+@@ REPLACE WORLD\RU\A3_WETWORKS_S_1.TXT @@
+-sha256=12EF1C7B18D05C2FC798711B578E67943D9810F5A5B11CA6345A6A145F1ACFDF size=2015
++sha256=6FB6FD9BA277C49B1CE39E02260AD310082B2539C7D40284DC07C04D2FAD809A size=2640
+@@ REPLACE WORLD\RU\A4_KAGANSTOWER_PENTHOUSE.TXT @@
+-sha256=2FB10B8C3B2977C20851070F531FA0E7F9EDDF35F10DBCF3D64988F01FB8BD56 size=2906
++sha256=DCC01928FEAB5396866495914EDB78C42A4D7A6B7D9FA109073C601118E7A7F8 size=2931
+@@ REPLACE WORLD\RU\A4_PARK_2.TXT @@
+-sha256=AC787167DFA1FCF5EC5C88379063479253E48087F847FC937DED75319BA32D92 size=3875
++sha256=F2B5AEE176795D3829529FB9154313C4387529A61864A2150285AA1850D19FA8 size=3931
+@@ ADD WORLD\RU\A1_MANSION_PART2_5.TXT @@
++sha256=707B87012F1DD80D94D978BC710F2DCB8AEA15BC22473FB979EAB734D2556B8D size=12063
+@@ ADD WORLD\RU\A1_MANSION_PART5.TXT @@
++sha256=27C1AAC9C27ABEE624F21C658F7F4D4699D308614EFB145B2D9F58A0B1892248 size=9681
+@@ ADD WORLD\RU\A2_MEATPACKING.TXT @@
++sha256=75B9A0C1756829FFC76ADE944D4B162A2AA468D307B0EB79E463798725AA9A81 size=6203
+@@ ADD WORLD\RU\A3_WETWORKS_S_2.TXT @@
++sha256=C6870C53EDDC30ED8E7BC9920580E8ED42A34B5F01F0662774CC61E1C1B8AB53 size=1567
+@@ MANUALLY TRANSLATED CAPTION/TEXT KEYS @@
++a1s2_ephemera_5.wav	嘿！
++a2_minion1_10.wav	喽啰：这种破地方流浪汉多着呢。给老太婆多抓些血袋，闭嘴把人赶出来！
++a2_minion1_11.wav	喽啰：天哪，什么味儿？
++a2_minion1_12.wav	喽啰：去他的！回卡车那儿吧，这里没人了。
++a2_minion1_13.wav	喽啰：把其他人叫回雷雷肉联厂，我们装货。
++a2_minion1_14.wav	喽啰：哈！我也要玩！
++a2_minion1_16.wav	喽啰：关你什么事？不过是……啊！
++a2_minion1_18.wav	喽啰：那是什么鬼东西？
++a2_minion1_9.wav	喽啰：这鬼地方真是破得要命。
++a2_rayne_15.wav	莱恩：塞弗林，你看到了吗？这里肯定有人活动过。
++a2_rayne_17.wav	莱恩：就这点本事？有种下来亲自跟我打！
++a2_rayne_18.wav	莱恩：不。我能收拾这个混蛋，连他带来的人一起。通话结束。
++a2_rayne_21.wav	莱恩：该死，差一点就抓到那垃圾了！这些半吸血鬼似乎负责整个行动，我开始火大了。
++a2_rayne_31.wav	莱恩：真见鬼。
++a2_rayne_8.wav	莱恩：我就知道。不管怎样，真正的动静在街上，得想办法出去。
++a2_severin_13.wav	塞弗林：他们不可能跑得那么快。莱恩，我觉得你可能……
++a2_severin_14.wav	塞弗林：莱恩，别过去，肯定是陷阱。我探测到屋顶上藏着很多手下。你该做的已经做了，另找条路上街，别追他了。
++a2_severin_16.wav	塞弗林：别管他了。街上出事了：警察正在遭屠杀。这帮家伙似乎在收拾东西撤离。
++a2_severin_19a.wav	塞弗林：听着，我在前面那座旧中心街车站。他们好像把平民都赶到这里。
++a2_severin_21.wav	塞弗林：街头传闻失踪人数暴涨，好像街上的流浪汉全掉进了地洞。
++a2_severin_6.wav	塞弗林：莱恩，听得到吗？
++a2s1_civilian_1.wav	不！求你了！谁来救救我！
++a2s2_rayne_51.wav	莱恩：是啊。
++a2s4_rayne_22.wav	莱恩：这就是我们拿到“M”级分级的原因。没错，就是这里。
++a3_punk1_01	电机快要过载了！叫他们停下传送带！这东西撑不住了！
++a3_punk1_02	这是最后一批了。把起重机开走，再锁上大门。
++a3s3_lminion1_1.wav	搞什么鬼！炉子怎么回事？
++a3s3_lminion1_2.wav	管道堵了！叫炼制车间的人别再往里倒了！
++a3s3_lminion1_3.wav	再进来一个死瘾君子，电机就要卡死了。
++a3s3_lminion1_4.wav	就是这样！
++a3s3_lminion2_1.wav	关掉它！关机！几分钟后泵就能把罐子抽空。
++a3s3_lminion2_2.wav	警报灯一灭就能重新启动。
++a3s3_lminion2_3.wav	该死！我说关掉系统！要是泵清不空罐子，整台机器都要炸！
++a3s3_lminion2_4.wav	泵清不空罐子，整台机器都要炸！
++a3s3_lminion2_5.wav	快关掉！电机要坏了。
++a3s3_lminion2_6.wav	电机功率到临界点了！快拉开关！
++a3s3_lminion2_7.wav	要炸了！快逃！
++a4s3_kagan_14.wav	卡根：只有我拥有这种力量！
++ost_ferrilappear_desc	费里尔现身挑战！
++ost_ferrilfight_desc	费里尔准备决战。
++ost_ferrilflee_desc	费里尔吃惊地逃走了。她没想到莱恩这么难对付。
++ost_loading_desc	暴徒将最后一批人丢进滑槽。
++ost_tute_pole45	按@moveAxisForward@@沿竖杆上下移动
++ost_tute_style3	锁定金属容器（@@lockOnButtonName@@），用枪或鱼叉将它击落。

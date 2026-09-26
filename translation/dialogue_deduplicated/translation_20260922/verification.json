@@ -1,0 +1,26 @@
+[
+  {
+    "test": "BASELINE",
+    "command": "C:\\Users\\noway\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -X utf8 \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\translation_20260922\\verify.py\" baseline",
+    "input": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\translation_20260922\\dialogue_unique.original.tsv",
+    "stdout": "BASELINE_OK rows=1706 translated=114 needs_review=125 pending=1465 blank=2\n",
+    "stderr": "",
+    "exit_status": 0
+  },
+  {
+    "test": "MODIFIED",
+    "command": "C:\\Users\\noway\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -X utf8 \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\translation_20260922\\verify.py\" modified",
+    "input": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\dialogue_unique.tsv",
+    "stdout": "{\"rows\": 1706, \"status\": {\"translated\": 1704, \"blank\": 2}, \"occurrences\": 2598, \"translated_occurrences\": 2595, \"blank_occurrences\": 3, \"errors\": [], \"term_errors\": [], \"sha256\": \"301B84A08B538CF82FB204AF9E941544F71539FD782C402EBE5C102C1176A404\"}\nMODIFIED_OK translated=1704 conflicts_resolved=125 pending=0 occurrences=2595 clear=3 terms=73 tokens=PASS carrier_roundtrip=PASS glyphs=1725/2914 max_draw=48/94\n",
+    "stderr": "",
+    "exit_status": 0
+  },
+  {
+    "test": "ROLLBACK",
+    "command": "C:\\Users\\noway\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -X utf8 \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\translation_20260922\\verify.py\" rollback",
+    "input": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\dialogue_deduplicated\\dialogue_unique.tsv",
+    "stdout": "ROLLBACK_OK original TSV bytes restored; translated=114 needs_review=125 pending=1465 blank=2\nROLLBACK_TEST_OK restored=byte-identical modified_file=unchanged\n",
+    "stderr": "",
+    "exit_status": 0
+  }
+]

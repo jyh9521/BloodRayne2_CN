@@ -1,0 +1,36 @@
+BloodRayne 2 A1 text isolation build 2026-09-25
+Evidence: User's third run loaded patch_mask=0x7FF and logged one 005DE9B0 access violation: read=AD85D186 EBX=AD85D186 ESI=DE83AD8E EDI=FF000000. The recovery then reached a new access violation at 004F736C. Thus the bounded placeholder change did not cure the issue, and the exception-cursor substitution only moved the crash. Register values indicate text-layout state corruption, but do not identify its source.
+Changed branch/field: LANGUAGE.POD five WORLD\RU\A1_MANSION_{PART1,PART2,PART3,PART4,ROOFARENA}.TXT entry bodies are temporarily restored from the clean baseline archive. This is a controlled A/B diagnostic, not a final localization build. All other 383 POD entry bodies and their CRCs remain unchanged; dinput8.dll, FMV SRT, English audio and W32ART/W32ENSND mod files remain unchanged. The game was not launched by Codex. In this A1 test, those five text files display original Russian instead of Chinese.
+Original LANGUAGE.POD SHA256: 3D362A472C6BECF2F2F332055831BDFA1139870FD6D4A9190DA5B1274B46BCB5
+Modified LANGUAGE.POD SHA256: 92199661B9E3E07C98A216269B2BFA629433073268CE9620539156B7EF26C9A9
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\payload\LANGUAGE.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\ROLLBACK.sh
+BASELINE
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\validate_isolation.py" --baseline
+INPUT: backed-up pre-isolation LANGUAGE.POD and clean baseline LANGUAGE.POD; five A1 entries
+LITERAL OUTPUT: BASELINE_PASS A1_entries=5 translated=5 original=0
+EXIT: 0
+MODIFIED
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\validate_isolation.py" --modified
+INPUT: staged modified LANGUAGE.POD, backed-up pre-isolation LANGUAGE.POD, clean baseline; full POD CRC check
+LITERAL OUTPUT: MODIFIED_PASS A1_entries=5 original=5 other_entries=383_unchanged crc=ok
+EXIT: 0
+ISOLATED INSTALL
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\install.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\testroot"
+INPUT: copy of pre-isolation LANGUAGE.POD
+LITERAL OUTPUT: INSTALL_OK a1_ru_text=original other_entries=unchanged
+EXIT: 0
+ROLLBACK
+COMMAND: "C:\Program Files\Git\bin\bash.exe" "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\ROLLBACK.sh" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\testroot"
+INPUT: isolated modified POD and verified backup
+LITERAL OUTPUT: ROLLBACK_OK LANGUAGE.POD=restored dinput8.dll=unchanged
+EXIT: 0
+RESTORED STATUS: isolated LANGUAGE.POD SHA256 3D362A472C6BECF2F2F332055831BDFA1139870FD6D4A9190DA5B1274B46BCB5
+LIVE INSTALL
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-text-isolation-20260925\install.ps1"
+INPUT: game root pre-isolation LANGUAGE.POD, game process absent
+LITERAL OUTPUT: INSTALL_OK a1_ru_text=original other_entries=unchanged
+EXIT: 0
+LIVE STATUS: LANGUAGE.POD SHA256 92199661B9E3E07C98A216269B2BFA629433073268CE9620539156B7EF26C9A9; dinput8.dll SHA256 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238; W32ART.POD SHA256 8B9A06FEEA6881026C485100BA24AADFD1C8ADA60400327C7E0F87098FF84631; W32ENSND.POD SHA256 2990E799BCEEE41AECBFBD2399A9CFFE9BB298B668ACAA8FF60B38A1E55E9719.

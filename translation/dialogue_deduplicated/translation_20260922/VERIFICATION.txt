@@ -1,0 +1,50 @@
+﻿翻译范围：dialogue_unique.tsv 全部 1,706 个唯一单元。
+已翻译 1,704 条；2 条原本应清空的显示文本保持 blank。
+125 个既有冲突全部定稿；译文以英语上下文为主，8 条俄语独有文本参照俄文翻译。
+已有人工译文经过复核，修正明显误译、统一术语，并去除英语原文没有的额外说话人前缀。
+英语原文自带的说话人标签保留并翻译；冲突 notes 改为 resolved，保留历史备选作为溯源。
+原文、ID、行号、资源键、出现次数及 2,598 行位置映射保持不变。
+术语表包含 73 项；人名沿用既有项目译法，新增词属于本项目译名，并非官方译名声明。
+本轮没有覆盖 menu.tsv、moves.tsv、credits.tsv，也没有生成或安装新的 POD / DLL。
+历史 summary.json、dialogue_review.xlsx 和测试包说明并未重新生成；本轮状态以当前 TSV 和本报告为准。
+原文遗留标记：XXX 占位项（327、360），Sp_Waterfalls_M（472），ost_Pen_Eats 串行原文（764）。
+以上零基索引是审计位置，不是资源 ID。这些源问题被保留，不在本轮擅自拆键或删除资源。
+吸血鬼虚构语言（1403 至 1407）使用音译，不虚构具体语义；MAC-10 保留武器型号。
+已执行导入选择和全部载荷编码回读测试；未进行游戏画面、配音和字幕排版测试。
+回滚在另一份副本上执行，恢复字节及原状态完全一致；正式 TSV 保持新译文。
+ROLLBACK.sh 无参数可恢复本轮前的 dialogue_unique.tsv；传入路径则只恢复指定副本。
+
+Changed fields: translation_zh, status; notes only for resolved conflicts.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\dialogue_unique.tsv
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\translation_20260922\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\translation_20260922\VERIFICATION.txt
+ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\translation_20260922\ROLLBACK.sh
+GLOSSARY: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\glossary_zh.tsv
+Original SHA256: 148CC725BEB24FFA5F3081FB744598822C98DF19247351AB4B8BFCB5FD0C8B0E
+Modified SHA256: 301B84A08B538CF82FB204AF9E941544F71539FD782C402EBE5C102C1176A404
+
+BASELINE
+Command: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\translation_20260922\verify.py" baseline
+Input: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\translation_20260922\dialogue_unique.original.tsv
+Literal stdout:
+BASELINE_OK rows=1706 translated=114 needs_review=125 pending=1465 blank=2
+Literal stderr: ''
+Exit status: 0
+
+MODIFIED
+Command: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\translation_20260922\verify.py" modified
+Input: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\dialogue_unique.tsv
+Literal stdout:
+{"rows": 1706, "status": {"translated": 1704, "blank": 2}, "occurrences": 2598, "translated_occurrences": 2595, "blank_occurrences": 3, "errors": [], "term_errors": [], "sha256": "301B84A08B538CF82FB204AF9E941544F71539FD782C402EBE5C102C1176A404"}
+MODIFIED_OK translated=1704 conflicts_resolved=125 pending=0 occurrences=2595 clear=3 terms=73 tokens=PASS carrier_roundtrip=PASS glyphs=1725/2914 max_draw=48/94
+Literal stderr: ''
+Exit status: 0
+
+ROLLBACK
+Command: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\translation_20260922\verify.py" rollback
+Input: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\translation\dialogue_deduplicated\dialogue_unique.tsv
+Literal stdout:
+ROLLBACK_OK original TSV bytes restored; translated=114 needs_review=125 pending=1465 blank=2
+ROLLBACK_TEST_OK restored=byte-identical modified_file=unchanged
+Literal stderr: ''
+Exit status: 0

@@ -1,0 +1,101 @@
+diff --git a/_cn_project/releases/layout-guard-20260925/source/dinput8_cn.cpp b/_cn_project/releases/layout-recovery-20260925/source/dinput8_cn.cpp
+index 04f065e..b36cc3e 100644
+--- a/_cn_project/releases/layout-guard-20260925/source/dinput8_cn.cpp
++++ b/_cn_project/releases/layout-recovery-20260925/source/dinput8_cn.cpp
+@@ -16,6 +16,9 @@ constexpr char kLanguagePodMountName[] = "LANGUAGE.POD";
+ HMODULE g_self = nullptr;
+ HMODULE g_real_dinput8 = nullptr;
+ unsigned g_patch_mask = 0;
++PVOID g_layout_exception_handler = nullptr;
++volatile LONG g_layout_fault_count = 0;
++constexpr char kEmptyLayoutText[] = "";
+ // The game's word layout parser scans a tag into a 68-byte stack field.
+ // Its original unbounded scanset can overwrite the frame on malformed tags.
+ constexpr char kBoundedLayoutTagScan[] = "@@%63[^@]@@%n";
+@@ -626,6 +629,55 @@ bool PatchBoundedLayoutTagScan(HMODULE image) {
+     return WriteProtectedMemory(instruction, replacement, sizeof(replacement));
+ }
+ 
++LONG CALLBACK RecoverLayoutReadFault(EXCEPTION_POINTERS* fault) {
++    if (!fault || !fault->ExceptionRecord || !fault->ContextRecord ||
++        fault->ExceptionRecord->ExceptionCode != EXCEPTION_ACCESS_VIOLATION ||
++        fault->ExceptionRecord->NumberParameters < 2 ||
++        fault->ExceptionRecord->ExceptionInformation[0] != 0) {
++        return EXCEPTION_CONTINUE_SEARCH;
++    }
++    const auto* base = reinterpret_cast<const unsigned char*>(GetModuleHandleW(nullptr));
++    if (fault->ExceptionRecord->ExceptionAddress != base + 0x1DE9B0) {
++        return EXCEPTION_CONTINUE_SEARCH;
++    }
++    const LONG count = InterlockedIncrement(&g_layout_fault_count);
++    wchar_t path[MAX_PATH] = {};
++    const DWORD length = GetModuleFileNameW(g_self, path, MAX_PATH);
++    if (length > 0 && length < MAX_PATH - 40) {
++        wchar_t* separator = wcsrchr(path, L'\\');
++        if (separator) {
++            separator[1] = L'\0';
++            wcscat_s(path, L"_cn_project\\logs\\layout_faults.log");
++            HANDLE log = CreateFileW(path, FILE_APPEND_DATA,
++                FILE_SHARE_READ | FILE_SHARE_WRITE, nullptr, OPEN_ALWAYS,
++                FILE_ATTRIBUTE_NORMAL, nullptr);
++            if (log != INVALID_HANDLE_VALUE) {
++                const CONTEXT* context = fault->ContextRecord;
++                char line[256] = {};
++                const int size = wsprintfA(line,
++                    "pid=%lu count=%ld pc=%08lX read=%08lX ebx=%08lX esi=%08lX edi=%08lX ebp=%08lX esp=%08lX\r\n",
++                    GetCurrentProcessId(), count,
++                    static_cast<DWORD>(context->Eip),
++                    static_cast<DWORD>(fault->ExceptionRecord->ExceptionInformation[1]),
++                    static_cast<DWORD>(context->Ebx),
++                    static_cast<DWORD>(context->Esi),
++                    static_cast<DWORD>(context->Edi),
++                    static_cast<DWORD>(context->Ebp),
++                    static_cast<DWORD>(context->Esp));
++                DWORD written = 0;
++                WriteFile(log, line, static_cast<DWORD>(size), &written, nullptr);
++                CloseHandle(log);
++            }
++        }
++    }
++    // At this exact instruction EBX is the layout cursor. End this damaged
++    // line rather than dereferencing it. The parser then takes its normal
++    // end-of-string branch; no code bytes or translated text are altered.
++    fault->ContextRecord->Ebx = static_cast<DWORD>(
++        reinterpret_cast<ULONG_PTR>(kEmptyLayoutText));
++    return EXCEPTION_CONTINUE_EXECUTION;
++}
++
+ void InstallChineseHooks() {
+     HMODULE image = GetModuleHandleW(nullptr);
+     if (PatchBoundedLayoutTagScan(image)) {
+@@ -740,6 +792,11 @@ extern "C" HRESULT WINAPI DirectInput8Create(
+     if (function == nullptr) {
+         return E_FAIL;
+     }
++    if (g_layout_exception_handler == nullptr) {
++        g_layout_exception_handler = AddVectoredExceptionHandler(
++            1, &RecoverLayoutReadFault);
++        if (g_layout_exception_handler != nullptr) g_patch_mask |= 1u << 10;
++    }
+     WriteStatusLog();
+     return function(instance, version, interface_id, output, outer);
+ }
+@@ -788,9 +845,15 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD reason, LPVOID) {
+         g_self = module;
+         DisableThreadLibraryCalls(module);
+         InstallChineseHooks();
+-    } else if (reason == DLL_PROCESS_DETACH && g_real_dinput8 != nullptr) {
+-        FreeLibrary(g_real_dinput8);
+-        g_real_dinput8 = nullptr;
++    } else if (reason == DLL_PROCESS_DETACH) {
++        if (g_layout_exception_handler != nullptr) {
++            RemoveVectoredExceptionHandler(g_layout_exception_handler);
++            g_layout_exception_handler = nullptr;
++        }
++        if (g_real_dinput8 != nullptr) {
++            FreeLibrary(g_real_dinput8);
++            g_real_dinput8 = nullptr;
++        }
+     }
+     return TRUE;
+ }

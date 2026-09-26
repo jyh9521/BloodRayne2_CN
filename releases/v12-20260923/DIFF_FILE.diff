@@ -1,0 +1,238 @@
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\release_20260923\original\dinput8_cn.cpp
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\proxy\dinput8_cn.cpp
+@@ -455,12 +455,14 @@
+ 
+ 
+ void WriteRelativeJump(
+-    unsigned char* instruction, const void* destination) {
++    unsigned char* instruction, const void* destination,
++    const void* execution_address) {
+     instruction[0] = 0xE9;
+-    const std::intptr_t displacement =
+-        reinterpret_cast<std::intptr_t>(destination)
+-        - reinterpret_cast<std::intptr_t>(instruction + 5);
+-    const std::int32_t relative = static_cast<std::int32_t>(displacement);
++    // The output buffer may be on the stack. E9 is relative to where those
++    // bytes execute, not where we construct them. x86 rel32 wraps modulo 2^32.
++    const std::uint32_t relative =
++        static_cast<std::uint32_t>(reinterpret_cast<std::uintptr_t>(destination))
++        - static_cast<std::uint32_t>(reinterpret_cast<std::uintptr_t>(execution_address) + 5);
+     memcpy(instruction + 1, &relative, sizeof(relative));
+ }
+ 
+@@ -493,21 +495,23 @@
+     }
+     memcpy(trampoline, target, kPatchLength);
+     WriteRelativeJump(
+-        trampoline + kPatchLength, target + kPatchLength);
++        trampoline + kPatchLength, target + kPatchLength,
++        trampoline + kPatchLength);
++    FlushInstructionCache(GetCurrentProcess(), trampoline, kPatchLength + 5);
+ 
+     unsigned char replacement[kPatchLength] = {};
+     WriteRelativeJump(
+         replacement,
+-        reinterpret_cast<void*>(&DynamicBitFontDraw));
++        reinterpret_cast<void*>(&DynamicBitFontDraw), target);
+     for (size_t index = 5; index < kPatchLength; ++index) {
+         replacement[index] = 0x90;
+     }
++    g_original_bit_font_draw = reinterpret_cast<BitFontDrawFn>(trampoline);
+     if (!WriteProtectedMemory(target, replacement, kPatchLength)) {
++        g_original_bit_font_draw = nullptr;
+         VirtualFree(trampoline, 0, MEM_RELEASE);
+         return false;
+     }
+-    g_original_bit_font_draw =
+-        reinterpret_cast<BitFontDrawFn>(trampoline);
+     return true;
+ }
+ 
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\release_20260923\original\build_full_translation.py
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\build_full_translation.py
+@@ -31,7 +31,7 @@
+ EXPECTED_COMMON_SHA256 = (
+     "1CC9A191D478AE87F97B454FD1D0419CE06A31709F8CB5B9D011D75EF83E3F18"
+ )
+-BUILD_ID = "full-ui-v11-dynamic-glyphs"
++BUILD_ID = "full-zh-v12-20260923"
+ 
+ SOURCE_TEX = SOURCE_FONTS / "ART" / "GOTHICTITLE_RU.TEX"
+ SOURCE_FNT = SOURCE_FONTS / "DATA" / "GOTHICTITLE_RU.FNT"
+@@ -575,6 +575,14 @@
+ 
+     manifest = {
+         "build_id": BUILD_ID,
++        "proxy_sha256": sha256_file(PROJECT / "build" / "proxy" / "dinput8.dll"),
++        "exe_sha256": "EAE3925A344668500F3533EBEC146376C8B1BBDB168ED2C3B1D4DECB0ABF0952",
++        "translation_inputs": {
++            str(path.relative_to(TRANSLATION)): sha256_file(path)
++            for path in [EXTRACTED / "menu.tsv", EXTRACTED / "moves.tsv",
++                         DEDUPLICATED / "dialogue_unique.tsv",
++                         DEDUPLICATED / "dialogue_occurrences.tsv"]
++        },
+         "archive": {
+             "filename": "LANGUAGE.POD",
+             "base_sha256": EXPECTED_LANGUAGE_SHA256,
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\release_20260923\original\install_menu_probe.ps1
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\test_package\install_menu_probe.ps1
+@@ -57,8 +57,18 @@
+     throw 'The selected build does not declare the dynamic Chinese glyph renderer.'
+ }
+ $expectedLanguageHash = $packageManifest.language_sha256
+-$expectedProxyHash = Get-Sha256 $proxyBuild
++$expectedProxyHash = $packageManifest.proxy_sha256
+ $builtLanguage = Join-Path $build 'LANGUAGE.POD'
++if (-not $expectedProxyHash -or (Get-Sha256 $proxyBuild) -ne $expectedProxyHash) {
++    throw 'Package dinput8.dll does not match its manifest.'
++}
++if ((Get-Sha256 $builtLanguage) -ne $expectedLanguageHash) {
++    throw 'Package LANGUAGE.POD does not match its manifest.'
++}
++$exe = Join-Path $gameRoot 'rayne2.exe'
++if ((Get-Sha256 $exe) -ne $packageManifest.exe_sha256) {
++    throw 'rayne2.exe does not match the supported Terminal Cut build.'
++}
+ 
+ New-Item -ItemType Directory -Force -Path $backup | Out-Null
+ $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
+@@ -105,7 +115,7 @@
+ }
+ 
+ Write-Host ''
+-Write-Host 'Full menu/move and partial-dialogue Chinese test package installed.' -ForegroundColor Green
++Write-Host 'Full menu, move-list and dialogue Chinese test package installed.' -ForegroundColor Green
+ Write-Host "Package version: $($packageManifest.build_id)"
+ Write-Host "LANGUAGE.POD: $installedLanguageHash"
+ Write-Host "W32ART.POD untouched: $artHashAfter"
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\release_20260923\original\README.md
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\test_package\README.md
+@@ -1,48 +1,56 @@
+-# BloodRayne 2 全菜单、招式表与动态中文字库测试版
++# 《吸血莱恩2：终极剪辑版》简体中文测试包 v12
+ 
+-当前构建：`full-ui-v11-dynamic-glyphs`
++构建编号：full-zh-v12-20260923。
+ 
+-本版不再使用“一个高位字节代表一整个中文词块”的 126 槽静态方案。
+-`LANGUAGE.POD` 中的文本使用自定义双字节编号；代理在每次绘制前，只把
+-当前字符串实际需要的字形动态装入安全槽位。整套字体最多可容纳 2,914
+-个非 ASCII 字符，单次绘制最多 94 个不同字符。当前构建使用 1,001 个
+-字符，最长一条文本需要 40 个不同字符。
++## 你现在怎么测试
+ 
+-已导入：
+-
+-- 菜单 740 条：739 条中文，另有 1 条源文本本身为空的结构行。
+-- 招式表 94 条：全部中文，`@@...@@` 控制标记保持英文原结构。
+-- 对白原始位置 2,598 条：去重后的 114 个已确认翻译单元分别回填到
+-  145 个实际位置；2 个应清空单元对应的 3 个位置已清空。
+-- 尚未翻译或标记为“待复核”的对白暂时显示英语；8 条没有英语原文的
+-  俄语独有文本保留为可正常渲染的俄文，避免高位乱码。
+-- 演职人员不翻译，使用当前 Terminal Cut 自带的英文原件。
+-
+-字体为思源黑体同源的 `Noto Sans SC`，Regular 400、30 像素、无描边。
+-配音仍通过原版程序分支使用英语。
+-
+-本版只替换 `LANGUAGE.POD` 和本项目自己的 `dinput8.dll`，不修改
+-`W32ART.POD`、`W32ENSND.POD` 或其他 Mod 归档。代理仍只在内存里把
+-LANGUAGE 的字体资源置于 W32ART 同名字体之前，因此覆盖美术和英语
+-语音 Mod 后，中文仍应有效。
+-
+-## 测试方法
++当前游戏目录仍保留你原来安装的 v10 和 Mod。本轮没有启动游戏，也没有安装 v12。
+ 
+ 1. 退出游戏。
+-2. 你当前安装的是 v10；先运行 `RESTORE_PURE.cmd`。恢复器只恢复
+-   v10 安装前的 `LANGUAGE.POD` 并移走本项目代理，不会覆盖后来安装的
+-   Mod 版 `W32ART.POD` 或 `W32ENSND.POD`。
+-3. 运行 `INSTALL_FULL_TRANSLATION_TEST.cmd`。
+-4. 启动游戏，在语言选项里继续选择 `Russian`。这是中文文本的隔离
+-   容器；实际配音应为英语。
+-5. 优先检查：
+-   - 主菜单、暂停、存读档、选项及各子菜单是否全部显示中文；
+-   - 自定义按键右栏、动态键名和数值是否仍正常；
+-   - “额外内容”里的招式表是否为中文，按键图标/控制标记是否正常；
+-   - 任意较长说明是否发生缺字、重叠、裁切或异常换行；
+-   - 开场实时字幕是否为中文，未翻译对白是否回退为英语；
+-   - 英语配音、敌人服装及 Mod 美术是否保持不变。
+-6. 测试结束后可运行 `RESTORE_PURE.cmd`。恢复器会按安装时记录的哈希
+-   精确恢复 `LANGUAGE.POD`，并保持 Mod 版 W32ART/W32ENSND 不变。
++2. 双击本目录的 RESTORE_PURE.cmd，卸载当前 v10；确认显示恢复成功。
++3. 双击 INSTALL_FULL_TRANSLATION_TEST.cmd，确认显示 full-zh-v12-20260923 和安装成功。
++4. 由你手动启动游戏，语言继续选择 Russian。这里只借用俄语文本槽，配音仍走英语分支。
++5. 先检查主菜单、设置、按键名称、招式表和开场对白，再测试长字幕。
+ 
+-本包不会启动或操控游戏，人工测试仍由用户完成。
++当前电脑上不必解压发行 ZIP，本目录已经连接好构建文件。
++如果使用 ZIP 转移文件，将其中的 _cn_project 合并到游戏根目录，保留已有 test_backup。
++已有汉化先卸载；纯净 LANGUAGE.POD 且没有 dinput8.dll 时直接安装。
++安装器不会启动游戏。如果卸载或安装报错，请保留截图，不要接着执行下一步。
++退出游戏后再运行 RESTORE_PURE.cmd，可恢复安装前语言文件。
++ROLLBACK.sh 是相同恢复操作的 Git Bash 入口；Windows 用户直接用 CMD。
++
++## 本版内容
++
++- 菜单 740 条：739 条译文，1 条结构空行。
++- 招式表 94 条全部导入。
++- 对白、提示与测试文本：1,704 条非空唯一译文，回填 2,595 个位置。
++- 2 条应留空单元对应 3 个位置，继续清空。
++- 125 条译文冲突已定稿，人名、组织、能力名称按术语表统一。
++- 演职人员保留本版原始英文。
++- 字体维持思源黑体同源的 Noto Sans SC，Regular 400、30 像素、无加粗描边。
++- 动态字库有 1,725 个非 ASCII 字符；最长一条需 48 个不同字形，低于单次 94 槽上限。
++
++## Mod 与配音
++
++安装只替换 LANGUAGE.POD 并部署本项目 dinput8.dll。
++不修改 rayne2.exe、W32ART.POD、W32ENSND.POD、存档或游戏配置。
++字体优先级与英语配音分支，只在你启动游戏后由代理进行内存修补。
++不要混用旧 DLL 和新 LANGUAGE.POD，安装器会校验配套哈希和 EXE 版本。
++若另一个 Mod 带有 dinput8.dll，安装器会停下，不会覆盖它。
++
++## 修复与验证
++
++修复旧动态绘字钩子的 E9 相对跳转：以实际执行地址而不是临时缓冲区计算。
++独立诊断验证跳转目标、可执行跳板、thiscall 参数、中文字形和 ASCII 回退。
++资源校验包含 POD CRC、全部对白回读、菜单招式匹配、英文演职人员逐字节一致。
++安装和恢复在隔离副本上测试，美术与英语语音 Mod 标记保持不变。
++这些结果不等于游戏内验证。字形、长字幕换行、UI 宽度、英语配音及 Mod 外观仍由你实测。
++
++## 反馈时请附上
++
++- 截图、关卡或菜单位置，以及大致台词。
++- _cn_project/logs/dinput8_proxy.log 的最后几行。
++- 如果崩溃，请说明是启动即崩、进菜单崩，还是某段字幕出现时崩。
++
++预期日志含 voice=EN font_archive=LANGUAGE_FIRST dynamic_font=on。
++开发占位文本和原文少量串行异常已记录在翻译验证报告中，本轮未改资源键。
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\release_20260923\original\INSTALL_FULL_TRANSLATION_TEST.cmd
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\test_package\INSTALL_FULL_TRANSLATION_TEST.cmd
+@@ -1,5 +1,7 @@
+ @echo off
+ chcp 65001 >nul
+ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0install_menu_probe.ps1"
++set "result=%errorlevel%"
+ echo.
+ pause
++exit /b %result%
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\release_20260923\original\INSTALL_MENU_TEST.cmd
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\test_package\INSTALL_MENU_TEST.cmd
+@@ -1,5 +1,7 @@
+ @echo off
+ chcp 65001 >nul
+ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0install_menu_probe.ps1"
++set "result=%errorlevel%"
+ echo.
+ pause
++exit /b %result%
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\release_20260923\original\RESTORE_PURE.cmd
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\test_package\RESTORE_PURE.cmd
+@@ -1,5 +1,7 @@
+ @echo off
+ chcp 65001 >nul
+ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0restore_pure.ps1"
++set "result=%errorlevel%"
+ echo.
+ pause
++exit /b %result%

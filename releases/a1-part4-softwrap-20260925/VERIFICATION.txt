@@ -1,0 +1,39 @@
+Branch/field: LANGUAGE.POD / WORLD\RU\A1_MANSION_PART4.TXT subtitle text field.
+Change: restore Chinese PART4 and add ASCII-space wrap opportunities to long text runs; all @@...@@ tags remain unchanged. This is a diagnostic build, not yet in-game verified.
+Original live LANGUAGE.POD SHA256: 3B9A1D0F9BAA338FFE739B27B05AA6FB87D07E17DCDEE15A0CEE55AF1C0319BC
+Modified live LANGUAGE.POD SHA256: D703A8BA1A6C48C180B6F58F015A9D25678D608DF9326F7FEF332357078F6BA4
+Unchanged dinput8.dll SHA256: 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-part4-softwrap-20260925\payload\LANGUAGE.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-part4-softwrap-20260925\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-part4-softwrap-20260925\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-part4-softwrap-20260925\ROLLBACK.sh
+
+MEASUREMENT command: & 'C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '_cn_project\releases\a1-part4-softwrap-20260925\measure_runs.py'
+MEASUREMENT input: full-Chinese PART4 from _cn_project\test_backup\a1_text_isolation_20260925\LANGUAGE.POD; original-Russian PART4 from _cn_project\baseline\LANGUAGE.POD
+MEASUREMENT literal output: RUNS part4_chinese_max=100 part4_original_russian_max=47 unit=bytes_without_ASCII_space
+MEASUREMENT exit status: 0
+
+BASELINE command: & 'C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '_cn_project\releases\a1-part4-softwrap-20260925\validate_softwrap.py' --baseline
+BASELINE input: before POD at _cn_project\test_backup\a1_part4_softwrap_20260925\LANGUAGE.POD; full-Chinese POD at _cn_project\test_backup\a1_text_isolation_20260925\LANGUAGE.POD
+BASELINE literal output: BASELINE_PASS part4=original chinese_unbroken_max=100
+BASELINE exit status: 0
+
+MODIFIED command: & 'C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '_cn_project\releases\a1-part4-softwrap-20260925\validate_softwrap.py' --modified
+MODIFIED input: MODIFIED_FILE; before POD; original full-Chinese PART4
+MODIFIED literal output: MODIFIED_PASS part4=chinese changed_lines=43 max_unbroken=48 other_entries=387_unchanged crc=ok
+MODIFIED exit status: 0
+
+INSTALL command: & powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\a1-part4-softwrap-20260925\install.ps1'
+INSTALL input: original live LANGUAGE.POD and MODIFIED_FILE
+INSTALL literal output: INSTALL_OK part4=chinese_softwrap other_entries=unchanged
+INSTALL exit status: 0
+INSTALL result: live LANGUAGE.POD SHA256 D703A8BA1A6C48C180B6F58F015A9D25678D608DF9326F7FEF332357078F6BA4
+
+ROLLBACK command: & 'C:\Program Files\Git\bin\bash.exe' '_cn_project\releases\a1-part4-softwrap-20260925\ROLLBACK.sh' '_cn_project\releases\a1-part4-softwrap-20260925\testroot'
+ROLLBACK input: separate testroot copy of MODIFIED_FILE plus separate original backup at testroot\_cn_project\test_backup\a1_part4_softwrap_20260925\LANGUAGE.POD
+ROLLBACK literal output: ROLLBACK_OK LANGUAGE.POD=part4_original dinput8.dll=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored result: testroot\LANGUAGE.POD SHA256 3B9A1D0F9BAA338FFE739B27B05AA6FB87D07E17DCDEE15A0CEE55AF1C0319BC; PART4 original Russian restored; live MODIFIED_FILE and live LANGUAGE.POD remain changed.
+
+Game status: User confirmed prior PART4-original build did not crash. The modified soft-wrap build has not been tested in-game. The assistant did not start the game.

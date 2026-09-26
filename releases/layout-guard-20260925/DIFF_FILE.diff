@@ -1,0 +1,40 @@
+diff --git a/_cn_project/proxy/fmv_full/dinput8_cn.cpp b/_cn_project/releases/layout-guard-20260925/source/dinput8_cn.cpp
+index 567be96..04f065e 100644
+--- a/_cn_project/proxy/fmv_full/dinput8_cn.cpp
++++ b/_cn_project/releases/layout-guard-20260925/source/dinput8_cn.cpp
+@@ -16,6 +16,9 @@ constexpr char kLanguagePodMountName[] = "LANGUAGE.POD";
+ HMODULE g_self = nullptr;
+ HMODULE g_real_dinput8 = nullptr;
+ unsigned g_patch_mask = 0;
++// The game's word layout parser scans a tag into a 68-byte stack field.
++// Its original unbounded scanset can overwrite the frame on malformed tags.
++constexpr char kBoundedLayoutTagScan[] = "@@%63[^@]@@%n";
+ 
+ using BitFontDrawFn = int(__thiscall*)(
+     void*, const char*, int, int, DWORD, int);
+@@ -609,8 +612,25 @@ bool PatchFmvWrapping(HMODULE image) {
+     return true;
+ }
+ 
++bool PatchBoundedLayoutTagScan(HMODULE image) {
++    // 005DE9F8: push "@@%[^@]@@%n".  Redirect only the format pointer;
++    // normal control tags retain their original grammar.
++    auto* base = reinterpret_cast<unsigned char*>(image);
++    auto* instruction = base + 0x1DE9F8;
++    constexpr unsigned char kExpected[] = {0x68, 0x48, 0x53, 0x71, 0x00};
++    if (memcmp(instruction, kExpected, sizeof(kExpected)) != 0) return false;
++    unsigned char replacement[5] = {0x68, 0, 0, 0, 0};
++    const DWORD address = static_cast<DWORD>(
++        reinterpret_cast<ULONG_PTR>(kBoundedLayoutTagScan));
++    memcpy(replacement + 1, &address, sizeof(address));
++    return WriteProtectedMemory(instruction, replacement, sizeof(replacement));
++}
++
+ void InstallChineseHooks() {
+     HMODULE image = GetModuleHandleW(nullptr);
++    if (PatchBoundedLayoutTagScan(image)) {
++        g_patch_mask |= 1u << 9;
++    }
+     if (PatchImport(
+             image,
+             "KERNEL32.dll",

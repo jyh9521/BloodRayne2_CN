@@ -1,0 +1,35 @@
+Branch/field: LANGUAGE.POD / WORLD\RU\A1_MANSION_ROOFARENA.TXT / subtitle text field.
+Observed user result: the preceding PART4-softwrap package passed the staircase. At the roof scene after Zerenzki escapes, the game froze and exited. This package is a new unverified game test, not a claimed crash fix.
+Latest errorlog.txt literal entry: Runtime execption code c0000005 (EXCEPTION_ACCESS_VIOLATION) at address 0048DEBE; WINRUN.CPP line 190; Fri Sep 25 21:09:55 2026; errno = 2 (No such file or directory).
+The previous staircase failures were at 005DE9B0 and 004F736C. The new address alone does not identify the faulty file.
+Modification: six Chinese ROOFARENA text lines gained ASCII spaces as wrap opportunities. Longest plain non-whitespace run is now 48 bytes rather than 82. Control tags, audio IDs, all other 387 POD entries, and dinput8.dll are unchanged. No game process was started by the assistant.
+Original live LANGUAGE.POD SHA256: D703A8BA1A6C48C180B6F58F015A9D25678D608DF9326F7FEF332357078F6BA4
+Modified live LANGUAGE.POD SHA256: 913E8B65727E9EB5146F276F5680E12C4083D122694A25692AA24325947BF8A4
+Unchanged dinput8.dll SHA256: 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-roof-softwrap-20260925\payload\LANGUAGE.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-roof-softwrap-20260925\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-roof-softwrap-20260925\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\a1-roof-softwrap-20260925\ROLLBACK.sh
+
+BASELINE command: & 'C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '_cn_project\releases\a1-roof-softwrap-20260925\validate_roof.py' --baseline
+BASELINE input: _cn_project\test_backup\a1_roof_softwrap_20260925\LANGUAGE.POD
+BASELINE literal output: BASELINE_PASS roof=chinese max_unbroken=82
+BASELINE exit status: 0
+
+MODIFIED command: & 'C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '_cn_project\releases\a1-roof-softwrap-20260925\validate_roof.py' --modified
+MODIFIED input: MODIFIED_FILE and BASELINE input
+MODIFIED literal output: MODIFIED_PASS roof=chinese changed_lines=6 max_unbroken=48 other_entries=387_unchanged crc=ok
+MODIFIED exit status: 0
+
+INSTALL command: & powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\a1-roof-softwrap-20260925\install.ps1'
+INSTALL input: previous live LANGUAGE.POD and MODIFIED_FILE
+INSTALL literal output: INSTALL_OK roof=chinese_softwrap part4=unchanged other_entries=unchanged
+INSTALL exit status: 0
+INSTALL result: live LANGUAGE.POD SHA256 913E8B65727E9EB5146F276F5680E12C4083D122694A25692AA24325947BF8A4
+
+ROLLBACK command: & 'C:\Program Files\Git\bin\bash.exe' '_cn_project\releases\a1-roof-softwrap-20260925\ROLLBACK.sh' '_cn_project\releases\a1-roof-softwrap-20260925\testroot'
+ROLLBACK input: separate testroot copy of MODIFIED_FILE and separate original backup in testroot\_cn_project\test_backup\a1_roof_softwrap_20260925\LANGUAGE.POD
+ROLLBACK literal output: ROLLBACK_OK roof=previous_chinese part4=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored result: testroot\LANGUAGE.POD SHA256 D703A8BA1A6C48C180B6F58F015A9D25678D608DF9326F7FEF332357078F6BA4; ROOFARENA previous Chinese restored. Live MODIFIED_FILE and live LANGUAGE.POD remain changed.

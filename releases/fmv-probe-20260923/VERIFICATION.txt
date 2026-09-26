@@ -1,0 +1,122 @@
+FMV PROBE VERIFIED 2026-09-25
+CHANGED FIELD: six SRT cue text lines; custom v12 carrier; cue numbers and timestamps unchanged.
+No POD/DLL/EXE/BIK changes and no game launch.
+Visual subtitle placement and audio synchronization: pending user in-game test.
+Native emulation scope: raw line reader 0x64CE30 and wrapper 0x4E5A90/0x4E58C0.
+Width/isspace/getc/memset boundaries are fixture stubs; renderer and Bink are not executed.
+Static call chain: SRT name 0x68E222; raw text read 0x68E32A; wrap 0x68EB00; centered draw 0x68EB85 -> 0x4E6D10 -> 0x4E6BE0 -> 0x4E6AB0 (existing v12 hook).
+Original hash: DEDED7176CFC9A7D3B428DCE1FAE8929946A8CB227820CBDB1AB9BD4B268BFE8
+Modified hash: A3BD7DC835EF9BAE56325138E8BFEC4587099FD8027E05CCD99BA48994ED35D6
+ROLLBACK restored original bytes and existing-subtitle status on isolated copy.
+ROLLBACK no-original test restored absence; later user-edit guard passed.
+MODIFIED_FILE remains compiled Chinese; actual installed SRT remains user original.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\payload\video\A1S01P01_RU.srt
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\VERIFICATION.txt
+ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\ROLLBACK.sh
+
+BASELINE
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\test_fmv_probe.py" --baseline
+INPUT: original/A1S01P01_RU.srt; first cue contains bytes not mapped by v12
+LITERAL STDOUT:
+BASELINE_FAIL cue=1 invalid carrier at byte 0: 99FB
+
+LITERAL STDERR:
+
+EXIT: 1
+
+MODIFIED
+COMMAND: C:\Users\noway\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe -X utf8 "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\tools\test_fmv_probe.py"
+INPUT: payload/video/A1S01P01_RU.srt; isolated raw-line and wrap emulation; no game process
+LITERAL STDOUT:
+MODIFIED_PASS cues=6 timing=exact carrier_roundtrip=exact glyphs=covered
+NATIVE_FIXTURE_PASS raw_reader=exact wrap_cases=42 split_pairs=0 buffer_overruns=0
+GAME_NOT_LAUNCHED visual_and_audio_confirmation=pending
+
+LITERAL STDERR:
+
+EXIT: 0
+
+INSTALL_ISOLATED_COPY
+COMMAND: C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\install.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\fmv_probe_20260923\fixture"
+INPUT: Fixture with v12 required files and exact copy of user original SRT
+LITERAL STDOUT:
+INSTALL_PASS video/A1S01P01_RU.srt cues=6 original=backed_up game_launch=no
+
+LITERAL STDERR:
+
+EXIT: 0
+
+ROLLBACK
+COMMAND: "C:/Program Files/Git/bin/bash.exe" "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\ROLLBACK.sh" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\fmv_probe_20260923\fixture"
+INPUT: Isolated installed copy; existing user SRT must be restored byte-for-byte
+LITERAL STDOUT:
+ROLLBACK_PASS original subtitle state restored; all other game files untouched
+
+LITERAL STDERR:
+
+EXIT: 0
+
+INSTALL_ABSENT_SUBTITLE
+COMMAND: C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\install.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\fmv_probe_20260923\fixture"
+INPUT: 
+LITERAL STDOUT:
+INSTALL_PASS video/A1S01P01_RU.srt cues=6 original=backed_up game_launch=no
+
+LITERAL STDERR:
+
+EXIT: 0
+
+ROLLBACK_EDIT_GUARD
+COMMAND: C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\rollback.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\fmv_probe_20260923\fixture"
+INPUT: 
+LITERAL STDOUT:
+
+LITERAL STDERR:
+Subtitle changed after installation. Preserve your edits before rollback.
+At C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\roll
+back.ps1:18 char:5
++     throw 'Subtitle changed after installation. Preserve your edits b ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Subtitle change...efore rollback.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Subtitle changed after installation. Preserve your edits before rollback.
+ 
+
+EXIT: 1
+
+ROLLBACK_ABSENT_SUBTITLE
+COMMAND: C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\rollback.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\fmv_probe_20260923\fixture"
+INPUT: 
+LITERAL STDOUT:
+ROLLBACK_PASS original subtitle state restored; all other game files untouched
+
+LITERAL STDERR:
+
+EXIT: 0
+
+INSTALL_VERSION_GUARD
+COMMAND: C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\install.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\build\fmv_probe_20260923\fixture"
+INPUT: 
+LITERAL STDOUT:
+
+LITERAL STDERR:
+Requires matching v12 file: dinput8.dll
+At C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-probe-20260923\inst
+all.ps1:14 char:70
++ ...  $entry.Value) { throw "Requires matching v12 file: $($entry.Name)" }
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Requires matching v12 file: dinput8.dll:String) [], RuntimeException
+    + FullyQualifiedErrorId : Requires matching v12 file: dinput8.dll
+ 
+
+EXIT: 1
+
+LIVE FILES UNCHANGED: PASS
+{
+  "LANGUAGE.POD": "5CF475C4E80F3245ABA654870DDEF5F2BABF6A4805537C521B01CAC44B9EE577",
+  "dinput8.dll": "91326E4B91662C0ABE4DD8628CA7CBFBC19637154A717724DBEF353CFC51FC43",
+  "rayne2.exe": "EAE3925A344668500F3533EBEC146376C8B1BBDB168ED2C3B1D4DECB0ABF0952",
+  "W32ART.POD": "8B9A06FEEA6881026C485100BA24AADFD1C8ADA60400327C7E0F87098FF84631",
+  "W32ENSND.POD": "2990E799BCEEE41AECBFBD2399A9CFFE9BB298B668ACAA8FF60B38A1E55E9719",
+  "video/A1S01P01_RU.srt": "DEDED7176CFC9A7D3B428DCE1FAE8929946A8CB227820CBDB1AB9BD4B268BFE8"
+}

@@ -1,0 +1,77 @@
+{
+  "baseline": {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\baseline\\LANGUAGE.POD",
+    "sha256": "2E3E0797E147E58B7308D3FCEDBDF0A06CB433FB099FC24B8FB38943D8B358E4",
+    "pod_entries": 386,
+    "crc_failures": 0
+  },
+  "common": {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\COMMON.POD",
+    "sha256": "1CC9A191D478AE87F97B454FD1D0419CE06A31709F8CB5B9D011D75EF83E3F18",
+    "credits_source": "DATA\\CREDITS.TXT",
+    "moves_source": "DATA\\MOVELIST.TXT"
+  },
+  "language_entry_counts": {
+    "DE": 63,
+    "EN": 70,
+    "ES": 63,
+    "FR": 63,
+    "IT": 63,
+    "RU": 64
+  },
+  "catalog": {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\catalog.tsv",
+    "split_paths": {
+      "dialogue": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\extracted\\dialogue.tsv",
+      "menu": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\extracted\\menu.tsv",
+      "moves": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\extracted\\moves.tsv",
+      "credits": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BloodRayne 2 Terminal Cut\\_cn_project\\translation\\extracted\\credits.tsv"
+    },
+    "total_rows": 3715,
+    "by_kind": {
+      "credits": 283,
+      "dialogue": 2598,
+      "menu": 740,
+      "moves": 94
+    },
+    "sections": {
+      "dialogue": {
+        "matched_english": 2590,
+        "rows": 2598,
+        "missing_english": 8
+      },
+      "menu": {
+        "language_rows": 737,
+        "hardcoded_rows": 3,
+        "rows": 740,
+        "existing_translations": 433
+      },
+      "moves": {
+        "rows": 94,
+        "en_ru_tag_mismatches": 4
+      },
+      "credits": {
+        "rows": 283
+      }
+    }
+  },
+  "coverage": {
+    "shared_en_ru_dialogue_files": 61,
+    "en_only_files": [
+      "A1_MANSION.TXT",
+      "A1_MANSION_PART1B.TXT",
+      "A1_MANSION_PART2_5.TXT",
+      "A1_MANSION_PART5.TXT",
+      "A1_MANSION_ROOF.TXT",
+      "A2_MEATPACKING.TXT",
+      "A2_SEWER.TXT",
+      "A3_WETWORKS_S_2.TXT",
+      "A4_PARK.TXT"
+    ],
+    "ru_only_special_files": [
+      "CREDITLIST.TXT",
+      "MOVELIST.TXT",
+      "MSGLIST.TXT"
+    ]
+  }
+}

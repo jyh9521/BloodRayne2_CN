@@ -1,0 +1,95 @@
+﻿id	kind	file	line	key	source_en	source_ru	translation_zh	status	notes
+moves:MOVELIST.TXT:32	moves	MOVELIST.TXT	32		Basic Combat	Основные приемы	基础战斗	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:33	moves	MOVELIST.TXT	33		Blade	Клинки	刀刃	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:35	moves	MOVELIST.TXT	35		Black Wasp	Черная оса	黑蜂	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:37	moves	MOVELIST.TXT	37		Bull's Arrow	Бычья стрела	公牛之箭	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:38	moves	MOVELIST.TXT	38		@@moveAxis@@ (fwd) , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	@@moveAxis@@ (вверх), @@bladeButtonName@@, @@bladeButtonName@@, @@bladeButtonName@@	@@moveAxis@@（前） , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:39	moves	MOVELIST.TXT	39		Kick	Удар ногой	踢击	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:41	moves	MOVELIST.TXT	41		Twisting Gull	Кружащая чайка	旋鸥	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:43	moves	MOVELIST.TXT	43		Silkworm Spins	Пряжа шелкопряда	蚕旋	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:44	moves	MOVELIST.TXT	44		@@moveAxis@@ (fwd) , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	@@moveAxis@@ (вверх), @@kickButtonName@@, @@kickButtonName@@, @@kickButtonName@@	@@moveAxis@@（前） , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:45	moves	MOVELIST.TXT	45		Feed	Пить кровь	吸血	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:47	moves	MOVELIST.TXT	47		Feed Guns	Покормить оружие	吸血装弹	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:49	moves	MOVELIST.TXT	49		Block	Блок	格挡	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:50	moves	MOVELIST.TXT	50		Hold @@lockOnButtonName@@	удерживать @@lockOnButtonName@@	按住 @@lockOnButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:51	moves	MOVELIST.TXT	51		Harpoon Throw	Бросить гарпун	鱼叉投掷	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:52	moves	MOVELIST.TXT	52		Hold @@lockOnButtonName@@ , @@harpoonBiteButtonName@@ , @@moveAxis@@	удерживая @@lockOnButtonName@@, @@harpoonBiteButtonName@@, @@moveAxis@@	按住 @@lockOnButtonName@@ , @@harpoonBiteButtonName@@ , @@moveAxis@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:56	moves	MOVELIST.TXT	56		Jump Combat	Прыжки	跳跃战斗	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:57	moves	MOVELIST.TXT	57		Jump	Прыжок	跳跃	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:59	moves	MOVELIST.TXT	59		Somersault	Сальто	空翻	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:61	moves	MOVELIST.TXT	61		Silver Moon	Серебряная Луна	银月	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:63	moves	MOVELIST.TXT	63		Tiger Wing	Тигриное крыло	虎翼	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:68	moves	MOVELIST.TXT	68		Lock-On Combat	Захват цели	锁定战斗	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:69	moves	MOVELIST.TXT	69		Lotus Spear	Копье лотоса	莲矛	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:70	moves	MOVELIST.TXT	70		Hold @@lockOnButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@bladeButtonName@@, @@bladeButtonName@@, @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:71	moves	MOVELIST.TXT	71		Mantis Kiss	Поцелуй богомола	螳螂之吻	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:72	moves	MOVELIST.TXT	72		Hold @@lockOnButtonName@@ , @@moveAxis@@ (fwd) , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вверх), 3 раза @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（前） , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token; EN/RU control-token counts differ; use English structure
+moves:MOVELIST.TXT:73	moves	MOVELIST.TXT	73		Suspended Stag	Замерший олень	悬鹿	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:74	moves	MOVELIST.TXT	74		Hold @@lockOnButtonName@@ , @@moveAxis@@ (bwd) , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вниз), 3 раза @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（后） , @@bladeButtonName@@ , @@bladeButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token; EN/RU control-token counts differ; use English structure
+moves:MOVELIST.TXT:75	moves	MOVELIST.TXT	75		Butterfly Flick	Полет бабочки	蝶弹	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:76	moves	MOVELIST.TXT	76		Hold @@lockOnButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@kickButtonName@@, @@kickButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:77	moves	MOVELIST.TXT	77		Turning Dragon	Вертящийся дракон	转龙	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:78	moves	MOVELIST.TXT	78		Hold @@lockOnButtonName@@ , @@moveAxis@@ (fwd) , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вверх), @@kickButtonName@@, @@kickButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（前） , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:79	moves	MOVELIST.TXT	79		Encircled Steer	Загнанный бык	环牛	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:80	moves	MOVELIST.TXT	80		Hold @@lockOnButtonName@@ , @@moveAxis@@ (bwd) , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вниз), @@kickButtonName@@, @@kickButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（后） , @@kickButtonName@@ , @@kickButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:84	moves	MOVELIST.TXT	84		Evasion Combat	Уклонение	闪避战斗	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:85	moves	MOVELIST.TXT	85		Falcon Surge	Бросок сокола	隼涌	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:86	moves	MOVELIST.TXT	86		Hold @@lockOnButtonName@@ , @@jumpButtonName@@	удерживая @@lockOnButtonName@@, @@jumpButtonName@@	按住 @@lockOnButtonName@@ , @@jumpButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:87	moves	MOVELIST.TXT	87		Shattered Cloud	Рваное облако	碎云	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:88	moves	MOVELIST.TXT	88		Hold @@lockOnButtonName@@ , @@jumpButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@jumpButtonName@@, @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@jumpButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:89	moves	MOVELIST.TXT	89		Focused Kick	Прицельный пинок	集中踢击	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:90	moves	MOVELIST.TXT	90		Hold @@lockOnButtonName@@ , @@jumpButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@jumpButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@jumpButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:91	moves	MOVELIST.TXT	91		Flip Over	Перескочить	翻越	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:92	moves	MOVELIST.TXT	92		Hold @@lockOnButtonName@@ , @@moveAxis@@ (fwd) , @@jumpButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вверх), @@jumpButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（前） , @@jumpButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:93	moves	MOVELIST.TXT	93		Spider's Daughter	Паучья дочь	蜘蛛之女	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:94	moves	MOVELIST.TXT	94		Hold @@lockOnButtonName@@ , @@moveAxis@@ (fwd) , @@jumpButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вверх), @@jumpButtonName@@, @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（前） , @@jumpButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:95	moves	MOVELIST.TXT	95		Garuda Cross	Крест Гаруды	迦楼罗十字	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:96	moves	MOVELIST.TXT	96		Hold @@lockOnButtonName@@ , @@moveAxis@@ (fwd) , @@jumpButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вверх), @@jumpButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（前） , @@jumpButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:97	moves	MOVELIST.TXT	97		Ascending Lust	Нарастающее вожделение	升欲	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:98	moves	MOVELIST.TXT	98		Hold @@lockOnButtonName@@ , @@moveAxis@@ (fwd) , @@jumpButtonName@@ , @@jumpButtonName@@ , @@jumpButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вверх), 3 раза @@jumpButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（前） , @@jumpButtonName@@ , @@jumpButtonName@@ , @@jumpButtonName@@	translated	preserve every @@...@@ control token; EN/RU control-token counts differ; use English structure
+moves:MOVELIST.TXT:99	moves	MOVELIST.TXT	99		Descending Lust	Спадающее вожделение	降欲	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:100	moves	MOVELIST.TXT	100		Hold @@lockOnButtonName@@ , @@moveAxis@@ (bwd) , @@jumpButtonName@@ , @@jumpButtonName@@ , @@jumpButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вниз), 3 раза @@jumpButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（后） , @@jumpButtonName@@ , @@jumpButtonName@@ , @@jumpButtonName@@	translated	preserve every @@...@@ control token; EN/RU control-token counts differ; use English structure
+moves:MOVELIST.TXT:101	moves	MOVELIST.TXT	101		Rising Thorn	Растущий шип	升刺	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:102	moves	MOVELIST.TXT	102		Hold @@lockOnButtonName@@ , @@moveAxis@@ (bwd) , @@jumpButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вниз), @@jumpButtonName@@, @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（后） , @@jumpButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:103	moves	MOVELIST.TXT	103		Secret Lightning	Беззвучная молния	秘雷	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:104	moves	MOVELIST.TXT	104		Hold @@lockOnButtonName@@ , @@moveAxis@@ (bwd) , @@jumpButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вниз), @@jumpButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（后） , @@jumpButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:105	moves	MOVELIST.TXT	105		Dextral Flower	Правый цветок	右花	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:106	moves	MOVELIST.TXT	106		Hold @@lockOnButtonName@@ , @@moveAxis@@ (right) , @@jumpButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вправо), @@jumpButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（右） , @@jumpButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:107	moves	MOVELIST.TXT	107		Dextral Thorn	Правый шип	右刺	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:108	moves	MOVELIST.TXT	108		Hold @@lockOnButtonName@@ , @@moveAxis@@ (right) , @@jumpButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вправо), @@jumpButtonName@@, @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（右） , @@jumpButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:109	moves	MOVELIST.TXT	109		Dextral Bloom	Правое соцветие	右绽	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:110	moves	MOVELIST.TXT	110		Hold @@lockOnButtonName@@ , @@moveAxis@@ (right) , @@jumpButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (вправо), @@jumpButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（右） , @@jumpButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:111	moves	MOVELIST.TXT	111		Sinistral Flower	Левый цветок	左花	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:112	moves	MOVELIST.TXT	112		Hold @@lockOnButtonName@@ , @@moveAxis@@ (left) , @@jumpButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (влево), @@jumpButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（左） , @@jumpButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:113	moves	MOVELIST.TXT	113		Sinistral Thorn	Левый шип	左刺	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:114	moves	MOVELIST.TXT	114		Hold @@lockOnButtonName@@ , @@moveAxis@@ (left) , @@jumpButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (влево), @@jumpButtonName@@, @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（左） , @@jumpButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:115	moves	MOVELIST.TXT	115		Sinistral Bloom	Левое соцветие	左绽	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:116	moves	MOVELIST.TXT	116		Hold @@lockOnButtonName@@ , @@moveAxis@@ (left) , @@jumpButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@moveAxis@@ (влево), @@jumpButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@moveAxis@@（左） , @@jumpButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:117	moves	MOVELIST.TXT	117		(lying) Dolphin Tail	(лежа) Хвост дельфина	（倒地）海豚尾	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:119	moves	MOVELIST.TXT	119		(lying) Spring's Wrath	(лежа) Яростный бросок	（倒地）春之怒	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:124	moves	MOVELIST.TXT	124		Feeding Fatalities	Добивание при кормежке	吸血处决	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:125	moves	MOVELIST.TXT	125		(in front) Devil's Handshake	(спереди) Дьявольское рукопожатие	（正面）恶魔握手	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:127	moves	MOVELIST.TXT	127		(in front) Sterling Blow	(спереди) Безупречный удар	（正面）银击	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:129	moves	MOVELIST.TXT	129		(in front) Laughing Jackal	(спереди) Смеющийся шакал	（正面）笑豺	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:131	moves	MOVELIST.TXT	131		(in front) Archer's Bliss	(спереди) Блаженство Стрельца	（正面）弓手之悦	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:133	moves	MOVELIST.TXT	133		(in front) Cracked Sparrow	(спереди) Бешеный воробей	（正面）裂雀	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:135	moves	MOVELIST.TXT	135		(in front) Silver Eel	(спереди) Серебряный угорь	（正面）银鳗	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:137	moves	MOVELIST.TXT	137		(in front) Athena Shiver	(спереди) Трепет Афины	（正面）雅典娜寒颤	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:139	moves	MOVELIST.TXT	139		(behind) Strangled Flame	(сзади) Задушенное пламя	（背后）窒息之焰	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:141	moves	MOVELIST.TXT	141		(behind) Lament Reversal	(сзади) Отмена скорби	（背后）哀歌逆转	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:143	moves	MOVELIST.TXT	143		(behind) Crane's Reply	(сзади) Журавлиный клич	（背后）鹤之回应	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:145	moves	MOVELIST.TXT	145		(behind) Rabbit's Lash	(сзади) Кроличья плеть	（背后）兔鞭	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:147	moves	MOVELIST.TXT	147		(behind) Comet's Twinge	(сзади) Муки кометы	（背后）彗星刺痛	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:149	moves	MOVELIST.TXT	149		(behind) Weeping Cobra	(сзади) Плачущая кобра	（背后）泣蛇	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:151	moves	MOVELIST.TXT	151		(behind) Lover's Grip	(сзади) Хватка любовника	（背后）情人之握	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:156	moves	MOVELIST.TXT	156		Special Moves	Особые приемы	特殊招式	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:157	moves	MOVELIST.TXT	157		Twisted Wind	Вихрь	扭风	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:158	moves	MOVELIST.TXT	158		@@moveAxis@@ (circle) , @@kickButtonName@@	@@moveAxis@@ (circle), @@kickButtonName@@	@@moveAxis@@（圆周） , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:159	moves	MOVELIST.TXT	159		Silver Circlet	Серебряный круг	银环	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:160	moves	MOVELIST.TXT	160		@@moveAxis@@ (circle) , @@bladeButtonName@@	@@moveAxis@@ (circle), @@bladeButtonName@@	@@moveAxis@@（圆周） , @@bladeButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:161	moves	MOVELIST.TXT	161		Quiet Thunder	Тихий гром	静雷	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:162	moves	MOVELIST.TXT	162		@@moveAxis@@ (circle) , @@shootButtonName@@	@@moveAxis@@ (circle), @@shootButtonName@@	@@moveAxis@@（圆周） , @@shootButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:163	moves	MOVELIST.TXT	163		Shiva Aspect	Шива	湿婆化身	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:164	moves	MOVELIST.TXT	164		Hold @@lockOnButtonName@@ , @@jumpButtonName@@ , @@kickButtonName@@	удерживая @@lockOnButtonName@@, @@jumpButtonName@@, @@kickButtonName@@	按住 @@lockOnButtonName@@ , @@jumpButtonName@@ , @@kickButtonName@@	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:165	moves	MOVELIST.TXT	165		Curtain Twice Torn	Разорванный занавес	帷幕再裂	translated	preserve every @@...@@ control token
+moves:MOVELIST.TXT:166	moves	MOVELIST.TXT	166		Hold @@lockOnButtonName@@ , @@jumpButtonName@@ , @@bladeButtonName@@	удерживая @@lockOnButtonName@@, @@jumpButtonName@@, @@bladeButtonName@@	按住 @@lockOnButtonName@@ , @@jumpButtonName@@ , @@bladeButtonName@@	translated	preserve every @@...@@ control token

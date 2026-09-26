@@ -1,0 +1,46 @@
+Crash investigation 2026-09-25
+Crash evidence: errorlog.txt reports c0000005 at VA 005DE9B0, WINRUN.CPP:190. EXE SHA256 EAE3925A344668500F3533EBEC146376C8B1BBDB168ED2C3B1D4DECB0ABF0952. VA 005DE9B0 is mov al, byte ptr [ebx] inside the game's shared text layout parser; this is not the FMV call-site. Screenshot displays the A1_MANSION_PART4.TXT @@shootButtonName@@ gameplay hint. The game's parser uses an unbounded sscanf format @@%[^@]@@%n for these tags with a 64-byte stack text field. An overlong/malformed tag can overwrite nearby state and later cause an invalid EBX. This is a plausible cause, not a proven register-level reconstruction of the reported crash (no dump/registers were available).
+Changed branch/field: layout parser RVA 0x1DE9F8, push format pointer. Replace only @@%[^@]@@%n with @@%63[^@]@@%n; ordinary tag grammar unchanged. DLL hook is guarded by exact original bytes 68 48 53 71 00. Existing FMV, font, voice, POD and mod paths unchanged.
+Original dinput8.dll SHA256 D3AFA1C30E671625E5BE997230B1E13F9280FB2C18652D1672C2A37AB50C934D
+Modified dinput8.dll SHA256 87871E80FBF63F87FA664DF5FA76C05B4F5DDA98348E2B3C656F0335E72A18C2
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\payload\dinput8.dll
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\ROLLBACK.sh
+BASELINE
+COMMAND: "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\build\test_layout_scan.exe" baseline
+INPUT: sscanf format @@%[^@]@@%n; 80-character malformed tag; normal @@shootButtonName@@ tag
+LITERAL OUTPUT: SCAN fields=1 canary=overwritten normal=same consumed=84
+EXIT: 0
+MODIFIED
+COMMAND: "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\build\test_layout_scan.exe" modified
+INPUT: sscanf format @@%63[^@]@@%n; same 80-character malformed and normal tags
+LITERAL OUTPUT: SCAN fields=1 canary=intact normal=same consumed=-1
+EXIT: 0
+STATIC CHECK
+COMMAND: Python pefile inspect rayne2.exe RVA 0x1DE9F8 and modified DLL
+INPUT: clean EXE; payload DLL
+LITERAL OUTPUT:
+EXE_PATCH_SITE 6848537100
+DLL_MACHINE 0x14c DLL_EXPORTS 6
+NEW_FORMAT_PRESENT True
+LIVE_DLL_UNCHANGED True
+EXIT: 0 (before live installation)
+ISOLATED INSTALL
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\install.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\build\testroot2"
+INPUT: copy of original dinput8.dll in testroot2
+LITERAL OUTPUT: INSTALL_OK layout_scan=bounded other_files=unchanged
+EXIT: 0
+ROLLBACK
+COMMAND: "C:\Program Files\Git\bin\bash.exe" "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\ROLLBACK.sh" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\build\testroot2"
+INPUT: isolated modified testroot2 dinput8.dll, backup hash verified
+LITERAL OUTPUT: ROLLBACK_OK dinput8.dll=restored video_subtitles=unchanged
+EXIT: 0
+RESTORED STATUS: testroot2 dinput8.dll SHA256 D3AFA1C30E671625E5BE997230B1E13F9280FB2C18652D1672C2A37AB50C934D
+LIVE INSTALL
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-guard-20260925\install.ps1"
+INPUT: game-root original dinput8.dll; game process absent
+LITERAL OUTPUT: INSTALL_OK layout_scan=bounded other_files=unchanged
+EXIT: 0
+LIVE STATUS: dinput8.dll SHA256 87871E80FBF63F87FA664DF5FA76C05B4F5DDA98348E2B3C656F0335E72A18C2; LANGUAGE.POD SHA256 3D362A472C6BECF2F2F332055831BDFA1139870FD6D4A9190DA5B1274B46BCB5; W32ART.POD SHA256 8B9A06FEEA6881026C485100BA24AADFD1C8ADA60400327C7E0F87098FF84631; W32ENSND.POD SHA256 2990E799BCEEE41AECBFBD2399A9CFFE9BB298B668ACAA8FF60B38A1E55E9719.
+Game was not launched. Same-scene gameplay result awaits user testing.

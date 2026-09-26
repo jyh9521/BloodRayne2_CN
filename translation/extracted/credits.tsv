@@ -1,0 +1,284 @@
+﻿id	kind	file	line	key	source_en	source_ru	translation_zh	status	notes
+credits:CREDITS.TXT:1	credits	CREDITS.TXT	1		/bTERMINAL REALITY			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:3	credits	CREDITS.TXT	3		/bPRODUCER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:4	credits	CREDITS.TXT	4		Raymond Holmes			pending	
+credits:CREDITS.TXT:6	credits	CREDITS.TXT	6		/bPRESIDENT / ENGINE PROGRAMMER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:7	credits	CREDITS.TXT	7		Mark Randel			pending	
+credits:CREDITS.TXT:9	credits	CREDITS.TXT	9		/bPRINCIPAL PROGRAMMER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:10	credits	CREDITS.TXT	10		Fletcher Dunn			pending	
+credits:CREDITS.TXT:12	credits	CREDITS.TXT	12		/bGAME DESIGN			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:13	credits	CREDITS.TXT	13		Drew Haworth			pending	
+credits:CREDITS.TXT:14	credits	CREDITS.TXT	14		Raymond Holmes			pending	
+credits:CREDITS.TXT:15	credits	CREDITS.TXT	15		Jeff Mills			pending	
+credits:CREDITS.TXT:17	credits	CREDITS.TXT	17		/bGAMEPLAY TUNING			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:18	credits	CREDITS.TXT	18		Vasken Sayre			pending	
+credits:CREDITS.TXT:20	credits	CREDITS.TXT	20		/bSTORY			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:21	credits	CREDITS.TXT	21		Drew Haworth			pending	
+credits:CREDITS.TXT:22	credits	CREDITS.TXT	22		Raymond Holmes			pending	
+credits:CREDITS.TXT:23	credits	CREDITS.TXT	23		Jeff Mills			pending	
+credits:CREDITS.TXT:24	credits	CREDITS.TXT	24		John Shirley			pending	
+credits:CREDITS.TXT:26	credits	CREDITS.TXT	26		/bPROJECT MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:27	credits	CREDITS.TXT	27		Jeff Mills			pending	
+credits:CREDITS.TXT:29	credits	CREDITS.TXT	29		/bLEAD PROGRAMMER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:30	credits	CREDITS.TXT	30		Ken Rogoway			pending	
+credits:CREDITS.TXT:32	credits	CREDITS.TXT	32		/bPROGRAMMERS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:33	credits	CREDITS.TXT	33		Andrew Aye			pending	
+credits:CREDITS.TXT:34	credits	CREDITS.TXT	34		Marc DePeo			pending	
+credits:CREDITS.TXT:35	credits	CREDITS.TXT	35		Russell Mirabelli			pending	
+credits:CREDITS.TXT:36	credits	CREDITS.TXT	36		Nathan Peugh			pending	
+credits:CREDITS.TXT:37	credits	CREDITS.TXT	37		Jean Simonet			pending	
+credits:CREDITS.TXT:39	credits	CREDITS.TXT	39		/bART LEAD			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:40	credits	CREDITS.TXT	40		Scott Wetterschneider			pending	
+credits:CREDITS.TXT:42	credits	CREDITS.TXT	42		/bARt TEAM			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:43	credits	CREDITS.TXT	43		Bryan Cavett			pending	
+credits:CREDITS.TXT:44	credits	CREDITS.TXT	44		Bob Cooksey			pending	
+credits:CREDITS.TXT:45	credits	CREDITS.TXT	45		Lee Davis			pending	
+credits:CREDITS.TXT:46	credits	CREDITS.TXT	46		Cory Edwards			pending	
+credits:CREDITS.TXT:47	credits	CREDITS.TXT	47		Glenn Gamble			pending	
+credits:CREDITS.TXT:48	credits	CREDITS.TXT	48		Ally Kates			pending	
+credits:CREDITS.TXT:49	credits	CREDITS.TXT	49		Juan Martinez			pending	
+credits:CREDITS.TXT:50	credits	CREDITS.TXT	50		Ryan Monday			pending	
+credits:CREDITS.TXT:51	credits	CREDITS.TXT	51		Vitaliy Naymushin			pending	
+credits:CREDITS.TXT:52	credits	CREDITS.TXT	52		Nathan Purkeypile			pending	
+credits:CREDITS.TXT:53	credits	CREDITS.TXT	53		Jesse Sosa			pending	
+credits:CREDITS.TXT:54	credits	CREDITS.TXT	54		Travis Tharret			pending	
+credits:CREDITS.TXT:56	credits	CREDITS.TXT	56		/bLEVEL DESIGN			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:57	credits	CREDITS.TXT	57		Joel Burgess			pending	
+credits:CREDITS.TXT:58	credits	CREDITS.TXT	58		Jake Keating			pending	
+credits:CREDITS.TXT:59	credits	CREDITS.TXT	59		Steve Mallory			pending	
+credits:CREDITS.TXT:60	credits	CREDITS.TXT	60		Jeff Mills			pending	
+credits:CREDITS.TXT:61	credits	CREDITS.TXT	61		Philip Nelson			pending	
+credits:CREDITS.TXT:62	credits	CREDITS.TXT	62		Eric Schatz			pending	
+credits:CREDITS.TXT:64	credits	CREDITS.TXT	64		/bAUDIO ENGINEER AND MUSIC			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:65	credits	CREDITS.TXT	65		Kyle Richards			pending	
+credits:CREDITS.TXT:67	credits	CREDITS.TXT	67		/bSOUND EFFECTS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:68	credits	CREDITS.TXT	68		Matt Emery			pending	
+credits:CREDITS.TXT:70	credits	CREDITS.TXT	70		/bDialogue Coach			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:71	credits	CREDITS.TXT	71		Christopher Sabat			pending	
+credits:CREDITS.TXT:73	credits	CREDITS.TXT	73		/bSCREENPLAY			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:74	credits	CREDITS.TXT	74		Drew Haworth			pending	
+credits:CREDITS.TXT:76	credits	CREDITS.TXT	76		/bADDITIONAL DIALOGUE			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:77	credits	CREDITS.TXT	77		Vasken Sayre			pending	
+credits:CREDITS.TXT:79	credits	CREDITS.TXT	79		/bVP			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:80	credits	CREDITS.TXT	80		Brett Evan Russell			pending	
+credits:CREDITS.TXT:82	credits	CREDITS.TXT	82		/bPRODUCT MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:83	credits	CREDITS.TXT	83		Paul Eckstein			pending	
+credits:CREDITS.TXT:85	credits	CREDITS.TXT	85		/bQUALITY ASSURANCE SUPERVISOR			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:86	credits	CREDITS.TXT	86		Al Goss			pending	
+credits:CREDITS.TXT:88	credits	CREDITS.TXT	88		/bASSISTANT TEST LEAD			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:89	credits	CREDITS.TXT	89		Josh Cook			pending	
+credits:CREDITS.TXT:90	credits	CREDITS.TXT	90		Terry Thomas			pending	
+credits:CREDITS.TXT:92	credits	CREDITS.TXT	92		/bINTERNAL TESTERS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:93	credits	CREDITS.TXT	93		Steve Boaman			pending	
+credits:CREDITS.TXT:94	credits	CREDITS.TXT	94		Justin Miller			pending	
+credits:CREDITS.TXT:95	credits	CREDITS.TXT	95		Greg Rimko			pending	
+credits:CREDITS.TXT:96	credits	CREDITS.TXT	96		Kyle Bo Rogers			pending	
+credits:CREDITS.TXT:97	credits	CREDITS.TXT	97		Kelsey Rogoway			pending	
+credits:CREDITS.TXT:98	credits	CREDITS.TXT	98		DJ Rowden			pending	
+credits:CREDITS.TXT:99	credits	CREDITS.TXT	99		Zane Sadler			pending	
+credits:CREDITS.TXT:100	credits	CREDITS.TXT	100		Kris Wright			pending	
+credits:CREDITS.TXT:102	credits	CREDITS.TXT	102		/bCAST			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:103	credits	CREDITS.TXT	103		Laura Bailey --  Rayne			pending	
+credits:CREDITS.TXT:104	credits	CREDITS.TXT	104		Troy Baker --  Severin, Kagan			pending	
+credits:CREDITS.TXT:105	credits	CREDITS.TXT	105		Brice Armstrong -- Kagan Elite			pending	
+credits:CREDITS.TXT:106	credits	CREDITS.TXT	106		Dameon Clarke -- Zerenski, Minions			pending	
+credits:CREDITS.TXT:107	credits	CREDITS.TXT	107		Colleen Clinkenbeard -- Minions			pending	
+credits:CREDITS.TXT:108	credits	CREDITS.TXT	108		Justin Cook -- Minions			pending	
+credits:CREDITS.TXT:109	credits	CREDITS.TXT	109		R. Bruce Elliot -- Xerx			pending	
+credits:CREDITS.TXT:110	credits	CREDITS.TXT	110		Lisa Gonzales -- Ferril			pending	
+credits:CREDITS.TXT:111	credits	CREDITS.TXT	111		Chuck Huber --  Minions			pending	
+credits:CREDITS.TXT:112	credits	CREDITS.TXT	112		Melody Lenz -- Dhampir, Minions			pending	
+credits:CREDITS.TXT:113	credits	CREDITS.TXT	113		Scarlet McAlister -- Ephemera, Minions			pending	
+credits:CREDITS.TXT:114	credits	CREDITS.TXT	114		Josh Martin --  Minions			pending	
+credits:CREDITS.TXT:115	credits	CREDITS.TXT	115		Mark Orvik -- Minions			pending	
+credits:CREDITS.TXT:116	credits	CREDITS.TXT	116		Wendy Powell -- Kestral			pending	
+credits:CREDITS.TXT:117	credits	CREDITS.TXT	117		Chris Sabat -- Slezz, Newscaster, Minions			pending	
+credits:CREDITS.TXT:118	credits	CREDITS.TXT	118		Lauri Steele -- Kestral			pending	
+credits:CREDITS.TXT:120	credits	CREDITS.TXT	120		/bADDITIONAL PROGRAMMING			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:121	credits	CREDITS.TXT	121		Jennifer Lear			pending	
+credits:CREDITS.TXT:122	credits	CREDITS.TXT	122		Craig Reichard			pending	
+credits:CREDITS.TXT:124	credits	CREDITS.TXT	124		/bADDITIONAL ART			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:125	credits	CREDITS.TXT	125		Polytheoptic			pending	
+credits:CREDITS.TXT:126	credits	CREDITS.TXT	126		Frank Lam			pending	
+credits:CREDITS.TXT:128	credits	CREDITS.TXT	128		/bOTHER CONTRIBUTORS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:129	credits	CREDITS.TXT	129		Shannon Dees			pending	
+credits:CREDITS.TXT:130	credits	CREDITS.TXT	130		Pat Jones			pending	
+credits:CREDITS.TXT:131	credits	CREDITS.TXT	131		Ben Mathis			pending	
+credits:CREDITS.TXT:132	credits	CREDITS.TXT	132		Leah Pearl			pending	
+credits:CREDITS.TXT:133	credits	CREDITS.TXT	133		Chad Walker			pending	
+credits:CREDITS.TXT:134	credits	CREDITS.TXT	134		Daniel Young			pending	
+credits:CREDITS.TXT:136	credits	CREDITS.TXT	136		/bCHARACTER AND LOGO DESIGN			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:137	credits	CREDITS.TXT	137		Blur Studios			pending	
+credits:CREDITS.TXT:139	credits	CREDITS.TXT	139		/bCG MOVIES			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:140	credits	CREDITS.TXT	140		Blur Studios			pending	
+credits:CREDITS.TXT:142	credits	CREDITS.TXT	142		/bPRERENDED IN-GAME CINEMATS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:143	credits	CREDITS.TXT	143		The Animation Farm			pending	
+credits:CREDITS.TXT:145	credits	CREDITS.TXT	145		/bVAMPIRISH TRANSLATOR			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:146	credits	CREDITS.TXT	146		Maria Holmes			pending	
+credits:CREDITS.TXT:148	credits	CREDITS.TXT	148		/bHOUSE MOM			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:149	credits	CREDITS.TXT	149		Pat Fraley			pending	
+credits:CREDITS.TXT:151	credits	CREDITS.TXT	151		/bSPECIAL THANKS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:152	credits	CREDITS.TXT	152		Our patient families			pending	
+credits:CREDITS.TXT:153	credits	CREDITS.TXT	153		Tracy Gamble			pending	
+credits:CREDITS.TXT:154	credits	CREDITS.TXT	154		Maria Holmes			pending	
+credits:CREDITS.TXT:155	credits	CREDITS.TXT	155		Gina Mallory			pending	
+credits:CREDITS.TXT:156	credits	CREDITS.TXT	156		Betty Kellogg			pending	
+credits:CREDITS.TXT:157	credits	CREDITS.TXT	157		Joe Wampole			pending	
+credits:CREDITS.TXT:159	credits	CREDITS.TXT	159		/bMAJESCO			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:161	credits	CREDITS.TXT	161		/b EVP, CREATIVE DIRECTOR			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:162	credits	CREDITS.TXT	162		Joseph Sutton			pending	
+credits:CREDITS.TXT:164	credits	CREDITS.TXT	164		/b VP PRODUCT DEVELOPMENT			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:165	credits	CREDITS.TXT	165		Dan Kitchen			pending	
+credits:CREDITS.TXT:167	credits	CREDITS.TXT	167		/b PRODUCER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:168	credits	CREDITS.TXT	168		Howard Perlman			pending	
+credits:CREDITS.TXT:170	credits	CREDITS.TXT	170		/b PRODUCT DEVELOPMENT MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:171	credits	CREDITS.TXT	171		Catherine Biebelberg			pending	
+credits:CREDITS.TXT:173	credits	CREDITS.TXT	173		/b VP MARKETING			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:174	credits	CREDITS.TXT	174		Ken Gold			pending	
+credits:CREDITS.TXT:176	credits	CREDITS.TXT	176		/b SENIOR PRODUCT MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:177	credits	CREDITS.TXT	177		Liz Buckley			pending	
+credits:CREDITS.TXT:179	credits	CREDITS.TXT	179		/b MARKETING ASSISTANT			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:180	credits	CREDITS.TXT	180		Matt Ciccone			pending	
+credits:CREDITS.TXT:182	credits	CREDITS.TXT	182		/b SENIOR PR MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:183	credits	CREDITS.TXT	183		Laura Heeb			pending	
+credits:CREDITS.TXT:185	credits	CREDITS.TXT	185		/b DIRECTOR OF CREATIVE SERVICES			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:186	credits	CREDITS.TXT	186		Leslie Mills			pending	
+credits:CREDITS.TXT:188	credits	CREDITS.TXT	188		/b ADDITIONAL ART			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:189	credits	CREDITS.TXT	189		Lesley Zinn			pending	
+credits:CREDITS.TXT:190	credits	CREDITS.TXT	190		Keith Patrick			pending	
+credits:CREDITS.TXT:191	credits	CREDITS.TXT	191		Frank Lam			pending	
+credits:CREDITS.TXT:193	credits	CREDITS.TXT	193		/b WEB SITE DESIGN			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:194	credits	CREDITS.TXT	194		James Becker			pending	
+credits:CREDITS.TXT:196	credits	CREDITS.TXT	196		/b PACKAGE ART			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:197	credits	CREDITS.TXT	197		Origin Studios			pending	
+credits:CREDITS.TXT:199	credits	CREDITS.TXT	199		/b QA MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:200	credits	CREDITS.TXT	200		Joe McHale			pending	
+credits:CREDITS.TXT:202	credits	CREDITS.TXT	202		/b PROJECT LEAD			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:203	credits	CREDITS.TXT	203		Robert Cooper			pending	
+credits:CREDITS.TXT:205	credits	CREDITS.TXT	205		/b LEAD TESTERS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:206	credits	CREDITS.TXT	206		Kevin Kurdes			pending	
+credits:CREDITS.TXT:207	credits	CREDITS.TXT	207		Russ Mock			pending	
+credits:CREDITS.TXT:208	credits	CREDITS.TXT	208		Eric Jezercak			pending	
+credits:CREDITS.TXT:210	credits	CREDITS.TXT	210		/b TESTERS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:211	credits	CREDITS.TXT	211		Andrew Bado			pending	
+credits:CREDITS.TXT:212	credits	CREDITS.TXT	212		John DAngelo			pending	
+credits:CREDITS.TXT:213	credits	CREDITS.TXT	213		Steve Macko			pending	
+credits:CREDITS.TXT:214	credits	CREDITS.TXT	214		Scott Trager			pending	
+credits:CREDITS.TXT:215	credits	CREDITS.TXT	215		Nick Greder			pending	
+credits:CREDITS.TXT:216	credits	CREDITS.TXT	216		Pete Rosky			pending	
+credits:CREDITS.TXT:217	credits	CREDITS.TXT	217		Manny Hernandez			pending	
+credits:CREDITS.TXT:218	credits	CREDITS.TXT	218		Tony Mariquit			pending	
+credits:CREDITS.TXT:219	credits	CREDITS.TXT	219		Jonathan Black			pending	
+credits:CREDITS.TXT:220	credits	CREDITS.TXT	220		Nicholas Garaffa			pending	
+credits:CREDITS.TXT:222	credits	CREDITS.TXT	222		/b SPECIAL THANKS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:223	credits	CREDITS.TXT	223		Morris Sutton			pending	
+credits:CREDITS.TXT:224	credits	CREDITS.TXT	224		Jesse Sutton			pending	
+credits:CREDITS.TXT:225	credits	CREDITS.TXT	225		Adam Sutton			pending	
+credits:CREDITS.TXT:226	credits	CREDITS.TXT	226		HighWater Group			pending	
+credits:CREDITS.TXT:227	credits	CREDITS.TXT	227		GWhiz			pending	
+credits:CREDITS.TXT:228	credits	CREDITS.TXT	228		AlienWare			pending	
+credits:CREDITS.TXT:229	credits	CREDITS.TXT	229		All of the BloodRayne fans!!!			pending	
+credits:CREDITS.TXT:231	credits	CREDITS.TXT	231		Made in Dallas, TX			pending	
+credits:CREDITS.TXT:233	credits	CREDITS.TXT	233		In loving memory of our friend Lynn Mathis			pending	
+credits:CREDITS.TXT:235	credits	CREDITS.TXT	235		Any resemblance to persons			pending	
+credits:CREDITS.TXT:236	credits	CREDITS.TXT	236		fictional or real who are			pending	
+credits:CREDITS.TXT:237	credits	CREDITS.TXT	237		living, dead, or undead is			pending	
+credits:CREDITS.TXT:238	credits	CREDITS.TXT	238		purely coincidental.			pending	
+credits:CREDITS.TXT:240	credits	CREDITS.TXT	240		/bBloodRayne 2			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:242	credits	CREDITS.TXT	242		Copyright (c) 2004 Majesco Sales, Inc.			pending	
+credits:CREDITS.TXT:243	credits	CREDITS.TXT	243		All rights reserved.			pending	
+credits:CREDITS.TXT:245	credits	CREDITS.TXT	245		Copyright (c) 2004 Terminal Reality Inc.			pending	
+credits:CREDITS.TXT:246	credits	CREDITS.TXT	246		All rights reserved.			pending	
+credits:CREDITS.TXT:248	credits	CREDITS.TXT	248		Open Dynamics Engine			pending	
+credits:CREDITS.TXT:249	credits	CREDITS.TXT	249		Copyright (c) 2001-2003, Russell L. Smith.			pending	
+credits:CREDITS.TXT:250	credits	CREDITS.TXT	250		All rights reserved.			pending	
+credits:CREDITS.TXT:252	credits	CREDITS.TXT	252		Redistribution and use in source and binary			pending	
+credits:CREDITS.TXT:253	credits	CREDITS.TXT	253		forms, with or without modification, are			pending	
+credits:CREDITS.TXT:254	credits	CREDITS.TXT	254		permitted provided that the following			pending	
+credits:CREDITS.TXT:255	credits	CREDITS.TXT	255		conditions are met:			pending	
+credits:CREDITS.TXT:257	credits	CREDITS.TXT	257		Redistributions of source code must retain			pending	
+credits:CREDITS.TXT:258	credits	CREDITS.TXT	258		the above copyright notice, this list of			pending	
+credits:CREDITS.TXT:259	credits	CREDITS.TXT	259		conditions and the following disclaimer.			pending	
+credits:CREDITS.TXT:261	credits	CREDITS.TXT	261		Redistributions in binary form must			pending	
+credits:CREDITS.TXT:262	credits	CREDITS.TXT	262		reproduce the above copyright notice,			pending	
+credits:CREDITS.TXT:263	credits	CREDITS.TXT	263		this list of conditions and the following			pending	
+credits:CREDITS.TXT:264	credits	CREDITS.TXT	264		disclaimer in the documentation and/or			pending	
+credits:CREDITS.TXT:265	credits	CREDITS.TXT	265		other materials provided with the distribution.			pending	
+credits:CREDITS.TXT:267	credits	CREDITS.TXT	267		Neither the names of ODE's copyright owner			pending	
+credits:CREDITS.TXT:268	credits	CREDITS.TXT	268		nor the names of its contributors may be			pending	
+credits:CREDITS.TXT:269	credits	CREDITS.TXT	269		used to endorse or promote products derived			pending	
+credits:CREDITS.TXT:270	credits	CREDITS.TXT	270		from this software without specific prior			pending	
+credits:CREDITS.TXT:271	credits	CREDITS.TXT	271		written permission.			pending	
+credits:CREDITS.TXT:273	credits	CREDITS.TXT	273		This software is provided by the copyright			pending	
+credits:CREDITS.TXT:274	credits	CREDITS.TXT	274		"holders and contributors ""as is"" and any"			pending	
+credits:CREDITS.TXT:275	credits	CREDITS.TXT	275		express or implied warranties, including,			pending	
+credits:CREDITS.TXT:276	credits	CREDITS.TXT	276		but not limited to, the implied warranties			pending	
+credits:CREDITS.TXT:277	credits	CREDITS.TXT	277		of merchantability and fitness for a particular			pending	
+credits:CREDITS.TXT:278	credits	CREDITS.TXT	278		purpose are disclaimed. In no event shall			pending	
+credits:CREDITS.TXT:279	credits	CREDITS.TXT	279		the copyright owner or contributors be liable			pending	
+credits:CREDITS.TXT:280	credits	CREDITS.TXT	280		for any direct, indirect, incidental, special,			pending	
+credits:CREDITS.TXT:281	credits	CREDITS.TXT	281		exemplary, or consequential damages (including,			pending	
+credits:CREDITS.TXT:282	credits	CREDITS.TXT	282		but not limited to, procurement of subsitute			pending	
+credits:CREDITS.TXT:283	credits	CREDITS.TXT	283		goods or services; loss of use, data, or			pending	
+credits:CREDITS.TXT:284	credits	CREDITS.TXT	284		profits; or business interruption) however			pending	
+credits:CREDITS.TXT:285	credits	CREDITS.TXT	285		caused and on any theory of liability, whether			pending	
+credits:CREDITS.TXT:286	credits	CREDITS.TXT	286		in contract, strict liability, or tort (including			pending	
+credits:CREDITS.TXT:287	credits	CREDITS.TXT	287		negligence or otherwise) arising in any way out			pending	
+credits:CREDITS.TXT:288	credits	CREDITS.TXT	288		of the use of this software, even if advised			pending	
+credits:CREDITS.TXT:289	credits	CREDITS.TXT	289		of the possibility of such damage.			pending	
+credits:CREDITS.TXT:291	credits	CREDITS.TXT	291		/bBLOODRAYNE 2: TERMINAL CUT			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:293	credits	CREDITS.TXT	293		/bZiggurat Interactive, Inc.			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:295	credits	CREDITS.TXT	295		/bPRESIDENT			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:296	credits	CREDITS.TXT	296		Wade Rosen			pending	
+credits:CREDITS.TXT:298	credits	CREDITS.TXT	298		/bGENERAL MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:299	credits	CREDITS.TXT	299		Michael Devine			pending	
+credits:CREDITS.TXT:301	credits	CREDITS.TXT	301		/bFINANCE AND OPERATIONS			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:302	credits	CREDITS.TXT	302		Kate Woods			pending	
+credits:CREDITS.TXT:304	credits	CREDITS.TXT	304		/bBRAND AND MARKETING MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:305	credits	CREDITS.TXT	305		Scott Heter			pending	
+credits:CREDITS.TXT:307	credits	CREDITS.TXT	307		/bASSOCIATE PRODUCER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:308	credits	CREDITS.TXT	308		Alex Lotz			pending	
+credits:CREDITS.TXT:310	credits	CREDITS.TXT	310		/bASSET MANAGER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:311	credits	CREDITS.TXT	311		Nickson Phosy			pending	
+credits:CREDITS.TXT:313	credits	CREDITS.TXT	313		/bCONTENT COORDINATOR			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:314	credits	CREDITS.TXT	314		Bea Maglalang			pending	
+credits:CREDITS.TXT:316	credits	CREDITS.TXT	316		/bTESTER			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:317	credits	CREDITS.TXT	317		Alex Cofinco			pending	
+credits:CREDITS.TXT:319	credits	CREDITS.TXT	319		Copyright (c) 2020 Ziggurat Interactive, Inc.			pending	
+credits:CREDITS.TXT:320	credits	CREDITS.TXT	320		All Rights Reserved. BloodRayne(R) is a registered			pending	
+credits:CREDITS.TXT:321	credits	CREDITS.TXT	321		trademark of Ziggurat Interactive, Inc.			pending	
+credits:CREDITS.TXT:322	credits	CREDITS.TXT	322		Developed by Terminal Reality.			pending	
+credits:CREDITS.TXT:324	credits	CREDITS.TXT	324		/bd3d8to9			pending	preserve leading /b formatting directive
+credits:CREDITS.TXT:326	credits	CREDITS.TXT	326		Copyright (C) 2015 Patrick Mours.			pending	
+credits:CREDITS.TXT:327	credits	CREDITS.TXT	327		All rights reserved.			pending	
+credits:CREDITS.TXT:329	credits	CREDITS.TXT	329		Redistribution and use in source and binary			pending	
+credits:CREDITS.TXT:330	credits	CREDITS.TXT	330		forms, with or without modification, are			pending	
+credits:CREDITS.TXT:331	credits	CREDITS.TXT	331		permitted provided that the following conditions			pending	
+credits:CREDITS.TXT:332	credits	CREDITS.TXT	332		are met:			pending	
+credits:CREDITS.TXT:334	credits	CREDITS.TXT	334		Redistributions of source code must retain the			pending	
+credits:CREDITS.TXT:335	credits	CREDITS.TXT	335		above copyright notice, this list of conditions			pending	
+credits:CREDITS.TXT:336	credits	CREDITS.TXT	336		and the following disclaimer.  Redistributions			pending	
+credits:CREDITS.TXT:337	credits	CREDITS.TXT	337		in binary form must reproduce the above copyright			pending	
+credits:CREDITS.TXT:338	credits	CREDITS.TXT	338		notice, this list of conditions and the following			pending	
+credits:CREDITS.TXT:339	credits	CREDITS.TXT	339		disclaimer in the documentation and/or other			pending	
+credits:CREDITS.TXT:340	credits	CREDITS.TXT	340		materials provided with the distribution.			pending	
+credits:CREDITS.TXT:342	credits	CREDITS.TXT	342		THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT			pending	
+credits:CREDITS.TXT:343	credits	CREDITS.TXT	343		"HOLDERS AND CONTRIBUTORS ""AS IS"" AND ANY"			pending	
+credits:CREDITS.TXT:344	credits	CREDITS.TXT	344		EXPRESS OR IMPLIED WARRANTIES, INCLUDING,			pending	
+credits:CREDITS.TXT:345	credits	CREDITS.TXT	345		BUT NOT LIMITED TO, THE IMPLIED WARRANTIES			pending	
+credits:CREDITS.TXT:346	credits	CREDITS.TXT	346		OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR			pending	
+credits:CREDITS.TXT:347	credits	CREDITS.TXT	347		PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE			pending	
+credits:CREDITS.TXT:348	credits	CREDITS.TXT	348		COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR			pending	
+credits:CREDITS.TXT:349	credits	CREDITS.TXT	349		ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,			pending	
+credits:CREDITS.TXT:350	credits	CREDITS.TXT	350		EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,			pending	
+credits:CREDITS.TXT:351	credits	CREDITS.TXT	351		BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE			pending	
+credits:CREDITS.TXT:352	credits	CREDITS.TXT	352		GOODS OR SERVICES; LOSS OF USE, DATA, OR			pending	
+credits:CREDITS.TXT:353	credits	CREDITS.TXT	353		PROFITS; OR BUSINESS INTERRUPTION) HOWEVER			pending	
+credits:CREDITS.TXT:354	credits	CREDITS.TXT	354		CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER			pending	
+credits:CREDITS.TXT:355	credits	CREDITS.TXT	355		IN CONTRACT, STRICT LIABILITY, OR TORT			pending	
+credits:CREDITS.TXT:356	credits	CREDITS.TXT	356		(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING			pending	
+credits:CREDITS.TXT:357	credits	CREDITS.TXT	357		IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,			pending	
+credits:CREDITS.TXT:358	credits	CREDITS.TXT	358		EVEN IF ADVISED OF THE POSSIBILITY OF SUCH			pending	
+credits:CREDITS.TXT:359	credits	CREDITS.TXT	359		DAMAGE.			pending	
+credits:CREDITS.TXT:361	credits	CREDITS.TXT	361		Uses Bink Video. Copyright (C) 1997-2020			pending	
+credits:CREDITS.TXT:362	credits	CREDITS.TXT	362		by RAD Game Tools, Inc.			pending	

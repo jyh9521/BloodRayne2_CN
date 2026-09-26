@@ -1,0 +1,13 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.tsv text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.diff text eol=lf
+*.zip binary
+*.xlsx binary
+*.srt binary

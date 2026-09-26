@@ -1,0 +1,39 @@
+Crash follow-up 2026-09-25
+User retried with prior bounded-tag patch; errorlog.txt now contains a second c0000005 at VA 005DE9B0 (15:34:50), proving the earlier format-string hypothesis did not prevent this crash. The second screenshot shows a different gameplay subtitle, so the shared layout cursor is the common point, not a particular Chinese line or FMV wrapper.
+Changed branch/field: rayne2.exe VA 005DE9B0 (RVA 0x1DE9B0), instruction `mov al,[ebx]`. The proxy now adds a first-chance vectored exception handler only for an access-violation read at that exact instruction. It records EIP/fault address/EBX/ESI/EDI/EBP/ESP to _cn_project/logs/layout_faults.log, substitutes an empty string for the damaged EBX layout cursor, and resumes at the unchanged instruction. Other exceptions continue to the game unchanged. This is a narrowly scoped recovery and diagnostic, not a proven correction of the upstream pointer corruption.
+Existing FMV wrap, Chinese font, English voice, bounded tag scan, subtitle files and all POD files remain unchanged. No game launch was performed by Codex. User gameplay confirmation is pending.
+Original DLL SHA256: 87871E80FBF63F87FA664DF5FA76C05B4F5DDA98348E2B3C656F0335E72A18C2
+Modified DLL SHA256: 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\payload\dinput8.dll
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\ROLLBACK.sh
+BASELINE
+COMMAND: "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\build\test_fault_baseline.exe"
+INPUT: synthetic invalid layout cursor 0xDEADBEEF, access-violation read without recovery
+LITERAL OUTPUT: BASELINE_FAULT code=C0000005 cursor=DEADBEEF recovery=none
+EXIT: 0
+MODIFIED
+COMMAND: "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\build\test_recovery.exe"
+INPUT: synthetic EXCEPTION_POINTERS with exact parser PC and invalid EBX; second unrelated PC
+LITERAL OUTPUT:
+RECOVERY pc=005DE9B0 result=-1 cursor=empty faults=1
+UNRELATED result=0 cursor=unchanged
+EXIT: 0
+ISOLATED INSTALL
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\install.ps1" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\build\testroot"
+INPUT: copy of the v14 DLL
+LITERAL OUTPUT: INSTALL_OK layout_fault=recovered other_files=unchanged
+EXIT: 0
+ROLLBACK
+COMMAND: "C:\Program Files\Git\bin\bash.exe" "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\ROLLBACK.sh" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\build\testroot"
+INPUT: isolated installed DLL plus verified backup
+LITERAL OUTPUT: ROLLBACK_OK dinput8.dll=restored video_subtitles=unchanged
+EXIT: 0
+RESTORED STATUS: testroot DLL SHA256 87871E80FBF63F87FA664DF5FA76C05B4F5DDA98348E2B3C656F0335E72A18C2
+LIVE INSTALL
+COMMAND: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\layout-recovery-20260925\install.ps1"
+INPUT: current game root v14 DLL, no rayne2.exe process
+LITERAL OUTPUT: INSTALL_OK layout_fault=recovered other_files=unchanged
+EXIT: 0
+LIVE STATUS: dinput8.dll SHA256 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238; LANGUAGE.POD 3D362A472C6BECF2F2F332055831BDFA1139870FD6D4A9190DA5B1274B46BCB5; W32ART.POD 8B9A06FEEA6881026C485100BA24AADFD1C8ADA60400327C7E0F87098FF84631; W32ENSND.POD 2990E799BCEEE41AECBFBD2399A9CFFE9BB298B668ACAA8FF60B38A1E55E9719.

@@ -1,0 +1,74 @@
+﻿source_term	translation_zh	match_pattern	policy
+Rayne	莱恩	\bRayne\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+BloodRayne	吸血莱恩	\bBloodRayne\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Severin / Severen	塞弗林	\bSever[ie]n\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Kagan	卡根	\bKagan\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Zerenski / Zerenzki	泽伦斯基	\bZeren[sz]ki\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Ephemera	埃菲梅拉	\bEphemera\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Ferril	费里尔	\bFerril\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Slezz	斯莱兹	\bSlezz\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Xerx	泽克斯	\bXerx\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Llewelyn	卢埃林	\bLlewelyn\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Delinda	德琳达	\bDelinda\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Gardath	加达斯	\bGardath\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Loestrum	洛斯特伦	\bLoestrum\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Victor	维克托	\bVictor\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Tremayne	特雷梅恩	\bTremayne\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Mynce	明斯	\bMynce\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Esgoth	埃斯戈斯	\bEsgoth\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Kimsui	基姆苏伊	\bKimsui\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Mora	莫拉	\bMora\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Lockdown	洛克当	\bLockdown\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Brimstone / Brimstone Society	硫磺会	\bBrimstone\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Kestrel / Kestral	红隼	\bKestr[ae]ls?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Shakab	沙卡布	\bShakab\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Trauger / Traujer Elite	特劳格精锐	\bTrau[gj]er Elite[s]?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Unraveler / Unraveller	拆解者	\bUnravell?er\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Shadow Legion	暗影军团	\bShadow Legion\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Roach Golem	蟑螂魔像	\bRoach Golems?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Dhampir	半吸血鬼	\bDhampir\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Brute	蛮兽	\bBrutes?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Foreman	工头	\bForem[ae]n\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Mancow	人牛	\bMancow\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+BioMech	生物机甲	\bBioMechs?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Bio Armor / Bioarmor	生物装甲	\bBio ?Armor\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Shroud	暗幕	\bShroud\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Wetworks	血液工厂	\bWetworks\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Meatpacking District	肉类加工区	\bMeatpacking District\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Ray Ray's Meats	雷雷肉联厂	\bRay Ray's(?: Meats)?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Union Station	联合车站	\bUnion Station\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Club Strages	斯特拉吉斯俱乐部	\bClub Strages\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Twisted Park	扭曲公园	\bTwisted Park\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Neon City	霓虹城	\bNeon City\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+O'Leary's Cow	奥利里的牛酒吧	\bO'Leary's Cow\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Vesper Shard	暮星碎片	\bVesper Shard\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Carpathian Dragons	喀尔巴阡龙枪	\bCarpathian(?: Dragons)?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Dark Gift	黑暗赐福	\bDark Gift\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Bloodfield	血界	\bBloodfield\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Aura Vision	灵视	\bAura Vision\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Dilated Perception	时间感知	\bDilated Perception\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Rage	血怒	\bBlood Rage\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Fury	血之狂暴	\bBlood Fury\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Storm	血之风暴	\bBlood Storm\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Ghost Feed	幽灵吸血	\bGhost Feed\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Enthrall	魅惑	\bEnthrall\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Super Speed	超级速度	\bSuper Speed\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Freeze Time	时间冻结	\bFreeze Time\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Stream	血流	\bBlood Stream\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Spray	血雾	\bBlood Spray\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Bomb	血爆	\bBlood Bomb\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Flame	血焰	\bBlood Flame\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Blood Hammer	血锤	\bBlood Hammer\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Twisted Wind	扭风	\bTwisted Wind\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Silver Circlet	银环	\bSilver Circlet\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Quiet Thunder	静雷	\bQuiet Thunder\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Shiva Aspect	湿婆化身	\bShiva Aspect\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Curtain Twice Torn	帷幕再裂	\bCurtain Twice Torn\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Punishment Blade	惩罚之刃	\bPunishment Blade\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Sun Cannon / Sungun / Solar Cannon	太阳炮	\b(?:sun ?cannon|sungun|solar cannon)\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Shepherd	牧羊人	\bShepherds?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Carnage points	杀戮点数	\bCarnage points\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+West Indies	西印度群岛	\bWest Indies\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Babylonian	巴比伦	\bBabylonian\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Sumatran	苏门答腊	\bSumatran\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
+Dragons / Dragon pistols	龙枪	\bDragons?\b	项目统一译名；优先沿用菜单与已有译文，新增词为本项目译法，非官方译名声明
