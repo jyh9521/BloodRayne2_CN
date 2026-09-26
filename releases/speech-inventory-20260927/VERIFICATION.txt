@@ -1,0 +1,32 @@
+Changed branch/field: speech inventory extraction / engine_rayne_samples.tsv:asr_draft_english.
+No game archive or executable was modified.
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\speech-inventory-20260927\engine_rayne_samples.tsv
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\speech-inventory-20260927\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\speech-inventory-20260927\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\speech-inventory-20260927\ROLLBACK.sh
+
+Original inventory: _cn_project\releases\start-say-subtitles-20260926\engine_cue_inventory.tsv
+Original SHA-256: CBB916C908FBDD9E5FE3EC31CFAE66535890A7829D354D464FE9EDA8E8B7FA96
+
+BASELINE command (PowerShell from game root):
+python -c "import csv,hashlib;from pathlib import Path;p=Path('_cn_project/releases/start-say-subtitles-20260926');a=list(csv.DictReader((p/'audit.tsv').open(encoding='utf-8'),delimiter='\t'));b=list(csv.DictReader((p/'engine_cue_inventory.tsv').open(encoding='utf-8'),delimiter='\t'));print('BASELINE other_added=%d rayne_added=%d categories=%d inventory_sha256=%s'%(sum(r['status']=='added' and r['speaker']=='other' for r in a),sum(r['status']=='added' and r['speaker']=='Rayne' for r in a),len(b),hashlib.sha256((p/'engine_cue_inventory.tsv').read_bytes()).hexdigest().upper()))"
+BASELINE literal output:
+BASELINE other_added=127 rayne_added=83 categories=72 inventory_sha256=CBB916C908FBDD9E5FE3EC31CFAE66535890A7829D354D464FE9EDA8E8B7FA96
+BASELINE exit status: 0
+
+MODIFIED command (PowerShell from game root):
+python '_cn_project\releases\speech-inventory-20260927\verify.py'
+MODIFIED literal output:
+MODIFIED_OK other=127 unique_keys=119 categories=72 unique_wav=253 asr_drafts=246 no_speech=7 decode_errors=0 sources_unchanged=yes
+MODIFIED exit status: 0
+
+ROLLBACK test command (PowerShell from game root, after making a separate testroot copy of the four generated reports):
+& 'C:\Program Files\Git\bin\bash.exe' -lc 'bash ./_cn_project/releases/speech-inventory-20260927/ROLLBACK.sh "$(pwd)/_cn_project/releases/speech-inventory-20260927/testroot"'
+ROLLBACK literal output:
+ROLLBACK_OK inventory reports removed; game assets untouched
+ROLLBACK exit status: 0
+ROLLBACK isolated result: remaining=0; live_modified_file=true
+Restored behavior/status: the isolated copy has no generated reports; source inventory, game PODs, and the live extracted reports remain unchanged.
+
+ASR limitation: the 246 draft rows are machine hypotheses, not verified transcripts; nonverbal recordings can produce hallucinated words. The 127 scripted rows are sourced from the shipped EN text resources and decoded live RU-slot Chinese captions.

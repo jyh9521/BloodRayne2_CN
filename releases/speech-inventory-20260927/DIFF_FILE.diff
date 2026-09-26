@@ -1,0 +1,537 @@
+--- C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\start-say-subtitles-20260926\engine_cue_inventory.tsv
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\speech-inventory-20260927\engine_rayne_categories.tsv
+@@ -1,73 +1,73 @@
+-cue_id	cue_prefix	english_wav_count	trigger	current_caption_status
+-0	Rayne_Alert	10	engine voice table	requires runtime cue-to-caption hook
+-1	Rayne_AmbientKagTower	0	engine voice table	requires runtime cue-to-caption hook
+-2	Rayne_AmbientMansion	4	engine voice table	requires runtime cue-to-caption hook
+-3	Rayne_AmbientMeatpack	7	engine voice table	requires runtime cue-to-caption hook
+-4	Rayne_AmbientPark	7	engine voice table	requires runtime cue-to-caption hook
+-5	Rayne_AmbientSewers	8	engine voice table	requires runtime cue-to-caption hook
+-6	Rayne_AmbientShroud	6	engine voice table	requires runtime cue-to-caption hook
+-7	Rayne_AmbientUnion	5	engine voice table	requires runtime cue-to-caption hook
+-8	Rayne_AmbientWetworks	0	engine voice table	requires runtime cue-to-caption hook
+-9	Rayne_AttackBlade	6	engine voice table	requires runtime cue-to-caption hook
+-10	Rayne_AttackGun	0	engine voice table	requires runtime cue-to-caption hook
+-11	Rayne_AttackHarpoon	0	engine voice table	requires runtime cue-to-caption hook
+-12	Rayne_AttackKick	13	engine voice table	requires runtime cue-to-caption hook
+-13	Rayne_Die	3	engine voice table	requires runtime cue-to-caption hook
+-14	Rayne_Dismember	10	engine voice table	requires runtime cue-to-caption hook
+-15	Rayne_Drown	0	engine voice table	requires runtime cue-to-caption hook
+-16	Rayne_Elude	0	engine voice table	requires runtime cue-to-caption hook
+-17	Rayne_EphemeraAttack	3	engine voice table	requires runtime cue-to-caption hook
+-18	Rayne_EphemeraDie	1	engine voice table	requires runtime cue-to-caption hook
+-19	Rayne_EphemeraElude	6	engine voice table	requires runtime cue-to-caption hook
+-20	Rayne_EphemeraGetHurt	0	engine voice table	requires runtime cue-to-caption hook
+-21	Rayne_EphemeraKill	1	engine voice table	requires runtime cue-to-caption hook
+-22	Rayne_EphemeraTaunt	9	engine voice table	requires runtime cue-to-caption hook
+-23	Rayne_Feed	10	engine voice table	requires runtime cue-to-caption hook
+-24	Rayne_FerrilAttack	3	engine voice table	requires runtime cue-to-caption hook
+-25	Rayne_FerrilDie	1	engine voice table	requires runtime cue-to-caption hook
+-26	Rayne_FerrilElude	4	engine voice table	requires runtime cue-to-caption hook
+-27	Rayne_FerrilGetHurt	11	engine voice table	requires runtime cue-to-caption hook
+-28	Rayne_FerrilKill	1	engine voice table	requires runtime cue-to-caption hook
+-29	Rayne_FerrilTaunt	6	engine voice table	requires runtime cue-to-caption hook
+-30	Rayne_GetHurt	11	engine voice table	requires runtime cue-to-caption hook
+-31	Rayne_HintGunDrain	3	engine voice table	requires runtime cue-to-caption hook
+-32	Rayne_HintHurtBad	3	engine voice table	requires runtime cue-to-caption hook
+-33	Rayne_HintNeedRage	0	engine voice table	requires runtime cue-to-caption hook
+-34	Rayne_KaganAttack	7	engine voice table	requires runtime cue-to-caption hook
+-35	Rayne_KaganDie	0	engine voice table	requires runtime cue-to-caption hook
+-36	Rayne_KaganElude	4	engine voice table	requires runtime cue-to-caption hook
+-37	Rayne_KaganGetHurt	13	engine voice table	requires runtime cue-to-caption hook
+-38	Rayne_KaganKill	0	engine voice table	requires runtime cue-to-caption hook
+-39	Rayne_KaganTaunt	6	engine voice table	requires runtime cue-to-caption hook
+-40	Rayne_Kill	10	engine voice table	requires runtime cue-to-caption hook
+-41	Rayne_OnFire	12	engine voice table	requires runtime cue-to-caption hook
+-42	Rayne_Shocked	4	engine voice table	requires runtime cue-to-caption hook
+-43	Rayne_SlezzAttack	3	engine voice table	requires runtime cue-to-caption hook
+-44	Rayne_SlezzDie	1	engine voice table	requires runtime cue-to-caption hook
+-45	Rayne_SlezzElude	0	engine voice table	requires runtime cue-to-caption hook
+-46	Rayne_SlezzGetHurt	11	engine voice table	requires runtime cue-to-caption hook
+-47	Rayne_SlezzKill	1	engine voice table	requires runtime cue-to-caption hook
+-48	Rayne_SlezzTaunt	3	engine voice table	requires runtime cue-to-caption hook
+-49	Rayne_Surprise	0	engine voice table	requires runtime cue-to-caption hook
+-50	Rayne_Taunt	3	engine voice table	requires runtime cue-to-caption hook
+-51	Rayne_UnravelerDie	0	engine voice table	requires runtime cue-to-caption hook
+-52	Rayne_UnravelerGetHurt	0	engine voice table	requires runtime cue-to-caption hook
+-53	Rayne_UnravelerKill	0	engine voice table	requires runtime cue-to-caption hook
+-54	Rayne_UnravelerTaunt	0	engine voice table	requires runtime cue-to-caption hook
+-55	Rayne_Guns	0	engine voice table	requires runtime cue-to-caption hook
+-56	Rayne_Health	0	engine voice table	requires runtime cue-to-caption hook
+-57	Rayne_Kick	0	engine voice table	requires runtime cue-to-caption hook
+-58	Rayne_Rage	0	engine voice table	requires runtime cue-to-caption hook
+-59	Rayne_XerxBDie	0	engine voice table	requires runtime cue-to-caption hook
+-60	Rayne_XerxBGetHurt	4	engine voice table	requires runtime cue-to-caption hook
+-61	Rayne_XerxBTaunt	5	engine voice table	requires runtime cue-to-caption hook
+-62	Rayne_XerxBDie	0	engine voice table	requires runtime cue-to-caption hook
+-63	Rayne_XerxBGetHurt	4	engine voice table	requires runtime cue-to-caption hook
+-64	Rayne_XerxBTaunt	5	engine voice table	requires runtime cue-to-caption hook
+-65	Rayne_ZerenskiAttack	4	engine voice table	requires runtime cue-to-caption hook
+-66	Rayne_ZerenskiDie	0	engine voice table	requires runtime cue-to-caption hook
+-67	Rayne_ZerenskiElude	4	engine voice table	requires runtime cue-to-caption hook
+-68	Rayne_ZerenskiGetHurt	1	engine voice table	requires runtime cue-to-caption hook
+-69	Rayne_ZerenskiKill	1	engine voice table	requires runtime cue-to-caption hook
+-70	Rayne_ZerenskiShootBat	0	engine voice table	requires runtime cue-to-caption hook
+-71	Rayne_ZerenskiTaunt	4	engine voice table	requires runtime cue-to-caption hook
++cue_id	cue_prefix	meaning_hint	english_wav_count	sample_files	status
++0	Rayne_Alert	其他战斗/反应语音	10	RAYNE_ALERT_1.WAV; RAYNE_ALERT_10.WAV; RAYNE_ALERT_11.WAV; RAYNE_ALERT_2.WAV; RAYNE_ALERT_3.WAV; RAYNE_ALERT_4.WAV; RAYNE_ALERT_5.WAV; RAYNE_ALERT_6.WAV; RAYNE_ALERT_7.WAV; RAYNE_ALERT_9.WAV	有英语音频；台词需人工确认
++1	Rayne_AmbientKagTower	关卡环境自言自语	0		此音频包未找到匹配 WAV
++2	Rayne_AmbientMansion	关卡环境自言自语	4	RAYNE_AMBIENTMANSION_1.WAV; RAYNE_AMBIENTMANSION_5.WAV; RAYNE_AMBIENTMANSION_7.WAV; RAYNE_AMBIENTMANSION_8.WAV	有英语音频；台词需人工确认
++3	Rayne_AmbientMeatpack	关卡环境自言自语	7	RAYNE_AMBIENTMEATPACK_1.WAV; RAYNE_AMBIENTMEATPACK_2.WAV; RAYNE_AMBIENTMEATPACK_3.WAV; RAYNE_AMBIENTMEATPACK_4.WAV; RAYNE_AMBIENTMEATPACK_5.WAV; RAYNE_AMBIENTMEATPACK_6.WAV; RAYNE_AMBIENTMEATPACK_7.WAV	有英语音频；台词需人工确认
++4	Rayne_AmbientPark	关卡环境自言自语	7	RAYNE_AMBIENTPARK_1.WAV; RAYNE_AMBIENTPARK_2.WAV; RAYNE_AMBIENTPARK_3.WAV; RAYNE_AMBIENTPARK_4.WAV; RAYNE_AMBIENTPARK_5.WAV; RAYNE_AMBIENTPARK_6.WAV; RAYNE_AMBIENTPARK_7.WAV	有英语音频；台词需人工确认
++5	Rayne_AmbientSewers	关卡环境自言自语	8	RAYNE_AMBIENTSEWERS_1.WAV; RAYNE_AMBIENTSEWERS_2.WAV; RAYNE_AMBIENTSEWERS_3.WAV; RAYNE_AMBIENTSEWERS_4.WAV; RAYNE_AMBIENTSEWERS_5.WAV; RAYNE_AMBIENTSEWERS_6.WAV; RAYNE_AMBIENTSEWERS_7.WAV; RAYNE_AMBIENTSEWERS_8.WAV	有英语音频；台词需人工确认
++6	Rayne_AmbientShroud	关卡环境自言自语	6	RAYNE_AMBIENTSHROUD_1.WAV; RAYNE_AMBIENTSHROUD_2.WAV; RAYNE_AMBIENTSHROUD_3.WAV; RAYNE_AMBIENTSHROUD_4.WAV; RAYNE_AMBIENTSHROUD_5.WAV; RAYNE_AMBIENTSHROUD_6.WAV	有英语音频；台词需人工确认
++7	Rayne_AmbientUnion	关卡环境自言自语	5	RAYNE_AMBIENTUNION_1.WAV; RAYNE_AMBIENTUNION_2.WAV; RAYNE_AMBIENTUNION_3.WAV; RAYNE_AMBIENTUNION_4.WAV; RAYNE_AMBIENTUNION_5.WAV	有英语音频；台词需人工确认
++8	Rayne_AmbientWetworks	关卡环境自言自语	0		此音频包未找到匹配 WAV
++9	Rayne_AttackBlade	攻击时语音	6	RAYNE_ATTACKBLADE_1.WAV; RAYNE_ATTACKBLADE_10.WAV; RAYNE_ATTACKBLADE_11.WAV; RAYNE_ATTACKBLADE_13.WAV; RAYNE_ATTACKBLADE_3.WAV; RAYNE_ATTACKBLADE_6.WAV	有英语音频；台词需人工确认
++10	Rayne_AttackGun	攻击时语音	0		此音频包未找到匹配 WAV
++11	Rayne_AttackHarpoon	攻击时语音	0		此音频包未找到匹配 WAV
++12	Rayne_AttackKick	攻击时语音	13	RAYNE_ATTACKKICK_1.WAV; RAYNE_ATTACKKICK_10.WAV; RAYNE_ATTACKKICK_11.WAV; RAYNE_ATTACKKICK_12.WAV; RAYNE_ATTACKKICK_13.WAV; RAYNE_ATTACKKICK_14.WAV; RAYNE_ATTACKKICK_3.WAV; RAYNE_ATTACKKICK_4.WAV; RAYNE_ATTACKKICK_5.WAV; RAYNE_ATTACKKICK_6.WAV; RAYNE_ATTACKKICK_7.WAV; RAYNE_ATTACKKICK_8.WAV; RAYNE_ATTACKKICK_9.WAV	有英语音频；台词需人工确认
++13	Rayne_Die	死亡时语音	3	RAYNE_DIE_1.WAV; RAYNE_DIE_2.WAV; RAYNE_DIE_3.WAV	有英语音频；台词需人工确认
++14	Rayne_Dismember	其他战斗/反应语音	10	RAYNE_DISMEMBER_1.WAV; RAYNE_DISMEMBER_10.WAV; RAYNE_DISMEMBER_12.WAV; RAYNE_DISMEMBER_3.WAV; RAYNE_DISMEMBER_4.WAV; RAYNE_DISMEMBER_5.WAV; RAYNE_DISMEMBER_6.WAV; RAYNE_DISMEMBER_7.WAV; RAYNE_DISMEMBER_8.WAV; RAYNE_DISMEMBER_9.WAV	有英语音频；台词需人工确认
++15	Rayne_Drown	其他战斗/反应语音	0		此音频包未找到匹配 WAV
++16	Rayne_Elude	闪避/回避语音	0		此音频包未找到匹配 WAV
++17	Rayne_EphemeraAttack	攻击时语音	3	RAYNE_EPHEMERAATTACK_1.WAV; RAYNE_EPHEMERAATTACK_2.WAV; RAYNE_EPHEMERAATTACK_3.WAV	有英语音频；台词需人工确认
++18	Rayne_EphemeraDie	死亡时语音	1	RAYNE_EPHEMERADIE_1.WAV	有英语音频；台词需人工确认
++19	Rayne_EphemeraElude	闪避/回避语音	6	RAYNE_EPHEMERAELUDE_1.WAV; RAYNE_EPHEMERAELUDE_2.WAV; RAYNE_EPHEMERAELUDE_3.WAV; RAYNE_EPHEMERAELUDE_4.WAV; RAYNE_EPHEMERAELUDE_5.WAV; RAYNE_EPHEMERAELUDE_6.WAV	有英语音频；台词需人工确认
++20	Rayne_EphemeraGetHurt	受伤时语音	0		此音频包未找到匹配 WAV
++21	Rayne_EphemeraKill	击杀时语音	1	RAYNE_EPHEMERAKILL_1.WAV	有英语音频；台词需人工确认
++22	Rayne_EphemeraTaunt	嘲讽/战斗自言自语	9	RAYNE_EPHEMERATAUNT_10.WAV; RAYNE_EPHEMERATAUNT_2.WAV; RAYNE_EPHEMERATAUNT_3.WAV; RAYNE_EPHEMERATAUNT_4.WAV; RAYNE_EPHEMERATAUNT_5.WAV; RAYNE_EPHEMERATAUNT_6.WAV; RAYNE_EPHEMERATAUNT_7.WAV; RAYNE_EPHEMERATAUNT_8.WAV; RAYNE_EPHEMERATAUNT_9.WAV	有英语音频；台词需人工确认
++23	Rayne_Feed	其他战斗/反应语音	10	RAYNE_FEED_0.WAV; RAYNE_FEED_1.WAV; RAYNE_FEED_2.WAV; RAYNE_FEED_3.WAV; RAYNE_FEED_4.WAV; RAYNE_FEED_5.WAV; RAYNE_FEED_6.WAV; RAYNE_FEED_7.WAV; RAYNE_FEED_8.WAV; RAYNE_FEED_9.WAV	有英语音频；台词需人工确认
++24	Rayne_FerrilAttack	攻击时语音	3	RAYNE_FERRILATTACK_1.WAV; RAYNE_FERRILATTACK_2.WAV; RAYNE_FERRILATTACK_3.WAV	有英语音频；台词需人工确认
++25	Rayne_FerrilDie	死亡时语音	1	RAYNE_FERRILDIE_1.WAV	有英语音频；台词需人工确认
++26	Rayne_FerrilElude	闪避/回避语音	4	RAYNE_FERRILELUDE_1.WAV; RAYNE_FERRILELUDE_2.WAV; RAYNE_FERRILELUDE_3.WAV; RAYNE_FERRILELUDE_5.WAV	有英语音频；台词需人工确认
++27	Rayne_FerrilGetHurt	受伤时语音	11	RAYNE_FERRILGETHURT_1.WAV; RAYNE_FERRILGETHURT_10.WAV; RAYNE_FERRILGETHURT_11.WAV; RAYNE_FERRILGETHURT_2.WAV; RAYNE_FERRILGETHURT_3.WAV; RAYNE_FERRILGETHURT_4.WAV; RAYNE_FERRILGETHURT_5.WAV; RAYNE_FERRILGETHURT_6.WAV; RAYNE_FERRILGETHURT_7.WAV; RAYNE_FERRILGETHURT_8.WAV; RAYNE_FERRILGETHURT_9.WAV	有英语音频；台词需人工确认
++28	Rayne_FerrilKill	击杀时语音	1	RAYNE_FERRILKILL_1.WAV	有英语音频；台词需人工确认
++29	Rayne_FerrilTaunt	嘲讽/战斗自言自语	6	RAYNE_FERRILTAUNT_1.WAV; RAYNE_FERRILTAUNT_2.WAV; RAYNE_FERRILTAUNT_3.WAV; RAYNE_FERRILTAUNT_4.WAV; RAYNE_FERRILTAUNT_5.WAV; RAYNE_FERRILTAUNT_6.WAV	有英语音频；台词需人工确认
++30	Rayne_GetHurt	受伤时语音	11	RAYNE_GETHURT_1.WAV; RAYNE_GETHURT_10.WAV; RAYNE_GETHURT_11.WAV; RAYNE_GETHURT_2.WAV; RAYNE_GETHURT_3.WAV; RAYNE_GETHURT_4.WAV; RAYNE_GETHURT_5.WAV; RAYNE_GETHURT_6.WAV; RAYNE_GETHURT_7.WAV; RAYNE_GETHURT_8.WAV; RAYNE_GETHURT_9.WAV	有英语音频；台词需人工确认
++31	Rayne_HintGunDrain	战斗/状态提示	3	RAYNE_HINTGUNDRAIN_2.WAV; RAYNE_HINTGUNDRAIN_6.WAV; RAYNE_HINTGUNDRAIN_7.WAV	有英语音频；台词需人工确认
++32	Rayne_HintHurtBad	战斗/状态提示	3	RAYNE_HINTHURTBAD_1.WAV; RAYNE_HINTHURTBAD_2.WAV; RAYNE_HINTHURTBAD_3.WAV	有英语音频；台词需人工确认
++33	Rayne_HintNeedRage	战斗/状态提示	0		此音频包未找到匹配 WAV
++34	Rayne_KaganAttack	攻击时语音	7	RAYNE_KAGANATTACK_1.WAV; RAYNE_KAGANATTACK_2.WAV; RAYNE_KAGANATTACK_3.WAV; RAYNE_KAGANATTACK_4.WAV; RAYNE_KAGANATTACK_5.WAV; RAYNE_KAGANATTACK_7.WAV; RAYNE_KAGANATTACK_8.WAV	有英语音频；台词需人工确认
++35	Rayne_KaganDie	死亡时语音	0		此音频包未找到匹配 WAV
++36	Rayne_KaganElude	闪避/回避语音	4	RAYNE_KAGANELUDE_1.WAV; RAYNE_KAGANELUDE_2.WAV; RAYNE_KAGANELUDE_4.WAV; RAYNE_KAGANELUDE_5.WAV	有英语音频；台词需人工确认
++37	Rayne_KaganGetHurt	受伤时语音	13	RAYNE_KAGANGETHURT_1.WAV; RAYNE_KAGANGETHURT_10.WAV; RAYNE_KAGANGETHURT_11.WAV; RAYNE_KAGANGETHURT_12.WAV; RAYNE_KAGANGETHURT_13.WAV; RAYNE_KAGANGETHURT_2.WAV; RAYNE_KAGANGETHURT_3.WAV; RAYNE_KAGANGETHURT_4.WAV; RAYNE_KAGANGETHURT_5.WAV; RAYNE_KAGANGETHURT_6.WAV; RAYNE_KAGANGETHURT_7.WAV; RAYNE_KAGANGETHURT_8.WAV; RAYNE_KAGANGETHURT_9.WAV	有英语音频；台词需人工确认
++38	Rayne_KaganKill	击杀时语音	0		此音频包未找到匹配 WAV
++39	Rayne_KaganTaunt	嘲讽/战斗自言自语	6	RAYNE_KAGANTAUNT_1.WAV; RAYNE_KAGANTAUNT_2.WAV; RAYNE_KAGANTAUNT_3.WAV; RAYNE_KAGANTAUNT_4.WAV; RAYNE_KAGANTAUNT_5.WAV; RAYNE_KAGANTAUNT_6.WAV	有英语音频；台词需人工确认
++40	Rayne_Kill	击杀时语音	10	RAYNE_KILL_1.WAV; RAYNE_KILL_10.WAV; RAYNE_KILL_2.WAV; RAYNE_KILL_3.WAV; RAYNE_KILL_4.WAV; RAYNE_KILL_5.WAV; RAYNE_KILL_6.WAV; RAYNE_KILL_7.WAV; RAYNE_KILL_8.WAV; RAYNE_KILL_9.WAV	有英语音频；台词需人工确认
++41	Rayne_OnFire	其他战斗/反应语音	12	RAYNE_ONFIRE_1.WAV; RAYNE_ONFIRE_10.WAV; RAYNE_ONFIRE_11.WAV; RAYNE_ONFIRE_12.WAV; RAYNE_ONFIRE_2.WAV; RAYNE_ONFIRE_3.WAV; RAYNE_ONFIRE_4.WAV; RAYNE_ONFIRE_5.WAV; RAYNE_ONFIRE_6.WAV; RAYNE_ONFIRE_7.WAV; RAYNE_ONFIRE_8.WAV; RAYNE_ONFIRE_9.WAV	有英语音频；台词需人工确认
++42	Rayne_Shocked	其他战斗/反应语音	4	RAYNE_SHOCKED_1.WAV; RAYNE_SHOCKED_2.WAV; RAYNE_SHOCKED_3.WAV; RAYNE_SHOCKED_4.WAV	有英语音频；台词需人工确认
++43	Rayne_SlezzAttack	攻击时语音	3	RAYNE_SLEZZATTACK_1.WAV; RAYNE_SLEZZATTACK_2.WAV; RAYNE_SLEZZATTACK_3.WAV	有英语音频；台词需人工确认
++44	Rayne_SlezzDie	死亡时语音	1	RAYNE_SLEZZDIE_1.WAV	有英语音频；台词需人工确认
++45	Rayne_SlezzElude	闪避/回避语音	0		此音频包未找到匹配 WAV
++46	Rayne_SlezzGetHurt	受伤时语音	11	RAYNE_SLEZZGETHURT_1.WAV; RAYNE_SLEZZGETHURT_10.WAV; RAYNE_SLEZZGETHURT_11.WAV; RAYNE_SLEZZGETHURT_2.WAV; RAYNE_SLEZZGETHURT_3.WAV; RAYNE_SLEZZGETHURT_4.WAV; RAYNE_SLEZZGETHURT_5.WAV; RAYNE_SLEZZGETHURT_6.WAV; RAYNE_SLEZZGETHURT_7.WAV; RAYNE_SLEZZGETHURT_8.WAV; RAYNE_SLEZZGETHURT_9.WAV	有英语音频；台词需人工确认
++47	Rayne_SlezzKill	击杀时语音	1	RAYNE_SLEZZKILL_1.WAV	有英语音频；台词需人工确认
++48	Rayne_SlezzTaunt	嘲讽/战斗自言自语	3	RAYNE_SLEZZTAUNT_1.WAV; RAYNE_SLEZZTAUNT_2.WAV; RAYNE_SLEZZTAUNT_3.WAV	有英语音频；台词需人工确认
++49	Rayne_Surprise	其他战斗/反应语音	0		此音频包未找到匹配 WAV
++50	Rayne_Taunt	嘲讽/战斗自言自语	3	RAYNE_TAUNT_1.WAV; RAYNE_TAUNT_2.WAV; RAYNE_TAUNT_3.WAV	有英语音频；台词需人工确认
++51	Rayne_UnravelerDie	死亡时语音	0		此音频包未找到匹配 WAV
++52	Rayne_UnravelerGetHurt	受伤时语音	0		此音频包未找到匹配 WAV
++53	Rayne_UnravelerKill	击杀时语音	0		此音频包未找到匹配 WAV
++54	Rayne_UnravelerTaunt	嘲讽/战斗自言自语	0		此音频包未找到匹配 WAV
++55	Rayne_Guns	状态/操作语音类别	0		此音频包未找到匹配 WAV
++56	Rayne_Health	状态/操作语音类别	0		此音频包未找到匹配 WAV
++57	Rayne_Kick	状态/操作语音类别	0		此音频包未找到匹配 WAV
++58	Rayne_Rage	状态/操作语音类别	0		此音频包未找到匹配 WAV
++59	Rayne_XerxBDie	死亡时语音	0		此音频包未找到匹配 WAV
++60	Rayne_XerxBGetHurt	受伤时语音	4	RAYNE_XERXBGETHURT_1.WAV; RAYNE_XERXBGETHURT_2.WAV; RAYNE_XERXBGETHURT_3.WAV; RAYNE_XERXBGETHURT_4.WAV	有英语音频；台词需人工确认
++61	Rayne_XerxBTaunt	嘲讽/战斗自言自语	5	RAYNE_XERXBTAUNT_1.WAV; RAYNE_XERXBTAUNT_2.WAV; RAYNE_XERXBTAUNT_3.WAV; RAYNE_XERXBTAUNT_4.WAV; RAYNE_XERXBTAUNT_5.WAV	有英语音频；台词需人工确认
++62	Rayne_XerxBDie	死亡时语音	0		此音频包未找到匹配 WAV
++63	Rayne_XerxBGetHurt	受伤时语音	4	RAYNE_XERXBGETHURT_1.WAV; RAYNE_XERXBGETHURT_2.WAV; RAYNE_XERXBGETHURT_3.WAV; RAYNE_XERXBGETHURT_4.WAV	有英语音频；台词需人工确认
++64	Rayne_XerxBTaunt	嘲讽/战斗自言自语	5	RAYNE_XERXBTAUNT_1.WAV; RAYNE_XERXBTAUNT_2.WAV; RAYNE_XERXBTAUNT_3.WAV; RAYNE_XERXBTAUNT_4.WAV; RAYNE_XERXBTAUNT_5.WAV	有英语音频；台词需人工确认
++65	Rayne_ZerenskiAttack	攻击时语音	4	RAYNE_ZERENSKIATTACK_1.WAV; RAYNE_ZERENSKIATTACK_2.WAV; RAYNE_ZERENSKIATTACK_3.WAV; RAYNE_ZERENSKIATTACK_4.WAV	有英语音频；台词需人工确认
++66	Rayne_ZerenskiDie	死亡时语音	0		此音频包未找到匹配 WAV
++67	Rayne_ZerenskiElude	闪避/回避语音	4	RAYNE_ZERENSKIELUDE_1.WAV; RAYNE_ZERENSKIELUDE_2.WAV; RAYNE_ZERENSKIELUDE_3.WAV; RAYNE_ZERENSKIELUDE_4.WAV	有英语音频；台词需人工确认
++68	Rayne_ZerenskiGetHurt	受伤时语音	1	RAYNE_ZERENSKIGETHURT_6.WAV	有英语音频；台词需人工确认
++69	Rayne_ZerenskiKill	击杀时语音	1	RAYNE_ZERENSKIKILL_1.WAV	有英语音频；台词需人工确认
++70	Rayne_ZerenskiShootBat	其他战斗/反应语音	0		此音频包未找到匹配 WAV
++71	Rayne_ZerenskiTaunt	嘲讽/战斗自言自语	4	RAYNE_ZERENSKITAUNT_1.WAV; RAYNE_ZERENSKITAUNT_2.WAV; RAYNE_ZERENSKITAUNT_3.WAV; RAYNE_ZERENSKITAUNT_4.WAV	有英语音频；台词需人工确认
+--- /dev/null
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\speech-inventory-20260927\scripted_other_speech.tsv
+@@ -0,0 +1,128 @@
++script	source_line	key	speaker_hint	actor_token	english	current_chinese	audio_entry	english_source	chinese_source
++WORLD\A1_MANSION_PART1.SCB	439	a1s1_ZMinion2_3	ZMinion2	@harpoonminion	Not supposed to be in here, lady.	女士，你不该在这里。	SOUND\A1S1_ZMINION2_3.WAV	WORLD\EN\A1_MANSION_PART1.TXT	WORLD\RU\A1_MANSION_PART1.TXT
++WORLD\A1_MANSION_PART1.SCB	787	a1s1_MDhampir_1	MDhampir	Zerenski_Damphir1	Then you've been very lucky for decades. Your luck has run dry today.	那你几十年来可真是走运，今天你的好运走到头了。	SOUND\A1S1_MDHAMPIR_1.WAV	WORLD\EN\A1_MANSION_PART1.TXT	WORLD\RU\A1_MANSION_PART1.TXT
++WORLD\A1_MANSION_PART3.SCB	86	a1s3_Severin_2	Severin	$	There's a lot of Zerenski's men on patrol.  I'd stay off the lower roof if I were you	泽伦斯基有很多手下在巡逻。要是我是你， 就不会走下层屋顶	SOUND\A1S3_SEVERIN_2.WAV	WORLD\EN\A1_MANSION_PART3.TXT	WORLD\RU\A1_MANSION_PART3.TXT
++WORLD\A1_MANSION_PART4.SCB	328	a1s2_Severin_20	Severin	Severin1	See for yourself. I believe it's time to do what you do. I'll do what I do and meet you later.	你自己看吧。该你大显身手了。我去忙我的， 待会儿见。	SOUND\A1S2_SEVERIN_20.WAV	WORLD\EN\A1_MANSION_PART4.TXT	WORLD\RU\A1_MANSION_PART4.TXT
++WORLD\A1_MANSION_PART4.SCB	356	a1s2_Zerenzki_10	Zerenzki	ZERENZKI	Who ARE you?!!	你到底是谁？！	SOUND\A1S2_ZERENZKI_10.WAV	WORLD\EN\A1_MANSION_PART4.TXT	WORLD\RU\A1_MANSION_PART4.TXT
++WORLD\A1_MANSION_PART4.SCB	365	a1s2_Zerenzki_14	Zerenzki	ZERENZKI	Ahh... so you're the mysterious assassin? You've certainly been on a... spree, haven't you?	啊……所以你就是那个神秘刺客？ 你确实已经大开杀戒了……不是吗？	SOUND\A1S2_ZERENZKI_14.WAV	WORLD\EN\A1_MANSION_PART4.TXT	WORLD\RU\A1_MANSION_PART4.TXT
++WORLD\A1_MANSION_PART4.SCB	369	a1s2_Zerenzki_15	Zerenzki	ZERENZKI	We weren't even sure you were real until poor Delinda turned up without her head.	直到可怜的德琳达被人发现身首异处， 我们才相信真有你这么个人。	SOUND\A1S2_ZERENZKI_15.WAV	WORLD\EN\A1_MANSION_PART4.TXT	WORLD\RU\A1_MANSION_PART4.TXT
++WORLD\A1_MANSION_PART4.SCB	380	a1s2_Zerenzki_17	Zerenzki	ZERENZKI	You've intrigued me, but fear I must attend to other events, so I bid you good night, little sister. Make yourself at home.	你让我很感兴趣，但恐怕我必须去处理别的事了， 所以晚安了，小妹妹。把这里当自己家吧。	SOUND\A1S2_ZERENZKI_17.WAV	WORLD\EN\A1_MANSION_PART4.TXT	WORLD\RU\A1_MANSION_PART4.TXT
++WORLD\A1_MANSION_PART5.SCB	729	a1s2_Severin_20	Severin	Severin1	See for yourself. I believe it's time to do what you do. I'll do what I do and meet you later.	你自己看吧。该你大显身手了。我去忙我的， 待会儿见。	SOUND\A1S2_SEVERIN_20.WAV	WORLD\EN\A1_MANSION_PART5.TXT	WORLD\RU\A1_MANSION_PART5.TXT
++WORLD\A2_MEATPACKING.SCB	930	a2_Severin_7	Severin	$	Severin: these thugs are coming out of the woodwork. Rayne, you're going to have to find another way out. And be careful...you may have company.	塞弗林：这帮暴徒到处都是。莱恩，你得另找出口。 小心点……可能有客人要来。	SOUND\A2_SEVERIN_7.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	967	a2_Severin_8	Severin	$	Severin: Very creative, Rayne.	塞弗林：很有创意，莱恩。	SOUND\A2_SEVERIN_8.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	973	a2_Severin_9	Severin	$	Severin: We're picking up heavy activity at an old meatpacking plant called Ray Ray's Meats...	塞弗林：一座叫雷雷肉联厂的旧肉类加工厂里有大批敌 人在活动……	SOUND\A2_SEVERIN_9.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	979	a2_Severin_10	Severin	$	Severin: Just get over there and see what you can find out.	塞弗林：过去看看，尽量查出点线索。	SOUND\A2_SEVERIN_10.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1038	a2_Severin_11	Severin	$	Severin: Well you're going to have to find a way past it.	塞弗林：那你得想办法绕过去。	SOUND\A2_SEVERIN_11.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1047	a2_Severin_12	Severin	$	Severin: That's it. You can get to the main loading docks through the hallway. Watch your step.	塞弗林：就是这儿。穿过走廊就能到主装卸区。 脚下小心。	SOUND\A2_SEVERIN_12.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1057	a2_Severin_14	Severin	$	Severin: Rayne, don't go, it's definitely a trap. I'm reading loads of his men hiding in the rooftops. You've done what you needed to do. Just find another way to the streets and let this guy go.	塞弗林：莱恩，别过去，肯定是陷阱。 我探测到屋顶上藏着很多手下。你该做的已经做了， 另找条路上街，别追他了。	SOUND\A2_SEVERIN_14.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1068	a2_Severin_15	Severin	$	Severin: Rayne, it's not woth it....	塞弗林：莱恩，不值得……	SOUND\A2_SEVERIN_15.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1103	a2_Severin_16	Severin	$	Severin: Forget about it. We've got a situation down on the streets. The police are on the street and are getting massacred. These guys seem to be closing up shop and moving on.	塞弗林：别管他了。街上出事了：警察正在遭屠杀。 这帮家伙似乎在收拾东西撤离。	SOUND\A2_SEVERIN_16.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1112	a2_Severin_17	Severin	$	Severin: Keep following the rooftops and you should find an area with street access. Get down there before they disappear.	塞弗林：继续沿屋顶走，应该能找到通往街面的地方。 趁他们还没跑远，赶紧下去。	SOUND\A2_SEVERIN_17.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1123	a2_Minion1_19	Minion1	$	Minion: Jesus Christ! Let's go! enough of this! We gotta get cross town!	喽啰：老天爷！走了！玩够了！咱们还得穿过城区！	SOUND\A2_MINION1_19.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1125	a2_Minion2_4	Minion2	$	Minion: What the hell, just take her down!	喽啰：管他呢，干掉她！	SOUND\A2_MINION2_4.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1134	a2_Severin_18	Severin	$	Severin: OK, Rayne. They're headed down the street to the crosstown tunnel.	塞弗林：好了，莱恩。他们沿街去了穿城隧道。	SOUND\A2_SEVERIN_18.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1150	a2_Severin_19a	Severin	$	Severin: Listen, I'm at the old Center Street station up the road. It looks like they're corralling all the civilians here.	塞弗林：听着，我在前面那座旧中心街车站。 他们好像把平民都赶到这里。	SOUND\A2_SEVERIN_19A.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1491	a2_Severin_6	Severin	$	Severin: Rayne, do you copy?	塞弗林：莱恩，听得到吗？	SOUND\A2_SEVERIN_6.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	1529	a2_Severin_21	Severin	$	Severin: Word on the street is that the disappearances have skyrocketed. like all the street trash fell into a hole in the ground.	塞弗林：街头传闻失踪人数暴涨， 好像街上的流浪汉全掉进了地洞。	SOUND\A2_SEVERIN_21.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING.SCB	2677	a2_Severin_13	Severin	$	Severin: They couldn't have gotten out that fast. Rayne, I think you might....	塞弗林：他们不可能跑得那么快。莱恩， 我觉得你可能……	SOUND\A2_SEVERIN_13.WAV	WORLD\EN\A2_MEATPACKING.TXT	WORLD\RU\A2_MEATPACKING.TXT
++WORLD\A2_MEATPACKING_1.SCB	129	a2_Minion2_1	Minion2	FPunk_Bar2	Aw, didn't they tell you? District's closed, honey. Adult swim. Everybody outta the pool...	哎，没人告诉你吗？这片街区封了，亲爱的。 成人专场，闲人清场……	SOUND\A2_MINION2_1.WAV	WORLD\EN\A2_MEATPACKING_1.TXT	WORLD\RU\A2_MEATPACKING_1.TXT
++WORLD\A2_MEATPACKING_2.SCB	307	a2_Severin_8	Severin	$	Severin: Very creative, Rayne.	塞弗林：很有创意，莱恩。	SOUND\A2_SEVERIN_8.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	311	a2_Severin_9	Severin	$	Severin: We're picking up heavy activity at an old meatpacking plant called Ray Ray's Meats...	塞弗林：一座叫雷雷肉联厂的旧肉类加工厂里有大批敌 人在活动……	SOUND\A2_SEVERIN_9.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	315	a2_Severin_10	Severin	$	Severin: Just get over there and see what you can find out.	塞弗林：过去看看，尽量查出点线索。	SOUND\A2_SEVERIN_10.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	418	a2_Minion1_19	Minion1	@sp_streets2	Minion: Jesus Christ! Let's go! enough of this! We gotta get cross town!	喽啰：老天爷！走了！玩够了！咱们还得穿过城区！	SOUND\A2_MINION1_19.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	420	a2_Minion2_4	Minion2	@sp_streets7	Minion: What the hell, just take her down!	喽啰：管他呢，干掉她！	SOUND\A2_MINION2_4.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	948	a2s1_Severin_17	Severin	$	Severin: No way. They couldn't have gotten out that fast. Rayne, I think you might ... .	塞弗林：不可能。他们没那么快撤走。莱恩， 我想你可能……	SOUND\A2S1_SEVERIN_17.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	961	a2s1_Kestrel1_1	Kestrel1	Dhampir_ArenaD	Kestrel: Tsk. Too bad, pretty. Woulda been a pretty mess you made...	红隼：啧，真可惜，美人。 差一点就能看见你摔个稀巴烂了……	SOUND\A2S1_KESTREL1_1.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	975	a2s1_Kestrel1_2	Kestrel1	Dhampir_ArenaD	Kestrel: Hah! You talk big. You wanna talk big to my boys? I'll just watch.	红隼：哈！口气不小。 跟我的小伙子们也耍耍嘴皮子吧？我看着就行。	SOUND\A2S1_KESTREL1_2.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_MEATPACKING_2.SCB	1039	a2s1_Kestrel1_6	Kestrel1	Dhampir_ArenaD	Kestrel: Want to, but too much else to do!	红隼：倒是想，可还有太多事要忙！	SOUND\A2S1_KESTREL1_6.WAV	WORLD\EN\A2_MEATPACKING_2.TXT	WORLD\RU\A2_MEATPACKING_2.TXT
++WORLD\A2_SEWER_1.SCB	380	a5s3_MCivilian_1	MCivilian	@sp_trannie1_Cinemat_F	Civilian: Where are you taking us?	平民：你们要带我们去哪儿？	SOUND\A5S3_MCIVILIAN_1.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	382	a5s3_Minion1_1	Minion1	@sp_trannie1_Cinemat_M	Minion: Let's keep it moving people.	喽啰：都动起来。	SOUND\A5S3_MINION1_1.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	385	a5s3_Minion2_2	Minion2	@sp_trannie1_Cinemat_F	Minion: Come on! Move! Move! Move!	喽啰：快！走！走！走！	SOUND\A5S3_MINION2_2.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	778	a2s3_Kestrel1_25	Kestrel1	DhampirA	Kestrel: You meet these boys, Pretty? They the most loyal happy to give they all for the Mistress!	红隼：见过这些小伙子吗，美人？他们最忠心， 乐意为女主人付出一切！	SOUND\A2S3_KESTREL1_25.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	784	a2s3_Kestrel1_26	Kestrel1	DhampirA	Kestrel: Once they give all, Mistress gonna put 'em back together better than ever. Right boys?	红隼：等他们献出一切，女主人就会把他们拼好， 变得更强。对吧，小伙子们？	SOUND\A2S3_KESTREL1_26.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	800	a2s3_Kestrel1_27	Kestrel1	DhampirA	Kestrel: Oh, these boys don't talk, Pretty. No tongue. Cut out themself. These boys just do. Go, boys!	红隼：哦，这些小伙子不说话，美人。没舌头， 自己割的。他们只管行动。上吧，小伙子们！	SOUND\A2S3_KESTREL1_27.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	834	a2s3_Severin_32	Severin	$	Severin: You see a door anywhere nearby? It should lead straight to the West waterpump room. That pump's gonna need to be shut down.	塞弗林：附近看到门了吗？应该直通西侧泵房。 得把那台泵关掉。	SOUND\A2S3_SEVERIN_32.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	860	a2s3_Kestrel1_28	Kestrel1	DhampirA	Kestrel: My boys? Where they gone? Tsk tsk. Time to teach you respect, girl.	红隼：我的小伙子们呢？都哪儿去了？啧啧， 该教教你什么叫尊重了，姑娘。	SOUND\A2S3_KESTREL1_28.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	868	a2s3_Kestrel1_29	Kestrel1	DhampirA	Kestrel: Oh, I'm gonna teach you this pretty can be cut off, too! You learn THAT fast, all right!	红隼：哦，我要让你明白，这张漂亮脸蛋也能割下来！ 你马上就会懂了！	SOUND\A2S3_KESTREL1_29.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_1.SCB	1236	a2s3_Severin_37	Severin	$	Severin: Alright, the water level is dropping. Low enough, anyway. The primary water treatment facility is just at the other side of the access tunnel..	塞弗林：好了，水位下降了。反正够低了。 主水处理设施就在检修隧道另一头。	SOUND\A2S3_SEVERIN_37.WAV	WORLD\EN\A2_SEWER_1.TXT	WORLD\RU\A2_SEWER_1.TXT
++WORLD\A2_SEWER_2.SCB	1285	a2s3_FFMinion11	FFMinion11	@Sp_BomberRoom6	Minion: Psst! Quiet... I hear someone coming.	喽啰：嘘！安静……我听见有人来了。	SOUND\A2S3_FFMINION11.WAV	WORLD\EN\A2_SEWER_2.TXT	WORLD\RU\A2_SEWER_2.TXT
++WORLD\A2_SEWER_2.SCB	1287	a2s3_FMinion2_6	FMinion2	@Sp_BomberRoom5	Minion: Get it ready... load up the heat.	喽啰：准备好……给重家伙装弹。	SOUND\A2S3_FMINION2_6.WAV	WORLD\EN\A2_SEWER_2.TXT	WORLD\RU\A2_SEWER_2.TXT
++WORLD\A2_SEWER_2.SCB	1289	a2s3_FFMinion12	FFMinion12	@Sp_BomberRoom6	Minion: I know how to load it... just shut up.	喽啰：我知道怎么装弹……闭嘴吧。	SOUND\A2S3_FFMINION12.WAV	WORLD\EN\A2_SEWER_2.TXT	WORLD\RU\A2_SEWER_2.TXT
++WORLD\A2_SEWER_2.SCB	1291	a2s3_FMinion2_7	FMinion2	@Sp_BomberRoom5	Minion: I don't hear nothin... maybe it was rats...	喽啰：我什么都没听见……兴许是老鼠……	SOUND\A2S3_FMINION2_7.WAV	WORLD\EN\A2_SEWER_2.TXT	WORLD\RU\A2_SEWER_2.TXT
++WORLD\A2_SEWER_2.SCB	1293	a2s3_FFMinion13	FFMinion13	@Sp_BomberRoom6	Minion: Oh yeah? Rats in silver-steel stiletto heels?	喽啰：哦？穿银钢细高跟鞋的老鼠？	SOUND\A2S3_FFMINION13.WAV	WORLD\EN\A2_SEWER_2.TXT	WORLD\RU\A2_SEWER_2.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	85	a2s3_slezz18	slezz18	Slezz0	Roarrrr!!	吼——！！	SOUND\A2S3_SLEZZ18.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	105	a2s3_slezz19	slezz19	Slezz0	Servants!! ATTEND ME!!!	仆人们！！过来伺候！！！	SOUND\A2S3_SLEZZ19.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	140	a2s3_slezz13	slezz13	Slezz0	Lord Kagan? My love, have you returned? Have you brought the children?	卡根大人？我的爱人，你回来了？ 你把孩子们带来了吗？	SOUND\A2S3_SLEZZ13.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	144	a2s3_slezz14	slezz14	Slezz0	No. Your blood smells of him, but you are not him. Where are my children?	不。你的血有他的气味，但你不是他。 我的孩子们在哪儿？	SOUND\A2S3_SLEZZ14.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	151	a2s3_slezz15	slezz15	Slezz0	Brother Xerx took them. Promised to return them to Slezz. Where ARE they?	泽克斯兄弟带走了他们。他答应过， 要把他们还给斯莱兹。他们到底在哪儿？	SOUND\A2S3_SLEZZ15.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	158	a2s3_slezz16	slezz16	Slezz0	Lying. You're lying. I can smell it. Return my CHILDREN!!!	撒谎。你在撒谎。我闻得出来。把我的孩子还回来！！ ！	SOUND\A2S3_SLEZZ16.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	177	a2s3_slezz17	slezz17	Slezz0	Come closer, Kagan-Not-Kagan. I'm starving.	靠近些，像卡根又不是卡根的人。我饿极了。	SOUND\A2S3_SLEZZ17.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	216	a2s3_slezz24.wav	slezz24.wav	Slezz0	Urggh! I am undone!!!	呃！我完了！！！	SOUND\A2S3_SLEZZ24.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	233	a2s4_Severin_6.wav	Severin	$	Sounds like the wings have stopped. She's vulnerable Rayne. Get inside and cut out the heart.	翅膀好像停了。现在她毫无防备，莱恩。钻进去， 把心脏挖出来。	SOUND\A2S4_SEVERIN_6.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SEWER_SLEZZARENA.SCB	379	a2s4_Severin_12	Severin	$	Rayne? Climb up to the upper level...	莱恩？爬到上层去……	SOUND\A2S4_SEVERIN_12.WAV	WORLD\EN\A2_SEWER_SLEZZARENA.TXT	WORLD\RU\A2_SEWER_SLEZZARENA.TXT
++WORLD\A2_SUBWAY1.SCB	541	a2s5_FMinion1_1.wav	FMinion1	@speak1	Let's go, bloodsacks. In the cars! Now!	走，血袋们。上车！马上！	SOUND\A2S5_FMINION1_1.WAV	WORLD\EN\A2_SUBWAY1.TXT	WORLD\RU\A2_SUBWAY1.TXT
++WORLD\A2_SUBWAY1.SCB	558	a2s5_FMinion2_1.wav	FMinion2	@speak2	Move it! No shoving! Plenty room for everybody!	快走！别挤！人人都有位置！	SOUND\A2S5_FMINION2_1.WAV	WORLD\EN\A2_SUBWAY1.TXT	WORLD\RU\A2_SUBWAY1.TXT
++WORLD\A2_SUBWAY1.SCB	575	a2s5_FMinion3_1.wav	FMinion3	@speak3	Move 'em out. Next stop, Wetworks.	把他们运走。下一站，血液工厂。	SOUND\A2S5_FMINION3_1.WAV	WORLD\EN\A2_SUBWAY1.TXT	WORLD\RU\A2_SUBWAY1.TXT
++WORLD\A2_SUBWAY1.SCB	635	a2s5_FMinion1_2.wav	FMinion1	@speak3	Where'd she come from? Hold the train and cut her off!	她从哪儿冒出来的？别让列车走，拦住她！	SOUND\A2S5_FMINION1_2.WAV	WORLD\EN\A2_SUBWAY1.TXT	WORLD\RU\A2_SUBWAY1.TXT
++WORLD\A2_UNIONSTATION_PART1.SCB	321	a2s2_Kestrel1_22.wav	Kestrel1	@kestrel4	Was just leaving! To a better world, Pretty!	正要走呢！去更好的世界，美人！	SOUND\A2S2_KESTREL1_22.WAV	WORLD\EN\A2_UNIONSTATION_PART1.TXT	WORLD\RU\A2_UNIONSTATION_PART1.TXT
++WORLD\A2_UNIONSTATION_PART1.SCB	441	a2s2_Kestrel1_17	Kestrel1	@kestrel1	You still in play, Pretty? Thought maybe you got left behind in the noise...	还在玩吗，美人？ 我以为你已经被那些响声埋在后头了……	SOUND\A2S2_KESTREL1_17.WAV	WORLD\EN\A2_UNIONSTATION_PART1.TXT	WORLD\RU\A2_UNIONSTATION_PART1.TXT
++WORLD\A2_UNIONSTATION_PART1.SCB	445	a2s2_Kestrel2_3.wav	Kestrel2	@Kestral2	HA! True-true! We very loud tonight! Don't care! World needs be scared. We taking over! We coming out!	哈！没错没错！今晚我们闹得很响！不在乎！ 世界该害怕了。我们要接管一切！不再躲藏！	SOUND\A2S2_KESTREL2_3.WAV	WORLD\EN\A2_UNIONSTATION_PART1.TXT	WORLD\RU\A2_UNIONSTATION_PART1.TXT
++WORLD\A2_UNIONSTATION_PART1.SCB	459	a2s2_Kestrel1_18	Kestrel1	@Kestrel1	Oh, you see. We like a big bang. Like a big surprise, too!	哦，你会看到的。我们喜欢大爆炸，也喜欢大惊喜！	SOUND\A2S2_KESTREL1_18.WAV	WORLD\EN\A2_UNIONSTATION_PART1.TXT	WORLD\RU\A2_UNIONSTATION_PART1.TXT
++WORLD\A2_UNIONSTATION_PART1.SCB	465	a2s2_Kestrel2_4.wav	Kestrel2	@Kestral2	True-true! You big surprise, Pretty-play so rough. You wanna play our side, maybe?	没错没错！你真是个惊喜，美人，玩得够狠。 要不要来我们这边玩？	SOUND\A2S2_KESTREL2_4.WAV	WORLD\EN\A2_UNIONSTATION_PART1.TXT	WORLD\RU\A2_UNIONSTATION_PART1.TXT
++WORLD\A2_UNIONSTATION_PART1.SCB	475	a2s2_Kestrel1_19.wav	Kestrel1	@Kestral2	Tch. OK. You too tough, then. Stay tough, Pretty...	啧。好吧，你够厉害。继续撑着，美人……	SOUND\A2S2_KESTREL1_19.WAV	WORLD\EN\A2_UNIONSTATION_PART1.TXT	WORLD\RU\A2_UNIONSTATION_PART1.TXT
++WORLD\A2_UNIONSTATION_PART2.SCB	383	a2s5_Kestrel1_32.wav	Kestrel1	dhampir1	Off now! But you get yours soon, Pretty.	走了！不过你的报应也快了，美人。	SOUND\A2S5_KESTREL1_32.WAV	WORLD\EN\A2_UNIONSTATION_PART2.TXT	WORLD\RU\A2_UNIONSTATION_PART2.TXT
++WORLD\A2_UNIONSTATION_PART2.SCB	443	a2s2_FMinion1_20.wav	FMinion1	@stairsScene0	Huh. That was a pretty frantic call for one little girl.	哼，就一个小姑娘，至于在无线电里慌成那样吗？	SOUND\A2S2_FMINION1_20.WAV	WORLD\EN\A2_UNIONSTATION_PART2.TXT	WORLD\RU\A2_UNIONSTATION_PART2.TXT
++WORLD\A2_UNIONSTATION_PART2.SCB	452	a2s2_FMinion2_12.wav	FMinion2	@stairsScene1	Maybe. But the long guns ain't shootin'. Be careful.	也许吧。可重枪都不响了。小心点。	SOUND\A2S2_FMINION2_12.WAV	WORLD\EN\A2_UNIONSTATION_PART2.TXT	WORLD\RU\A2_UNIONSTATION_PART2.TXT
++WORLD\A2_UNIONSTATION_PART2.SCB	460	a2s2_FMinion3_7.wav	FMinion3	@stairsScene2	There more of you around, lady?	女士，你还有同伙吗？	SOUND\A2S2_FMINION3_7.WAV	WORLD\EN\A2_UNIONSTATION_PART2.TXT	WORLD\RU\A2_UNIONSTATION_PART2.TXT
++WORLD\A2_UNIONSTATION_PART2.SCB	519	a2s2_FMinion2_13.wav	FMinion2	@runner0	Oh my God-what's going on here?!	我的天，这到底怎么回事？！	SOUND\A2S2_FMINION2_13.WAV	WORLD\EN\A2_UNIONSTATION_PART2.TXT	WORLD\RU\A2_UNIONSTATION_PART2.TXT
++WORLD\A2_UNIONSTATION_PART2.SCB	530	a2s2_FMinion1_21.wav	FMinion1	@runner1	Faster we lock this section down the faster we can get the hell outta here.	越快封锁这一区，咱们越快能滚出去。	SOUND\A2S2_FMINION1_21.WAV	WORLD\EN\A2_UNIONSTATION_PART2.TXT	WORLD\RU\A2_UNIONSTATION_PART2.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	506	a2s2_FMinion1_24.wav	FMinion1	@Dome0	We're getting' our asses handed to us here.	咱们被打得屁滚尿流了。	SOUND\A2S2_FMINION1_24.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	510	a2s2_FMinion2_17.wav	FMinion2	@Dome1	Retreat! Drop the exit! Do it now!	撤退！炸塌出口！快！	SOUND\A2S2_FMINION2_17.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	615	a2s2_Ephemera_7.wav	Ephemera	EPHEMRA	Dhampir? I knew we had an intruder, but I thought you'd at least be fullblood...	半吸血鬼？我知道有闯入者， 可还以为至少是个纯血……	SOUND\A2S2_EPHEMERA_7.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	653	a2s2_Ephemera_8.wav	Ephemera	EPHEMRA	You're the one that took dear brother Zerenzki from us?	就是你夺走了我们亲爱的泽伦斯基兄弟？	SOUND\A2S2_EPHEMERA_8.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	666	a2s2_Ephemera_9.wav	Ephemera	EPHEMRA	Interesting. And what did you hope to prove?	有意思。你想证明什么？	SOUND\A2S2_EPHEMERA_9.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	1010	a2s2_Ephemera_11.wav	Ephemera	EPHEMRA	We chose a bad place to fight, little assassin.	小刺客，这可不是打架的好地方。	SOUND\A2S2_EPHEMERA_11.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	1194	a2s2_Severin_15.wav	Severin	$	That's loud. Sounds like you've found the club proper.	真响。看来你找到俱乐部的主场了。	SOUND\A2S2_SEVERIN_15.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	1228	a2s2_Severin_16.wav	Severin	$	Minions can't work a Bloodfield only dhampir. The Kestrel must be the one you've gotta take out to dissipate the field.	喽啰不会施展血界，只有半吸血鬼会。 得杀了那个红隼，结界才会消失。	SOUND\A2S2_SEVERIN_16.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A2_UNIONSTATION_PART3.SCB	1432	a2s2_Severin_16.wav	Severin	$	Minions can't work a Bloodfield only dhampir. The Kestrel must be the one you've gotta take out to dissipate the field.	喽啰不会施展血界，只有半吸血鬼会。 得杀了那个红隼，结界才会消失。	SOUND\A2S2_SEVERIN_16.WAV	WORLD\EN\A2_UNIONSTATION_PART3.TXT	WORLD\RU\A2_UNIONSTATION_PART3.TXT
++WORLD\A3_SHROUDTOWER_ASCENT.SCB	615	a5s1_Minion_3	Minion	$	Helicopter Pilot: Alright, that's everyone, I'm out of here.  But not without a little parting gift...	直升机驾驶员：好了，人都下去了，我撤了。 不过先留点告别礼物……	SOUND\A5S1_MINION_3.WAV	WORLD\EN\A3_SHROUDTOWER_ASCENT.TXT	WORLD\RU\A3_SHROUDTOWER_ASCENT.TXT
++WORLD\A3_SHROUDTOWER_ASCENT.SCB	1411	a5S1_Minion_1	Minion	@S3_EleSpawn0	Minion: Musta' gotten her by now.  Let's go check it out.	喽啰：这会儿应该干掉她了吧。过去看看。	SOUND\A5S1_MINION_1.WAV	WORLD\EN\A3_SHROUDTOWER_ASCENT.TXT	WORLD\RU\A3_SHROUDTOWER_ASCENT.TXT
++WORLD\A3_SHROUDTOWER_ASCENT.SCB	1416	a5S1_Minion_2	Minion	@S3_EleSpawn0	Minion: Aw Shit - Get her!	喽啰：妈的！抓住她！	SOUND\A5S1_MINION_2.WAV	WORLD\EN\A3_SHROUDTOWER_ASCENT.TXT	WORLD\RU\A3_SHROUDTOWER_ASCENT.TXT
++WORLD\A3_WETWORKS_N_1.SCB	335	a3s1_LMinion1_1	LMinion1	$	Hey, we gotta lock this place down! Sun's coming up. Vampire patrols are all in for the day.	喂，得把这里封起来！太阳出来了， 吸血鬼巡逻队都回来躲白天了。	SOUND\A3S1_LMINION1_1.WAV	WORLD\EN\A3_WETWORKS_N_1.TXT	WORLD\RU\A3_WETWORKS_N_1.TXT
++WORLD\A3_WETWORKS_N_1.SCB	429	a5s2_Severin_1	Severin	$	There is a service corridor beneath that giant tesla coil. Find the controls to lower the safety fence so you can access the maintenance hall.	那台巨大特斯拉线圈下面有条检修走廊。 找到控制装置，降下防护围栏，就能进入检修通道。	SOUND\A5S2_SEVERIN_1.WAV	WORLD\EN\A3_WETWORKS_N_1.TXT	WORLD\RU\A3_WETWORKS_N_1.TXT
++WORLD\A3_WETWORKS_N_1.SCB	1105	a3s1_LMinion11_13	LMinion11	$	Yeah, that's a negatory, good buddy-- That son of a bitch is fifteen feet tall. Can't we call in a foreman?	不行，老兄——那混蛋足有十五英尺高。 不能叫个工头来吗？	SOUND\A3S1_LMINION11_13.WAV	WORLD\EN\A3_WETWORKS_N_1.TXT	WORLD\RU\A3_WETWORKS_N_1.TXT
++WORLD\A3_WETWORKS_N_1.SCB	1125	a3s1_LMinion12_12	LMinion12	$	Aw, he's not hurting anything. Let him play.	嗨，他又没弄坏什么。让他玩吧。	SOUND\A3S1_LMINION12_12.WAV	WORLD\EN\A3_WETWORKS_N_1.TXT	WORLD\RU\A3_WETWORKS_N_1.TXT
++WORLD\A3_WETWORKS_S_1.SCB	176	a3s3_LMinion1_8	LMinion1	Minion1	Get in there, ya skells!	进去，你们这些废物！	SOUND\A3S3_LMINION1_8.WAV	WORLD\EN\A3_WETWORKS_S_1.TXT	WORLD\RU\A3_WETWORKS_S_1.TXT
++WORLD\A3_WETWORKS_S_1.SCB	184	a3s3_LMinion2_8	LMinion2	Minion1	That's the last of 'em. Get this cage outta here. And lock the gate so none of 'em crawl back out.	最后一批了。把笼子运出去，锁上门， 别让他们爬回来。	SOUND\A3S3_LMINION2_8.WAV	WORLD\EN\A3_WETWORKS_S_1.TXT	WORLD\RU\A3_WETWORKS_S_1.TXT
++WORLD\A4_KAGANSTOWER_1.SCB	604	a4s1_Severin_27	Severin	$	Severin: What's that sound?	塞弗林：什么声音？	SOUND\A4S1_SEVERIN_27.WAV	WORLD\EN\A4_KAGANSTOWER_1.TXT	WORLD\RU\A4_KAGANSTOWER_1.TXT
++WORLD\A4_KAGANSTOWER_2.SCB	654	KElite_Taunt_a_03	KElite	@Elite	Traujer Elite: Your Father has ordered your death.	特劳格精锐：你父亲下令要你死。	SOUND\KELITE_TAUNT_A_03.WAV	WORLD\EN\A4_KAGANSTOWER_2.TXT	WORLD\RU\A4_KAGANSTOWER_2.TXT
++WORLD\A4_KAGANSTOWER_BIOARMOR.SCB	41	a4s3_Ferril_3	Ferril	Ferril	Better than getting thrown out a forty story window into sunlight, bitch. I'm going...	总比被从四十层楼的窗户扔进阳光里强，婊子。 我要去……	SOUND\A4S3_FERRIL_3.WAV	WORLD\EN\A4_KAGANSTOWER_BIOARMOR.TXT	WORLD\RU\A4_KAGANSTOWER_BIOARMOR.TXT
++WORLD\A4_KAGANSTOWER_BIOARMOR.SCB	81	a4s3_Xerx_9	Xerx	BiomechBoss0	Raaargh! Do you miss the SUN!??	吼！想念太阳了吗？！	SOUND\A4S3_XERX_9.WAV	WORLD\EN\A4_KAGANSTOWER_BIOARMOR.TXT	WORLD\RU\A4_KAGANSTOWER_BIOARMOR.TXT
++WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB	120	a4s3_Kagan_5	Kagan	KAGAN	The Vesper Shard made itself at home in my flesh. It has been... unpleasant.	暮星碎片在我的血肉里安了家。 这个过程……并不愉快。	SOUND\A4S3_KAGAN_5.WAV	WORLD\EN\A4_KAGANSTOWER_PENTHOUSE.TXT	WORLD\RU\A4_KAGANSTOWER_PENTHOUSE.TXT
++WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB	221	a4s3_Severin_4	Severin	Severin	Well, that's that. You're done. Kagan and the siblings are dead. How does it feel?	好了，结束了。你做完了。 卡根和那些兄弟姐妹都死了。感觉怎么样？	SOUND\A4S3_SEVERIN_4.WAV	WORLD\EN\A4_KAGANSTOWER_PENTHOUSE.TXT	WORLD\RU\A4_KAGANSTOWER_PENTHOUSE.TXT
++WORLD\A4_PARK_1.SCB	468	a4s1_SLegion_1	SLegion	@Sp_Insect_Plaza_Slegion1	Mutters in vampirish.	用吸血鬼语低声嘟囔。	SOUND\A4S1_SLEGION_1.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_1.SCB	556	a4s1_Severin_21	Severin	$	Severin: You saw the trees in the Park. And the dessicated animals. The Shroud obviously causes some aberrant effects on nature.	塞弗林：你看到公园里的树和那些干瘪的动物了。 暗幕显然让自然界产生了某种变异。	SOUND\A4S1_SEVERIN_21.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_1.SCB	646	a5s3_Minion2_7	Minion2	@Spawn_Insect_Hall_5	Goddamn it, be careful with those. You'll wake up the dead.	妈的，小心点。你要把死人都吵醒了。	SOUND\A5S3_MINION2_7.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_1.SCB	650	a5s3_Minion2_8	Minion2	@Spawn_Insect_Hall_6	Sorry boss...	对不起，老大……	SOUND\A5S3_MINION2_8.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_1.SCB	653	a5s3_Minion2_9	Minion2	@Spawn_Insect_Hall_4	Dead zoo keeper. Too cold to eat.	死了的动物园管理员。太凉，没法吃。	SOUND\A5S3_MINION2_9.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_1.SCB	655	a5s3_Minion2_10	Minion2	@Spawn_Insect_Hall_5	How can it be cold? It's still moving...	怎么会凉了？还在动呢……	SOUND\A5S3_MINION2_10.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_1.SCB	810	a4s1_FDhampir2_1	FDhampir2	Dhampir01	Dhampir: Idiots. The right amount of heat will remedy the situation.	半吸血鬼：蠢货。给点够劲的火就解决了。	SOUND\A4S1_FDHAMPIR2_1.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_1.SCB	826	a4s1_FDhampir2_2	FDhampir2	Dhampir01	Dhampir: I smell something... besides burnt insects	半吸血鬼：我闻到了什么……不只是烧焦的虫子。	SOUND\A4S1_FDHAMPIR2_2.WAV	WORLD\EN\A4_PARK_1.TXT	WORLD\RU\A4_PARK_1.TXT
++WORLD\A4_PARK_2.SCB	242	a4s1_Severin_26	Severin	$	Severin: Walk softly, Rayne... I don't think you want to disturb these new friends.	塞弗林：脚步轻点， 莱恩……你肯定不想惊动这些新朋友。	SOUND\A4S1_SEVERIN_26.WAV	WORLD\EN\A4_PARK_2.TXT	WORLD\RU\A4_PARK_2.TXT
++WORLD\A4_PARK_2.SCB	459	a5s3_SLEgion_1	SLEgion	@Shadow_1	Shadow Legion: [Whispered Vampirish]	暗影军团：[低声说吸血鬼语]	SOUND\A5S3_SLEGION_1.WAV	WORLD\EN\A4_PARK_2.TXT	WORLD\RU\A4_PARK_2.TXT
++WORLD\A4_PARK_2.SCB	468	a5s3_SLEgion_1	SLEgion	@Shadow_1	Shadow Legion: [Whispered Vampirish]	暗影军团：[低声说吸血鬼语]	SOUND\A5S3_SLEGION_1.WAV	WORLD\EN\A4_PARK_2.TXT	WORLD\RU\A4_PARK_2.TXT
++WORLD\A4_PARK_2.SCB	1197	a4s1_Ephemera_37	Ephemera	Ephemera1	Ephemera: I thought Ferril removed you, dhampir.	埃菲梅拉：半吸血鬼，我还以为费里尔已经解决你了。	SOUND\A4S1_EPHEMERA_37.WAV	WORLD\EN\A4_PARK_2.TXT	WORLD\RU\A4_PARK_2.TXT
++WORLD\A4_PARK_2.SCB	1204	a4s1_Ephemera_38	Ephemera	Ephemera1	Ephemera: Oh, you saw that, did you? Yes, she had to go. Afraid there's only room for one traitor at the top.	埃菲梅拉：哦，你看见了？对，她非死不可。 顶上的位子，只容得下一个叛徒。	SOUND\A4S1_EPHEMERA_38.WAV	WORLD\EN\A4_PARK_2.TXT	WORLD\RU\A4_PARK_2.TXT
++WORLD\A4_PARK_2.SCB	1213	a4s1_Ephemera_39	Ephemera	Ephemera1	Ephemera: Oh, we'll find that out soon enough, I think. Maybe our father will tell me just before I carve him open. If he wakes up first...	埃菲梅拉：我想很快就会知道。 也许在我剖开父亲之前， 他会告诉我——如果他能先醒过来的话……	SOUND\A4S1_EPHEMERA_39.WAV	WORLD\EN\A4_PARK_2.TXT	WORLD\RU\A4_PARK_2.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	81	a4s1_Severin_1	Severin	severin	Severin: Worse than that. You did everything right, Rayne--you took out the Tower. But we failed to stop the Shroud itself.	塞弗林：比那还糟。你没做错什么，莱恩， 你摧毁了塔。但我们没能阻止暗幕。	SOUND\A4S1_SEVERIN_1.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	97	a4s1_Severin_2	Severin	severin	Severin: Vampires are free to walk in daylight. They're unstoppable.	塞弗林：吸血鬼可以在白天自由行走了，谁也拦不住。	SOUND\A4S1_SEVERIN_2.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	111	a4s1_Severin_3	Severin	severin	Severin: Brimstone's gone. Just offline or completely wiped out, I can't tell. Result's pretty much the same either way. I'm out of a job.	塞弗林：硫磺会没消息了。是通讯断了还是全军覆没， 我不知道。反正结果差不多，我失业了。	SOUND\A4S1_SEVERIN_3.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	136	a4s1_Severin_5	Severin	severin	Severin: Of course. But I've been thinking we could try to escape to the wilderness.	塞弗林：当然。不过我也想过，也许能逃到荒野去。	SOUND\A4S1_SEVERIN_5.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	156	a4s1_Severin_6	Severin	severin	Severin: Between us, with our skills, it's likely we could survive. Maybe find other survivors...	塞弗林：凭咱俩的本事，应该能活下来。 也许还能找到别的幸存者……	SOUND\A4S1_SEVERIN_6.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	183	a4s1_Severin_8	Severin	severin	Severin: We're going to continue to track Kagan...	塞弗林：我们会继续追杀卡根……	SOUND\A4S1_SEVERIN_8.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	196	a4s1_Severin_9	Severin	severin	Severin: ... even though civilization has crumbled in...less than four hours... and all hope is definitely, unquestionably lost...	塞弗林：……尽管文明在……不到四个小时里……就崩 溃了，所有希望也确确实实、毫无疑问地破灭了……	SOUND\A4S1_SEVERIN_9.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_1.SCB	222	a4s1_Severin_10	Severin	severin	Severin: Yeah. I'm terrified that it will.	塞弗林：是啊，我怕得要命。	SOUND\A4S1_SEVERIN_10.WAV	WORLD\EN\A4_PARK_CINEMAT_1.TXT	WORLD\RU\A4_PARK_CINEMAT_1.TXT
++WORLD\A4_PARK_CINEMAT_2.SCB	115	a4s1_Severin_43	Severin	severin	Severin: Superb. Very impressive. Now be quiet and look over there. What do you think about that?	塞弗林：绝了，精彩极了。现在安静，看那边。 你觉得那个怎么样？	SOUND\A4S1_SEVERIN_43.WAV	WORLD\EN\A4_PARK_CINEMAT_2.TXT	WORLD\RU\A4_PARK_CINEMAT_2.TXT
++WORLD\A4_PARK_CINEMAT_2.SCB	160	a4s1_Ferril_5	Ferril	ferril	Ferril: Revenge is a weapon! Wield it as a shining sword to avenge your mistress!!	费里尔：复仇就是武器！像挥舞利剑一样， 用它为你们的女主人报仇！！	SOUND\A4S1_FERRIL_5.WAV	WORLD\EN\A4_PARK_CINEMAT_2.TXT	WORLD\RU\A4_PARK_CINEMAT_2.TXT
++WORLD\A4_PARK_CINEMAT_2.SCB	177	a4s1_Severin_45	Severin	severin	"Severin: ""Vengeance this, Revenge that."" See what that sounds like?"	塞弗林：“报仇这个，复仇那个。”听听像不像你？	SOUND\A4S1_SEVERIN_45.WAV	WORLD\EN\A4_PARK_CINEMAT_2.TXT	WORLD\RU\A4_PARK_CINEMAT_2.TXT
++WORLD\A4_PARK_CINEMAT_2.SCB	196	a4s1_Ferril_6	Ferril	ferril	Ferril: Fly, you angels of destruction, you devils of justice, fly and kill and fucking die for me!	费里尔：飞吧，毁灭的天使，正义的恶魔！飞去杀戮， 他妈的为我去死！	SOUND\A4S1_FERRIL_6.WAV	WORLD\EN\A4_PARK_CINEMAT_2.TXT	WORLD\RU\A4_PARK_CINEMAT_2.TXT
+--- /dev/null
++++ C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\speech-inventory-20260927\engine_rayne_samples.tsv
+@@ -0,0 +1,254 @@
++cue_ids	category	audio_entry	duration_s	english_resource_text	asr_draft_english	asr_status	review_note
++0	Rayne_Alert	SOUND\RAYNE_ALERT_1.WAV	1.82		Don't these guys ever learn?	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_10.WAV	2.42		And I was just thinking it was time for a little something.	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_11.WAV	1.78		Sure makes a girl feel wanted.	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_2.WAV	1.87		Oh, were you talking to me?	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_3.WAV	2.32		must be running a special on bad guys today.	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_4.WAV	1.09		Have we met before?	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_5.WAV	1.57		All right, happy hour.	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_6.WAV	0.63		Hi.	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_7.WAV	2.00		Great. I was getting lonely.	draft_review	machine transcript; check against audio
++0	Rayne_Alert	SOUND\RAYNE_ALERT_9.WAV	1.91		You sure you want to get into this right now?	draft_review	machine transcript; check against audio
++2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_1.WAV	1.74		Hmm, nice joint z's got here.	draft_review	machine transcript; check against audio
++2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_5.WAV	2.55		Where'd Zarenski get the cash for all this?	draft_review	machine transcript; check against audio
++2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_7.WAV	4.12		Huh, so this is what you get when you give tax cuts to the top 1%.	draft_review	machine transcript; check against audio
++2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_8.WAV	3.68		Surprised that poser Zarenski didn't set up shop in Transylvania.	draft_review	machine transcript; check against audio
++3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_1.WAV	2.05		Quiet. Too quiet.	draft_review	machine transcript; check against audio
++3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_2.WAV	3.11		my kind of town, except for all the vampires.	draft_review	machine transcript; check against audio
++3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_3.WAV	1.93		wear the vigilantes when you need them.	draft_review	machine transcript; check against audio
++3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_4.WAV	2.17		Looks like they're rezoning this district.	draft_review	machine transcript; check against audio
++3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_5.WAV	2.71		Why would the Nightwalkers risk it in the open?	draft_review	machine transcript; check against audio
++3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_6.WAV	2.91		This was never a nice part of town, but jeez.	draft_review	machine transcript; check against audio
++3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_7.WAV	3.23		cleaning up the streets one asshole vampire at a time.	draft_review	machine transcript; check against audio
++4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_1.WAV	4.26		Okay, I'm not crazy about humans, but they deserve a lot better than this.	draft_review	machine transcript; check against audio
++4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_2.WAV	2.40		Now where are all the junkies and perverts supposed to go?	draft_review	machine transcript; check against audio
++4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_3.WAV	3.27		Never been here during the day before and wasn't missing much.	draft_review	machine transcript; check against audio
++4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_4.WAV	2.01		and the freaks shall inherit the earth.	draft_review	machine transcript; check against audio
++4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_5.WAV	2.33		Everyone loves an apocalypse.	draft_review	machine transcript; check against audio
++4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_6.WAV	2.46		You know, I like this place a lot better before.	draft_review	machine transcript; check against audio
++4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_7.WAV	3.73		Don't think I'm a fan of post-shroud recreational facilities.	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_1.WAV	1.98		Looks like they dragged half the city through here.	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_2.WAV	2.01		Doesn't City Works ever come down here?	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_3.WAV	3.47		What are they doing down here? Water and vampires don't mix.	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_4.WAV	2.66		What is that on my heel? Oh, shit.	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_5.WAV	3.14		Judging by their firepower, this must be one important nest.	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_6.WAV	2.27		They must have been set up down here for decades.	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_7.WAV	2.53		Even the rats think this place is a hellhole.	draft_review	machine transcript; check against audio
++5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_8.WAV	1.59		At least it's not a graveyard.	draft_review	machine transcript; check against audio
++6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_1.WAV	3.64		It's like reverse plumbing pumping that blood oil to the top.	draft_review	machine transcript; check against audio
++6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_2.WAV	2.93		Kill this tower, save the world. Easy enough.	draft_review	machine transcript; check against audio
++6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_3.WAV	2.45		Come on, where's the big red self-destruct button?	draft_review	machine transcript; check against audio
++6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_4.WAV	2.46		Like an amusement park, in hell.	draft_review	machine transcript; check against audio
++6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_5.WAV	2.25		How the hell did they construct this thing in secret?	draft_review	machine transcript; check against audio
++6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_6.WAV	4.03		Think we should put in an elevator? Nah, why spoil the aesthetics?	draft_review	machine transcript; check against audio
++7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_1.WAV	3.08		Kestles aren't smart enough to be running an operation like this.	draft_review	machine transcript; check against audio
++7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_2.WAV	3.25		Not a bum or hooker in sight. Where are they?	draft_review	machine transcript; check against audio
++7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_3.WAV	2.63		What would Kestrel's want with more hookers than they could eat?	draft_review	machine transcript; check against audio
++7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_4.WAV	3.30		Cities got to start tearing down abandoned buildings down here.	draft_review	machine transcript; check against audio
++7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_5.WAV	4.49		Vampires are like roaches when you see one, you know, you've got a thousand	draft_review	machine transcript; check against audio
++9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_1.WAV	1.89		Yeah, it kinda stings, huh?	draft_review	machine transcript; check against audio
++9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_10.WAV	1.78		How much more you think you can take?	draft_review	machine transcript; check against audio
++9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_11.WAV	3.78		You should run. It won't help, but it might make you feel better.	draft_review	machine transcript; check against audio
++9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_13.WAV	2.47		My God! I'm horrible!	draft_review	machine transcript; check against audio
++9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_3.WAV	1.35		That's gonna heal funny.	draft_review	machine transcript; check against audio
++9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_6.WAV	1.37		Did you even see that coming?	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_1.WAV	2.58		And I'm gonna keep kicking you till you're dead.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_10.WAV	2.54		And I'm gonna keep kicking you till you're dead!	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_11.WAV	3.66		And then it dawned on him. I'm getting my ass kicked here.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_12.WAV	1.52		Eh, should have been a rockette.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_13.WAV	2.12		There's more here if you want some.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_14.WAV	2.36		Okay, now we move to the lightning round.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_3.WAV	3.01		It's not all about the blades, honey.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_4.WAV	1.58		You didn't see that coming, huh?	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_5.WAV	2.62		Aw, you just picked the wrong girl to hassle, is all.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_6.WAV	1.64		Just cry, baby.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_7.WAV	2.40		You impressed? I sure am.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_8.WAV	1.57		I should have kept blockin', kid.	draft_review	machine transcript; check against audio
++12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_9.WAV	2.35		Is there no end to her cruelty?	draft_review	machine transcript; check against audio
++13	Rayne_Die	SOUND\RAYNE_DIE_1.WAV	2.44		HOOOOOOOM! UUGH!	draft_review	machine transcript; check against audio
++13	Rayne_Die	SOUND\RAYNE_DIE_2.WAV	2.08		HAAAAAAA	draft_review	machine transcript; check against audio
++13	Rayne_Die	SOUND\RAYNE_DIE_3.WAV	2.80		AHHHHHHHHHH	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_1.WAV	2.56		Huh, and I thought somebody was gonna lose an eye.	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_10.WAV	1.86		Ooh, might want to wrap that in ice.	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_12.WAV	3.14		Next minion softball season is looking pretty grim.	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_3.WAV	3.06		Now you saw the blades, what did you think was gonna happen?	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_4.WAV	1.66		Uh, you'll never even miss it.	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_5.WAV	1.72		Oh, you didn't need that, did you?	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_6.WAV	1.70		Maybe you should try to run now.	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_7.WAV	2.47		See if your master can put you back together.	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_8.WAV	3.02		Don't worry, they do wonders with prosthetics these days.	draft_review	machine transcript; check against audio
++14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_9.WAV	1.99		We're playing for keeps here, sport.	draft_review	machine transcript; check against audio
++17	Rayne_EphemeraAttack	SOUND\RAYNE_EPHEMERAATTACK_1.WAV	1.80		Whatcha think about that, Shady?	draft_review	machine transcript; check against audio
++17	Rayne_EphemeraAttack	SOUND\RAYNE_EPHEMERAATTACK_2.WAV	2.24		I thought you were sneaky ephemera.	draft_review	machine transcript; check against audio
++17	Rayne_EphemeraAttack	SOUND\RAYNE_EPHEMERAATTACK_3.WAV	1.78		Nowhere to hide this time.	draft_review	machine transcript; check against audio
++18	Rayne_EphemeraDie	SOUND\RAYNE_EPHEMERADIE_1.WAV	2.44		DOOM!	draft_review	machine transcript; check against audio
++19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_1.WAV	1.66		That really is a great trick.	draft_review	machine transcript; check against audio
++19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_2.WAV	1.01		God, she's slippery.	draft_review	machine transcript; check against audio
++19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_3.WAV	2.20		Okay, just watch the shadows.	draft_review	machine transcript; check against audio
++19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_4.WAV	2.30		Come out, come out, wherever you are.	draft_review	machine transcript; check against audio
++19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_5.WAV	2.63		Hey, come here. I want to show you something.	draft_review	machine transcript; check against audio
++19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_6.WAV	2.58		You'll need more than shadow to hide from me.	draft_review	machine transcript; check against audio
++21	Rayne_EphemeraKill	SOUND\RAYNE_EPHEMERAKILL_1.WAV	2.72		You deserve so much worse, ephemera.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_10.WAV	2.63		I'm gonna twist you pretty hard, sugar.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_2.WAV	2.89		You've been allowed to live for way too long.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_3.WAV	3.04		I am so gonna enjoy taking you apart.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_4.WAV	2.76		Let's see what Kagan's best girl can do.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_5.WAV	2.52		Didn't expect you to fight fair ephemera.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_6.WAV	4.24		Oh yeah, and cross one shadow bitch off my list.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_7.WAV	2.39		You're the best Kagan's got.	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_8.WAV	3.40		What's the best you can hope for here, a draw?	draft_review	machine transcript; check against audio
++22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_9.WAV	4.92		You know, I'm gonna get my own minions, and they're gonna be so much cooler than yours.	draft_review	machine transcript; check against audio
++23	Rayne_Feed	SOUND\RAYNE_FEED_0.WAV	5.71			no_speech_detected	may be nonverbal or very short speech
++23	Rayne_Feed	SOUND\RAYNE_FEED_1.WAV	6.73		Yeah. Yeah.	draft_review	machine transcript; check against audio
++23	Rayne_Feed	SOUND\RAYNE_FEED_2.WAV	3.53			no_speech_detected	may be nonverbal or very short speech
++23	Rayne_Feed	SOUND\RAYNE_FEED_3.WAV	7.18		Stomp! Yeah... Stomp! Stomp!	draft_review	machine transcript; check against audio
++23	Rayne_Feed	SOUND\RAYNE_FEED_4.WAV	7.30			no_speech_detected	may be nonverbal or very short speech
++23	Rayne_Feed	SOUND\RAYNE_FEED_5.WAV	3.72		Ah, and then psssssssssssssssssssssssssssssss	draft_review	machine transcript; check against audio
++23	Rayne_Feed	SOUND\RAYNE_FEED_6.WAV	7.73		kk uh shh ah Ichh hiç ach ahhhh	draft_review	machine transcript; check against audio; no_speech_prob=0.59
++23	Rayne_Feed	SOUND\RAYNE_FEED_7.WAV	9.16			no_speech_detected	may be nonverbal or very short speech
++23	Rayne_Feed	SOUND\RAYNE_FEED_8.WAV	5.38		Yeah.	draft_review	machine transcript; check against audio
++23	Rayne_Feed	SOUND\RAYNE_FEED_9.WAV	6.32		Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah!	draft_review	machine transcript; check against audio
++24	Rayne_FerrilAttack	SOUND\RAYNE_FERRILATTACK_1.WAV	3.13		Ew, I don't even want to know what kind of body fluid just hit me.	draft_review	machine transcript; check against audio
++24	Rayne_FerrilAttack	SOUND\RAYNE_FERRILATTACK_2.WAV	2.29		Sit feral, sit bad feral.	draft_review	machine transcript; check against audio
++24	Rayne_FerrilAttack	SOUND\RAYNE_FERRILATTACK_3.WAV	1.67		That might scar.	draft_review	machine transcript; check against audio
++25	Rayne_FerrilDie	SOUND\RAYNE_FERRILDIE_1.WAV	2.44		HOOOOOME! UGH!	draft_review	machine transcript; check against audio
++26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_1.WAV	3.07		Yeah, run. You people do that a lot around here.	draft_review	machine transcript; check against audio
++26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_2.WAV	1.92		And where the hell do you think you're going?	draft_review	machine transcript; check against audio
++26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_3.WAV	2.83		Hey Farrell, we're in the middle of something here.	draft_review	machine transcript; check against audio
++26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_5.WAV	2.74		Aw, come on back! You were sorta winning!	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_1.WAV	2.09		God damn, that's a wallop.	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_10.WAV	0.51		UGH!	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_11.WAV	0.54		Ugh!	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_2.WAV	2.30		Ugh, gotta stay clear of those claws.	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_3.WAV	2.14		You're quick, honey. I'll grant you that.	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_4.WAV	1.71		Yeah, okay. I'll give you that one.	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_5.WAV	0.39		Oof	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_6.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_7.WAV	0.54		Eugh!	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_8.WAV	0.51		Ugh!	draft_review	machine transcript; check against audio
++27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_9.WAV	0.53		UGH!	draft_review	machine transcript; check against audio
++28	Rayne_FerrilKill	SOUND\RAYNE_FERRILKILL_1.WAV	3.93		That's it for you and your dumbass Shroud Tower, tough girl.	draft_review	machine transcript; check against audio
++29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_1.WAV	3.01		This is gonna go so badly for you, Farrell.	draft_review	machine transcript; check against audio
++29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_2.WAV	2.24		You mean girls are all the same.	draft_review	machine transcript; check against audio
++29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_3.WAV	3.79		What's Kagan gonna think about his shiny shroud tower now?	draft_review	machine transcript; check against audio
++29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_4.WAV	2.88		Obedient school is now in session.	draft_review	machine transcript; check against audio
++29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_5.WAV	2.74		What did Kagan mate with to create you?	draft_review	machine transcript; check against audio
++29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_6.WAV	2.64		Baby, you're too pretty for factory work.	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_1.WAV	1.41		Okay, that does it.	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_10.WAV	3.07	Grrf! Alright, playtime's over!	Ugh! Alright, playtime's over!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_11.WAV	1.96		Hey! I'm a girl!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_2.WAV	0.39		Oof	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_3.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_4.WAV	0.54		Eugh!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_5.WAV	0.51		Ugh!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_6.WAV	0.53		UGH!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_7.WAV	0.51		UGH!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_8.WAV	0.52		UGH!	draft_review	machine transcript; check against audio
++30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_9.WAV	0.61		AHH!	draft_review	machine transcript; check against audio; no_speech_prob=0.52
++31	Rayne_HintGunDrain	SOUND\RAYNE_HINTGUNDRAIN_2.WAV	3.12		Dragon's reservoirs are dry. Gotta refill them.	draft_review	machine transcript; check against audio
++31	Rayne_HintGunDrain	SOUND\RAYNE_HINTGUNDRAIN_6.WAV	3.57		These blood guns rock, but they're bleeding me dry.	draft_review	machine transcript; check against audio
++31	Rayne_HintGunDrain	SOUND\RAYNE_HINTGUNDRAIN_7.WAV	2.92		Uh-oh, Dragon's reservoirs are running low again.	draft_review	machine transcript; check against audio
++32	Rayne_HintHurtBad	SOUND\RAYNE_HINTHURTBAD_1.WAV	1.16		Feeding time.	draft_review	machine transcript; check against audio
++32	Rayne_HintHurtBad	SOUND\RAYNE_HINTHURTBAD_2.WAV	2.03		Damn, I'm a couple of quarts low.	draft_review	machine transcript; check against audio
++32	Rayne_HintHurtBad	SOUND\RAYNE_HINTHURTBAD_3.WAV	2.34		Gotta make a withdrawal from the blood bank.	draft_review	machine transcript; check against audio
++34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_1.WAV	1.81		Good jeans, I guess	draft_review	machine transcript; check against audio
++34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_2.WAV	2.43		And that's for all the birthdays you missed!	draft_review	machine transcript; check against audio
++34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_3.WAV	2.40		And that's for the pony you never gave me.	draft_review	machine transcript; check against audio
++34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_4.WAV	3.41		For an evil vampire overlord, you sure bleed a lot, Kagan.	draft_review	machine transcript; check against audio
++34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_5.WAV	3.93		Ugh! Waited a long time for this and the next one!	draft_review	machine transcript; check against audio
++34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_7.WAV	2.54		Oh, tell me that hurt. A lot.	draft_review	machine transcript; check against audio
++34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_8.WAV	2.31		Oh my god, that feels good.	draft_review	machine transcript; check against audio
++36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_1.WAV	2.81		If I didn't know better, I'd think you were running!	draft_review	machine transcript; check against audio
++36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_2.WAV	3.30		Give it up, Kagan. This whole place is a dead end.	draft_review	machine transcript; check against audio
++36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_4.WAV	3.35		No way, Kagan! You'll never escape me again!	draft_review	machine transcript; check against audio
++36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_5.WAV	2.06		There's no one left to save you!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_1.WAV	0.66		UGH!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_10.WAV	0.51		UGH!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_11.WAV	0.53		UGH!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_12.WAV	0.51		UGH!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_13.WAV	0.52		UGH!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_2.WAV	2.43		Damn it, that Vespersword pack's a-hurtin'.	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_3.WAV	1.31		I'm not giving in!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_4.WAV	0.63		UGH!	draft_review	machine transcript; check against audio; no_speech_prob=0.54
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_5.WAV	0.76		No!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_6.WAV	0.74		URGH!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_7.WAV	0.39		Oof	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_8.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio
++37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_9.WAV	0.54		Eugh!	draft_review	machine transcript; check against audio
++39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_1.WAV	1.81		Shouldn't have come back, Kagan.	draft_review	machine transcript; check against audio
++39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_2.WAV	2.61		How many times do I have to kill you?	draft_review	machine transcript; check against audio
++39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_3.WAV	3.40		You are so dead this time forever!	draft_review	machine transcript; check against audio
++39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_4.WAV	3.52		Your family's gone, Kagan. You're about to follow.	draft_review	machine transcript; check against audio
++39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_5.WAV	2.45		All bad things come to an end.	draft_review	machine transcript; check against audio
++39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_6.WAV	2.57		Bet I wasn't part of this plan, huh?	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_1.WAV	2.16		Well, send me a postcard from hell.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_10.WAV	2.46		Bet you didn't see that happening this morning.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_2.WAV	1.95		Hey, try not to bleed on the leather.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_3.WAV	1.91		Dead looks good on you.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_4.WAV	2.93		I'd like to think you learned something right there at the end.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_5.WAV	2.61		I'm gonna go. No, no, you stay here and rest.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_6.WAV	1.29		That's permanent.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_7.WAV	3.53		Anybody else see that? Giving you any second thoughts?	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_8.WAV	1.93		Somebody ought to be keeping score.	draft_review	machine transcript; check against audio
++40	Rayne_Kill	SOUND\RAYNE_KILL_9.WAV	1.53		Mm, very sad.	draft_review	machine transcript; check against audio
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_1.WAV	0.34		Ah!	draft_review	machine transcript; check against audio
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_10.WAV	0.50			no_speech_detected	may be nonverbal or very short speech
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_11.WAV	1.24		Ah! Ah!	draft_review	machine transcript; check against audio; no_speech_prob=0.51
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_12.WAV	0.60		Eugh!	draft_review	machine transcript; check against audio; no_speech_prob=0.71
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_2.WAV	0.33		Oh	draft_review	machine transcript; check against audio
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_3.WAV	0.60		Ugh!	draft_review	machine transcript; check against audio; no_speech_prob=0.71
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_4.WAV	0.49		Oh.	draft_review	machine transcript; check against audio; no_speech_prob=0.58
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_5.WAV	0.47			no_speech_detected	may be nonverbal or very short speech
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_6.WAV	0.31		Ah!	draft_review	machine transcript; check against audio; no_speech_prob=0.66
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_7.WAV	0.36			no_speech_detected	may be nonverbal or very short speech
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_8.WAV	0.38		Ugh!	draft_review	machine transcript; check against audio; no_speech_prob=0.72
++41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_9.WAV	2.70		Ugh! Sunlight everywhere!	draft_review	machine transcript; check against audio
++42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_1.WAV	2.44		No! No! No! No!	draft_review	machine transcript; check against audio
++42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_2.WAV	2.28		Ah, ah, ah!	draft_review	machine transcript; check against audio
++42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_3.WAV	2.28		No! No! No!	draft_review	machine transcript; check against audio; no_speech_prob=0.58
++42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_4.WAV	5.64		No-no-no-no-no-no-no! Jesus, that hurts!	draft_review	machine transcript; check against audio
++43	Rayne_SlezzAttack	SOUND\RAYNE_SLEZZATTACK_1.WAV	3.66		Where's the heart? I don't know how much longer I can take this.	draft_review	machine transcript; check against audio
++43	Rayne_SlezzAttack	SOUND\RAYNE_SLEZZATTACK_2.WAV	3.11		Could you die? Police, could you just die?	draft_review	machine transcript; check against audio
++43	Rayne_SlezzAttack	SOUND\RAYNE_SLEZZATTACK_3.WAV	3.64		If you aren't gonna die then could you just be quiet for a while?	draft_review	machine transcript; check against audio
++44	Rayne_SlezzDie	SOUND\RAYNE_SLEZZDIE_1.WAV	2.37		DOOM!	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_1.WAV	2.83		Ugh, I'm starting to get why all your kids hit the road.	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_10.WAV	0.50		UGH!	draft_review	machine transcript; check against audio; no_speech_prob=0.53
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_11.WAV	0.54		Ugh!	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_2.WAV	2.37		That's a hell of a throwing arm you got on ya.	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_3.WAV	2.64		Ugh, take it down a notch, will ya bitch?	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_4.WAV	2.26		Now this is extreme dodgeball.	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_5.WAV	0.39		Oof	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_6.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_7.WAV	0.53		Eugh!	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_8.WAV	0.51		Ugh!	draft_review	machine transcript; check against audio
++46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_9.WAV	0.53		UGH!	draft_review	machine transcript; check against audio
++47	Rayne_SlezzKill	SOUND\RAYNE_SLEZZKILL_1.WAV	3.51		I know it's a cliche, but she's got to be better off now.	draft_review	machine transcript; check against audio
++48	Rayne_SlezzTaunt	SOUND\RAYNE_SLEZZTAUNT_1.WAV	1.75		Hold still, I'll make it quick.	draft_review	machine transcript; check against audio
++48	Rayne_SlezzTaunt	SOUND\RAYNE_SLEZZTAUNT_2.WAV	2.16		They used to worship her like a god.	draft_review	machine transcript; check against audio
++48	Rayne_SlezzTaunt	SOUND\RAYNE_SLEZZTAUNT_3.WAV	2.04		I have the feeling you won't be missed.	draft_review	machine transcript; check against audio
++50	Rayne_Taunt	SOUND\RAYNE_TAUNT_1.WAV	2.12		Care to donate to my blood bank?	draft_review	machine transcript; check against audio
++50	Rayne_Taunt	SOUND\RAYNE_TAUNT_2.WAV	1.99		Come on. At least make an effort.	draft_review	machine transcript; check against audio
++50	Rayne_Taunt	SOUND\RAYNE_TAUNT_3.WAV	2.40		How come you idiots never surrender?	draft_review	machine transcript; check against audio
++60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_1.WAV	2.17		Hey, pick on someone your own size!	draft_review	machine transcript; check against audio
++60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_2.WAV	2.73		Hands off, asshole. I'm not like that.	draft_review	machine transcript; check against audio
++60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_3.WAV	2.36		Get out here and try that yourself.	draft_review	machine transcript; check against audio
++60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_4.WAV	2.67		What kind of steroids are you feeding this thing?	draft_review	machine transcript; check against audio
++61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_1.WAV	3.21		You're like some big meaty piñata.	draft_review	machine transcript; check against audio
++61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_2.WAV	1.74		Getting stuffy in there?	draft_review	machine transcript; check against audio
++61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_3.WAV	2.28		You'll be the head of the fashion circuit.	draft_review	machine transcript; check against audio
++61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_4.WAV	3.49		Do they make closet hangers big enough for that freak suit?	draft_review	machine transcript; check against audio
++61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_5.WAV	3.26		Admit it, you suffer from little man syndrome.	draft_review	machine transcript; check against audio
++65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_1.WAV	2.40		What's the matter? Lost your wings?	draft_review	machine transcript; check against audio
++65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_2.WAV	2.76		Mr. Showboat is all out of bat tricks.	draft_review	machine transcript; check against audio
++65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_3.WAV	2.45		Hey, you even scream in a funny accent.	draft_review	machine transcript; check against audio
++65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_4.WAV	2.90		Permit me to wipe that sneer off your face.	draft_review	machine transcript; check against audio
++67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_1.WAV	2.39		Stop with the frequent flyer shit already!	draft_review	machine transcript; check against audio
++67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_2.WAV	2.30		You're nothing but a flying rodent.	draft_review	machine transcript; check against audio
++67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_3.WAV	2.22		Does that trick always impress the girls?	draft_review	machine transcript; check against audio
++67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_4.WAV	2.20		So now we're playing Vampire Tag?	draft_review	machine transcript; check against audio
++68	Rayne_ZerenskiGetHurt	SOUND\RAYNE_ZERENSKIGETHURT_6.WAV	1.09		Fucking bats!	draft_review	machine transcript; check against audio
++69	Rayne_ZerenskiKill	SOUND\RAYNE_ZERENSKIKILL_1.WAV	2.52		The higher they fly, the farther they fall.	draft_review	machine transcript; check against audio
++71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_1.WAV	2.94		Guess where I'm gonna stuff that cane when I finish you.	draft_review	machine transcript; check against audio
++71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_2.WAV	2.47		Good idea dressing for your own funeral.	draft_review	machine transcript; check against audio
++71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_3.WAV	4.27		Unlike your costume, I almost thought you were a real vampire for a second.	draft_review	machine transcript; check against audio
++71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_4.WAV	3.61		Nice magic stick you got there, Z. Play with it a lot.	draft_review	machine transcript; check against audio
