@@ -1,0 +1,44 @@
+Asynchronous scripted speech subtitles, 2026-09-26.
+Changed branch/field: COMMON.POD / 28 WORLD\*.SCB scripts / unboxed dbStartSay commands. 210 dbBoxedDisplay calls inserted immediately before their matching unchanged dbStartSay calls. 83 new occurrences are Rayne's scripted speech; 127 are other speakers. Each new command inherits the adjacent source-line number. All added calls have matching Chinese text in unchanged LANGUAGE.POD and audio in unchanged W32ENSND.POD. The game was not launched by Codex; gameplay timing/visibility awaits user testing.
+
+Boundary of this build: engine-selected Rayne_Taunt, Rayne_Ambient*, Rayne_Kill etc. are independent sound cues, not SCB dbStartSay commands; their runtime subtitle trigger is not changed here. engine_cue_inventory.tsv lists 72 such executable voice-table categories. The audit covers all 224 parsed dbStartSay calls: 11 already boxed, 210 newly boxed, two lack caption text, one lacks matching English audio. The prior 417 dbSay subtitle insertions remain in the base COMMON.POD.
+
+Original COMMON.POD SHA256: 2E39DECB4A6A823A7F4EF0BB8CAB38A51292ADF04B368283B37D5D45B4569186
+Modified COMMON.POD SHA256: AB7EAEB666B74A8131E146A2E8764366CCD92305A08518E064B06D9FEEDDE844
+Unchanged LANGUAGE.POD SHA256: BC758A173AE411003DF748BC4C4BF6C2E240B27E065D9A70B1DCDF9F51E3CE9C
+Unchanged W32ENSND.POD SHA256: 2990E799BCEEE41AECBFBD2399A9CFFE9BB298B668ACAA8FF60B38A1E55E9719
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\start-say-subtitles-20260926\payload\COMMON.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\start-say-subtitles-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\start-say-subtitles-20260926\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\start-say-subtitles-20260926\ROLLBACK.sh
+Version-control test ZIP: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\dist\BloodRayne2_CN_start_say_test.zip
+ZIP SHA256: 2DDCABBA9DABAC182740722BEC4CEE8CEC18CB1D15877E845604489ABDB877E7
+
+BASELINE command: python '_cn_project\releases\start-say-subtitles-20260926\verify.py' baseline
+BASELINE input: original COMMON.POD SHA256 2E39DECB4A6A823A7F4EF0BB8CAB38A51292ADF04B368283B37D5D45B4569186
+BASELINE literal output: BASELINE_OK startsay=224 boxed=11 unboxed=213 unsupported=2 entries=3348
+BASELINE exit status: 0
+
+MODIFIED command: python '_cn_project\releases\start-say-subtitles-20260926\verify.py' modified
+MODIFIED input: original and modified COMMON.POD SHA256 AB7EAEB666B74A8131E146A2E8764366CCD92305A08518E064B06D9FEEDDE844
+MODIFIED literal output: MODIFIED_OK startsay=224 boxed=221 unboxed=3 added=210 rayne_added=83 changed_scb=28 unchanged_entries=3320 crc_failures=0
+MODIFIED exit status: 0
+
+ISOLATED INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\start-say-subtitles-20260926\install.ps1' -GameRoot '_cn_project\releases\start-say-subtitles-20260926\testroot'
+ISOLATED INSTALL input: separate testroot copy of original COMMON.POD
+ISOLATED INSTALL literal output: INSTALL_OK COMMON.POD=start_say_boxed_subtitles other_game_files=unchanged
+ISOLATED INSTALL exit status: 0
+ISOLATED INSTALL status: testroot COMMON.POD SHA256 AB7EAEB666B74A8131E146A2E8764366CCD92305A08518E064B06D9FEEDDE844
+
+ROLLBACK command: "C:\Program Files\Git\bin\bash.exe" '_cn_project\releases\start-say-subtitles-20260926\ROLLBACK.sh' -GameRoot '_cn_project\releases\start-say-subtitles-20260926\testroot'
+ROLLBACK input: isolated installed COMMON.POD and verified original backup
+ROLLBACK literal output: ROLLBACK_OK COMMON.POD=restored other_game_files=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored behavior/status: testroot COMMON.POD SHA256 2E39DECB4A6A823A7F4EF0BB8CAB38A51292ADF04B368283B37D5D45B4569186; original 213 unboxed dbStartSay state restored.
+
+LIVE INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\start-say-subtitles-20260926\install.ps1'
+LIVE INSTALL input: previous verified live COMMON.POD; game not running
+LIVE INSTALL literal output: INSTALL_OK COMMON.POD=start_say_boxed_subtitles other_game_files=unchanged
+LIVE INSTALL exit status: 0
+LIVE STATUS: COMMON.POD SHA256 AB7EAEB666B74A8131E146A2E8764366CCD92305A08518E064B06D9FEEDDE844; LANGUAGE.POD SHA256 BC758A173AE411003DF748BC4C4BF6C2E240B27E065D9A70B1DCDF9F51E3CE9C. Live COMMON.POD remains modified for user testing; rollback backup retained.
