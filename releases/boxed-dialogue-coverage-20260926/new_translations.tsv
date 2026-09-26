@@ -1,0 +1,5 @@
+key	scene	source_en	translation_zh	provenance
+a2s5_rayne_1.wav	A2_SUBWAY1.TXT	This is almost worse than the sewers.	这儿简直比下水道还糟。	Existing mistranscribed key 2s5_rayne_1.wav in EN/RU; reuse existing Chinese text and correct RU key only.
+a2s4_severin_10.wav	A3_SHROUDTOWER_ASCENT.TXT	Hurry Rayne!	快点，莱恩！	Copy existing RU A2_SEWER_SLEZZARENA.TXT caption; same audio key.
+a4s1_severin_22.wav	A4_PARK_2.TXT	You've got a thing about roaches.	你很讨厌蟑螂啊。	W32ENSND.POD English voice; faster-whisper medium transcript, context reviewed.
+a4s1_rayne_28.wav	A4_PARK_2.TXT	Well, I didn't. You know, before they took the shape of flesh-eating people.	以前不讨厌，直到它们变成吃人的家伙。	W32ENSND.POD English voice; faster-whisper medium transcript, context reviewed.

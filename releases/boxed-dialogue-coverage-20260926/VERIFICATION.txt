@@ -1,0 +1,50 @@
+Scripted-dialogue boxed-subtitle coverage, 2026-09-26.
+Changed branch/field: COMMON.POD / 32 WORLD\*.SCB scripts / dbSay calls without matching dbBoxedDisplay; LANGUAGE.POD / three WORLD\RU\*.TXT entries plus one new WORLD\RU\0BIOARMOR.TXT. User confirmed the preceding Club Strages three-line SCB insertion works in-game. This wider coverage patch has static and isolated rollback verification; user will test gameplay. The game was not launched by Codex.
+
+Scan: 93 SCB entries; two unsupported/nonstandard debug scripts skipped. 502 parsed dbSay calls: 82 already boxed; 417 new dbBoxedDisplay calls; three intentionally unboxed. The three are a2s3_Slezz12 (all source-language text rows blank), a4s1_Rayne_23a (no matching audio or text), and a3s2_Foreman_1 (no matching audio). Five 0BIOARMOR calls reused Chinese text from their real-scene counterparts. Four other unmatched local caption keys were repaired or translated. Every added call has matching English audio and nonblank Chinese text. Existing dbSay commands and source-line associations are unchanged; each inserted display duplicates its adjacent dbSay source-line number. The old Club Strages subtitles remain.
+
+Original COMMON.POD SHA256: 7E07F40F473DC056D289D6F583EAB4A890FD9CEA72BAB667E23E70CEE70C4EE3
+Modified COMMON.POD SHA256: 2E39DECB4A6A823A7F4EF0BB8CAB38A51292ADF04B368283B37D5D45B4569186
+Original LANGUAGE.POD SHA256: 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97
+Modified LANGUAGE.POD SHA256: BC758A173AE411003DF748BC4C4BF6C2E240B27E065D9A70B1DCDF9F51E3CE9C
+Unchanged W32ART.POD SHA256: 3FDF3834775EAFAC57C56EE4A05137B0AE4F5597F93CD89AB123CF5352BC0945
+Unchanged W32ENSND.POD SHA256: 2990E799BCEEE41AECBFBD2399A9CFFE9BB298B668ACAA8FF60B38A1E55E9719
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\boxed-dialogue-coverage-20260926\payload\COMMON.POD
+Companion modified file: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\boxed-dialogue-coverage-20260926\payload\LANGUAGE.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\boxed-dialogue-coverage-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\boxed-dialogue-coverage-20260926\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\boxed-dialogue-coverage-20260926\ROLLBACK.sh
+Version-control test ZIP: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\dist\BloodRayne2_CN_boxed_dialogue_test.zip
+ZIP SHA256: ACC9D1278598E5972799B15B3103AEFDBE9E97CDDDD0B4EB0A79C5944E86E0D5
+
+BASELINE command: python '_cn_project\releases\boxed-dialogue-coverage-20260926\verify.py' baseline
+BASELINE input: original COMMON.POD and LANGUAGE.POD (from verified backup after live install)
+BASELINE literal output: BASELINE_OK says=502 boxed=82 unboxed=420 unsupported=2 common_entries=3348 language_entries=392
+BASELINE exit status: 0
+
+MODIFIED command: python '_cn_project\releases\boxed-dialogue-coverage-20260926\verify.py' modified
+MODIFIED input: original PODs and modified payload COMMON.POD/LANGUAGE.POD
+MODIFIED literal output: MODIFIED_OK says=502 boxed=499 unboxed=3 added=417 changed_scb=32 language_changed=3 language_added=1 crc_failures=0
+MODIFIED exit status: 0
+MODIFIED text-limit command: python '_cn_project\releases\missing-dialogue-20260926\validate_missing.py' '_cn_project\releases\boxed-dialogue-coverage-20260926\payload\LANGUAGE.POD' --require-complete
+MODIFIED text-limit literal output: entries=393 scripted_audio_keys=1096 missing_files=0 missing_keys=0 blank_rows=5 tag_mismatches=0 long_runs=0
+MODIFIED text-limit exit status: 0
+
+ISOLATED INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\boxed-dialogue-coverage-20260926\install.ps1' -GameRoot '_cn_project\releases\boxed-dialogue-coverage-20260926\testroot'
+ISOLATED INSTALL input: separate testroot copies of both original PODs
+ISOLATED INSTALL literal output: INSTALL_OK COMMON.POD=boxed_dialogue_coverage LANGUAGE.POD=caption_rows other_game_files=unchanged
+ISOLATED INSTALL exit status: 0
+ISOLATED INSTALL status: COMMON.POD SHA256 2E39DECB4A6A823A7F4EF0BB8CAB38A51292ADF04B368283B37D5D45B4569186; LANGUAGE.POD SHA256 BC758A173AE411003DF748BC4C4BF6C2E240B27E065D9A70B1DCDF9F51E3CE9C
+
+ROLLBACK command: "C:\Program Files\Git\bin\bash.exe" '_cn_project\releases\boxed-dialogue-coverage-20260926\ROLLBACK.sh' -GameRoot '_cn_project\releases\boxed-dialogue-coverage-20260926\testroot'
+ROLLBACK input: isolated installed PODs and verified original backup
+ROLLBACK literal output: ROLLBACK_OK COMMON.POD=restored LANGUAGE.POD=restored other_game_files=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored behavior/status: testroot COMMON.POD SHA256 7E07F40F473DC056D289D6F583EAB4A890FD9CEA72BAB667E23E70CEE70C4EE3; LANGUAGE.POD SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97; original 420 unboxed script-call state restored.
+
+LIVE INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\boxed-dialogue-coverage-20260926\install.ps1'
+LIVE INSTALL input: verified original live PODs; game not running
+LIVE INSTALL literal output: INSTALL_OK COMMON.POD=boxed_dialogue_coverage LANGUAGE.POD=caption_rows other_game_files=unchanged
+LIVE INSTALL exit status: 0
+LIVE STATUS: COMMON.POD SHA256 2E39DECB4A6A823A7F4EF0BB8CAB38A51292ADF04B368283B37D5D45B4569186; LANGUAGE.POD SHA256 BC758A173AE411003DF748BC4C4BF6C2E240B27E065D9A70B1DCDF9F51E3CE9C. Live files remain modified for user gameplay testing; backup is retained for rollback.

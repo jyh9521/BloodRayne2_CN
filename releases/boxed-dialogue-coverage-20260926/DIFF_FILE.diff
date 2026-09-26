@@ -1,0 +1,1259 @@
+@@ WORLD\0BIOARMOR.SCB source_line=159 @@
++dbBoxedDisplay(a4s3_Xerx_13)
+ dbSay(a4s3_Xerx_13)
+@@ WORLD\0BIOARMOR.SCB source_line=160 @@
++dbBoxedDisplay(a4s3_Xerx_14)
+ dbSay(a4s3_Xerx_14)
+@@ WORLD\0BIOARMOR.SCB source_line=161 @@
++dbBoxedDisplay(a4s3_Rayne_16)
+ dbSay(a4s3_Rayne_16)
+@@ WORLD\0BIOARMOR.SCB source_line=162 @@
++dbBoxedDisplay(a4s3_Rayne_17)
+ dbSay(a4s3_Rayne_17)
+@@ WORLD\0BIOARMOR.SCB source_line=163 @@
++dbBoxedDisplay(a4s3_Rayne_18)
+ dbSay(a4s3_Rayne_18)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=209 @@
++dbBoxedDisplay(a1s1_ZMinion1_1)
+ dbSay(a1s1_ZMinion1_1)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=211 @@
++dbBoxedDisplay(a1s1_Rayne_12)
+ dbSay(a1s1_Rayne_12)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=442 @@
++dbBoxedDisplay(a1s1_ZMinion1_3)
+ dbSay(a1s1_ZMinion1_3)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=637 @@
++dbBoxedDisplay(a1s1_ZMinion1_4)
+ dbSay(a1s1_ZMinion1_4)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=641 @@
++dbBoxedDisplay(a1s1_ZMinion2_4)
+ dbSay(a1s1_ZMinion2_4)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=642 @@
++dbBoxedDisplay(a1s1_ZMinion3_2)
+ dbSay(a1s1_ZMinion3_2)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=645 @@
++dbBoxedDisplay(a1s1_Rayne_16)
+ dbSay(a1s1_Rayne_16)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=786 @@
++dbBoxedDisplay(a1s1_Rayne_25)
+ dbSay(a1s1_Rayne_25)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=794 @@
++dbBoxedDisplay(a1s1_Rayne_26)
+ dbSay(a1s1_Rayne_26)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=834 @@
++dbBoxedDisplay(a1s1_Rayne_27)
+ dbSay(a1s1_Rayne_27)
+@@ WORLD\A1_MANSION_PART1.SCB source_line=888 @@
++dbBoxedDisplay(a1s1_Rayne_18)
+ dbSay(a1s1_Rayne_18)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=213 @@
++dbBoxedDisplay(a1s2_ZMinion1_1)
+ dbSay(a1s2_ZMinion1_1)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=215 @@
++dbBoxedDisplay(a1s2_Rayne_1)
+ dbSay(a1s2_Rayne_1)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=246 @@
++dbBoxedDisplay(a1s2_ZMinion1_2)
+ dbSay(a1s2_ZMinion1_2)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=247 @@
++dbBoxedDisplay(a1s2_ZMinion2_1)
+ dbSay(a1s2_ZMinion2_1)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=288 @@
++dbBoxedDisplay(a1s2_Rayne_2)
+ dbSay(a1s2_Rayne_2)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=290 @@
++dbBoxedDisplay(a1s2_Severin_1)
+ dbSay(a1s2_Severin_1)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=292 @@
++dbBoxedDisplay(a1s2_Rayne_3)
+ dbSay(a1s2_Rayne_3)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=293 @@
++dbBoxedDisplay(a1s2_Severin_2)
+ dbSay(a1s2_Severin_2)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=294 @@
++dbBoxedDisplay(a1s2_Rayne_4)
+ dbSay(a1s2_Rayne_4)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=337 @@
++dbBoxedDisplay(a1s2_Rayne_5)
+ dbSay(a1s2_Rayne_5)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=338 @@
++dbBoxedDisplay(a1s2_Severin_3)
+ dbSay(a1s2_Severin_3)
+@@ WORLD\A1_MANSION_PART2.SCB source_line=339 @@
++dbBoxedDisplay(a1s2_Rayne_6)
+ dbSay(a1s2_Rayne_6)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=217 @@
++dbBoxedDisplay(a1s1_Rayne_25)
+ dbSay(a1s1_Rayne_25)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=220 @@
++dbBoxedDisplay(a1s1_MDhampir_1.wav)
+ dbSay(a1s1_MDhampir_1.wav)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=223 @@
++dbBoxedDisplay(a1s1_Rayne_26)
+ dbSay(a1s1_Rayne_26)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=307 @@
++dbBoxedDisplay(a1s1_Rayne_27)
+ dbSay(a1s1_Rayne_27)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=397 @@
++dbBoxedDisplay(a1s1_Rayne_19)
+ dbSay(a1s1_Rayne_19)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=410 @@
++dbBoxedDisplay(a1s1_Rayne_21)
+ dbSay(a1s1_Rayne_21)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=508 @@
++dbBoxedDisplay(a1s2_ZMinion1_1)
+ dbSay(a1s2_ZMinion1_1)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=514 @@
++dbBoxedDisplay(a1s2_Rayne_1)
+ dbSay(a1s2_Rayne_1)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=570 @@
++dbBoxedDisplay(a1s2_ZMinion1_2)
+ dbSay(a1s2_ZMinion1_2)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=571 @@
++dbBoxedDisplay(a1s2_ZMinion2_1)
+ dbSay(a1s2_ZMinion2_1)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=657 @@
++dbBoxedDisplay(a1s2_Rayne_2)
+ dbSay(a1s2_Rayne_2)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=663 @@
++dbBoxedDisplay(a1s2_Severin_1)
+ dbSay(a1s2_Severin_1)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=664 @@
++dbBoxedDisplay(a1s2_Rayne_3)
+ dbSay(a1s2_Rayne_3)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=665 @@
++dbBoxedDisplay(a1s2_Severin_2)
+ dbSay(a1s2_Severin_2)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=666 @@
++dbBoxedDisplay(a1s2_Rayne_4)
+ dbSay(a1s2_Rayne_4)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=761 @@
++dbBoxedDisplay(a1s2_Rayne_5)
+ dbSay(a1s2_Rayne_5)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=762 @@
++dbBoxedDisplay(a1s2_Severin_3)
+ dbSay(a1s2_Severin_3)
+@@ WORLD\A1_MANSION_PART2_5.SCB source_line=763 @@
++dbBoxedDisplay(a1s2_Rayne_6)
+ dbSay(a1s2_Rayne_6)
+@@ WORLD\A1_MANSION_PART3.SCB source_line=80 @@
++dbBoxedDisplay(a1s3_Severin_1)
+ dbSay(a1s3_Severin_1)
+@@ WORLD\A1_MANSION_PART3.SCB source_line=84 @@
++dbBoxedDisplay(a1s3_Rayne_2)
+ dbSay(a1s3_Rayne_2)
+@@ WORLD\A1_MANSION_PART3.SCB source_line=89 @@
++dbBoxedDisplay(a1s3_Rayne_1)
+ dbSay(a1s3_Rayne_1)
+@@ WORLD\A1_MANSION_PART3.SCB source_line=117 @@
++dbBoxedDisplay(a1s3_Rayne_3)
+ dbSay(a1s3_Rayne_3)
+@@ WORLD\A1_MANSION_PART3.SCB source_line=123 @@
++dbBoxedDisplay(a1s3_Rayne_3)
+ dbSay(a1s3_Rayne_3)
+@@ WORLD\A1_MANSION_PART3.SCB source_line=129 @@
++dbBoxedDisplay(a1s3_Rayne_4)
+ dbSay(a1s3_Rayne_4)
+@@ WORLD\A1_MANSION_PART4.SCB source_line=108 @@
++dbBoxedDisplay(a1s2_Zerenzki_16)
+ dbSay(a1s2_Zerenzki_16)
+@@ WORLD\A1_MANSION_PART4.SCB source_line=109 @@
++dbBoxedDisplay(a1s2_Zerenzki_17)
+ dbSay(a1s2_Zerenzki_17)
+@@ WORLD\A1_MANSION_PART4.SCB source_line=122 @@
++dbBoxedDisplay(a1s2_Rayne_37)
+ dbSay(a1s2_Rayne_37)
+@@ WORLD\A1_MANSION_PART4.SCB source_line=325 @@
++dbBoxedDisplay(a1s2_Severin_19)
+ dbSay(a1s2_Severin_19)
+@@ WORLD\A1_MANSION_PART4.SCB source_line=327 @@
++dbBoxedDisplay(a1s2_Rayne_27)
+ dbSay(a1s2_Rayne_27)
+@@ WORLD\A1_MANSION_PART4.SCB source_line=361 @@
++dbBoxedDisplay(a1s2_Rayne_35)
+ dbSay(a1s2_Rayne_35)
+@@ WORLD\A1_MANSION_PART4.SCB source_line=379 @@
++dbBoxedDisplay(a1s2_Zerenzki_16)
+ dbSay(a1s2_Zerenzki_16)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=169 @@
++dbBoxedDisplay(a1s2_Zerenzki_16)
+ dbSay(a1s2_Zerenzki_16)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=170 @@
++dbBoxedDisplay(a1s2_Zerenzki_17)
+ dbSay(a1s2_Zerenzki_17)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=197 @@
++dbBoxedDisplay(a1s2_Rayne_37)
+ dbSay(a1s2_Rayne_37)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=561 @@
++dbBoxedDisplay(a1s2_Severin_17)
+ dbSay(a1s2_Severin_17)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=562 @@
++dbBoxedDisplay(a1s2_Rayne_26)
+ dbSay(a1s2_Rayne_26)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=563 @@
++dbBoxedDisplay(a1s2_Severin_18)
+ dbSay(a1s2_Severin_18)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=720 @@
++dbBoxedDisplay(a1s2_Severin_19)
+ dbSay(a1s2_Severin_19)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=726 @@
++dbBoxedDisplay(a1s2_Rayne_27)
+ dbSay(a1s2_Rayne_27)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=796 @@
++dbBoxedDisplay(a1s2_Zerenzki_5)
+ dbSay(a1s2_Zerenzki_5)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=841 @@
++dbBoxedDisplay(a1s2_Zerenzki_6)
+ dbSay(a1s2_Zerenzki_6)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=842 @@
++dbBoxedDisplay(a1s2_Rayne_29)
+ dbSay(a1s2_Rayne_29)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=848 @@
++dbBoxedDisplay(a1s2_Zerenzki_7)
+ dbSay(a1s2_Zerenzki_7)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=849 @@
++dbBoxedDisplay(a1s2_Rayne_30)
+ dbSay(a1s2_Rayne_30)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=850 @@
++dbBoxedDisplay(a1s2_Zerenzki_8)
+ dbSay(a1s2_Zerenzki_8)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=856 @@
++dbBoxedDisplay(a1s2_Rayne_31)
+ dbSay(a1s2_Rayne_31)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=857 @@
++dbBoxedDisplay(a1s2_Zerenzki_9)
+ dbSay(a1s2_Zerenzki_9)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=858 @@
++dbBoxedDisplay(a1s2_Rayne_32)
+ dbSay(a1s2_Rayne_32)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=864 @@
++dbBoxedDisplay(a1s2_Zerenzki_10)
+ dbSay(a1s2_Zerenzki_10)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=865 @@
++dbBoxedDisplay(a1s2_Rayne_33)
+ dbSay(a1s2_Rayne_33)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=866 @@
++dbBoxedDisplay(a1s2_Zerenzki_11)
+ dbSay(a1s2_Zerenzki_11)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=867 @@
++dbBoxedDisplay(a1s2_Zerenzki_12)
+ dbSay(a1s2_Zerenzki_12)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=868 @@
++dbBoxedDisplay(a1s2_Rayne_34)
+ dbSay(a1s2_Rayne_34)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=869 @@
++dbBoxedDisplay(a1s2_Zerenzki_13)
+ dbSay(a1s2_Zerenzki_13)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=870 @@
++dbBoxedDisplay(a1s2_Rayne_35)
+ dbSay(a1s2_Rayne_35)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=876 @@
++dbBoxedDisplay(a1s2_Zerenzki_14)
+ dbSay(a1s2_Zerenzki_14)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=877 @@
++dbBoxedDisplay(a1s2_Zerenzki_15)
+ dbSay(a1s2_Zerenzki_15)
+@@ WORLD\A1_MANSION_PART5.SCB source_line=878 @@
++dbBoxedDisplay(a1s2_Rayne_36)
+ dbSay(a1s2_Rayne_36)
+@@ WORLD\A2_MEATPACKING_1.SCB source_line=63 @@
++dbBoxedDisplay(a2s1_Rayne_15)
+ dbSay(a2s1_Rayne_15)
+@@ WORLD\A2_MEATPACKING_1.SCB source_line=75 @@
++dbBoxedDisplay(a2s1_Rayne_10)
+ dbSay(a2s1_Rayne_10)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=349 @@
++dbBoxedDisplay(a2s1_Severin_34)
+ dbSay(a2s1_Severin_34)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=390 @@
++dbBoxedDisplay(a2_Severin_15)
+ dbSay(a2_Severin_15)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=391 @@
++dbBoxedDisplay(a2_Rayne_22)
+ dbSay(a2_Rayne_22)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=394 @@
++dbBoxedDisplay(a2_Rayne_19)
+ dbSay(a2_Rayne_19)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=400 @@
++dbBoxedDisplay(a2s1_Kestrel1_11)
+ dbSay(a2s1_Kestrel1_11)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=402 @@
++dbBoxedDisplay(a2_Rayne_20)
+ dbSay(a2_Rayne_20)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=406 @@
++dbBoxedDisplay(a2s1_Severin_20)
+ dbSay(a2s1_Severin_20)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=407 @@
++dbBoxedDisplay(a2s1_Rayne_38)
+ dbSay(a2s1_Rayne_38)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=408 @@
++dbBoxedDisplay(a2s1_Severin_21)
+ dbSay(a2s1_Severin_21)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=409 @@
++dbBoxedDisplay(a2s1_Severin_22)
+ dbSay(a2s1_Severin_22)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=410 @@
++dbBoxedDisplay(a2s1_Severin_23)
+ dbSay(a2s1_Severin_23)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=434 @@
++dbBoxedDisplay(a2_Rayne_24)
+ dbSay(a2_Rayne_24)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=435 @@
++dbBoxedDisplay(a2s1_Kestrel1_12)
+ dbSay(a2s1_Kestrel1_12)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=438 @@
++dbBoxedDisplay(a2s1_Rayne_45)
+ dbSay(a2s1_Rayne_45)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=439 @@
++dbBoxedDisplay(a2s1_Severin_29)
+ dbSay(a2s1_Severin_29)
+@@ WORLD\A2_MEATPACKING_2.SCB source_line=440 @@
++dbBoxedDisplay(a2s1_Severin_30)
+ dbSay(a2s1_Severin_30)
+@@ WORLD\A2_SEWER_1.SCB source_line=866 @@
++dbBoxedDisplay(a2s3_Rayne_33)
+ dbSay(a2s3_Rayne_33)
+@@ WORLD\A2_SEWER_1.SCB source_line=1232 @@
++dbBoxedDisplay(a2s3_Severin_36)
+ dbSay(a2s3_Severin_36)
+@@ WORLD\A2_SEWER_1.SCB source_line=1234 @@
++dbBoxedDisplay(a2s3_Rayne_37)
+ dbSay(a2s3_Rayne_37)
+@@ WORLD\A2_SEWER_1.SCB source_line=1820 @@
++dbBoxedDisplay(a2s3_Severin_18)
+ dbSay(a2s3_Severin_18)
+@@ WORLD\A2_SEWER_1.SCB source_line=1821 @@
++dbBoxedDisplay(a2s3_Rayne_11)
+ dbSay(a2s3_Rayne_11)
+@@ WORLD\A2_SEWER_1.SCB source_line=1883 @@
++dbBoxedDisplay(a2s3_FMinion1_6)
+ dbSay(a2s3_FMinion1_6)
+@@ WORLD\A2_SEWER_1.SCB source_line=1884 @@
++dbBoxedDisplay(a2s3_FMinion1_7)
+ dbSay(a2s3_FMinion1_7)
+@@ WORLD\A2_SEWER_1.SCB source_line=1934 @@
++dbBoxedDisplay(a2s3_FMinion1_13)
+ dbSay(a2s3_FMinion1_13)
+@@ WORLD\A2_SEWER_1.SCB source_line=1935 @@
++dbBoxedDisplay(a2s3_FMinion2_19)
+ dbSay(a2s3_FMinion2_19)
+@@ WORLD\A2_SEWER_1.SCB source_line=1936 @@
++dbBoxedDisplay(a2s3_FMinion1_14)
+ dbSay(a2s3_FMinion1_14)
+@@ WORLD\A2_SEWER_1.SCB source_line=1938 @@
++dbBoxedDisplay(a2s3_FMinion1_15)
+ dbSay(a2s3_FMinion1_15)
+@@ WORLD\A2_SEWER_1.SCB source_line=1947 @@
++dbBoxedDisplay(a2s3_Severin_32)
+ dbSay(a2s3_Severin_32)
+@@ WORLD\A2_SEWER_1.SCB source_line=1956 @@
++dbBoxedDisplay(a2s3_Rayne_31)
+ dbSay(a2s3_Rayne_31)
+@@ WORLD\A2_SEWER_1.SCB source_line=1957 @@
++dbBoxedDisplay(a2s3_Severin_34)
+ dbSay(a2s3_Severin_34)
+@@ WORLD\A2_SEWER_1.SCB source_line=1959 @@
++dbBoxedDisplay(a2s3_Rayne_32)
+ dbSay(a2s3_Rayne_32)
+@@ WORLD\A2_SEWER_1.SCB source_line=1962 @@
++dbBoxedDisplay(a2s3_Severin_35)
+ dbSay(a2s3_Severin_35)
+@@ WORLD\A2_SEWER_1.SCB source_line=1982 @@
++dbBoxedDisplay(a2s3_Severin_36)
+ dbSay(a2s3_Severin_36)
+@@ WORLD\A2_SEWER_1.SCB source_line=1984 @@
++dbBoxedDisplay(a2s3_Rayne_37)
+ dbSay(a2s3_Rayne_37)
+@@ WORLD\A2_SEWER_1.SCB source_line=1986 @@
++dbBoxedDisplay(a2s3_Severin_37)
+ dbSay(a2s3_Severin_37)
+@@ WORLD\A2_SEWER_2.SCB source_line=1261 @@
++dbBoxedDisplay(a2s3_Severin_3)
+ dbSay(a2s3_Severin_3)
+@@ WORLD\A2_SEWER_2.SCB source_line=1262 @@
++dbBoxedDisplay(a2s3_Severin_6)
+ dbSay(a2s3_Severin_6)
+@@ WORLD\A2_SEWER_2.SCB source_line=1263 @@
++dbBoxedDisplay(a2s3_Rayne_3)
+ dbSay(a2s3_Rayne_3)
+@@ WORLD\A2_SEWER_2.SCB source_line=1264 @@
++dbBoxedDisplay(a2s3_Severin_7)
+ dbSay(a2s3_Severin_7)
+@@ WORLD\A2_SEWER_2.SCB source_line=1265 @@
++dbBoxedDisplay(a2s3_Rayne_4)
+ dbSay(a2s3_Rayne_4)
+@@ WORLD\A2_SEWER_2.SCB source_line=1266 @@
++dbBoxedDisplay(a2s3_Severin_8)
+ dbSay(a2s3_Severin_8)
+@@ WORLD\A2_SEWER_2.SCB source_line=1267 @@
++dbBoxedDisplay(a2s3_Severin_9)
+ dbSay(a2s3_Severin_9)
+@@ WORLD\A2_SEWER_2.SCB source_line=1270 @@
++dbBoxedDisplay(a2s3_Severin_38)
+ dbSay(a2s3_Severin_38)
+@@ WORLD\A2_SEWER_2.SCB source_line=1273 @@
++dbBoxedDisplay(a2s3_Severin_39)
+ dbSay(a2s3_Severin_39)
+@@ WORLD\A2_SEWER_2.SCB source_line=1276 @@
++dbBoxedDisplay(a2s3_Rayne_38)
+ dbSay(a2s3_Rayne_38)
+@@ WORLD\A2_SEWER_2.SCB source_line=1315 @@
++dbBoxedDisplay(a2s3_Rayne_42)
+ dbSay(a2s3_Rayne_42)
+@@ WORLD\A2_SEWER_2.SCB source_line=1338 @@
++dbBoxedDisplay(a2s3_Severin_45)
+ dbSay(a2s3_Severin_45)
+@@ WORLD\A2_SEWER_2.SCB source_line=1339 @@
++dbBoxedDisplay(a2s3_Rayne_43)
+ dbSay(a2s3_Rayne_43)
+@@ WORLD\A2_SEWER_2.SCB source_line=1340 @@
++dbBoxedDisplay(a2s3_Severin_46)
+ dbSay(a2s3_Severin_46)
+@@ WORLD\A2_SEWER_2.SCB source_line=1341 @@
++dbBoxedDisplay(a2s3_Rayne_44)
+ dbSay(a2s3_Rayne_44)
+@@ WORLD\A2_SEWER_2.SCB source_line=1342 @@
++dbBoxedDisplay(a2s3_Rayne_45)
+ dbSay(a2s3_Rayne_45)
+@@ WORLD\A2_SEWER_2.SCB source_line=1343 @@
++dbBoxedDisplay(a2s3_Severin_47)
+ dbSay(a2s3_Severin_47)
+@@ WORLD\A2_SEWER_2.SCB source_line=1346 @@
++dbBoxedDisplay(a2s3_Severin_48)
+ dbSay(a2s3_Severin_48)
+@@ WORLD\A2_SEWER_2.SCB source_line=1347 @@
++dbBoxedDisplay(a2s3_Severin_49)
+ dbSay(a2s3_Severin_49)
+@@ WORLD\A2_SEWER_2.SCB source_line=1350 @@
++dbBoxedDisplay(a2s3_Rayne_46)
+ dbSay(a2s3_Rayne_46)
+@@ WORLD\A2_SEWER_2.SCB source_line=1351 @@
++dbBoxedDisplay(a2s3_Severin_51)
+ dbSay(a2s3_Severin_51)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=83 @@
++dbBoxedDisplay(a2s4_Rayne_1)
+ dbSay(a2s4_Rayne_1)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=142 @@
++dbBoxedDisplay(a2s4_Rayne_2)
+ dbSay(a2s4_Rayne_2)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=149 @@
++dbBoxedDisplay(a2s4_Rayne_3)
+ dbSay(a2s4_Rayne_3)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=154 @@
++dbBoxedDisplay(a2s4_Rayne_4)
+ dbSay(a2s4_Rayne_4)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=156 @@
++dbBoxedDisplay(a2s4_Rayne_5)
+ dbSay(a2s4_Rayne_5)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=161 @@
++dbBoxedDisplay(a2s4_Severin_1)
+ dbSay(a2s4_Severin_1)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=163 @@
++dbBoxedDisplay(a2s4_Rayne_6)
+ dbSay(a2s4_Rayne_6)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=164 @@
++dbBoxedDisplay(a2s4_Severin_2)
+ dbSay(a2s4_Severin_2)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=166 @@
++dbBoxedDisplay(a2s4_Severin_3)
+ dbSay(a2s4_Severin_3)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=169 @@
++dbBoxedDisplay(a2s4_Rayne_7)
+ dbSay(a2s4_Rayne_7)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=171 @@
++dbBoxedDisplay(a2s4_Severin_4)
+ dbSay(a2s4_Severin_4)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=174 @@
++dbBoxedDisplay(a2s4_Rayne_8)
+ dbSay(a2s4_Rayne_8)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=175 @@
++dbBoxedDisplay(a2s4_Severin_5)
+ dbSay(a2s4_Severin_5)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=376 @@
++dbBoxedDisplay(a2s4_Severin_11)
+ dbSay(a2s4_Severin_11)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=378 @@
++dbBoxedDisplay(a2s4_Rayne_21)
+ dbSay(a2s4_Rayne_21)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=389 @@
++dbBoxedDisplay(a2s4_Severin_13)
+ dbSay(a2s4_Severin_13)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=395 @@
++dbBoxedDisplay(a2s4_Rayne_23)
+ dbSay(a2s4_Rayne_23)
+@@ WORLD\A2_SEWER_SLEZZARENA.SCB source_line=408 @@
++dbBoxedDisplay(a2s3_slezz30)
+ dbSay(a2s3_slezz30)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2070 @@
++dbBoxedDisplay(a2s5_Rayne_1.wav)
+ dbSay(a2s5_Rayne_1.wav)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2075 @@
++dbBoxedDisplay(a2s5_Severin_1.wav)
+ dbSay(a2s5_Severin_1.wav)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2080 @@
++dbBoxedDisplay(a2s5_Rayne_2.wav)
+ dbSay(a2s5_Rayne_2.wav)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2085 @@
++dbBoxedDisplay(a2s5_Rayne_3.wav)
+ dbSay(a2s5_Rayne_3.wav)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2105 @@
++dbBoxedDisplay(a2s5_Rayne_4.wav)
+ dbSay(a2s5_Rayne_4.wav)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2110 @@
++dbBoxedDisplay(a2s5_Rayne_5.wav)
+ dbSay(a2s5_Rayne_5.wav)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2115 @@
++dbBoxedDisplay(a2s5_Severin_2.wav)
+ dbSay(a2s5_Severin_2.wav)
+@@ WORLD\A2_SUBWAY1.SCB source_line=2120 @@
++dbBoxedDisplay(a2s5_Rayne_3.wav)
+ dbSay(a2s5_Rayne_3.wav)
+@@ WORLD\A2_UNIONSTATION_PART1.SCB source_line=473 @@
++dbBoxedDisplay(a2s2_Rayne_10)
+ dbSay(a2s2_Rayne_10)
+@@ WORLD\A2_UNIONSTATION_PART1.SCB source_line=633 @@
++dbBoxedDisplay(a2s2_Kestrel1_20.wav)
+ dbSay(a2s2_Kestrel1_20.wav)
+@@ WORLD\A2_UNIONSTATION_PART1.SCB source_line=653 @@
++dbBoxedDisplay(a2s2_Kestrel2_5.wav)
+ dbSay(a2s2_Kestrel2_5.wav)
+@@ WORLD\A2_UNIONSTATION_PART1.SCB source_line=849 @@
++dbBoxedDisplay(a2s2_Rayne_13.wav)
+ dbSay(a2s2_Rayne_13.wav)
+@@ WORLD\A2_UNIONSTATION_PART1.SCB source_line=852 @@
++dbBoxedDisplay(a2s2_Rayne_16.wav)
+ dbSay(a2s2_Rayne_16.wav)
+@@ WORLD\A2_UNIONSTATION_PART1.SCB source_line=854 @@
++dbBoxedDisplay(a2s2_Rayne_17.wav)
+ dbSay(a2s2_Rayne_17.wav)
+@@ WORLD\A2_UNIONSTATION_PART2.SCB source_line=534 @@
++dbBoxedDisplay(a2s2_FMinion3_8.wav)
+ dbSay(a2s2_FMinion3_8.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=567 @@
++dbBoxedDisplay(a2s2_Rayne_48.wav)
+ dbSay(a2s2_Rayne_48.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=568 @@
++dbBoxedDisplay(a2s2_Severin_17.wav)
+ dbSay(a2s2_Severin_17.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=569 @@
++dbBoxedDisplay(a2s2_Rayne_49.wav)
+ dbSay(a2s2_Rayne_49.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=570 @@
++dbBoxedDisplay(a2s2_Severin_18.wav)
+ dbSay(a2s2_Severin_18.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=572 @@
++dbBoxedDisplay(a2s2_Rayne_42.wav)
+ dbSay(a2s2_Rayne_42.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=663 @@
++dbBoxedDisplay(a2s2_Rayne_46.wav)
+ dbSay(a2s2_Rayne_46.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=1019 @@
++dbBoxedDisplay(a2s2_Ephemera_12.wav)
+ dbSay(a2s2_Ephemera_12.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=1086 @@
++dbBoxedDisplay(a2s2_Rayne_27.wav)
+ dbSay(a2s2_Rayne_27.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=1090 @@
++dbBoxedDisplay(a2s2_FMinion1_23.wav)
+ dbSay(a2s2_FMinion1_23.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=1111 @@
++dbBoxedDisplay(a2s2_Rayne_28.wav)
+ dbSay(a2s2_Rayne_28.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=1429 @@
++dbBoxedDisplay(a2s2_Rayne_39.wav)
+ dbSay(a2s2_Rayne_39.wav)
+@@ WORLD\A2_UNIONSTATION_PART3.SCB source_line=1446 @@
++dbBoxedDisplay(a2s2_Rayne_40.wav)
+ dbSay(a2s2_Rayne_40.wav)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=509 @@
++dbBoxedDisplay(a3s4_LMinion1_2)
+ dbSay(a3s4_LMinion1_2)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=510 @@
++dbBoxedDisplay(a3s4_LMinion2_2)
+ dbSay(a3s4_LMinion2_2)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=511 @@
++dbBoxedDisplay(a3s4_Lminion1_3)
+ dbSay(a3s4_Lminion1_3)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=512 @@
++dbBoxedDisplay(a3s4_Rayne_3)
+ dbSay(a3s4_Rayne_3)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=513 @@
++dbBoxedDisplay(a3s4_Severin_2)
+ dbSay(a3s4_Severin_2)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=515 @@
++dbBoxedDisplay(a3s4_Severin_3)
+ dbSay(a3s4_Severin_3)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=516 @@
++dbBoxedDisplay(a3s4_Severin_5)
+ dbSay(a3s4_Severin_5)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=517 @@
++dbBoxedDisplay(a3s4_Severin_6)
+ dbSay(a3s4_Severin_6)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=519 @@
++dbBoxedDisplay(a3s4_Rayne_4)
+ dbSay(a3s4_Rayne_4)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=557 @@
++dbBoxedDisplay(a2s4_Severin_10)
+ dbSay(a2s4_Severin_10)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=755 @@
++dbBoxedDisplay(a3s4_Rayne_5)
+ dbsay(a3s4_Rayne_5)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=757 @@
++dbBoxedDisplay(a3s4_Severin_7)
+ dbsay(a3s4_Severin_7)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=907 @@
++dbBoxedDisplay(a3s4_Rayne_7)
+ dbsay(a3s4_Rayne_7)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=908 @@
++dbBoxedDisplay(a3s4_Severin_8)
+ dbsay(a3s4_Severin_8)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=909 @@
++dbBoxedDisplay(a3s4_severin_9)
+ dbsay(a3s4_severin_9)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=910 @@
++dbBoxedDisplay(a3s4_Rayne_8)
+ dbsay(a3s4_Rayne_8)
+@@ WORLD\A3_SHROUDTOWER_ASCENT.SCB source_line=911 @@
++dbBoxedDisplay(a3s4_Severin_10)
+ dbsay(a3s4_Severin_10)
+@@ WORLD\A3_WETWORKS_E_1.SCB source_line=431 @@
++dbBoxedDisplay(a3s2_Rayne_1)
+ dbSay(a3s2_Rayne_1)
+@@ WORLD\A3_WETWORKS_E_1.SCB source_line=433 @@
++dbBoxedDisplay(a3s2_Rayne_2)
+ dbSay(a3s2_Rayne_2)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=103 @@
++dbBoxedDisplay(a3s1_Severin_1)
+ dbSay(a3s1_Severin_1)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=501 @@
++dbBoxedDisplay(a3s1_LMinion12_13)
+ dbSay(a3s1_LMinion12_13)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=510 @@
++dbBoxedDisplay(a3s1_LMinion11_15)
+ dbSay(a3s1_LMinion11_15)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=1101 @@
++dbBoxedDisplay(a3s1_LMinion11_11)
+ dbSay(a3s1_LMinion11_11)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=1102 @@
++dbBoxedDisplay(a3s1_LMinion12_9)
+ dbSay(a3s1_LMinion12_9)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=1103 @@
++dbBoxedDisplay(a3s1_LMinion11_12)
+ dbSay(a3s1_LMinion11_12)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=1104 @@
++dbBoxedDisplay(a3s1_LMinion12_10)
+ dbSay(a3s1_LMinion12_10)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=1112 @@
++dbBoxedDisplay(a3s1_LMinion12_11)
+ dbSay(a3s1_LMinion12_11)
+@@ WORLD\A3_WETWORKS_N_1.SCB source_line=1124 @@
++dbBoxedDisplay(a3s1_LMinion11_14)
+ dbSay(a3s1_LMinion11_14)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=88 @@
++dbBoxedDisplay(a3s1_FMinion1_16)
+ dbSay(a3s1_FMinion1_16)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=89 @@
++dbBoxedDisplay(a3s1_FMinion2_14)
+ dbSay(a3s1_FMinion2_14)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=90 @@
++dbBoxedDisplay(a3s1_FMinion1_17)
+ dbSay(a3s1_FMinion1_17)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=91 @@
++dbBoxedDisplay(a3s1_FMinion2_15)
+ dbSay(a3s1_FMinion2_15)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=92 @@
++dbBoxedDisplay(a3s1_FMinion1_18)
+ dbSay(a3s1_FMinion1_18)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=195 @@
++dbBoxedDisplay(a3s1_FMinion1_19)
+ dbSay(a3s1_FMinion1_19)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=196 @@
++dbBoxedDisplay(a3s1_FMinion2_16)
+ dbSay(a3s1_FMinion2_16)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=197 @@
++dbBoxedDisplay(a3s1_FMinion1_20)
+ dbSay(a3s1_FMinion1_20)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=198 @@
++dbBoxedDisplay(a3s1_FMinion3_1)
+ dbSay(a3s1_FMinion3_1)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=199 @@
++dbBoxedDisplay(a3s1_FMinion2_17)
+ dbSay(a3s1_FMinion2_17)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=200 @@
++dbBoxedDisplay(a3s1_FMinion3_2)
+ dbSay(a3s1_FMinion3_2)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=201 @@
++dbBoxedDisplay(a3s1_FMinion1_21)
+ dbSay(a3s1_FMinion1_21)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=461 @@
++dbBoxedDisplay(a3s1_Rayne_1)
+ dbSay(a3s1_Rayne_1)
+@@ WORLD\A3_WETWORKS_N_2.SCB source_line=462 @@
++dbBoxedDisplay(a3s1_Severin_2)
+ dbSay(a3s1_Severin_2)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=41 @@
++dbBoxedDisplay(a3s1_Severin_3)
+ dbSay(a3s1_Severin_3)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=42 @@
++dbBoxedDisplay(a3s1_Severin_4)
+ dbSay(a3s1_Severin_4)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=43 @@
++dbBoxedDisplay(a3s1_Rayne_2)
+ dbSay(a3s1_Rayne_2)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=46 @@
++dbBoxedDisplay(a3s1_Severin_5)
+ dbSay(a3s1_Severin_5)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=47 @@
++dbBoxedDisplay(a3s1_Severin_6)
+ dbSay(a3s1_Severin_6)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=48 @@
++dbBoxedDisplay(a3s1_Severin_7)
+ dbSay(a3s1_Severin_7)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=51 @@
++dbBoxedDisplay(a3s1_Rayne_3)
+ dbSay(a3s1_Rayne_3)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=52 @@
++dbBoxedDisplay(a3s1_Severin_8)
+ dbSay(a3s1_Severin_8)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=53 @@
++dbBoxedDisplay(a3s1_Rayne_4)
+ dbSay(a3s1_Rayne_4)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=54 @@
++dbBoxedDisplay(a3s1_Severin_9)
+ dbSay(a3s1_Severin_9)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=58 @@
++dbBoxedDisplay(a3s1_Rayne_5)
+ dbSay(a3s1_Rayne_5)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=59 @@
++dbBoxedDisplay(a3s1_Severin_10)
+ dbSay(a3s1_Severin_10)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=61 @@
++dbBoxedDisplay(a3s1_Severin_11)
+ dbSay(a3s1_Severin_11)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=62 @@
++dbBoxedDisplay(a3s1_Rayne_6)
+ dbSay(a3s1_Rayne_6)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=377 @@
++dbBoxedDisplay(a3s1_Rayne_7)
+ dbSay(a3s1_Rayne_7)
+@@ WORLD\A3_WETWORKS_N_3.SCB source_line=378 @@
++dbBoxedDisplay(a3s1_Rayne_8)
+ dbSay(a3s1_Rayne_8)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=129 @@
++dbBoxedDisplay(a3s3_LMinion1_5)
+ dbSay(a3s3_LMinion1_5)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=131 @@
++dbBoxedDisplay(a3s3_LMinion1_6)
+ dbSay(a3s3_LMinion1_6)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=135 @@
++dbBoxedDisplay(a3s3_Ferril_1)
+ dbSay(a3s3_Ferril_1)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=137 @@
++dbBoxedDisplay(a3s3_Ferril_2)
+ dbSay(a3s3_Ferril_2)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=143 @@
++dbBoxedDisplay(a3s3_Ferril_3)
+ dbSay(a3s3_Ferril_3)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=145 @@
++dbBoxedDisplay(a3s3_LMinion1_7)
+ dbSay(a3s3_LMinion1_7)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=397 @@
++dbBoxedDisplay(a3s3_Rayne_1)
+ dbSay(a3s3_Rayne_1)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=398 @@
++dbBoxedDisplay(a3s3_Rayne_2)
+ dbSay(a3s3_Rayne_2)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=399 @@
++dbBoxedDisplay(a3s3_Severin_1)
+ dbSay(a3s3_Severin_1)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=400 @@
++dbBoxedDisplay(a3s3_Severin_2)
+ dbSay(a3s3_Severin_2)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=401 @@
++dbBoxedDisplay(a3s3_Severin_3)
+ dbSay(a3s3_Severin_3)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=550 @@
++dbBoxedDisplay(a3s3_Ferril_8)
+ dbSay(a3s3_Ferril_8)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=552 @@
++dbBoxedDisplay(a3s3_Ferril_9)
+ dbSay(a3s3_Ferril_9)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=558 @@
++dbBoxedDisplay(a3s3_Ferril_10)
+ dbSay(a3s3_Ferril_10)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=564 @@
++dbBoxedDisplay(a3s3_Ferril_6)
+ dbSay(a3s3_Ferril_6)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=566 @@
++dbBoxedDisplay(a3s3_Rayne_5)
+ dbSay(a3s3_Rayne_5)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=599 @@
++dbBoxedDisplay(a3s3_Ferril_4)
+ dbSay(a3s3_Ferril_4)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=606 @@
++dbBoxedDisplay(a3s3_Ferril_11)
+ dbSay(a3s3_Ferril_11)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=607 @@
++dbBoxedDisplay(a3s3_Rayne_4)
+ dbSay(a3s3_Rayne_4)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=608 @@
++dbBoxedDisplay(a3s3_Ferril_12)
+ dbsay(a3s3_Ferril_12)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=613 @@
++dbBoxedDisplay(a3s3_Rayne_3)
+ dbSay(a3s3_Rayne_3)
+@@ WORLD\A3_WETWORKS_S_1.SCB source_line=614 @@
++dbBoxedDisplay(a3s3_Ferril_5)
+ dbSay(a3s3_Ferril_5)
+@@ WORLD\A4_KAGANSTOWER_1.SCB source_line=338 @@
++dbBoxedDisplay(a4s2_Rayne_10)
+ dbsay(a4s2_Rayne_10)
+@@ WORLD\A4_KAGANSTOWER_1.SCB source_line=339 @@
++dbBoxedDisplay(a4s2_Xerx_10)
+ dbsay(a4s2_Xerx_10)
+@@ WORLD\A4_KAGANSTOWER_1.SCB source_line=347 @@
++dbBoxedDisplay(a4s2_Rayne_11)
+ dbsay(a4s2_Rayne_11)
+@@ WORLD\A4_KAGANSTOWER_1.SCB source_line=350 @@
++dbBoxedDisplay(a4s2_Rayne_12)
+ dbsay(a4s2_Rayne_12)
+@@ WORLD\A4_KAGANSTOWER_1.SCB source_line=678 @@
++dbBoxedDisplay(a4s2_Rayne_16)
+ dbsay(a4s2_Rayne_16)
+@@ WORLD\A4_KAGANSTOWER_2.SCB source_line=200 @@
++dbBoxedDisplay(a4s2_Rayne_17)
+ dbsay(a4s2_Rayne_17)
+@@ WORLD\A4_KAGANSTOWER_2.SCB source_line=201 @@
++dbBoxedDisplay(a4s2_Severin_3)
+ dbsay(a4s2_Severin_3)
+@@ WORLD\A4_KAGANSTOWER_2.SCB source_line=202 @@
++dbBoxedDisplay(a4s2_Rayne_18)
+ dbsay(a4s2_Rayne_18)
+@@ WORLD\A4_KAGANSTOWER_2.SCB source_line=203 @@
++dbBoxedDisplay(a4s2_Severin_4)
+ dbsay(a4s2_Severin_4)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=24 @@
++dbBoxedDisplay(a4s3_Rayne_1)
+ dbSay(a4s3_Rayne_1)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=26 @@
++dbBoxedDisplay(a4s3_Ferril_1)
+ dbSay(a4s3_Ferril_1)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=28 @@
++dbBoxedDisplay(a4s3_Rayne_2)
+ dbSay(a4s3_Rayne_2)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=30 @@
++dbBoxedDisplay(a4s3_Ferril_2)
+ dbSay(a4s3_Ferril_2)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=31 @@
++dbBoxedDisplay(a4s3_Rayne_3)
+ dbSay(a4s3_Rayne_3)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=64 @@
++dbBoxedDisplay(a4s3_Xerx_1)
+ dbSay(a4s3_Xerx_1)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=65 @@
++dbBoxedDisplay(a4s3_Rayne_4)
+ dbSay(a4s3_Rayne_4)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=66 @@
++dbBoxedDisplay(a4s3_Xerx_2)
+ dbSay(a4s3_Xerx_2)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=67 @@
++dbBoxedDisplay(a4s3_Rayne_5)
+ dbSay(a4s3_Rayne_5)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=68 @@
++dbBoxedDisplay(a4s3_Xerx_3)
+ dbSay(a4s3_Xerx_3)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=69 @@
++dbBoxedDisplay(a4s3_Xerx_4)
+ dbSay(a4s3_Xerx_4)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=70 @@
++dbBoxedDisplay(a4s3_Rayne_6)
+ dbSay(a4s3_Rayne_6)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=71 @@
++dbBoxedDisplay(a4s3_Xerx_5)
+ dbSay(a4s3_Xerx_5)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=72 @@
++dbBoxedDisplay(a4s3_Rayne_7)
+ dbSay(a4s3_Rayne_7)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=73 @@
++dbBoxedDisplay(a4s3_Rayne_8)
+ dbSay(a4s3_Rayne_8)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=74 @@
++dbBoxedDisplay(a4s3_Xerx_6)
+ dbSay(a4s3_Xerx_6)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=75 @@
++dbBoxedDisplay(a4s3_Xerx_7)
+ dbSay(a4s3_Xerx_7)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=76 @@
++dbBoxedDisplay(a4s3_Xerx_8)
+ dbSay(a4s3_Xerx_8)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=107 @@
++dbBoxedDisplay(a4s3_Rayne_9)
+ dbsay(a4s3_Rayne_9)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=108 @@
++dbBoxedDisplay(a4s3_Xerx_10)
+ dbSay(a4s3_Xerx_10)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=116 @@
++dbBoxedDisplay(a4s3_Rayne_10)
+ dbSay(a4s3_Rayne_10)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=117 @@
++dbBoxedDisplay(a4s3_Xerx_11)
+ dbsay(a4s3_Xerx_11)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=120 @@
++dbBoxedDisplay(a4s3_Severin_1)
+ dbSay(a4s3_Severin_1)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=121 @@
++dbBoxedDisplay(a4s3_Rayne_11)
+ dbSay(a4s3_Rayne_11)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=122 @@
++dbBoxedDisplay(a4s3_Rayne_12)
+ dbSay(a4s3_Rayne_12)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=123 @@
++dbBoxedDisplay(a4s3_Rayne_13)
+ dbSay(a4s3_Rayne_13)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=128 @@
++dbBoxedDisplay(a4s3_Severin_2)
+ dbSay(a4s3_Severin_2)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=129 @@
++dbBoxedDisplay(a4s3_Rayne_14)
+ dbSay(a4s3_Rayne_14)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=130 @@
++dbBoxedDisplay(a4s3_Xerx_12)
+ dbsay(a4s3_Xerx_12)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=131 @@
++dbBoxedDisplay(a4s3_Rayne_15)
+ dbSay(a4s3_Rayne_15)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=229 @@
++dbBoxedDisplay(a4s3_Xerx_13)
+ dbSay(a4s3_Xerx_13)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=230 @@
++dbBoxedDisplay(a4s3_Xerx_14)
+ dbSay(a4s3_Xerx_14)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=231 @@
++dbBoxedDisplay(a4s3_Rayne_16)
+ dbSay(a4s3_Rayne_16)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=232 @@
++dbBoxedDisplay(a4s3_Rayne_17)
+ dbSay(a4s3_Rayne_17)
+@@ WORLD\A4_KAGANSTOWER_BIOARMOR.SCB source_line=233 @@
++dbBoxedDisplay(a4s3_Rayne_18)
+ dbSay(a4s3_Rayne_18)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=107 @@
++dbBoxedDisplay(a4s3_Kagan_1)
+ dbSay(a4s3_Kagan_1)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=109 @@
++dbBoxedDisplay(a4s3_Kagan_2)
+ dbSay(a4s3_Kagan_2)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=111 @@
++dbBoxedDisplay(a4s3_Kagan_3)
+ dbSay(a4s3_Kagan_3)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=115 @@
++dbBoxedDisplay(a4s3_Rayne_19)
+ dbSay(a4s3_Rayne_19)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=118 @@
++dbBoxedDisplay(a4s3_Kagan_4)
+ dbSay(a4s3_Kagan_4)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=126 @@
++dbBoxedDisplay(a4s3_Kagan_6)
+ dbSay(a4s3_Kagan_6)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=127 @@
++dbBoxedDisplay(a4s3_Rayne_20)
+ dbSay(a4s3_Rayne_20)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=129 @@
++dbBoxedDisplay(a4s3_Kagan_7)
+ dbSay(a4s3_Kagan_7)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=131 @@
++dbBoxedDisplay(a4s3_Rayne_21)
+ dbSay(a4s3_Rayne_21)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=132 @@
++dbBoxedDisplay(a4s3_Kagan_8)
+ dbSay(a4s3_Kagan_8)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=133 @@
++dbBoxedDisplay(a4s3_Rayne_22)
+ dbSay(a4s3_Rayne_22)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=135 @@
++dbBoxedDisplay(a4s3_Kagan_9)
+ dbSay(a4s3_Kagan_9)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=136 @@
++dbBoxedDisplay(a4s3_Kagan_10)
+ dbSay(a4s3_Kagan_10)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=137 @@
++dbBoxedDisplay(a4s3_Kagan_11)
+ dbSay(a4s3_Kagan_11)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=138 @@
++dbBoxedDisplay(a4s3_Kagan_12)
+ dbSay(a4s3_Kagan_12)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=139 @@
++dbBoxedDisplay(a4s3_Kagan_13)
+ dbSay(a4s3_Kagan_13)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=141 @@
++dbBoxedDisplay(a4s3_Rayne_23)
+ dbSay(a4s3_Rayne_23)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=157 @@
++dbBoxedDisplay(a4s3_Kagan_7)
+ dbSay(a4s3_Kagan_7)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=158 @@
++dbBoxedDisplay(a4s3_Rayne_21)
+ dbSay(a4s3_Rayne_21)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=160 @@
++dbBoxedDisplay(a4s3_Kagan_8)
+ dbSay(a4s3_Kagan_8)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=161 @@
++dbBoxedDisplay(a4s3_Rayne_22)
+ dbSay(a4s3_Rayne_22)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=162 @@
++dbBoxedDisplay(a4s3_Kagan_9)
+ dbSay(a4s3_Kagan_9)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=163 @@
++dbBoxedDisplay(a4s3_Kagan_10)
+ dbSay(a4s3_Kagan_10)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=164 @@
++dbBoxedDisplay(a4s3_Kagan_11)
+ dbSay(a4s3_Kagan_11)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=165 @@
++dbBoxedDisplay(a4s3_Kagan_12)
+ dbSay(a4s3_Kagan_12)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=166 @@
++dbBoxedDisplay(a4s3_Kagan_13)
+ dbSay(a4s3_Kagan_13)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=167 @@
++dbBoxedDisplay(a4s3_Rayne_23)
+ dbSay(a4s3_Rayne_23)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=207 @@
++dbBoxedDisplay(a4s3_Rayne_27)
+ dbSay(a4s3_Rayne_27)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=209 @@
++dbBoxedDisplay(a4s3_Severin_3)
+ dbSay(a4s3_Severin_3)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=211 @@
++dbBoxedDisplay(a4s3_Rayne_28)
+ dbSay(a4s3_Rayne_28)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=235 @@
++dbBoxedDisplay(a4s3_Rayne_30)
+ dbSay(a4s3_Rayne_30)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=237 @@
++dbBoxedDisplay(a4s3_Severin_5)
+ dbSay(a4s3_Severin_5)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=239 @@
++dbBoxedDisplay(a4s3_Severin_6)
+ dbSay(a4s3_Severin_6)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=240 @@
++dbBoxedDisplay(a4s3_Rayne_31)
+ dbSay(a4s3_Rayne_31)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=247 @@
++dbBoxedDisplay(a4s3_Severin_7)
+ dbSay(a4s3_Severin_7)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=248 @@
++dbBoxedDisplay(a4s3_Severin_8)
+ dbSay(a4s3_Severin_8)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=251 @@
++dbBoxedDisplay(a4s3_Rayne_33)
+ dbSay(a4s3_Rayne_33)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=259 @@
++dbBoxedDisplay(a4s3_Severin_9)
+ dbSay(a4s3_Severin_9)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=260 @@
++dbBoxedDisplay(a4s3_Severin_10)
+ dbSay(a4s3_Severin_10)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=261 @@
++dbBoxedDisplay(a4s3_Rayne_34)
+ dbSay(a4s3_Rayne_34)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=264 @@
++dbBoxedDisplay(a4s3_Severin_11)
+ dbSay(a4s3_Severin_11)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=266 @@
++dbBoxedDisplay(a4s3_Severin_12)
+ dbSay(a4s3_Severin_12)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=267 @@
++dbBoxedDisplay(a4s3_Rayne_35)
+ dbSay(a4s3_Rayne_35)
+@@ WORLD\A4_KAGANSTOWER_PENTHOUSE.SCB source_line=268 @@
++dbBoxedDisplay(a4s3_Rayne_36)
+ dbSay(a4s3_Rayne_36)
+@@ WORLD\A4_KAGANSTOWER_UNRAVELLER.SCB source_line=253 @@
++dbBoxedDisplay(a4s2_Rayne_26)
+ dbsay(a4s2_Rayne_26)
+@@ WORLD\A4_KAGANSTOWER_UNRAVELLER.SCB source_line=254 @@
++dbBoxedDisplay(a4s2_Severin_12)
+ dbSay(a4s2_Severin_12)
+@@ WORLD\A4_KAGANSTOWER_UNRAVELLER.SCB source_line=257 @@
++dbBoxedDisplay(a4s2_Rayne_27)
+ dbSay(a4s2_Rayne_27)
+@@ WORLD\A4_KAGANSTOWER_UNRAVELLER.SCB source_line=260 @@
++dbBoxedDisplay(a4s2_Rayne_28)
+ dbSay(a4s2_Rayne_28)
+@@ WORLD\A4_KAGANSTOWER_UNRAVELLER.SCB source_line=261 @@
++dbBoxedDisplay(a4s2_Severin_13)
+ dbSay(a4s2_Severin_13)
+@@ WORLD\A4_KAGANSTOWER_UNRAVELLER.SCB source_line=262 @@
++dbBoxedDisplay(a4s2_Rayne_30)
+ dbSay(a4s2_Rayne_30)
+@@ WORLD\A4_PARK_1.SCB source_line=1187 @@
++dbBoxedDisplay(a4s1_Rayne_15)
+ dbSay(a4s1_Rayne_15)
+@@ WORLD\A4_PARK_1.SCB source_line=1189 @@
++dbBoxedDisplay(a4s1_Rayne_16)
+ dbSay(a4s1_Rayne_16)
+@@ WORLD\A4_PARK_1.SCB source_line=1198 @@
++dbBoxedDisplay(a4s1_Rayne_17)
+ dbSay(a4s1_Rayne_17)
+@@ WORLD\A4_PARK_1.SCB source_line=1199 @@
++dbBoxedDisplay(a4s1_Rayne_19)
+ dbSay(a4s1_Rayne_19)
+@@ WORLD\A4_PARK_1.SCB source_line=1200 @@
++dbBoxedDisplay(a4s1_SLegion_1)
+ dbSay(a4s1_SLegion_1)
+@@ WORLD\A4_PARK_1.SCB source_line=1201 @@
++dbBoxedDisplay(a4s1_Rayne_20)
+ dbSay(a4s1_Rayne_20)
+@@ WORLD\A4_PARK_1.SCB source_line=1204 @@
++dbBoxedDisplay(a4s1_Severin_18)
+ dbSay(a4s1_Severin_18)
+@@ WORLD\A4_PARK_1.SCB source_line=1205 @@
++dbBoxedDisplay(a4s1_Rayne_23)
+ dbSay(a4s1_Rayne_23)
+@@ WORLD\A4_PARK_1.SCB source_line=1241 @@
++dbBoxedDisplay(a4s1_Rayne_41)
+ dbSay(a4s1_Rayne_41)
+@@ WORLD\A4_PARK_1.SCB source_line=1244 @@
++dbBoxedDisplay(a4s1_Severin_25)
+ dbSay(a4s1_Severin_25)
+@@ WORLD\A4_PARK_1.SCB source_line=1245 @@
++dbBoxedDisplay(a4s1_Rayne_34)
+ dbSay(a4s1_Rayne_34)
+@@ WORLD\A4_PARK_2.SCB source_line=1573 @@
++dbBoxedDisplay(a4s1_Severin_22)
+ dbSay(a4s1_Severin_22)
+@@ WORLD\A4_PARK_2.SCB source_line=1574 @@
++dbBoxedDisplay(a4s1_Rayne_28)
+ dbSay(a4s1_Rayne_28)
+@@ WORLD\A4_PARK_2.SCB source_line=1581 @@
++dbBoxedDisplay(a4s1_Rayne_43)
+ dbSay(a4s1_Rayne_43)
+@@ WORLD\A4_PARK_2.SCB source_line=1582 @@
++dbBoxedDisplay(a4s1_Severin_28)
+ dbSay(a4s1_Severin_28)
+@@ WORLD\A4_PARK_2.SCB source_line=1583 @@
++dbBoxedDisplay(a4s1_Rayne_44)
+ dbSay(a4s1_Rayne_44)
+@@ WORLD\A4_PARK_2.SCB source_line=1584 @@
++dbBoxedDisplay(a4s1_Severin_29)
+ dbSay(a4s1_Severin_29)
+@@ WORLD\A4_PARK_2.SCB source_line=1602 @@
++dbBoxedDisplay(a4s1_Severin_31)
+ dbSay(a4s1_Severin_31)
+@@ WORLD\A4_PARK_2.SCB source_line=1603 @@
++dbBoxedDisplay(a4s1_Rayne_48)
+ dbSay(a4s1_Rayne_48)
+@@ WORLD\A4_PARK_2.SCB source_line=1604 @@
++dbBoxedDisplay(a4s1_Severin_32)
+ dbSay(a4s1_Severin_32)
+@@ WORLD\A4_PARK_2.SCB source_line=1605 @@
++dbBoxedDisplay(a4s1_Rayne_49)
+ dbSay(a4s1_Rayne_49)
+@@ WORLD\A4_PARK_2.SCB source_line=1606 @@
++dbBoxedDisplay(a4s1_Severin_33)
+ dbSay(a4s1_Severin_33)
+@@ WORLD\A4_PARK_2.SCB source_line=1608 @@
++dbBoxedDisplay(a4s1_Rayne_50)
+ dbSay(a4s1_Rayne_50)
+@@ WORLD\A4_PARK_2.SCB source_line=1617 @@
++dbBoxedDisplay(a4s1_Rayne_52)
+ dbSay(a4s1_Rayne_52)
+@@ WORLD\A4_PARK_2.SCB source_line=1618 @@
++dbBoxedDisplay(a4s1_Severin_35)
+ dbSay(a4s1_Severin_35)
+@@ WORLD\A4_PARK_2.SCB source_line=1620 @@
++dbBoxedDisplay(a4s1_Rayne_53)
+ dbSay(a4s1_Rayne_53)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=71 @@
++dbBoxedDisplay(a4s1_Rayne_1)
+ dbSay(a4s1_Rayne_1)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=104 @@
++dbBoxedDisplay(a4s1_Rayne_2)
+ dbSay(a4s1_Rayne_2)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=131 @@
++dbBoxedDisplay(a4s1_Rayne_3)
+ dbSay(a4s1_Rayne_3)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=132 @@
++dbBoxedDisplay(a4s1_Severin_4)
+ dbSay(a4s1_Severin_4)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=135 @@
++dbBoxedDisplay(a4s1_Rayne_4)
+ dbSay(a4s1_Rayne_4)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=171 @@
++dbBoxedDisplay(a4s1_Severin_7)
+ dbSay(a4s1_Severin_7)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=181 @@
++dbBoxedDisplay(a4s1_Rayne_5)
+ dbSay(a4s1_Rayne_5)
+@@ WORLD\A4_PARK_CINEMAT_1.SCB source_line=195 @@
++dbBoxedDisplay(a4s1_Rayne_6)
+ dbSay(a4s1_Rayne_6)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=108 @@
++dbBoxedDisplay(a4s1_Rayne_63)
+ dbSay(a4s1_Rayne_63)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=131 @@
++dbBoxedDisplay(a4s1_Ferril_1)
+ dbSay(a4s1_Ferril_1)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=136 @@
++dbBoxedDisplay(a4s1_Ferril_2)
+ dbSay(a4s1_Ferril_2)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=142 @@
++dbBoxedDisplay(a4s1_Rayne_64)
+ dbSay(a4s1_Rayne_64)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=145 @@
++dbBoxedDisplay(a4s1_Severin_44)
+ dbSay(a4s1_Severin_44)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=152 @@
++dbBoxedDisplay(a4s1_Ferril_3)
+ dbSay(a4s1_Ferril_3)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=158 @@
++dbBoxedDisplay(a4s1_Ferril_4)
+ dbSay(a4s1_Ferril_4)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=188 @@
++dbBoxedDisplay(a4s1_Rayne_65)
+ dbSay(a4s1_Rayne_65)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=190 @@
++dbBoxedDisplay(a4s1_Severin_46)
+ dbSay(a4s1_Severin_46)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=215 @@
++dbBoxedDisplay(a4s1_Severin_47)
+ dbSay(a4s1_Severin_47)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=219 @@
++dbBoxedDisplay(a4s1_Rayne_66)
+ dbSay(a4s1_Rayne_66)
+@@ WORLD\A4_PARK_CINEMAT_2.SCB source_line=223 @@
++dbBoxedDisplay(a4s1_Severin_48)
+ dbSay(a4s1_Severin_48)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=101 @@
++dbBoxedDisplay(a4s1_Severin_37)
+ dbSay(a4s1_Severin_37)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=103 @@
++dbBoxedDisplay(a4s1_Rayne_59)
+ dbSay(a4s1_Rayne_59)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=108 @@
++dbBoxedDisplay(a4s1_Severin_38)
+ dbSay(a4s1_Severin_38)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=110 @@
++dbBoxedDisplay(a4s1_Rayne_60)
+ dbSay(a4s1_Rayne_60)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=115 @@
++dbBoxedDisplay(a4s1_Severin_39)
+ dbSay(a4s1_Severin_39)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=117 @@
++dbBoxedDisplay(a4s1_Severin_40)
+ dbSay(a4s1_Severin_40)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=344 @@
++dbBoxedDisplay(a4s1_Ephemera_45)
+ dbSay(a4s1_Ephemera_45)
+@@ WORLD\A4_PARK_EPHEMERA.SCB source_line=346 @@
++dbBoxedDisplay(a4s1_Rayne_62)
+ dbSay(a4s1_Rayne_62)
+@@ LANGUAGE.POD WORLD\RU\A2_SUBWAY1.TXT @@
+-2s5_rayne_1.wav -> +a2s5_rayne_1.wav (existing Chinese text unchanged)
+@@ LANGUAGE.POD WORLD\RU\A3_SHROUDTOWER_ASCENT.TXT @@
++a2s4_severin_10.wav (copied from A2_SEWER_SLEZZARENA.TXT)
+@@ LANGUAGE.POD WORLD\RU\A4_PARK_2.TXT @@
++a4s1_severin_22.wav and +a4s1_rayne_28.wav (translated audio)
+@@ LANGUAGE.POD WORLD\RU\0BIOARMOR.TXT @@
++five existing Chinese rows copied from A4_KAGANSTOWER_BIOARMOR.TXT
