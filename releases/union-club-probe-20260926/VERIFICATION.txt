@@ -1,0 +1,40 @@
+Union Station / Club Strages three-line subtitle diagnostic, 2026-09-26.
+Changed branch/field: dinput8 proxy DynamicBitFontDraw; logging-only classification of three carrier-text prefixes into _cn_project/logs/union_club_subtitle_probe.log (kind 0=Severin quarry, 1=Rayne response, 2=Severin Club Strages; kind 3=first unrelated Chinese draw). Rendering, text archives, voice, and game data are unchanged.
+The three requested Chinese captions and keys already exist in live LANGUAGE.POD / WORLD\RU\A2_UNIONSTATION_PART3.TXT, so absent subtitle cannot be attributed to missing text alone. In-game cause is not yet verified; user will replay the scene.
+
+Original dinput8.dll SHA256: 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238
+Modified dinput8.dll SHA256: 9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\union-club-probe-20260926\payload\dinput8.dll
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\union-club-probe-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\union-club-probe-20260926\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\union-club-probe-20260926\ROLLBACK.sh
+
+BASELINE command: python '_cn_project\releases\union-club-probe-20260926\verify_probe.py' 'dinput8.dll'
+BASELINE input: pre-install live dinput8.dll and live LANGUAGE.POD
+BASELINE literal output: CLUB_CAPTIONS keys=3 carrier_prefixes=3 proxy_machine=x86
+BASELINE exit status: 0
+BASELINE status: live DLL SHA256 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238
+
+MODIFIED command: python '_cn_project\releases\union-club-probe-20260926\verify_probe.py' '_cn_project\releases\union-club-probe-20260926\payload\dinput8.dll'
+MODIFIED input: newly compiled x86 dinput8.dll and live LANGUAGE.POD
+MODIFIED literal output: CLUB_CAPTIONS keys=3 carrier_prefixes=3 proxy_machine=x86
+MODIFIED exit status: 0
+MODIFIED status: payload DLL SHA256 9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9
+
+ISOLATED INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\union-club-probe-20260926\install.ps1' -GameRoot '_cn_project\releases\union-club-probe-20260926\testroot'
+ISOLATED INSTALL input: separate testroot with baseline DLL
+ISOLATED INSTALL literal output: INSTALL_OK union_club_probe=enabled language_and_audio=unchanged
+ISOLATED INSTALL exit status: 0
+ISOLATED INSTALL status: testroot DLL SHA256 9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9
+
+ROLLBACK command: "C:\Program Files\Git\bin\bash.exe" '_cn_project\releases\union-club-probe-20260926\ROLLBACK.sh' -GameRoot '_cn_project\releases\union-club-probe-20260926\testroot'
+ROLLBACK input: isolated installed DLL plus verified backup
+ROLLBACK literal output: ROLLBACK_OK dinput8.dll=restored language_and_audio=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored status: testroot DLL SHA256 74BEEA7D2C91F71E142907EA4B26DB104B344D0F0EA6E7A325BE356BB17EF238; original proxy behavior restored.
+
+LIVE INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\union-club-probe-20260926\install.ps1'
+LIVE INSTALL input: baseline live DLL; rayne2.exe was not running
+LIVE INSTALL literal output: INSTALL_OK union_club_probe=enabled language_and_audio=unchanged
+LIVE INSTALL exit status: 0
+LIVE INSTALL status: dinput8.dll SHA256 9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9; LANGUAGE.POD SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97; W32ART.POD SHA256 3FDF3834775EAFAC57C56EE4A05137B0AE4F5597F93CD89AB123CF5352BC0945; W32ENSND.POD SHA256 2990E799BCEEE41AECBFBD2399A9CFFE9BB298B668ACAA8FF60B38A1E55E9719.

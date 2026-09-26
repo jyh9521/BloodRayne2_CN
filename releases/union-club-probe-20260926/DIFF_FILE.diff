@@ -1,0 +1,89 @@
+diff --git a/releases/layout-recovery-20260925/source/dinput8_cn.cpp b/releases/union-club-probe-20260926/source/dinput8_cn.cpp
+index b36cc3e..1e57cda 100644
+--- a/releases/layout-recovery-20260925/source/dinput8_cn.cpp
++++ b/releases/union-club-probe-20260926/source/dinput8_cn.cpp
+@@ -18,6 +18,7 @@ HMODULE g_real_dinput8 = nullptr;
+ unsigned g_patch_mask = 0;
+ PVOID g_layout_exception_handler = nullptr;
+ volatile LONG g_layout_fault_count = 0;
++volatile LONG g_subtitle_probe_counts[4] = {};
+ constexpr char kEmptyLayoutText[] = "";
+ // The game's word layout parser scans a tag into a 68-byte stack field.
+ // Its original unbounded scanset can overwrite the frame on malformed tags.
+@@ -190,6 +191,68 @@ bool PrepareDynamicText(
+ 
+ #include "fmv_layout.h"
+ 
++void LogSubtitleProbe(const char* text, int x, int y, DWORD color, int shadow) {
++    if (text == nullptr) {
++        return;
++    }
++    int kind = -1;
++    if (std::strstr(text, "\x82\xB3\x8C\xF2") != nullptr) {
++        kind = 0; // Severin: Your quarry are taking the high road.
++    } else if (std::strstr(text, "\x8C\xFE\x8F\xF0") != nullptr) {
++        kind = 1; // Rayne: I see that. What's between me and them?
++    } else if (std::strstr(text, "\x87\xC4\x8B\xFC") != nullptr) {
++        kind = 2; // Severin: Why, the fabulous Club Strages.
++    } else {
++        for (const auto* cursor = reinterpret_cast<const unsigned char*>(text);
++             *cursor != 0; ++cursor) {
++            if (*cursor >= kCarrierLeadMinimum &&
++                *cursor <= kCarrierLeadMaximum &&
++                cursor[1] >= kCarrierTailMinimum &&
++                cursor[1] <= kCarrierTailMaximum) {
++                kind = 3; // First unrelated Chinese draw proves hook is active.
++                break;
++            }
++        }
++    }
++    if (kind < 0 || InterlockedIncrement(&g_subtitle_probe_counts[kind]) > 3) {
++        return;
++    }
++    wchar_t module_path[MAX_PATH] = {};
++    const DWORD path_length = GetModuleFileNameW(g_self, module_path, MAX_PATH);
++    if (path_length == 0 || path_length >= MAX_PATH) {
++        return;
++    }
++    std::wstring path(module_path, path_length);
++    const size_t separator = path.find_last_of(L"\\/");
++    if (separator == std::wstring::npos) {
++        return;
++    }
++    path.resize(separator);
++    path += L"\\_cn_project\\logs\\union_club_subtitle_probe.log";
++    HANDLE file = CreateFileW(path.c_str(), FILE_APPEND_DATA,
++        FILE_SHARE_READ | FILE_SHARE_WRITE, nullptr, OPEN_ALWAYS,
++        FILE_ATTRIBUTE_NORMAL, nullptr);
++    if (file == INVALID_HANDLE_VALUE) {
++        return;
++    }
++    const size_t length = std::strlen(text);
++    char line[256] = {};
++    const int used = wsprintfA(line,
++        "pid=%lu kind=%d draw_x=%d draw_y=%d color=%08lX shadow=%d bytes=%lu head=",
++        GetCurrentProcessId(), kind, x, y, color, shadow,
++        static_cast<unsigned long>(length));
++    int position = used;
++    for (size_t index = 0; index < length && index < 16; ++index) {
++        position += wsprintfA(line + position, "%02X",
++            static_cast<unsigned char>(text[index]));
++    }
++    line[position++] = '\r';
++    line[position++] = '\n';
++    DWORD written = 0;
++    WriteFile(file, line, static_cast<DWORD>(position), &written, nullptr);
++    CloseHandle(file);
++}
++
+ int __fastcall DynamicBitFontDraw(
+     void* object,
+     void*,
+@@ -201,6 +264,7 @@ int __fastcall DynamicBitFontDraw(
+     if (g_original_bit_font_draw == nullptr) {
+         return 0;
+     }
++    LogSubtitleProbe(text, x, y, color, shadow);
+     static thread_local bool inside = false;
+     static thread_local std::vector<char> transformed;
+     if (inside) {
