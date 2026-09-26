@@ -1,0 +1,254 @@
+﻿cue_ids	category	audio_entry	duration_s	english_resource_text	asr_draft_english	asr_status	review_note	translation_zh
+0	Rayne_Alert	SOUND\RAYNE_ALERT_1.WAV	1.82		Don't these guys ever learn?	draft_review	machine transcript; check against audio	这些家伙就不能吸取教训吗？
+0	Rayne_Alert	SOUND\RAYNE_ALERT_10.WAV	2.42		And I was just thinking it was time for a little something.	draft_review	machine transcript; check against audio	我正想着该找点乐子呢。
+0	Rayne_Alert	SOUND\RAYNE_ALERT_11.WAV	1.78		Sure makes a girl feel wanted.	draft_review	machine transcript; check against audio	还真让我觉得自己挺受欢迎。
+0	Rayne_Alert	SOUND\RAYNE_ALERT_2.WAV	1.87		Oh, were you talking to me?	draft_review	machine transcript; check against audio	哦，你是在跟我说话吗？
+0	Rayne_Alert	SOUND\RAYNE_ALERT_3.WAV	2.32		must be running a special on bad guys today.	draft_review	machine transcript; check against audio	今天坏蛋好像在大减价。
+0	Rayne_Alert	SOUND\RAYNE_ALERT_4.WAV	1.09		Have we met before?	draft_review	machine transcript; check against audio	我们以前见过吗？
+0	Rayne_Alert	SOUND\RAYNE_ALERT_5.WAV	1.57		All right, happy hour.	draft_review	machine transcript; check against audio	好啊，欢乐时光到了。
+0	Rayne_Alert	SOUND\RAYNE_ALERT_6.WAV	0.63		Hi.	draft_review	machine transcript; check against audio	嗨。
+0	Rayne_Alert	SOUND\RAYNE_ALERT_7.WAV	2.00		Great. I was getting lonely.	draft_review	machine transcript; check against audio	太好了，我正觉得孤单呢。
+0	Rayne_Alert	SOUND\RAYNE_ALERT_9.WAV	1.91		You sure you want to get into this right now?	draft_review	machine transcript; check against audio	你确定现在就想动手？
+2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_1.WAV	1.74		Hmm, nice joint z's got here.	draft_review	machine transcript; check against audio	嗯，泽伦斯基这地方还挺气派。
+2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_5.WAV	2.55		Where'd Zarenski get the cash for all this?	draft_review	machine transcript; check against audio	泽伦斯基哪来这么多钱？
+2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_7.WAV	4.12		Huh, so this is what you get when you give tax cuts to the top 1%.	draft_review	machine transcript; check against audio	原来给最富的那群人减税，就能有这种宅子。
+2	Rayne_AmbientMansion	SOUND\RAYNE_AMBIENTMANSION_8.WAV	3.68		Surprised that poser Zarenski didn't set up shop in Transylvania.	draft_review	machine transcript; check against audio	奇怪，泽伦斯基那装模作样的家伙竟没搬去特兰西瓦尼亚。
+3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_1.WAV	2.05		Quiet. Too quiet.	draft_review	machine transcript; check against audio	太安静了，安静得不对劲。
+3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_2.WAV	3.11		my kind of town, except for all the vampires.	draft_review	machine transcript; check against audio	这城挺合我胃口，就是吸血鬼太多。
+3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_3.WAV	1.93		wear the vigilantes when you need them.	draft_review	machine transcript; check against audio	需要义警的时候，他们都跑哪去了？
+3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_4.WAV	2.17		Looks like they're rezoning this district.	draft_review	machine transcript; check against audio	看来这片区要重新规划了。
+3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_5.WAV	2.71		Why would the Nightwalkers risk it in the open?	draft_review	machine transcript; check against audio	夜行者为什么要冒险跑到地面上？
+3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_6.WAV	2.91		This was never a nice part of town, but jeez.	draft_review	machine transcript; check against audio	这地方以前就不怎么样，可现在也太惨了。
+3	Rayne_AmbientMeatpack	SOUND\RAYNE_AMBIENTMEATPACK_7.WAV	3.23		cleaning up the streets one asshole vampire at a time.	draft_review	machine transcript; check against audio	清理街道，一次干掉一个混蛋吸血鬼。
+4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_1.WAV	4.26		Okay, I'm not crazy about humans, but they deserve a lot better than this.	draft_review	machine transcript; check against audio	我是不太喜欢人类，可他们不该落到这步田地。
+4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_2.WAV	2.40		Now where are all the junkies and perverts supposed to go?	draft_review	machine transcript; check against audio	瘾君子和变态以后还能去哪儿？
+4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_3.WAV	3.27		Never been here during the day before and wasn't missing much.	draft_review	machine transcript; check against audio	以前没在白天来过，看来也没错过什么。
+4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_4.WAV	2.01		and the freaks shall inherit the earth.	draft_review	machine transcript; check against audio	怪物将继承大地。
+4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_5.WAV	2.33		Everyone loves an apocalypse.	draft_review	machine transcript; check against audio	谁不喜欢世界末日呢？
+4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_6.WAV	2.46		You know, I like this place a lot better before.	draft_review	machine transcript; check against audio	说真的，我更喜欢这里原来的样子。
+4	Rayne_AmbientPark	SOUND\RAYNE_AMBIENTPARK_7.WAV	3.73		Don't think I'm a fan of post-shroud recreational facilities.	draft_review	machine transcript; check against audio	暗幕降临后的游乐场，我可没兴趣。
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_1.WAV	1.98		Looks like they dragged half the city through here.	draft_review	machine transcript; check against audio	看样子他们把半座城的人都拖到这里了。
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_2.WAV	2.01		Doesn't City Works ever come down here?	draft_review	machine transcript; check against audio	市政工程处就不来这儿看看？
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_3.WAV	3.47		What are they doing down here? Water and vampires don't mix.	draft_review	machine transcript; check against audio	他们在下面做什么？水和吸血鬼可不搭。
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_4.WAV	2.66		What is that on my heel? Oh, shit.	draft_review	machine transcript; check against audio	我鞋跟上沾了什么？糟了。
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_5.WAV	3.14		Judging by their firepower, this must be one important nest.	draft_review	machine transcript; check against audio	看这火力，这巢穴一定很重要。
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_6.WAV	2.27		They must have been set up down here for decades.	draft_review	machine transcript; check against audio	他们恐怕在这里盘踞几十年了。
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_7.WAV	2.53		Even the rats think this place is a hellhole.	draft_review	machine transcript; check against audio	连老鼠都觉得这是个鬼地方。
+5	Rayne_AmbientSewers	SOUND\RAYNE_AMBIENTSEWERS_8.WAV	1.59		At least it's not a graveyard.	draft_review	machine transcript; check against audio	至少这里不是墓地。
+6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_1.WAV	3.64		It's like reverse plumbing pumping that blood oil to the top.	draft_review	machine transcript; check against audio	简直像反着工作的水管，把血油泵到塔顶。
+6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_2.WAV	2.93		Kill this tower, save the world. Easy enough.	draft_review	machine transcript; check against audio	毁掉这座塔，拯救世界。听起来挺简单。
+6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_3.WAV	2.45		Come on, where's the big red self-destruct button?	draft_review	machine transcript; check against audio	拜托，那个红色的自毁按钮在哪？
+6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_4.WAV	2.46		Like an amusement park, in hell.	draft_review	machine transcript; check against audio	就像地狱里的游乐园。
+6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_5.WAV	2.25		How the hell did they construct this thing in secret?	draft_review	machine transcript; check against audio	他们到底怎么瞒着所有人建起这东西的？
+6	Rayne_AmbientShroud	SOUND\RAYNE_AMBIENTSHROUD_6.WAV	4.03		Think we should put in an elevator? Nah, why spoil the aesthetics?	draft_review	machine transcript; check against audio	要不要装部电梯？算了，别破坏美感。
+7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_1.WAV	3.08		Kestles aren't smart enough to be running an operation like this.	draft_review	machine transcript; check against audio	红隼没聪明到能策划这种行动。
+7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_2.WAV	3.25		Not a bum or hooker in sight. Where are they?	draft_review	machine transcript; check against audio	一个流浪汉或妓女都没有，他们去哪了？
+7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_3.WAV	2.63		What would Kestrel's want with more hookers than they could eat?	draft_review	machine transcript; check against audio	红隼抓这么多妓女做什么？根本吃不完。
+7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_4.WAV	3.30		Cities got to start tearing down abandoned buildings down here.	draft_review	machine transcript; check against audio	这城真该拆掉这里的废楼了。
+7	Rayne_AmbientUnion	SOUND\RAYNE_AMBIENTUNION_5.WAV	4.49		Vampires are like roaches when you see one, you know, you've got a thousand	draft_review	machine transcript; check against audio	吸血鬼就像蟑螂，见到一只，就说明还有一千只。
+9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_1.WAV	1.89		Yeah, it kinda stings, huh?	draft_review	machine transcript; check against audio	是啊，有点疼吧？
+9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_10.WAV	1.78		How much more you think you can take?	draft_review	machine transcript; check against audio	你觉得自己还能撑多久？
+9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_11.WAV	3.78		You should run. It won't help, but it might make you feel better.	draft_review	machine transcript; check against audio	快跑吧。没用，但至少能让你好受点。
+9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_13.WAV	2.47		My God! I'm horrible!	draft_review	machine transcript; check against audio	天哪，我可真坏！
+9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_3.WAV	1.35		That's gonna heal funny.	draft_review	machine transcript; check against audio	这伤口愈合起来可有意思了。
+9	Rayne_AttackBlade	SOUND\RAYNE_ATTACKBLADE_6.WAV	1.37		Did you even see that coming?	draft_review	machine transcript; check against audio	你看清刚才那一下了吗？
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_1.WAV	2.58		And I'm gonna keep kicking you till you're dead.	draft_review	machine transcript; check against audio	我会一直踢，踢到你死为止。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_10.WAV	2.54		And I'm gonna keep kicking you till you're dead!	draft_review	machine transcript; check against audio	我会一直踢，踢到你死为止！
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_11.WAV	3.66		And then it dawned on him. I'm getting my ass kicked here.	draft_review	machine transcript; check against audio	这下他终于明白：自己正在挨揍。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_12.WAV	1.52		Eh, should have been a rockette.	draft_review	machine transcript; check against audio	唉，我当初该去跳高踢腿舞的。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_13.WAV	2.12		There's more here if you want some.	draft_review	machine transcript; check against audio	还想要？我这儿多的是。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_14.WAV	2.36		Okay, now we move to the lightning round.	draft_review	machine transcript; check against audio	好，现在进入闪电回合。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_3.WAV	3.01		It's not all about the blades, honey.	draft_review	machine transcript; check against audio	亲爱的，打架可不光靠刀刃。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_4.WAV	1.58		You didn't see that coming, huh?	draft_review	machine transcript; check against audio	没料到吧？
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_5.WAV	2.62		Aw, you just picked the wrong girl to hassle, is all.	draft_review	machine transcript; check against audio	哎呀，你偏偏惹错了姑娘。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_6.WAV	1.64		Just cry, baby.	draft_review	machine transcript; check against audio	哭吧，宝贝。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_7.WAV	2.40		You impressed? I sure am.	draft_review	machine transcript; check against audio	佩服吗？我自己都佩服。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_8.WAV	1.57		I should have kept blockin', kid.	draft_review	machine transcript; check against audio	你该继续挡着的，小子。
+12	Rayne_AttackKick	SOUND\RAYNE_ATTACKKICK_9.WAV	2.35		Is there no end to her cruelty?	draft_review	machine transcript; check against audio	她的残忍究竟有没有尽头？
+13	Rayne_Die	SOUND\RAYNE_DIE_1.WAV	2.44		HOOOOOOOM! UUGH!	draft_review	machine transcript; check against audio	（惨叫）
+13	Rayne_Die	SOUND\RAYNE_DIE_2.WAV	2.08		HAAAAAAA	draft_review	machine transcript; check against audio	（惨叫）
+13	Rayne_Die	SOUND\RAYNE_DIE_3.WAV	2.80		AHHHHHHHHHH	draft_review	machine transcript; check against audio	（惨叫）
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_1.WAV	2.56		Huh, and I thought somebody was gonna lose an eye.	draft_review	machine transcript; check against audio	哼，我还以为会有人丢只眼睛呢。
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_10.WAV	1.86		Ooh, might want to wrap that in ice.	draft_review	machine transcript; check against audio	噢，最好拿冰敷一下。
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_12.WAV	3.14		Next minion softball season is looking pretty grim.	draft_review	machine transcript; check against audio	看来下赛季小喽啰垒球队要缺人了。
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_3.WAV	3.06		Now you saw the blades, what did you think was gonna happen?	draft_review	machine transcript; check against audio	刀刃都看见了，你还指望什么？
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_4.WAV	1.66		Uh, you'll never even miss it.	draft_review	machine transcript; check against audio	呃，少了它你也不会想念的。
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_5.WAV	1.72		Oh, you didn't need that, did you?	draft_review	machine transcript; check against audio	哦，你用不着那个，对吧？
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_6.WAV	1.70		Maybe you should try to run now.	draft_review	machine transcript; check against audio	现在不妨试着逃跑。
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_7.WAV	2.47		See if your master can put you back together.	draft_review	machine transcript; check against audio	看看你的主人能不能把你拼回去。
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_8.WAV	3.02		Don't worry, they do wonders with prosthetics these days.	draft_review	machine transcript; check against audio	别担心，现在假肢技术可先进了。
+14	Rayne_Dismember	SOUND\RAYNE_DISMEMBER_9.WAV	1.99		We're playing for keeps here, sport.	draft_review	machine transcript; check against audio	这可是玩真的，伙计。
+17	Rayne_EphemeraAttack	SOUND\RAYNE_EPHEMERAATTACK_1.WAV	1.80		Whatcha think about that, Shady?	draft_review	machine transcript; check against audio	怎么样，阴影女？
+17	Rayne_EphemeraAttack	SOUND\RAYNE_EPHEMERAATTACK_2.WAV	2.24		I thought you were sneaky ephemera.	draft_review	machine transcript; check against audio	我还以为你很会躲呢，埃菲梅拉。
+17	Rayne_EphemeraAttack	SOUND\RAYNE_EPHEMERAATTACK_3.WAV	1.78		Nowhere to hide this time.	draft_review	machine transcript; check against audio	这次你无处可藏。
+18	Rayne_EphemeraDie	SOUND\RAYNE_EPHEMERADIE_1.WAV	2.44		DOOM!	draft_review	machine transcript; check against audio	（惨叫）
+19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_1.WAV	1.66		That really is a great trick.	draft_review	machine transcript; check against audio	这招还真不错。
+19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_2.WAV	1.01		God, she's slippery.	draft_review	machine transcript; check against audio	天哪，她真滑溜。
+19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_3.WAV	2.20		Okay, just watch the shadows.	draft_review	machine transcript; check against audio	好吧，盯紧那些阴影。
+19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_4.WAV	2.30		Come out, come out, wherever you are.	draft_review	machine transcript; check against audio	出来吧，别再躲了。
+19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_5.WAV	2.63		Hey, come here. I want to show you something.	draft_review	machine transcript; check against audio	嘿，过来，我给你看样东西。
+19	Rayne_EphemeraElude	SOUND\RAYNE_EPHEMERAELUDE_6.WAV	2.58		You'll need more than shadow to hide from me.	draft_review	machine transcript; check against audio	光靠阴影可躲不过我。
+21	Rayne_EphemeraKill	SOUND\RAYNE_EPHEMERAKILL_1.WAV	2.72		You deserve so much worse, ephemera.	draft_review	machine transcript; check against audio	埃菲梅拉，你应得的报应远不止这些。
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_10.WAV	2.63		I'm gonna twist you pretty hard, sugar.	draft_review	machine transcript; check against audio	我会狠狠收拾你，宝贝。
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_2.WAV	2.89		You've been allowed to live for way too long.	draft_review	machine transcript; check against audio	你已经多活太久了。
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_3.WAV	3.04		I am so gonna enjoy taking you apart.	draft_review	machine transcript; check against audio	把你拆个零碎一定很痛快。
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_4.WAV	2.76		Let's see what Kagan's best girl can do.	draft_review	machine transcript; check against audio	让我看看卡根最得意的姑娘有什么本事。
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_5.WAV	2.52		Didn't expect you to fight fair ephemera.	draft_review	machine transcript; check against audio	我本来也没指望你公平决斗，埃菲梅拉。
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_6.WAV	4.24		Oh yeah, and cross one shadow bitch off my list.	draft_review	machine transcript; check against audio	好，名单上又能划掉一个阴影贱人。
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_7.WAV	2.39		You're the best Kagan's got.	draft_review	machine transcript; check against audio	你就是卡根手下最厉害的？
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_8.WAV	3.40		What's the best you can hope for here, a draw?	draft_review	machine transcript; check against audio	你还指望打成平手不成？
+22	Rayne_EphemeraTaunt	SOUND\RAYNE_EPHEMERATAUNT_9.WAV	4.92		You know, I'm gonna get my own minions, and they're gonna be so much cooler than yours.	draft_review	machine transcript; check against audio	我也要收一群手下，肯定比你的酷多了。
+23	Rayne_Feed	SOUND\RAYNE_FEED_0.WAV	5.71			no_speech_detected	may be nonverbal or very short speech	（吸血声）
+23	Rayne_Feed	SOUND\RAYNE_FEED_1.WAV	6.73		Yeah. Yeah.	draft_review	machine transcript; check against audio	嗯……
+23	Rayne_Feed	SOUND\RAYNE_FEED_2.WAV	3.53			no_speech_detected	may be nonverbal or very short speech	（吸血声）
+23	Rayne_Feed	SOUND\RAYNE_FEED_3.WAV	7.18		Stomp! Yeah... Stomp! Stomp!	draft_review	machine transcript; check against audio	（吸血声）
+23	Rayne_Feed	SOUND\RAYNE_FEED_4.WAV	7.30			no_speech_detected	may be nonverbal or very short speech	（吸血声）
+23	Rayne_Feed	SOUND\RAYNE_FEED_5.WAV	3.72		Ah, and then psssssssssssssssssssssssssssssss	draft_review	machine transcript; check against audio	（吸血声）
+23	Rayne_Feed	SOUND\RAYNE_FEED_6.WAV	7.73		kk uh shh ah Ichh hiç ach ahhhh	draft_review	machine transcript; check against audio; no_speech_prob=0.59	（吸血声）
+23	Rayne_Feed	SOUND\RAYNE_FEED_7.WAV	9.16			no_speech_detected	may be nonverbal or very short speech	（吸血声）
+23	Rayne_Feed	SOUND\RAYNE_FEED_8.WAV	5.38		Yeah.	draft_review	machine transcript; check against audio	嗯。
+23	Rayne_Feed	SOUND\RAYNE_FEED_9.WAV	6.32		Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah!	draft_review	machine transcript; check against audio	（吸血声）
+24	Rayne_FerrilAttack	SOUND\RAYNE_FERRILATTACK_1.WAV	3.13		Ew, I don't even want to know what kind of body fluid just hit me.	draft_review	machine transcript; check against audio	呃，我都不想知道刚才溅到我身上的是什么。
+24	Rayne_FerrilAttack	SOUND\RAYNE_FERRILATTACK_2.WAV	2.29		Sit feral, sit bad feral.	draft_review	machine transcript; check against audio	坐下，费里尔。坏费里尔，坐下！
+24	Rayne_FerrilAttack	SOUND\RAYNE_FERRILATTACK_3.WAV	1.67		That might scar.	draft_review	machine transcript; check against audio	这下恐怕要留疤了。
+25	Rayne_FerrilDie	SOUND\RAYNE_FERRILDIE_1.WAV	2.44		HOOOOOME! UGH!	draft_review	machine transcript; check against audio	（惨叫）
+26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_1.WAV	3.07		Yeah, run. You people do that a lot around here.	draft_review	machine transcript; check against audio	对，快跑。你们这帮人就爱逃。
+26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_2.WAV	1.92		And where the hell do you think you're going?	draft_review	machine transcript; check against audio	你到底想跑去哪儿？
+26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_3.WAV	2.83		Hey Farrell, we're in the middle of something here.	draft_review	machine transcript; check against audio	嘿，费里尔，我们还没打完呢。
+26	Rayne_FerrilElude	SOUND\RAYNE_FERRILELUDE_5.WAV	2.74		Aw, come on back! You were sorta winning!	draft_review	machine transcript; check against audio	哎，回来呀！你刚才差点就赢了！
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_1.WAV	2.09		God damn, that's a wallop.	draft_review	machine transcript; check against audio	该死，这一下可真够狠。
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_10.WAV	0.51		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_11.WAV	0.54		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_2.WAV	2.30		Ugh, gotta stay clear of those claws.	draft_review	machine transcript; check against audio	呃，得离她的爪子远点。
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_3.WAV	2.14		You're quick, honey. I'll grant you that.	draft_review	machine transcript; check against audio	你动作真快，亲爱的。这点我承认。
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_4.WAV	1.71		Yeah, okay. I'll give you that one.	draft_review	machine transcript; check against audio	好吧，这一下算你赢。
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_5.WAV	0.39		Oof	draft_review	machine transcript; check against audio	（痛呼）
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_6.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_7.WAV	0.54		Eugh!	draft_review	machine transcript; check against audio	（痛呼）
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_8.WAV	0.51		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+27	Rayne_FerrilGetHurt	SOUND\RAYNE_FERRILGETHURT_9.WAV	0.53		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+28	Rayne_FerrilKill	SOUND\RAYNE_FERRILKILL_1.WAV	3.93		That's it for you and your dumbass Shroud Tower, tough girl.	draft_review	machine transcript; check against audio	你和那座蠢暗幕塔就到此为止了，强悍姑娘。
+29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_1.WAV	3.01		This is gonna go so badly for you, Farrell.	draft_review	machine transcript; check against audio	费里尔，这次你可要倒大霉了。
+29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_2.WAV	2.24		You mean girls are all the same.	draft_review	machine transcript; check against audio	你们这些坏姑娘都一个样。
+29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_3.WAV	3.79		What's Kagan gonna think about his shiny shroud tower now?	draft_review	machine transcript; check against audio	卡根看到他那座宝贝暗幕塔，会怎么想？
+29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_4.WAV	2.88		Obedient school is now in session.	draft_review	machine transcript; check against audio	听话训练现在开始。
+29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_5.WAV	2.74		What did Kagan mate with to create you?	draft_review	machine transcript; check against audio	卡根到底跟什么东西生了你？
+29	Rayne_FerrilTaunt	SOUND\RAYNE_FERRILTAUNT_6.WAV	2.64		Baby, you're too pretty for factory work.	draft_review	machine transcript; check against audio	宝贝，你这么漂亮，去工厂干活可惜了。
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_1.WAV	1.41		Okay, that does it.	draft_review	machine transcript; check against audio	好，这下够了。
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_10.WAV	3.07	Grrf! Alright, playtime's over!	Ugh! Alright, playtime's over!	draft_review	machine transcript; check against audio	呃！好吧，游戏结束！
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_11.WAV	1.96		Hey! I'm a girl!	draft_review	machine transcript; check against audio	嘿！我可是女孩子！
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_2.WAV	0.39		Oof	draft_review	machine transcript; check against audio	（痛呼）
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_3.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_4.WAV	0.54		Eugh!	draft_review	machine transcript; check against audio	（痛呼）
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_5.WAV	0.51		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_6.WAV	0.53		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_7.WAV	0.51		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_8.WAV	0.52		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+30	Rayne_GetHurt	SOUND\RAYNE_GETHURT_9.WAV	0.61		AHH!	draft_review	machine transcript; check against audio; no_speech_prob=0.52	（痛呼）
+31	Rayne_HintGunDrain	SOUND\RAYNE_HINTGUNDRAIN_2.WAV	3.12		Dragon's reservoirs are dry. Gotta refill them.	draft_review	machine transcript; check against audio	龙枪的储血槽空了，得补充。
+31	Rayne_HintGunDrain	SOUND\RAYNE_HINTGUNDRAIN_6.WAV	3.57		These blood guns rock, but they're bleeding me dry.	draft_review	machine transcript; check against audio	这两把血枪真棒，可快把我榨干了。
+31	Rayne_HintGunDrain	SOUND\RAYNE_HINTGUNDRAIN_7.WAV	2.92		Uh-oh, Dragon's reservoirs are running low again.	draft_review	machine transcript; check against audio	糟了，龙枪的储血槽又快见底了。
+32	Rayne_HintHurtBad	SOUND\RAYNE_HINTHURTBAD_1.WAV	1.16		Feeding time.	draft_review	machine transcript; check against audio	该进食了。
+32	Rayne_HintHurtBad	SOUND\RAYNE_HINTHURTBAD_2.WAV	2.03		Damn, I'm a couple of quarts low.	draft_review	machine transcript; check against audio	该死，我都快少了几升血了。
+32	Rayne_HintHurtBad	SOUND\RAYNE_HINTHURTBAD_3.WAV	2.34		Gotta make a withdrawal from the blood bank.	draft_review	machine transcript; check against audio	得去血库取点血。
+34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_1.WAV	1.81		Good jeans, I guess	draft_review	machine transcript; check against audio	看来是遗传得好。
+34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_2.WAV	2.43		And that's for all the birthdays you missed!	draft_review	machine transcript; check against audio	这一拳是替你错过的所有生日打的！
+34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_3.WAV	2.40		And that's for the pony you never gave me.	draft_review	machine transcript; check against audio	这一拳是替你从没送我的小马打的。
+34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_4.WAV	3.41		For an evil vampire overlord, you sure bleed a lot, Kagan.	draft_review	machine transcript; check against audio	堂堂邪恶吸血鬼霸主，你流的血可真不少，卡根。
+34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_5.WAV	3.93		Ugh! Waited a long time for this and the next one!	draft_review	machine transcript; check against audio	我等这一天很久了。下一拳也是！
+34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_7.WAV	2.54		Oh, tell me that hurt. A lot.	draft_review	machine transcript; check against audio	快告诉我，刚才那一下很疼。非常疼。
+34	Rayne_KaganAttack	SOUND\RAYNE_KAGANATTACK_8.WAV	2.31		Oh my god, that feels good.	draft_review	machine transcript; check against audio	天哪，这感觉真好。
+36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_1.WAV	2.81		If I didn't know better, I'd think you were running!	draft_review	machine transcript; check against audio	不知情的人还以为你在逃跑呢！
+36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_2.WAV	3.30		Give it up, Kagan. This whole place is a dead end.	draft_review	machine transcript; check against audio	放弃吧，卡根，这地方只有死路一条。
+36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_4.WAV	3.35		No way, Kagan! You'll never escape me again!	draft_review	machine transcript; check against audio	别想跑，卡根！我不会再让你逃掉！
+36	Rayne_KaganElude	SOUND\RAYNE_KAGANELUDE_5.WAV	2.06		There's no one left to save you!	draft_review	machine transcript; check against audio	已经没人能救你了！
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_1.WAV	0.66		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_10.WAV	0.51		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_11.WAV	0.53		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_12.WAV	0.51		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_13.WAV	0.52		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_2.WAV	2.43		Damn it, that Vespersword pack's a-hurtin'.	draft_review	machine transcript; check against audio	该死，暮星之剑打人可真疼。
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_3.WAV	1.31		I'm not giving in!	draft_review	machine transcript; check against audio	我绝不会屈服！
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_4.WAV	0.63		UGH!	draft_review	machine transcript; check against audio; no_speech_prob=0.54	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_5.WAV	0.76		No!	draft_review	machine transcript; check against audio	不！
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_6.WAV	0.74		URGH!	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_7.WAV	0.39		Oof	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_8.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+37	Rayne_KaganGetHurt	SOUND\RAYNE_KAGANGETHURT_9.WAV	0.54		Eugh!	draft_review	machine transcript; check against audio	（痛呼）
+39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_1.WAV	1.81		Shouldn't have come back, Kagan.	draft_review	machine transcript; check against audio	你不该回来的，卡根。
+39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_2.WAV	2.61		How many times do I have to kill you?	draft_review	machine transcript; check against audio	我还得杀你多少次？
+39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_3.WAV	3.40		You are so dead this time forever!	draft_review	machine transcript; check against audio	这次你真的死定了，永远！
+39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_4.WAV	3.52		Your family's gone, Kagan. You're about to follow.	draft_review	machine transcript; check against audio	卡根，你的家人都没了，马上就轮到你。
+39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_5.WAV	2.45		All bad things come to an end.	draft_review	machine transcript; check against audio	再坏的事也总有结束的一天。
+39	Rayne_KaganTaunt	SOUND\RAYNE_KAGANTAUNT_6.WAV	2.57		Bet I wasn't part of this plan, huh?	draft_review	machine transcript; check against audio	没算到我这一步吧？
+40	Rayne_Kill	SOUND\RAYNE_KILL_1.WAV	2.16		Well, send me a postcard from hell.	draft_review	machine transcript; check against audio	到了地狱，记得给我寄张明信片。
+40	Rayne_Kill	SOUND\RAYNE_KILL_10.WAV	2.46		Bet you didn't see that happening this morning.	draft_review	machine transcript; check against audio	今天早上你一定没想到会这样吧。
+40	Rayne_Kill	SOUND\RAYNE_KILL_2.WAV	1.95		Hey, try not to bleed on the leather.	draft_review	machine transcript; check against audio	嘿，别把血溅到皮衣上。
+40	Rayne_Kill	SOUND\RAYNE_KILL_3.WAV	1.91		Dead looks good on you.	draft_review	machine transcript; check against audio	死了以后你倒挺好看。
+40	Rayne_Kill	SOUND\RAYNE_KILL_4.WAV	2.93		I'd like to think you learned something right there at the end.	draft_review	machine transcript; check against audio	希望你临死前学到了点东西。
+40	Rayne_Kill	SOUND\RAYNE_KILL_5.WAV	2.61		I'm gonna go. No, no, you stay here and rest.	draft_review	machine transcript; check against audio	我要走了。不不，你留这儿好好休息。
+40	Rayne_Kill	SOUND\RAYNE_KILL_6.WAV	1.29		That's permanent.	draft_review	machine transcript; check against audio	这伤好不了了。
+40	Rayne_Kill	SOUND\RAYNE_KILL_7.WAV	3.53		Anybody else see that? Giving you any second thoughts?	draft_review	machine transcript; check against audio	还有谁看见了？想反悔了吗？
+40	Rayne_Kill	SOUND\RAYNE_KILL_8.WAV	1.93		Somebody ought to be keeping score.	draft_review	machine transcript; check against audio	真该有人来记分。
+40	Rayne_Kill	SOUND\RAYNE_KILL_9.WAV	1.53		Mm, very sad.	draft_review	machine transcript; check against audio	嗯，真叫人难过。
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_1.WAV	0.34		Ah!	draft_review	machine transcript; check against audio	（灼烧惨叫）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_10.WAV	0.50			no_speech_detected	may be nonverbal or very short speech	（灼烧惨叫）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_11.WAV	1.24		Ah! Ah!	draft_review	machine transcript; check against audio; no_speech_prob=0.51	（灼烧惨叫）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_12.WAV	0.60		Eugh!	draft_review	machine transcript; check against audio; no_speech_prob=0.71	（灼烧痛呼）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_2.WAV	0.33		Oh	draft_review	machine transcript; check against audio	（灼烧痛呼）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_3.WAV	0.60		Ugh!	draft_review	machine transcript; check against audio; no_speech_prob=0.71	（灼烧痛呼）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_4.WAV	0.49		Oh.	draft_review	machine transcript; check against audio; no_speech_prob=0.58	（灼烧痛呼）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_5.WAV	0.47			no_speech_detected	may be nonverbal or very short speech	（灼烧惨叫）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_6.WAV	0.31		Ah!	draft_review	machine transcript; check against audio; no_speech_prob=0.66	（灼烧惨叫）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_7.WAV	0.36			no_speech_detected	may be nonverbal or very short speech	（灼烧惨叫）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_8.WAV	0.38		Ugh!	draft_review	machine transcript; check against audio; no_speech_prob=0.72	（灼烧痛呼）
+41	Rayne_OnFire	SOUND\RAYNE_ONFIRE_9.WAV	2.70		Ugh! Sunlight everywhere!	draft_review	machine transcript; check against audio	呃，到处都是阳光！
+42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_1.WAV	2.44		No! No! No! No!	draft_review	machine transcript; check against audio	不！不！不！
+42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_2.WAV	2.28		Ah, ah, ah!	draft_review	machine transcript; check against audio	啊啊啊！
+42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_3.WAV	2.28		No! No! No!	draft_review	machine transcript; check against audio; no_speech_prob=0.58	不！不！不！
+42	Rayne_Shocked	SOUND\RAYNE_SHOCKED_4.WAV	5.64		No-no-no-no-no-no-no! Jesus, that hurts!	draft_review	machine transcript; check against audio	不不不！天哪，疼死了！
+43	Rayne_SlezzAttack	SOUND\RAYNE_SLEZZATTACK_1.WAV	3.66		Where's the heart? I don't know how much longer I can take this.	draft_review	machine transcript; check against audio	心脏在哪？我撑不了多久了。
+43	Rayne_SlezzAttack	SOUND\RAYNE_SLEZZATTACK_2.WAV	3.11		Could you die? Police, could you just die?	draft_review	machine transcript; check against audio	你就不能死吗？拜托，快死吧！
+43	Rayne_SlezzAttack	SOUND\RAYNE_SLEZZATTACK_3.WAV	3.64		If you aren't gonna die then could you just be quiet for a while?	draft_review	machine transcript; check against audio	你要是死不了，能不能先安静会儿？
+44	Rayne_SlezzDie	SOUND\RAYNE_SLEZZDIE_1.WAV	2.37		DOOM!	draft_review	machine transcript; check against audio	（惨叫）
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_1.WAV	2.83		Ugh, I'm starting to get why all your kids hit the road.	draft_review	machine transcript; check against audio	呃，我现在明白你的孩子为什么都逃了。
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_10.WAV	0.50		UGH!	draft_review	machine transcript; check against audio; no_speech_prob=0.53	（痛呼）
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_11.WAV	0.54		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_2.WAV	2.37		That's a hell of a throwing arm you got on ya.	draft_review	machine transcript; check against audio	你这投掷臂力可真惊人。
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_3.WAV	2.64		Ugh, take it down a notch, will ya bitch?	draft_review	machine transcript; check against audio	呃，轻点行吗，你这贱人？
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_4.WAV	2.26		Now this is extreme dodgeball.	draft_review	machine transcript; check against audio	现在这才叫极限躲避球。
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_5.WAV	0.39		Oof	draft_review	machine transcript; check against audio	（痛呼）
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_6.WAV	0.49		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_7.WAV	0.53		Eugh!	draft_review	machine transcript; check against audio	（痛呼）
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_8.WAV	0.51		Ugh!	draft_review	machine transcript; check against audio	（痛呼）
+46	Rayne_SlezzGetHurt	SOUND\RAYNE_SLEZZGETHURT_9.WAV	0.53		UGH!	draft_review	machine transcript; check against audio	（痛呼）
+47	Rayne_SlezzKill	SOUND\RAYNE_SLEZZKILL_1.WAV	3.51		I know it's a cliche, but she's got to be better off now.	draft_review	machine transcript; check against audio	这话虽俗，但她现在也许解脱了。
+48	Rayne_SlezzTaunt	SOUND\RAYNE_SLEZZTAUNT_1.WAV	1.75		Hold still, I'll make it quick.	draft_review	machine transcript; check against audio	别动，我会很快解决。
+48	Rayne_SlezzTaunt	SOUND\RAYNE_SLEZZTAUNT_2.WAV	2.16		They used to worship her like a god.	draft_review	machine transcript; check against audio	他们以前还把她当神膜拜呢。
+48	Rayne_SlezzTaunt	SOUND\RAYNE_SLEZZTAUNT_3.WAV	2.04		I have the feeling you won't be missed.	draft_review	machine transcript; check against audio	我有种感觉，没人会想你的。
+50	Rayne_Taunt	SOUND\RAYNE_TAUNT_1.WAV	2.12		Care to donate to my blood bank?	draft_review	machine transcript; check against audio	想给我的血库捐点血吗？
+50	Rayne_Taunt	SOUND\RAYNE_TAUNT_2.WAV	1.99		Come on. At least make an effort.	draft_review	machine transcript; check against audio	来啊，至少拿出点本事。
+50	Rayne_Taunt	SOUND\RAYNE_TAUNT_3.WAV	2.40		How come you idiots never surrender?	draft_review	machine transcript; check against audio	你们这些白痴怎么从不投降？
+60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_1.WAV	2.17		Hey, pick on someone your own size!	draft_review	machine transcript; check against audio	嘿，找个和你一样大的对手！
+60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_2.WAV	2.73		Hands off, asshole. I'm not like that.	draft_review	machine transcript; check against audio	把手拿开，混蛋。我可不好这一口。
+60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_3.WAV	2.36		Get out here and try that yourself.	draft_review	machine transcript; check against audio	有本事出来亲自动手。
+60,63	Rayne_XerxBGetHurt	SOUND\RAYNE_XERXBGETHURT_4.WAV	2.67		What kind of steroids are you feeding this thing?	draft_review	machine transcript; check against audio	你们给这东西喂了多少类固醇？
+61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_1.WAV	3.21		You're like some big meaty piñata.	draft_review	machine transcript; check against audio	你就像个巨大的肉馅彩罐。
+61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_2.WAV	1.74		Getting stuffy in there?	draft_review	machine transcript; check against audio	待在里面闷不闷？
+61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_3.WAV	2.28		You'll be the head of the fashion circuit.	draft_review	machine transcript; check against audio	你会成为时尚界的头号人物。
+61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_4.WAV	3.49		Do they make closet hangers big enough for that freak suit?	draft_review	machine transcript; check against audio	有能挂下你那怪物装的衣架吗？
+61,64	Rayne_XerxBTaunt	SOUND\RAYNE_XERXBTAUNT_5.WAV	3.26		Admit it, you suffer from little man syndrome.	draft_review	machine transcript; check against audio	承认吧，你就是有小个子情结。
+65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_1.WAV	2.40		What's the matter? Lost your wings?	draft_review	machine transcript; check against audio	怎么，翅膀丢了？
+65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_2.WAV	2.76		Mr. Showboat is all out of bat tricks.	draft_review	machine transcript; check against audio	爱炫耀的先生没蝙蝠戏法可耍了。
+65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_3.WAV	2.45		Hey, you even scream in a funny accent.	draft_review	machine transcript; check against audio	嘿，连你的惨叫都有怪口音。
+65	Rayne_ZerenskiAttack	SOUND\RAYNE_ZERENSKIATTACK_4.WAV	2.90		Permit me to wipe that sneer off your face.	draft_review	machine transcript; check against audio	容我把你脸上的冷笑擦掉。
+67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_1.WAV	2.39		Stop with the frequent flyer shit already!	draft_review	machine transcript; check against audio	别再飞来飞去的了！
+67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_2.WAV	2.30		You're nothing but a flying rodent.	draft_review	machine transcript; check against audio	你不过是一只会飞的老鼠。
+67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_3.WAV	2.22		Does that trick always impress the girls?	draft_review	machine transcript; check against audio	这招每次都能讨姑娘欢心吗？
+67	Rayne_ZerenskiElude	SOUND\RAYNE_ZERENSKIELUDE_4.WAV	2.20		So now we're playing Vampire Tag?	draft_review	machine transcript; check against audio	现在改玩吸血鬼捉迷藏了？
+68	Rayne_ZerenskiGetHurt	SOUND\RAYNE_ZERENSKIGETHURT_6.WAV	1.09		Fucking bats!	draft_review	machine transcript; check against audio	该死的蝙蝠！
+69	Rayne_ZerenskiKill	SOUND\RAYNE_ZERENSKIKILL_1.WAV	2.52		The higher they fly, the farther they fall.	draft_review	machine transcript; check against audio	飞得越高，摔得越惨。
+71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_1.WAV	2.94		Guess where I'm gonna stuff that cane when I finish you.	draft_review	machine transcript; check against audio	等收拾完你，猜我会把这拐杖塞哪儿。
+71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_2.WAV	2.47		Good idea dressing for your own funeral.	draft_review	machine transcript; check against audio	穿好丧服参加自己的葬礼，真周到。
+71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_3.WAV	4.27		Unlike your costume, I almost thought you were a real vampire for a second.	draft_review	machine transcript; check against audio	你的戏服不错，我差点以为你是真吸血鬼。
+71	Rayne_ZerenskiTaunt	SOUND\RAYNE_ZERENSKITAUNT_4.WAV	3.61		Nice magic stick you got there, Z. Play with it a lot.	draft_review	machine transcript; check against audio	你的魔杖不错嘛，泽伦斯基。经常拿来玩吗？

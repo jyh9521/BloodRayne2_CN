@@ -1,0 +1,29 @@
+TARGET: engine-selected Rayne WAV subtitles; 127 scripted non-Rayne Chinese subtitles retained.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\engine-voice-subtitles-20260927\voice_subtitles_zh.tsv
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\engine-voice-subtitles-20260927\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\engine-voice-subtitles-20260927\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\engine-voice-subtitles-20260927\ROLLBACK.sh
+Changed branch/field: game engine voice selector call RVA 0x151F72; per-WAV translation_zh field, 253 rows.
+Preserved original live SHA256: dinput8.dll=9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9; LANGUAGE.POD=BC758A173AE411003DF748BC4C4BF6C2E240B27E065D9A70B1DCDF9F51E3CE9C.
+Installed SHA256: dinput8.dll=D525CB5521FADC0373641E6CF7EDBF988E5FB178EC65B61670CD85A5139A09DC; LANGUAGE.POD=3F262CD2B6D69FED03344DF1BA10E3FA4853B81249C6EDA8BB428941773562D8.
+BASELINE command: python '_cn_project\releases\engine-voice-subtitles-20260927\verify.py' baseline
+BASELINE input: original installed dinput8.dll and LANGUAGE.POD; 127 existing scripted lines, 72 categories, 253 WAV samples, verified rayne2.exe.
+BASELINE literal output: BASELINE_OK scripted_chinese=127 categories=72 voice_samples=253 game_hook_bytes=E8D9C5EFFF live_payload=original
+BASELINE exit status: 0.
+MODIFIED command: python '_cn_project\releases\engine-voice-subtitles-20260927\verify.py' modified
+MODIFIED input: voice_subtitles_zh.tsv; rebuilt proxy and LANGUAGE.POD; existing COMMON.POD and W32ENSND.POD.
+MODIFIED literal output: MODIFIED_OK scripted_chinese=127 categories=72 voice_captions=253 max_bytes=52 font_entries_changed=1 proxy_exports=ok archive_crc=ok
+MODIFIED exit status: 0, including post-install rerun.
+ISOLATED INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\engine-voice-subtitles-20260927\install.ps1' -GameRoot $t
+ISOLATED INSTALL input: testroot2 copy of original dinput8.dll and LANGUAGE.POD.
+ISOLATED INSTALL literal output: INSTALL_OK dinput8.dll=voice_caption_hook LANGUAGE.POD=font_glyphs COMMON.POD=unchanged W32ENSND.POD=unchanged
+ISOLATED INSTALL exit status: 0.
+ROLLBACK command: & 'C:\Program Files\Git\bin\bash.exe' '_cn_project\releases\engine-voice-subtitles-20260927\ROLLBACK.sh' -GameRoot $t
+ROLLBACK input: testroot2 after isolated install.
+ROLLBACK literal output: ROLLBACK_OK dinput8.dll=restored LANGUAGE.POD=restored COMMON.POD=unchanged W32ENSND.POD=unchanged
+ROLLBACK exit status: 0.
+ROLLBACK restored SHA256: dinput8.dll=9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9; LANGUAGE.POD=BC758A173AE411003DF748BC4C4BF6C2E240B27E065D9A70B1DCDF9F51E3CE9C.
+LIVE INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\engine-voice-subtitles-20260927\install.ps1'
+LIVE INSTALL literal output: INSTALL_OK dinput8.dll=voice_caption_hook LANGUAGE.POD=font_glyphs COMMON.POD=unchanged W32ENSND.POD=unchanged
+LIVE INSTALL exit status: 0; installed hashes above confirmed.
+In-game playback/stability: not run here; user test pending.

@@ -1,0 +1,127 @@
+--- _cn_project\releases\union-club-probe-20260926\source\dinput8_cn.cpp
++++ _cn_project\releases\engine-voice-subtitles-20260927\source\dinput8_cn.cpp
+@@ -11,11 +11,62 @@
+ 
+ namespace {
+ 
++#include "voice_subtitles.h"
++
+ constexpr UINT kChineseCodePage = 936;
+ constexpr char kLanguagePodMountName[] = "LANGUAGE.POD";
+ HMODULE g_self = nullptr;
+ HMODULE g_real_dinput8 = nullptr;
+ unsigned g_patch_mask = 0;
++
++using GameVoicePlayFn = void(__thiscall*)(void*, const char*, float, void*, int);
++using GameBoxedCaptionFn = void(__thiscall*)(void*, const char*, float, float, int, int, int);
++GameVoicePlayFn g_original_game_voice_play = nullptr;
++GameBoxedCaptionFn g_game_boxed_caption = nullptr;
++HMODULE g_game_image = nullptr;
++
++const VoiceCaptionRow* FindVoiceCaption(const char* sound_name) {
++    if (sound_name == nullptr) return nullptr;
++    const char* slash = strrchr(sound_name, '\\');
++    const char* stem = slash != nullptr ? slash + 1 : sound_name;
++    const char* forward_slash = strrchr(stem, '/');
++    if (forward_slash != nullptr) stem = forward_slash + 1;
++    char normalized[64] = {};
++    const size_t stem_length = strcspn(stem, ".");
++    if (stem_length == 0 || stem_length >= sizeof(normalized)) return nullptr;
++    memcpy(normalized, stem, stem_length);
++    for (const auto& row : kVoiceCaptions) {
++        if (_stricmp(normalized, row.stem) == 0) return &row;
++    }
++    return nullptr;
++}
++
++void __fastcall RayneVoiceWithCaption(
++    void* actor, void*, const char* sound_name,
++    float sound_seconds, void* playback_context, int playback_flags) {
++    // Preserve the game voice call, its arguments, and its English sound path.
++    g_original_game_voice_play(
++        actor, sound_name, sound_seconds, playback_context, playback_flags);
++    const VoiceCaptionRow* row = FindVoiceCaption(sound_name);
++    if (row == nullptr || g_game_image == nullptr || g_game_boxed_caption == nullptr)
++        return;
++    auto* image = reinterpret_cast<unsigned char*>(g_game_image);
++    // This is the same global subtitle-enable check used by dbBoxedDisplay.
++    if (*reinterpret_cast<unsigned char*>(image + 0x5C3060C) == 0) return;
++    void* display = *reinterpret_cast<void**>(image + 0x3C07F8);
++    if (display == nullptr) return;
++    // Never overwrite a scripted/story caption; sequential engine voice
++    // cues may replace only captions installed from this same table.
++    if (*reinterpret_cast<const float*>(reinterpret_cast<const unsigned char*>(display) + 0x4F0) > 0.0f) {
++        const char* active = reinterpret_cast<const char*>(display) + 0x3F0;
++        bool own_caption = false;
++        for (const auto& candidate : kVoiceCaptions) {
++            if (strcmp(active, candidate.carrier) == 0) { own_caption = true; break; }
++        }
++        if (!own_caption) return;
++    }
++    g_game_boxed_caption(display, row->carrier, row->seconds, 1.0f, 0, 1, 1);
++}
+ PVOID g_layout_exception_handler = nullptr;
+ volatile LONG g_layout_fault_count = 0;
+ volatile LONG g_subtitle_probe_counts[4] = {};
+@@ -679,6 +730,32 @@
+     return true;
+ }
+ 
++bool PatchRayneVoiceCaptions(HMODULE image) {
++    // One call site in the engine voice selector (VA 00551F72). The
++    // selected WAV stem is already known here. Do not detour the shared
++    // sound engine, scripted dialogue, or any modded sound archive.
++    auto* base = reinterpret_cast<unsigned char*>(image);
++    auto* call = base + 0x151F72;
++    constexpr unsigned char expected[] = {0xE8, 0xD9, 0xC5, 0xEF, 0xFF};
++    if (memcmp(call, expected, sizeof(expected)) != 0) return false;
++    const auto old_voice = reinterpret_cast<GameVoicePlayFn>(base + 0x4E550);
++    const auto caption = reinterpret_cast<GameBoxedCaptionFn>(base + 0xF4560);
++    unsigned char replacement[5] = {0xE8, 0, 0, 0, 0};
++    const DWORD delta = static_cast<DWORD>(reinterpret_cast<ULONG_PTR>(&RayneVoiceWithCaption))
++        - static_cast<DWORD>(reinterpret_cast<ULONG_PTR>(call + 5));
++    memcpy(replacement + 1, &delta, sizeof(delta));
++    g_original_game_voice_play = old_voice;
++    g_game_boxed_caption = caption;
++    g_game_image = image;
++    if (!WriteProtectedMemory(call, replacement, sizeof(replacement))) {
++        g_original_game_voice_play = nullptr;
++        g_game_boxed_caption = nullptr;
++        g_game_image = nullptr;
++        return false;
++    }
++    return true;
++}
++
+ bool PatchBoundedLayoutTagScan(HMODULE image) {
+     // 005DE9F8: push "@@%[^@]@@%n".  Redirect only the format pointer;
+     // normal control tags retain their original grammar.
+@@ -794,6 +871,9 @@
+     if (PatchDynamicBitFontRenderer(image)) {
+         g_patch_mask |= 1u << 7;
+     }
++    if (PatchRayneVoiceCaptions(image)) {
++        g_patch_mask |= 1u << 11;
++    }
+ }
+ 
+ 
+@@ -825,7 +905,7 @@
+     const int count = wsprintfA(
+         line,
+         "pid=%lu patch_mask=0x%02X code_page=%u voice=%s "
+-        "font_archive=%s dynamic_font=%s fmv_wrap=%s\r\n",
++        "font_archive=%s dynamic_font=%s fmv_wrap=%s voice_captions=%s\r\n",
+         GetCurrentProcessId(),
+         g_patch_mask,
+         kChineseCodePage,
+@@ -836,7 +916,8 @@
+         (g_patch_mask & (1u << 7)) != 0
+             ? "on"
+             : "off",
+-        (g_patch_mask & (1u << 8)) != 0 ? "on" : "off");
++        (g_patch_mask & (1u << 8)) != 0 ? "on" : "off",
++        (g_patch_mask & (1u << 11)) != 0 ? "on" : "off");
+     DWORD written = 0;
+     WriteFile(file, line, static_cast<DWORD>(count), &written, nullptr);
+     CloseHandle(file);
