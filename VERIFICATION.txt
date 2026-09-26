@@ -1,0 +1,34 @@
+Change: initialized branch main for the current BloodRayne 2 Chinese localization snapshot and published origin/main.
+Modified branch/field: main; dist/BloodRayne2_CN_current.zip contains current LANGUAGE.POD, dinput8.dll, and 15 Chinese _RU.srt files. W32ART.POD and W32ENSND.POD were not packaged or changed.
+
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\dist\BloodRayne2_CN_current.zip
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\missing-dialogue-20260926\ROLLBACK.sh
+
+BASELINE command: git ls-remote https://github.com/jyh9521/BloodRayne2_CN.git
+BASELINE input: empty GitHub repository before first push.
+BASELINE literal output/result: empty stdout; no refs.
+BASELINE exit status: 0
+
+MODIFIED command: git -C '_cn_project' push -u origin main
+MODIFIED input: first local root commit 7f74b2fa1c2158ab2a17ff62da6f55ba3f7c1718.
+MODIFIED literal output/result: * [new branch] main -> main; branch 'main' set up to track 'origin/main'.
+MODIFIED exit status: 0
+Follow-up commits documenting the manual push workflow and executable rollback script were also pushed.
+Release verify command: python '_cn_project\verify_release_zip.py'
+Release verify literal output: ZIP_OK files=17 crc=all_valid sha256=all_valid
+Release verify exit status: 0
+Release archive SHA256: 73AE12817BFEF57E3A29C30239FABE506DD6E88490E243EAA40738CD273C5A90
+
+ROLLBACK test setup command: powershell -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\missing-dialogue-20260926\install.ps1' -GameRoot (Resolve-Path '_cn_project\releases\missing-dialogue-20260926\testroot_git').Path
+ROLLBACK test setup input: separate copy of baseline LANGUAGE.POD.
+ROLLBACK setup literal output: INSTALL_OK LANGUAGE.POD=missing_dialogue_patch W32ART.POD=unchanged W32ENSND.POD=unchanged
+ROLLBACK setup exit status: 0
+ROLLBACK command: & 'C:\Program Files\Git\bin\bash.exe' '_cn_project\releases\missing-dialogue-20260926\ROLLBACK.sh' (Resolve-Path '_cn_project\releases\missing-dialogue-20260926\testroot_git').Path
+ROLLBACK input: separate copy of modified LANGUAGE.POD.
+ROLLBACK literal output: ROLLBACK_OK LANGUAGE.POD=previous_patch W32ART.POD=unchanged W32ENSND.POD=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored status: testroot_git LANGUAGE.POD SHA256 1A068F7BA4430B2BA8607B3D81B44F80BFB44E0A95729FBBF8D48F678F01E9A4. Live LANGUAGE.POD remains modified SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97.
+
+This repository excludes the original game archives and temporary backups. Future changes will be committed locally and accompanied by a user-run push command.
