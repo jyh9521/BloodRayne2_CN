@@ -1,0 +1,9 @@
+--- WORLD\RU\A2_UNIONSTATION_PART3.TXT (LANGUAGE.POD baseline)
++++ WORLD\RU\A2_UNIONSTATION_PART3.TXT (LANGUAGE.POD modified)
+@@ Three opening radio lines; Chinese text bytes remain unchanged @@
+-a2s2_severin_9.wav, $, [你的猎物往高处去了……]
++a2s2_severin_9.wav, SEVERIN, [你的猎物往高处去了……]
+-a2s2_rayne_26.wav, $, [看见了。我跟他们之间还隔着什么？]
++a2s2_rayne_26.wav, RAYNE, [看见了。我跟他们之间还隔着什么？]
+-a2s2_severin_10.wav, $, [当然是大名鼎鼎的斯特拉吉斯俱乐部。]
++a2s2_severin_10.wav, SEVERIN, [当然是大名鼎鼎的斯特拉吉斯俱乐部。]

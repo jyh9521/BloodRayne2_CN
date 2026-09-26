@@ -15,6 +15,7 @@
 /releases/*/font/
 /releases/*/build/
 /releases/*/testroot*/
+/releases/*/test_package/
 /releases/*/asr_sample/
 *.pyc
 *.obj

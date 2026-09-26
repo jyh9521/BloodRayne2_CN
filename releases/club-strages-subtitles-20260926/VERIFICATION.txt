@@ -1,0 +1,43 @@
+Club Strages opening three-line subtitle metadata trial, 2026-09-26.
+Changed branch/field: LANGUAGE.POD / WORLD\RU\A2_UNIONSTATION_PART3.TXT / second CSV field for a2s2_severin_9.wav, a2s2_rayne_26.wav, a2s2_severin_10.wav. Values changed from $ to SEVERIN, RAYNE, SEVERIN, matching the same keys in PART1 and PART2. Chinese text bytes and every other POD entry are unchanged.
+Input runtime probe: union_club_subtitle_probe.log from pid 48584 recorded only kind=3 Chinese drawing (three lines), no kind=0/1/2. Thus the three target lines did not enter the DynamicBitFontDraw hook in that replay. Whether explicit speaker fields make the game submit these captions awaits user gameplay test. No game launch by Codex.
+
+Original LANGUAGE.POD SHA256: 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97
+Modified LANGUAGE.POD SHA256: CB0EE5C1D0FD6CC7530C46B6CD34E9DB87F68D7912F54D7BC3515DEE9A7F0085
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-subtitles-20260926\payload\LANGUAGE.POD
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-subtitles-20260926\DIFF_FILE.diff
+VERIFICATION.txt: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-subtitles-20260926\VERIFICATION.txt
+ROLLBACK.sh: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\club-strages-subtitles-20260926\ROLLBACK.sh
+Version-control package: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\dist\BloodRayne2_CN_club_strages_test.zip; SHA256 2B9967F30B2429D608AA59E128C80C7DE16A31B20D366CF8069262CCF69C98E2; ZIP POD SHA256 CB0EE5C1D0FD6CC7530C46B6CD34E9DB87F68D7912F54D7BC3515DEE9A7F0085.
+
+BASELINE command: python '_cn_project\releases\missing-dialogue-20260926\validate_missing.py' 'LANGUAGE.POD' --require-complete
+BASELINE input: unmodified live LANGUAGE.POD with three $ speaker fields
+BASELINE literal output: entries=392 scripted_audio_keys=1096 missing_files=0 missing_keys=0 blank_rows=5 tag_mismatches=0 long_runs=0
+BASELINE exit status: 0
+
+MODIFIED command: python '_cn_project\releases\missing-dialogue-20260926\validate_missing.py' '_cn_project\releases\club-strages-subtitles-20260926\payload\LANGUAGE.POD' --require-complete
+MODIFIED input: payload LANGUAGE.POD with three explicit speaker fields
+MODIFIED literal output: entries=392 scripted_audio_keys=1096 missing_files=0 missing_keys=0 blank_rows=5 tag_mismatches=0 long_runs=0
+MODIFIED exit status: 0
+MODIFIED differential command: python '_cn_project\releases\club-strages-subtitles-20260926\verify.py'
+MODIFIED differential input: original live POD and payload POD
+MODIFIED differential literal output: SUBTITLE_METADATA changed_entries=1 speaker_fields=3 text_bytes=unchanged crc_failures=0
+MODIFIED differential exit status: 0
+
+ISOLATED INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\club-strages-subtitles-20260926\install.ps1' -GameRoot '_cn_project\releases\club-strages-subtitles-20260926\testroot'
+ISOLATED INSTALL input: separate testroot containing baseline LANGUAGE.POD
+ISOLATED INSTALL literal output: INSTALL_OK club_strages_speaker_fields=3 other_game_files=unchanged
+ISOLATED INSTALL exit status: 0
+ISOLATED INSTALL status: LANGUAGE.POD SHA256 CB0EE5C1D0FD6CC7530C46B6CD34E9DB87F68D7912F54D7BC3515DEE9A7F0085
+
+ROLLBACK command: "C:\Program Files\Git\bin\bash.exe" '_cn_project\releases\club-strages-subtitles-20260926\ROLLBACK.sh' -GameRoot '_cn_project\releases\club-strages-subtitles-20260926\testroot'
+ROLLBACK input: isolated installed POD and baseline backup
+ROLLBACK literal output: ROLLBACK_OK LANGUAGE.POD=restored other_game_files=unchanged
+ROLLBACK exit status: 0
+ROLLBACK restored behavior/status: testroot LANGUAGE.POD SHA256 18B5FA66F69AD57327D91C54BFD08F3FD9DC34A7C76E15FF53FDBA22F8D35C97; original speaker fields restored.
+
+LIVE INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File '_cn_project\releases\club-strages-subtitles-20260926\install.ps1'
+LIVE INSTALL input: baseline live LANGUAGE.POD, game not running
+LIVE INSTALL literal output: INSTALL_OK club_strages_speaker_fields=3 other_game_files=unchanged
+LIVE INSTALL exit status: 0
+LIVE STATUS: LANGUAGE.POD SHA256 CB0EE5C1D0FD6CC7530C46B6CD34E9DB87F68D7912F54D7BC3515DEE9A7F0085; diagnostic dinput8.dll SHA256 9E2CE9D0127EEE76E4D6C2C5097FF975B5B8F2F9CF2D0FE489AF354C5782B1A9.
