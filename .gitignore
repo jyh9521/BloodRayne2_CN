@@ -29,3 +29,6 @@
 *.zip
 !/dist/
 !/dist/*.zip
+
+# Canonical localization resources required by the portable rebuild.
+!/rebuild/assets/localized_resources.zip
