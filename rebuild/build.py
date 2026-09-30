@@ -22,7 +22,7 @@ pod3.crc32_mpeg2=fast_crc
 
 def compiler_env():
     env=dict(os.environ)
-    if shutil.which('cl.exe'): return env
+    if shutil.which('cl.exe') and env.get('VSCMD_ARG_TGT_ARCH','').lower()=='x86': return env
     vswhere=Path(os.environ.get('ProgramFiles(x86)',r'C:\Program Files (x86)'))/'Microsoft Visual Studio/Installer/vswhere.exe'
     root=subprocess.check_output([str(vswhere),'-latest','-products','*','-requires','Microsoft.VisualStudio.Component.VC.Tools.x86.x64','-property','installationPath'],text=True).strip()
     if not root: raise RuntimeError('Install Visual Studio Build Tools with Desktop development with C++ and Windows SDK.')

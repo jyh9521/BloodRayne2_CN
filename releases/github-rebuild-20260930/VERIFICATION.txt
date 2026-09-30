@@ -1,0 +1,32 @@
+Changed fields: portable rebuild sources/resources and README; runtime functionality and installed game files unchanged.
+Pristine input SHA256: 2e3e0797e147e58b7308d3fcedbdf0a06cb433fb099fc24b8fb38943d8b358e4
+BASELINE command: python "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\test.py" baseline "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930"
+BASELINE input: pristine Steam LANGUAGE.POD copy and verified rayne2.exe; isolated fixture, DLL/source project absent.
+BASELINE output: BASELINE_OK clean_pod=verified fixture_files=2 source_project=absent dinput8=absent
+BASELINE exit: 0
+MODIFIED command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930\output\package\manage.ps1" -Mode Install -GameRoot "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930\fixture"
+MODIFIED input: rebuilt package and isolated pristine fixture.
+MODIFIED output: INSTALL_OK files=17 hashes=17 backup=verified game_not_started=yes
+MODIFIED exit: 0
+MODIFIED verification command: python "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\test.py" modified "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930"
+MODIFIED verification output: MODIFIED_OK rebuilt_payload_files=17 hashes=17 source_project=absent
+MODIFIED verification exit: 0
+ROLLBACK command: & "C:\Program Files\Git\bin\bash.exe" "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\ROLLBACK.sh" -GameRoot "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930\fixture"
+ROLLBACK input: modified fixture and automatically preserved original/absence records.
+ROLLBACK output: ROLLBACK_OK files=17 original_hashes_and_absence=restored backup_retained=yes
+ROLLBACK exit: 0
+ROLLBACK verification command: python "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\test.py" rollback "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930"
+ROLLBACK verification output: ROLLBACK_OK clean_files=2 original_hashes=2 new_files_removed=16
+ROLLBACK verification exit: 0
+Restored status: two original files match baseline hashes; sixteen newly installed files removed. Live game was not modified or launched.
+GITHUB command: git clone --depth 1 https://github.com/jyh9521/BloodRayne2_CN.git "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930\github"
+GITHUB fetched source commit: 3d24d0bf4bb5860d8ab22f7ca4e6431c76fc67da; clone exit: 0
+GITHUB rebuild command: python "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930\github\rebuild\build.py" --base-pod "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930\LANGUAGE.POD" --output "C:\Users\noway\Documents\BloodRayne2_CN_Rebuild_Test_20260930\github-output"
+GITHUB rebuild output: REBUILD_OK language_entries=393 entry_hashes=393 crc=all_valid dll=x86 exports=5 ru_srt=15 payload_files=17 package_crc=all_valid
+GITHUB rebuild exit: 0
+Rebuild uses finalized localized resource snapshot, not automatic re-import of arbitrary TSV edits. Container/compiler hashes may differ, all POD entry hashes must match. Windows/Python/MSVC and pristine Steam POD required.
+Final source commit also selects x86 when launched from an inherited x64 developer prompt.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\MODIFIED_FILE.zip
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\VERIFICATION.txt
+ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\github-rebuild-20260930\ROLLBACK.sh
