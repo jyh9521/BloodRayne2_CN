@@ -1,0 +1,9 @@
+{
+  "old_release_sha256": "de44687e487a3fe0d200264e63095c870a0a252a3b22c6424a10f04585b27c27",
+  "live_files": {
+    "LANGUAGE.POD": "3f262cd2b6d69fed03344df1ba10e3fa4853b81249c6eda8bb428941773562d8",
+    "dinput8.dll": "d525cb5521fadc0373641e6cf7edbf988e5fb178ec65b61670cd85a5139a09dc",
+    "W32ART.POD": "3fdf3834775eafac57c56ee4a05137b0ae4f5597f93cd89ab123cf5352bc0945",
+    "W32ENSND.POD": "2990e799bceee41aecbfbd2399a9cffe9bb298b668acaa8ff60b38a1e55e9719"
+  }
+}

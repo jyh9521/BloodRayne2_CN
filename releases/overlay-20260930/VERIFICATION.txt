@@ -1,0 +1,29 @@
+Changed fields: release layout changed from installer/payload to direct game-root overlay; player version validation removed; runtime and translation bytes unchanged.
+BASELINE command: python "_cn_project\releases\overlay-20260930\test.py" baseline
+BASELINE input: isolated fixture with three original files; original hashes saved; DLL absent.
+BASELINE output: BASELINE_OK files=3 original_hashes=preserved dll=absent
+BASELINE exit: 0
+MODIFIED command: python "_cn_project\releases\overlay-20260930\test.py" modified
+MODIFIED input: MODIFIED_FILE.zip contents directly copied to isolated game-root fixture.
+MODIFIED output: MODIFIED_OK direct_copy_files=17 hashes=17 protected_mod=unchanged installer=absent version_check=absent
+MODIFIED exit: 0
+ROLLBACK command: & "C:\Program Files\Git\bin\bash.exe" "_cn_project\releases\overlay-20260930\ROLLBACK.sh"
+ROLLBACK input: modified isolated fixture and saved original/absence state.
+ROLLBACK output: ROLLBACK_OK original_files=3 original_hashes=3 added_files_removed=15
+ROLLBACK exit: 0
+Restored status: isolated three original hashes restored, fifteen added game files removed. Live game unchanged; new release zip remains in overlay form.
+BUILD command: python "_cn_project\build_release_zip.py"
+BUILD output: RELEASE_OK files=17 entries=18 root_layout=yes installer=absent version_check=absent hashes=all_valid
+BUILD exit: 0
+ZIP command: python "_cn_project\verify_release_zip.py"
+ZIP output: ZIP_OK files=17 entries=18 root_layout=yes installer=absent version_check=absent crc=all_valid sha256=all_valid
+ZIP exit: 0
+Old advertised v1.0.0 installer zip/checksum deleted in dist and external delivery folder. Original snapshot retained under original/ for developer evidence; historical Git records retained.
+No game launch or live file replacement. Player zip contains seventeen game files plus README only.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\overlay-20260930\MODIFIED_FILE.zip
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\overlay-20260930\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\overlay-20260930\VERIFICATION.txt
+ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\overlay-20260930\ROLLBACK.sh
+SOURCE REBUILD command: python "_cn_project\rebuild\build.py" --base-pod "_cn_project\baseline\LANGUAGE.POD" --output "_cn_project\build\reproducible-overlay"
+SOURCE REBUILD output: REBUILD_OK language_entries=393 entry_hashes=393 crc=all_valid dll=x86 exports=5 ru_srt=15 files=17 root_layout=yes installer=absent version_check=absent package_crc=all_valid
+SOURCE REBUILD exit: 0

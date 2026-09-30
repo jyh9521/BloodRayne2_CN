@@ -69,18 +69,17 @@ def main():
     (payload/'video').mkdir(exist_ok=True)
     for p in source_srt: shutil.copy2(p,payload/'video'/p.name)
     files=[payload/'LANGUAGE.POD',payload/'dinput8.dll',*sorted((payload/'video').glob('*.srt'))]
-    manifest={'version':'1.0.0-source-rebuild','game_sha256':m['game_sha256'],'files':[{'path':p.relative_to(payload).as_posix(),'sha256':sha(p),'bytes':p.stat().st_size} for p in files]}
-    (package/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
-    installer=REPO/'releases/release-20260930'
-    for name in ['manage.ps1','INSTALL.cmd','UNINSTALL.cmd','ROLLBACK.sh','README.zh-CN.txt']: shutil.copy2(installer/name,package/name)
+    manifest={'version':'1.0.1-overlay-source-rebuild','files':[{'path':p.relative_to(payload).as_posix(),'sha256':sha(p),'bytes':p.stat().st_size} for p in files]}
+    (out/'rebuild_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+    readme=REPO/'releases/overlay-20260930/README.zh-CN.txt'
     archive=out/'BloodRayne2_CN_rebuilt.zip'
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-        for p in files: z.write(p,p.relative_to(package).as_posix())
-        for name in ['manifest.json','manage.ps1','INSTALL.cmd','UNINSTALL.cmd','ROLLBACK.sh','README.zh-CN.txt']: z.write(package/name,name)
-        z.writestr('SHA256SUMS.txt','\n'.join(f"{f['sha256']}  payload/{f['path']}" for f in manifest['files'])+'\n')
+        for p in files: z.write(p,p.relative_to(payload).as_posix())
+        z.write(readme,'README.zh-CN.txt')
     with zipfile.ZipFile(archive) as z:
         assert z.testzip() is None
-        for f in manifest['files']: assert hashlib.sha256(z.read('payload/'+f['path'])).hexdigest()==f['sha256']
-    print('REBUILD_OK language_entries=393 entry_hashes=393 crc=all_valid dll=x86 exports=5 ru_srt=15 payload_files=17 package_crc=all_valid')
+        for f in manifest['files']: assert hashlib.sha256(z.read(f['path'])).hexdigest()==f['sha256']
+        assert len(z.namelist())==18
+    print('REBUILD_OK language_entries=393 entry_hashes=393 crc=all_valid dll=x86 exports=5 ru_srt=15 files=17 root_layout=yes installer=absent version_check=absent package_crc=all_valid')
     print('OUTPUT '+str(archive))
 if __name__=='__main__': main()

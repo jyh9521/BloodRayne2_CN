@@ -2,13 +2,15 @@
 
 本仓库保存当前汉化测试版、翻译表、构建工具和每次修订的验证记录。当前版本使用俄语文本槽显示中文；配音仍为英语。游戏由玩家自行启动和测试。
 
-## 安装 Release v1.0.0（2026-09-30）
+## 使用 Release v1.0.1 覆盖版（2026-09-30）
 
-完整解压 `dist/BloodRayne2_CN_v1.0.0_20260930.zip` 到独立目录，双击 `INSTALL.cmd`，输入 Steam 游戏根目录。安装器校验游戏版本、自动备份被覆盖文件并记录新增文件，再安装 17 个汉化文件。玩家自行从 Steam 启动游戏，选择 Russian 文本并开启字幕，配音仍为英语。
+下载 `dist/BloodRayne2_CN_v1.0.1_overlay.zip`（或同内容的 `dist/BloodRayne2_CN_current.zip`），**直接把压缩包全部内容解压到 Steam 游戏根目录，覆盖同名文件即可**。
 
-只安装 `LANGUAGE.POD`、`dinput8.dll`、15 个 `video/*_RU.srt`，不替换 `W32ART.POD`、`W32ENSND.POD`、`COMMON.POD`、视频或存档。无需源工程、Python 或安装字体。若已有其他 `dinput8.dll`，会停止安装而不覆盖。用 `UNINSTALL.cmd` 恢复安装器在 `_cn_backup_release_20260930` 中保存的原文件。
+压缩包根目录直接包含 `LANGUAGE.POD`、`dinput8.dll` 和 `video/`，没有 `payload` 外层目录，没有安装器，没有版本校验，不需要运行脚本、安装 Python 或安装字体。玩家自行启动游戏，选择 Russian 文本并开启字幕；配音仍为英语。
 
-压缩包内 `README.zh-CN.txt` 包含干净 Steam 安装、回滚、测试检查点及已知复核项。`dist/BloodRayne2_CN_current.zip` 为同版本别名；请勿按旧版直接覆盖安装说明操作。
+只覆盖 17 个游戏文件：`LANGUAGE.POD`、`dinput8.dll`、15 个 `video/*_RU.srt`。不替换 `W32ART.POD`、`W32ENSND.POD`、`COMMON.POD`、视频或存档。覆盖前自行保留同名原文件；撤销时还原备份，并删除本补丁新增的文件。同名模组代理 `dinput8.dll` 会被覆盖，不自动合并。
+
+旧 v1.0.0 安装器发行包已移除；历史修订脚本仅保留作开发记录，不属于本覆盖包。
 
 ## 源文件与版本记录
 
@@ -25,10 +27,10 @@
 
 ### 两种用途
 
-- **玩家安装**：直接使用仓库 `dist/BloodRayne2_CN_current.zip`，不需要编译器或源工程。
-- **源码重建**：下面的流程会编译 x86 代理 DLL、以 Steam 原版 LANGUAGE.POD 和仓库内的最终汉化资源重新构建 POD，再打包 15 个已校准视频字幕及安装/卸载器。**不读取本机已汉化的 DLL/POD，不依赖旧工作目录或历史测试备份。**
+- **玩家安装**：直接解压覆盖仓库 `dist/BloodRayne2_CN_current.zip`，不需要编译器或源工程。
+- **源码重建**：下面的流程会编译 x86 代理 DLL、以 Steam 原版 LANGUAGE.POD 和仓库内的最终汉化资源重新构建 POD，再打包 15 个已校准视频字幕，输出同样的解压覆盖结构。**不读取本机已汉化的 DLL/POD，不依赖旧工作目录或历史测试备份。**
 
-### 环境与输入
+### 开发重建环境与输入（与玩家覆盖使用无关）
 
 1. Windows 10/11、Git、Python 3.10 或更高版本（只用标准库，不需要 pip 安装依赖）。
 2. Visual Studio 2022 Build Tools，安装“使用 C++ 的桌面开发”、MSVC x86/x64 工具和 Windows SDK。脚本通过 vswhere 自动定位。
@@ -44,7 +46,7 @@ Set-Location BloodRayne2_CN
 python rebuild/build.py --base-pod "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\LANGUAGE.POD"
 ```
 
-输出：`build/reproducible/BloodRayne2_CN_rebuilt.zip`。解压后运行 INSTALL.cmd 安装；构建本身不修改 Steam 游戏目录，不启动游戏。
+输出：`build/reproducible/BloodRayne2_CN_rebuilt.zip`。直接把压缩包内容解压覆盖游戏根目录；没有版本检测或安装步骤。构建本身不修改 Steam 游戏目录，不启动游戏。
 
 可用 `--output "D:\BR2-build"` 指定独立输出目录；`--base-pod` 接受任意位置保存的、哈希匹配的原版归档。
 
@@ -53,7 +55,7 @@ python rebuild/build.py --base-pod "C:\Program Files (x86)\Steam\steamapps\commo
 - `rebuild/runtime/`：当前实装代理的完整 C++ 源码、导出定义、字幕与布局头文件。
 - `rebuild/assets/localized_resources.zip`、`resources.json`：最终汉化资源快照，包含 64 个替换项和 7 个新增项；字形图集已包含，无需安装字体。其 SHA-256 与最终 POD 的全部 393 个资源条目都列在清单中。
 - `video_subtitles/`：2026-09-30 调轴后的 15 个游戏载体编码 RU SRT。
-- `releases/release-20260930/`：玩家安装器、卸载器与原文件/新增文件回滚逻辑。
+- `releases/overlay-20260930/`：覆盖版打包工具及说明。
 - `translation/`、历史 `releases/`：可编辑译文、术语表及各次构建/修订证据。
 
 重建使用的是**已定稿汉化资源快照**；并非重新运行所有历史脚本、重新听写或自动把任意 TSV 改动导入。以后修改翻译或功能时，必须同步更新权威资源/源码和相应清单，再重建验证和推送，不能只提交 TSV。
