@@ -1,0 +1,37 @@
+Changed fields: release packaging/installer, video_subtitles timestamp synchronization; no additional live game modifications.
+BASELINE command: python "_cn_project\releases\release-20260930\test.py" baseline testroot2
+BASELINE input: isolated 5-file fixture, verified executable, original dummy language/subtitle, protected art/audio fixtures; DLL absent, source project absent. Not a Steam reinstall.
+BASELINE output: BASELINE_OK isolated_fixture=yes files=5 dinput8=absent original_ru=1 source_project=absent
+BASELINE exit: 0
+MODIFIED command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "_cn_project\releases\release-20260930\test_package\manage.ps1" -Mode Install -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\release-20260930\testroot2"
+MODIFIED input: extracted release package, isolated baseline fixture.
+MODIFIED output: INSTALL_OK files=17 hashes=17 backup=verified game_not_started=yes
+MODIFIED exit: 0
+MODIFIED verification command: python "_cn_project\releases\release-20260930\test.py" modified testroot2
+MODIFIED verification output: MODIFIED_OK installed=17 hashes=17 art_voice_exe=unchanged source_project=absent
+MODIFIED verification exit: 0
+ROLLBACK command: & "C:\Program Files\Git\bin\bash.exe" "_cn_project\releases\release-20260930\test_package\ROLLBACK.sh" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\release-20260930\testroot2"
+ROLLBACK input: installed isolated fixture and installer-generated original/absence manifest.
+ROLLBACK output: ROLLBACK_OK files=17 original_hashes_and_absence=restored backup_retained=yes
+ROLLBACK exit: 0
+ROLLBACK verification command: python "_cn_project\releases\release-20260930\test.py" rollback testroot2
+ROLLBACK verification output: ROLLBACK_OK baseline_files=5 hashes=5 new_files_removed=15 dinput8=absent
+ROLLBACK verification exit: 0
+Restored status: isolated original 5 hashes restored, 15 new files removed, DLL absent; live game remains Chinese and retimed.
+BUILD command: python "_cn_project\build_release_zip.py"
+BUILD output: RELEASE_OK payload_files=17 package_entries=24 hashes=all_valid crc=all_valid
+CURRENT_ALIAS_OK version=1.0.0
+BUILD exit: 0
+ZIP command: python "_cn_project\verify_release_zip.py"
+ZIP output: ZIP_OK files=17 crc=all_valid sha256=all_valid version=1.0.0
+ZIP exit: 0
+Live caption check: MODIFIED_OK scripted_chinese=127 categories=72 voice_captions=253 max_bytes=52 font_entries_changed=1 proxy_exports=ok archive_crc=ok
+Live video check: INSTALLED_OK movies=15 cues=222 text_bytes_unchanged=222 overlaps=0 out_of_video=0 protected_assets=unchanged
+Both live checks exit: 0
+No game launch, deletion, Steam reinstall or actual user gameplay test performed.
+Installer does not require Python, source project or installed fonts; existing third-party proxy DLL is not overwritten.
+A2S02P16 first cue remains flagged as not fully audio-matched; original translation retained.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\release-20260930\MODIFIED_FILE.zip
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\release-20260930\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\release-20260930\VERIFICATION.txt
+ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\release-20260930\ROLLBACK.sh

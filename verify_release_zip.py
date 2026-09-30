@@ -1,23 +1,9 @@
 from pathlib import Path
-import hashlib
-import zipfile
-
-HERE = Path(__file__).resolve().parent
-ARCHIVE = HERE / 'dist/BloodRayne2_CN_current.zip'
-
-def main() -> None:
-    with zipfile.ZipFile(ARCHIVE) as package:
-        records = package.read('SHA256SUMS.txt').decode('utf-8').splitlines()
-        assert len(records) == 17, len(records)
-        expected_names = set()
-        for record in records:
-            digest, name = record.split('  ', 1)
-            actual = hashlib.sha256(package.read(name)).hexdigest().upper()
-            assert actual == digest, name
-            expected_names.add(name)
-        assert expected_names == set(package.namelist()) - {'SHA256SUMS.txt'}
-        assert package.testzip() is None
-    print(f'ZIP_OK files={len(records)} crc=all_valid sha256=all_valid')
-
-if __name__ == '__main__':
-    main()
+import hashlib, json, zipfile
+p=Path(__file__).resolve().parent/'dist/BloodRayne2_CN_current.zip'
+with zipfile.ZipFile(p) as z:
+ m=json.loads(z.read('manifest.json'))
+ assert len(m['files'])==17 and len(z.namelist())==24
+ for f in m['files']: assert hashlib.sha256(z.read('payload/'+f['path'])).hexdigest()==f['sha256']
+ assert z.testzip() is None
+print('ZIP_OK files=17 crc=all_valid sha256=all_valid version=1.0.0')

@@ -2,14 +2,13 @@
 
 本仓库保存当前汉化测试版、翻译表、构建工具和每次修订的验证记录。当前版本使用俄语文本槽显示中文；配音仍为英语。游戏由玩家自行启动和测试。
 
-## 安装当前测试版
+## 安装 Release v1.0.0（2026-09-30）
 
-1. 在 Steam 中备份游戏目录的 `LANGUAGE.POD` 和已有的 `dinput8.dll`（若有）。
-2. 解压 `dist/BloodRayne2_CN_current.zip` 到《BloodRayne 2 Terminal Cut》游戏根目录，允许覆盖对应文件。
-3. 游戏语言选择 Russian。补丁只提供 `LANGUAGE.POD`、`dinput8.dll` 和 `video/*_RU.srt`；不替换 `W32ART.POD` 或 `W32ENSND.POD`。
-4. 玩家进游戏测试；测试前请退出游戏再更换文件。
+完整解压 `dist/BloodRayne2_CN_v1.0.0_20260930.zip` 到独立目录，双击 `INSTALL.cmd`，输入 Steam 游戏根目录。安装器校验游戏版本、自动备份被覆盖文件并记录新增文件，再安装 17 个汉化文件。玩家自行从 Steam 启动游戏，选择 Russian 文本并开启字幕，配音仍为英语。
 
-补丁依赖当前 Terminal Cut 游戏版本。压缩包内的 `SHA256SUMS.txt` 列出了每个安装文件的校验值。需要撤销时，将第 1 步备份的文件还原，并移除本补丁新增的 `video/*_RU.srt`（仅限原本不存在的文件）。
+只安装 `LANGUAGE.POD`、`dinput8.dll`、15 个 `video/*_RU.srt`，不替换 `W32ART.POD`、`W32ENSND.POD`、`COMMON.POD`、视频或存档。无需源工程、Python 或安装字体。若已有其他 `dinput8.dll`，会停止安装而不覆盖。用 `UNINSTALL.cmd` 恢复安装器在 `_cn_backup_release_20260930` 中保存的原文件。
+
+压缩包内 `README.zh-CN.txt` 包含干净 Steam 安装、回滚、测试检查点及已知复核项。`dist/BloodRayne2_CN_current.zip` 为同版本别名；请勿按旧版直接覆盖安装说明操作。
 
 ## 源文件与版本记录
 

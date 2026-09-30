@@ -1,0 +1,6 @@
+Release v1.0.0 changes:
++ Full standalone installer/uninstaller with SHA256 preflight and original/absent-file rollback.
++ Current dinput8.dll, LANGUAGE.POD and 15 retimed RU SRT files packaged.
++ video_subtitles synchronized to 2026-09-30 installed timestamps.
++ Current package builder and verifier refreshed to current hashes.
++ External full project/mod/save backup; no cleanup or game launch.
