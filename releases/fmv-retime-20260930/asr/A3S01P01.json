@@ -1,0 +1,620 @@
+{
+  "movie": "A3S01P01",
+  "duration": 67.133733,
+  "audio_sha256": "37D48A7209119B346B9FD2B94C116694B7C4A586026C2FE1E9B5A64C8341E9B6",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 0.18,
+      "end": 3.26,
+      "text": "Let's commence the final test, shall we?",
+      "words": [
+        {
+          "start": 0.18,
+          "end": 0.94,
+          "word": " Let's",
+          "probability": 0.7925049960613251
+        },
+        {
+          "start": 0.94,
+          "end": 1.24,
+          "word": " commence",
+          "probability": 0.9615135788917542
+        },
+        {
+          "start": 1.24,
+          "end": 1.48,
+          "word": " the",
+          "probability": 0.9940656423568726
+        },
+        {
+          "start": 1.48,
+          "end": 1.84,
+          "word": " final",
+          "probability": 0.9927005171775818
+        },
+        {
+          "start": 1.84,
+          "end": 2.3,
+          "word": " test,",
+          "probability": 0.9951421022415161
+        },
+        {
+          "start": 2.52,
+          "end": 2.62,
+          "word": " shall",
+          "probability": 0.9953729510307312
+        },
+        {
+          "start": 2.62,
+          "end": 3.26,
+          "word": " we?",
+          "probability": 0.9992536902427673
+        }
+      ]
+    },
+    {
+      "start": 3.52,
+      "end": 9.2,
+      "text": "Blood Stupor has been induced in Subject A to render him more cooperative.",
+      "words": [
+        {
+          "start": 3.52,
+          "end": 3.88,
+          "word": " Blood",
+          "probability": 0.8808515071868896
+        },
+        {
+          "start": 3.88,
+          "end": 4.34,
+          "word": " Stupor",
+          "probability": 0.8181631565093994
+        },
+        {
+          "start": 4.34,
+          "end": 4.54,
+          "word": " has",
+          "probability": 0.9941923022270203
+        },
+        {
+          "start": 4.54,
+          "end": 4.76,
+          "word": " been",
+          "probability": 0.9987059831619263
+        },
+        {
+          "start": 4.76,
+          "end": 5.18,
+          "word": " induced",
+          "probability": 0.9849905371665955
+        },
+        {
+          "start": 5.18,
+          "end": 5.46,
+          "word": " in",
+          "probability": 0.9833269715309143
+        },
+        {
+          "start": 5.46,
+          "end": 5.78,
+          "word": " Subject",
+          "probability": 0.8327652215957642
+        },
+        {
+          "start": 5.78,
+          "end": 6.2,
+          "word": " A",
+          "probability": 0.9747074246406555
+        },
+        {
+          "start": 6.2,
+          "end": 6.48,
+          "word": " to",
+          "probability": 0.9302058815956116
+        },
+        {
+          "start": 6.48,
+          "end": 6.86,
+          "word": " render",
+          "probability": 0.9964166879653931
+        },
+        {
+          "start": 6.86,
+          "end": 7.3,
+          "word": " him",
+          "probability": 0.9959985017776489
+        },
+        {
+          "start": 7.3,
+          "end": 8.04,
+          "word": " more",
+          "probability": 0.9762327671051025
+        },
+        {
+          "start": 8.04,
+          "end": 9.2,
+          "word": " cooperative.",
+          "probability": 0.768547773361206
+        }
+      ]
+    },
+    {
+      "start": 10.32,
+      "end": 12.84,
+      "text": "Release Subject A.",
+      "words": [
+        {
+          "start": 10.32,
+          "end": 10.66,
+          "word": " Release",
+          "probability": 0.9814777374267578
+        },
+        {
+          "start": 10.66,
+          "end": 11.32,
+          "word": " Subject",
+          "probability": 0.9794935286045074
+        },
+        {
+          "start": 11.32,
+          "end": 12.84,
+          "word": " A.",
+          "probability": 0.9982280135154724
+        }
+      ]
+    },
+    {
+      "start": 20.22,
+      "end": 21.66,
+      "text": "Surprising result.",
+      "words": [
+        {
+          "start": 20.22,
+          "end": 21.04,
+          "word": " Surprising",
+          "probability": 0.4995410516858101
+        },
+        {
+          "start": 21.04,
+          "end": 21.66,
+          "word": " result.",
+          "probability": 0.9358056783676147
+        }
+      ]
+    },
+    {
+      "start": 22.92,
+      "end": 24.64,
+      "text": "Initiate the Shroud.",
+      "words": [
+        {
+          "start": 22.92,
+          "end": 23.48,
+          "word": " Initiate",
+          "probability": 0.8730035722255707
+        },
+        {
+          "start": 23.48,
+          "end": 23.86,
+          "word": " the",
+          "probability": 0.8619444370269775
+        },
+        {
+          "start": 23.86,
+          "end": 24.64,
+          "word": " Shroud.",
+          "probability": 0.9270630280176798
+        }
+      ]
+    },
+    {
+      "start": 31.44,
+      "end": 34.69,
+      "text": "Now Subject B.",
+      "words": [
+        {
+          "start": 31.44,
+          "end": 31.72,
+          "word": " Now",
+          "probability": 0.8175079822540283
+        },
+        {
+          "start": 31.72,
+          "end": 32.78,
+          "word": " Subject",
+          "probability": 0.782276064157486
+        },
+        {
+          "start": 34.13,
+          "end": 34.69,
+          "word": " B.",
+          "probability": 0.983742356300354
+        }
+      ]
+    },
+    {
+      "start": 38.69,
+      "end": 39.27,
+      "text": "Gods!",
+      "words": [
+        {
+          "start": 38.69,
+          "end": 39.27,
+          "word": " Gods!",
+          "probability": 0.6364553570747375
+        }
+      ]
+    },
+    {
+      "start": 40.19,
+      "end": 43.91,
+      "text": "I never thought I'd see the day when vampires can walk freely in daylight.",
+      "words": [
+        {
+          "start": 40.19,
+          "end": 40.49,
+          "word": " I",
+          "probability": 0.9558653235435486
+        },
+        {
+          "start": 40.49,
+          "end": 40.79,
+          "word": " never",
+          "probability": 0.9893725514411926
+        },
+        {
+          "start": 40.79,
+          "end": 40.97,
+          "word": " thought",
+          "probability": 0.9765247106552124
+        },
+        {
+          "start": 40.97,
+          "end": 41.11,
+          "word": " I'd",
+          "probability": 0.9776044189929962
+        },
+        {
+          "start": 41.11,
+          "end": 41.29,
+          "word": " see",
+          "probability": 0.9965588450431824
+        },
+        {
+          "start": 41.29,
+          "end": 41.45,
+          "word": " the",
+          "probability": 0.9763577580451965
+        },
+        {
+          "start": 41.45,
+          "end": 41.61,
+          "word": " day",
+          "probability": 0.9946531057357788
+        },
+        {
+          "start": 41.61,
+          "end": 41.87,
+          "word": " when",
+          "probability": 0.9855636358261108
+        },
+        {
+          "start": 41.87,
+          "end": 42.31,
+          "word": " vampires",
+          "probability": 0.9800403118133545
+        },
+        {
+          "start": 42.31,
+          "end": 42.59,
+          "word": " can",
+          "probability": 0.9792838096618652
+        },
+        {
+          "start": 42.59,
+          "end": 42.79,
+          "word": " walk",
+          "probability": 0.9865363240242004
+        },
+        {
+          "start": 42.79,
+          "end": 43.25,
+          "word": " freely",
+          "probability": 0.9951784610748291
+        },
+        {
+          "start": 43.25,
+          "end": 43.53,
+          "word": " in",
+          "probability": 0.9965391159057617
+        },
+        {
+          "start": 43.53,
+          "end": 43.91,
+          "word": " daylight.",
+          "probability": 0.9872893691062927
+        }
+      ]
+    },
+    {
+      "start": 44.73,
+      "end": 46.93,
+      "text": "The Shroud works perfectly.",
+      "words": [
+        {
+          "start": 44.73,
+          "end": 45.13,
+          "word": " The",
+          "probability": 0.9859240055084229
+        },
+        {
+          "start": 45.13,
+          "end": 45.67,
+          "word": " Shroud",
+          "probability": 0.9676110148429871
+        },
+        {
+          "start": 45.67,
+          "end": 46.15,
+          "word": " works",
+          "probability": 0.9011765122413635
+        },
+        {
+          "start": 46.15,
+          "end": 46.93,
+          "word": " perfectly.",
+          "probability": 0.9946381449699402
+        }
+      ]
+    },
+    {
+      "start": 46.93,
+      "end": 53.79,
+      "text": "Once you finalize your incoming shipment, we can initiate our hostile takeover.",
+      "words": [
+        {
+          "start": 46.93,
+          "end": 47.97,
+          "word": " Once",
+          "probability": 0.6340152025222778
+        },
+        {
+          "start": 47.97,
+          "end": 48.23,
+          "word": " you",
+          "probability": 0.9824246764183044
+        },
+        {
+          "start": 48.23,
+          "end": 48.69,
+          "word": " finalize",
+          "probability": 0.8821236491203308
+        },
+        {
+          "start": 48.69,
+          "end": 48.95,
+          "word": " your",
+          "probability": 0.9828822612762451
+        },
+        {
+          "start": 48.95,
+          "end": 49.27,
+          "word": " incoming",
+          "probability": 0.9903774857521057
+        },
+        {
+          "start": 49.27,
+          "end": 49.77,
+          "word": " shipment,",
+          "probability": 0.9632399082183838
+        },
+        {
+          "start": 50.07,
+          "end": 50.07,
+          "word": " we",
+          "probability": 0.9865096211433411
+        },
+        {
+          "start": 50.07,
+          "end": 50.35,
+          "word": " can",
+          "probability": 0.9978263974189758
+        },
+        {
+          "start": 50.35,
+          "end": 50.95,
+          "word": " initiate",
+          "probability": 0.986229419708252
+        },
+        {
+          "start": 50.95,
+          "end": 51.95,
+          "word": " our",
+          "probability": 0.9741078019142151
+        },
+        {
+          "start": 51.95,
+          "end": 52.83,
+          "word": " hostile",
+          "probability": 0.4240058362483978
+        },
+        {
+          "start": 52.83,
+          "end": 53.79,
+          "word": " takeover.",
+          "probability": 0.9529622197151184
+        }
+      ]
+    },
+    {
+      "start": 54.73,
+      "end": 62.31,
+      "text": "The main shroud tower here is prepared to pump enough shroud into the sky to cover the entire city and eventually...",
+      "words": [
+        {
+          "start": 54.73,
+          "end": 54.85,
+          "word": " The",
+          "probability": 0.9780751466751099
+        },
+        {
+          "start": 54.85,
+          "end": 55.13,
+          "word": " main",
+          "probability": 0.9789633750915527
+        },
+        {
+          "start": 55.13,
+          "end": 55.43,
+          "word": " shroud",
+          "probability": 0.6577722430229187
+        },
+        {
+          "start": 55.43,
+          "end": 55.77,
+          "word": " tower",
+          "probability": 0.9692864418029785
+        },
+        {
+          "start": 55.77,
+          "end": 55.99,
+          "word": " here",
+          "probability": 0.9716690182685852
+        },
+        {
+          "start": 55.99,
+          "end": 56.17,
+          "word": " is",
+          "probability": 0.9922713041305542
+        },
+        {
+          "start": 56.17,
+          "end": 56.47,
+          "word": " prepared",
+          "probability": 0.9932253956794739
+        },
+        {
+          "start": 56.47,
+          "end": 56.75,
+          "word": " to",
+          "probability": 0.9951786994934082
+        },
+        {
+          "start": 56.75,
+          "end": 56.93,
+          "word": " pump",
+          "probability": 0.9923005104064941
+        },
+        {
+          "start": 56.93,
+          "end": 57.25,
+          "word": " enough",
+          "probability": 0.9948908090591431
+        },
+        {
+          "start": 57.25,
+          "end": 57.61,
+          "word": " shroud",
+          "probability": 0.9769456386566162
+        },
+        {
+          "start": 57.61,
+          "end": 57.87,
+          "word": " into",
+          "probability": 0.9710376858711243
+        },
+        {
+          "start": 57.87,
+          "end": 58.11,
+          "word": " the",
+          "probability": 0.9968715310096741
+        },
+        {
+          "start": 58.11,
+          "end": 58.33,
+          "word": " sky",
+          "probability": 0.9974825978279114
+        },
+        {
+          "start": 58.33,
+          "end": 58.59,
+          "word": " to",
+          "probability": 0.6969814300537109
+        },
+        {
+          "start": 58.59,
+          "end": 58.81,
+          "word": " cover",
+          "probability": 0.9986109733581543
+        },
+        {
+          "start": 58.81,
+          "end": 59.07,
+          "word": " the",
+          "probability": 0.9983618855476379
+        },
+        {
+          "start": 59.07,
+          "end": 59.57,
+          "word": " entire",
+          "probability": 0.9917974472045898
+        },
+        {
+          "start": 59.57,
+          "end": 59.99,
+          "word": " city",
+          "probability": 0.9973456263542175
+        },
+        {
+          "start": 59.99,
+          "end": 60.57,
+          "word": " and",
+          "probability": 0.6897869110107422
+        },
+        {
+          "start": 60.57,
+          "end": 62.31,
+          "word": " eventually...",
+          "probability": 0.7254354655742645
+        }
+      ]
+    },
+    {
+      "start": 62.31,
+      "end": 64.55,
+      "text": "destroy the race of man!",
+      "words": [
+        {
+          "start": 62.31,
+          "end": 62.95,
+          "word": " destroy",
+          "probability": 0.4954017400741577
+        },
+        {
+          "start": 62.95,
+          "end": 63.33,
+          "word": " the",
+          "probability": 0.9890626072883606
+        },
+        {
+          "start": 63.33,
+          "end": 63.71,
+          "word": " race",
+          "probability": 0.9662272334098816
+        },
+        {
+          "start": 63.71,
+          "end": 64.23,
+          "word": " of",
+          "probability": 0.9990864992141724
+        },
+        {
+          "start": 64.23,
+          "end": 64.55,
+          "word": " man!",
+          "probability": 0.8802689909934998
+        }
+      ]
+    }
+  ]
+}

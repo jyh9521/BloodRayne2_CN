@@ -1,0 +1,245 @@
+{
+  "movie": "A4S01P01",
+  "duration": 131.3312,
+  "audio_sha256": "EC114B67FA4E5E31FC6AD551A0D8BECBBCC6265452B2BE2731AF4AFCC0AA5341",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 91.09,
+      "end": 94.61,
+      "text": "Below the charters are all slitting. He's impatient and he wants it.",
+      "words": [
+        {
+          "start": 91.09,
+          "end": 91.39,
+          "word": " Below",
+          "probability": 0.017547978088259697
+        },
+        {
+          "start": 91.39,
+          "end": 91.67,
+          "word": " the",
+          "probability": 0.9248601198196411
+        },
+        {
+          "start": 91.67,
+          "end": 91.97,
+          "word": " charters",
+          "probability": 0.8219090700149536
+        },
+        {
+          "start": 91.97,
+          "end": 92.17,
+          "word": " are",
+          "probability": 0.89183509349823
+        },
+        {
+          "start": 92.17,
+          "end": 92.45,
+          "word": " all",
+          "probability": 0.7451157569885254
+        },
+        {
+          "start": 92.45,
+          "end": 92.75,
+          "word": " slitting.",
+          "probability": 0.7430097460746765
+        },
+        {
+          "start": 93.11,
+          "end": 93.41,
+          "word": " He's",
+          "probability": 0.9512805342674255
+        },
+        {
+          "start": 93.41,
+          "end": 93.83,
+          "word": " impatient",
+          "probability": 0.9926478862762451
+        },
+        {
+          "start": 93.83,
+          "end": 94.07,
+          "word": " and",
+          "probability": 0.8260824680328369
+        },
+        {
+          "start": 94.07,
+          "end": 94.25,
+          "word": " he",
+          "probability": 0.9584762454032898
+        },
+        {
+          "start": 94.25,
+          "end": 94.43,
+          "word": " wants",
+          "probability": 0.608512818813324
+        },
+        {
+          "start": 94.43,
+          "end": 94.61,
+          "word": " it.",
+          "probability": 0.7805063724517822
+        }
+      ]
+    },
+    {
+      "start": 96.26,
+      "end": 102.58,
+      "text": "And you tell my mongoloid brother and his goons to get undercover, because the world is about to cave in on them.",
+      "words": [
+        {
+          "start": 96.26,
+          "end": 96.56,
+          "word": " And",
+          "probability": 0.9003084897994995
+        },
+        {
+          "start": 96.56,
+          "end": 96.76,
+          "word": " you",
+          "probability": 0.9870790243148804
+        },
+        {
+          "start": 96.76,
+          "end": 96.9,
+          "word": " tell",
+          "probability": 0.990954577922821
+        },
+        {
+          "start": 96.9,
+          "end": 97.16,
+          "word": " my",
+          "probability": 0.9832804203033447
+        },
+        {
+          "start": 97.16,
+          "end": 97.74,
+          "word": " mongoloid",
+          "probability": 0.8673379272222519
+        },
+        {
+          "start": 97.74,
+          "end": 98.08,
+          "word": " brother",
+          "probability": 0.9861423373222351
+        },
+        {
+          "start": 98.08,
+          "end": 98.26,
+          "word": " and",
+          "probability": 0.9847780466079712
+        },
+        {
+          "start": 98.26,
+          "end": 98.5,
+          "word": " his",
+          "probability": 0.9968776702880859
+        },
+        {
+          "start": 98.5,
+          "end": 98.78,
+          "word": " goons",
+          "probability": 0.9921394288539886
+        },
+        {
+          "start": 98.78,
+          "end": 99.1,
+          "word": " to",
+          "probability": 0.9919595122337341
+        },
+        {
+          "start": 99.1,
+          "end": 99.28,
+          "word": " get",
+          "probability": 0.9953268766403198
+        },
+        {
+          "start": 99.28,
+          "end": 99.72,
+          "word": " undercover,",
+          "probability": 0.7242699861526489
+        },
+        {
+          "start": 100.16,
+          "end": 100.46,
+          "word": " because",
+          "probability": 0.9387412667274475
+        },
+        {
+          "start": 100.46,
+          "end": 100.78,
+          "word": " the",
+          "probability": 0.9960333704948425
+        },
+        {
+          "start": 100.78,
+          "end": 100.98,
+          "word": " world",
+          "probability": 0.99039626121521
+        },
+        {
+          "start": 100.98,
+          "end": 101.28,
+          "word": " is",
+          "probability": 0.9837092161178589
+        },
+        {
+          "start": 101.28,
+          "end": 101.58,
+          "word": " about",
+          "probability": 0.9975269436836243
+        },
+        {
+          "start": 101.58,
+          "end": 101.96,
+          "word": " to",
+          "probability": 0.9779224395751953
+        },
+        {
+          "start": 101.96,
+          "end": 102.14,
+          "word": " cave",
+          "probability": 0.9884544014930725
+        },
+        {
+          "start": 102.14,
+          "end": 102.32,
+          "word": " in",
+          "probability": 0.9782510995864868
+        },
+        {
+          "start": 102.32,
+          "end": 102.52,
+          "word": " on",
+          "probability": 0.9976406097412109
+        },
+        {
+          "start": 102.52,
+          "end": 102.58,
+          "word": " them.",
+          "probability": 0.7592709064483643
+        }
+      ]
+    },
+    {
+      "start": 122.3,
+      "end": 123.12,
+      "text": "THE FALL!",
+      "words": [
+        {
+          "start": 122.3,
+          "end": 122.58,
+          "word": " THE",
+          "probability": 0.2622684836387634
+        },
+        {
+          "start": 122.58,
+          "end": 123.12,
+          "word": " FALL!",
+          "probability": 0.8188917338848114
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "movie": "A1S01P06",
+  "window": [
+    78,
+    103
+  ],
+  "segments": [
+    {
+      "start": 78.0,
+      "end": 79.12,
+      "text": "Sir Tremayne?",
+      "words": [
+        {
+          "start": 78.0,
+          "end": 78.5,
+          "word": " Sir",
+          "probability": 0.23993590474128723
+        },
+        {
+          "start": 78.5,
+          "end": 79.12,
+          "word": " Tremayne?",
+          "probability": 0.7461318261921406
+        }
+      ]
+    },
+    {
+      "start": 79.62,
+      "end": 83.04,
+      "text": "Oh, so you two know each other.",
+      "words": [
+        {
+          "start": 79.62,
+          "end": 80.08,
+          "word": " Oh,",
+          "probability": 0.8079422116279602
+        },
+        {
+          "start": 80.46,
+          "end": 80.88,
+          "word": " so",
+          "probability": 0.9874184131622314
+        },
+        {
+          "start": 80.88,
+          "end": 81.24,
+          "word": " you",
+          "probability": 0.981166660785675
+        },
+        {
+          "start": 81.24,
+          "end": 81.66,
+          "word": " two",
+          "probability": 0.9880192875862122
+        },
+        {
+          "start": 81.66,
+          "end": 82.08,
+          "word": " know",
+          "probability": 0.9893444180488586
+        },
+        {
+          "start": 82.08,
+          "end": 82.46,
+          "word": " each",
+          "probability": 0.9970261454582214
+        },
+        {
+          "start": 82.46,
+          "end": 83.04,
+          "word": " other.",
+          "probability": 0.9812860488891602
+        }
+      ]
+    },
+    {
+      "start": 83.62,
+      "end": 85.3,
+      "text": "Ah, I see.",
+      "words": [
+        {
+          "start": 83.62,
+          "end": 84.0,
+          "word": " Ah,",
+          "probability": 0.7480313181877136
+        },
+        {
+          "start": 84.64,
+          "end": 84.96,
+          "word": " I",
+          "probability": 0.9944978356361389
+        },
+        {
+          "start": 84.96,
+          "end": 85.3,
+          "word": " see.",
+          "probability": 0.9998014569282532
+        }
+      ]
+    },
+    {
+      "start": 86.0,
+      "end": 88.68,
+      "text": "Yet another you stole from me, Professor.",
+      "words": [
+        {
+          "start": 86.0,
+          "end": 86.2,
+          "word": " Yet",
+          "probability": 0.9935389161109924
+        },
+        {
+          "start": 86.2,
+          "end": 86.56,
+          "word": " another",
+          "probability": 0.9973447918891907
+        },
+        {
+          "start": 86.56,
+          "end": 87.08,
+          "word": " you",
+          "probability": 0.9871460199356079
+        },
+        {
+          "start": 87.08,
+          "end": 87.56,
+          "word": " stole",
+          "probability": 0.975793719291687
+        },
+        {
+          "start": 87.56,
+          "end": 87.86,
+          "word": " from",
+          "probability": 0.9947051405906677
+        },
+        {
+          "start": 87.86,
+          "end": 88.16,
+          "word": " me,",
+          "probability": 0.9987269043922424
+        },
+        {
+          "start": 88.24,
+          "end": 88.68,
+          "word": " Professor.",
+          "probability": 0.7485060095787048
+        }
+      ]
+    },
+    {
+      "start": 89.26,
+      "end": 91.44,
+      "text": "Raise it as your own, did you?",
+      "words": [
+        {
+          "start": 89.26,
+          "end": 89.66,
+          "word": " Raise",
+          "probability": 0.5241585373878479
+        },
+        {
+          "start": 89.66,
+          "end": 89.98,
+          "word": " it",
+          "probability": 0.9919463992118835
+        },
+        {
+          "start": 89.98,
+          "end": 90.24,
+          "word": " as",
+          "probability": 0.9964795708656311
+        },
+        {
+          "start": 90.24,
+          "end": 90.52,
+          "word": " your",
+          "probability": 0.9927777647972107
+        },
+        {
+          "start": 90.52,
+          "end": 90.78,
+          "word": " own,",
+          "probability": 0.9991636276245117
+        },
+        {
+          "start": 91.03999999999999,
+          "end": 91.06,
+          "word": " did",
+          "probability": 0.9953814744949341
+        },
+        {
+          "start": 91.06,
+          "end": 91.44,
+          "word": " you?",
+          "probability": 0.9990041851997375
+        }
+      ]
+    },
+    {
+      "start": 91.86,
+      "end": 93.9,
+      "text": "Taught it to kill its own kind.",
+      "words": [
+        {
+          "start": 91.86,
+          "end": 92.06,
+          "word": " Taught",
+          "probability": 0.7224380671977997
+        },
+        {
+          "start": 92.06,
+          "end": 92.22,
+          "word": " it",
+          "probability": 0.9953808784484863
+        },
+        {
+          "start": 92.22,
+          "end": 92.53999999999999,
+          "word": " to",
+          "probability": 0.9971526861190796
+        },
+        {
+          "start": 92.53999999999999,
+          "end": 92.76,
+          "word": " kill",
+          "probability": 0.9952968955039978
+        },
+        {
+          "start": 92.76,
+          "end": 93.02,
+          "word": " its",
+          "probability": 0.9258636236190796
+        },
+        {
+          "start": 93.02,
+          "end": 93.4,
+          "word": " own",
+          "probability": 0.9981144666671753
+        },
+        {
+          "start": 93.4,
+          "end": 93.9,
+          "word": " kind.",
+          "probability": 0.998877227306366
+        }
+      ]
+    },
+    {
+      "start": 94.84,
+      "end": 97.98,
+      "text": "After all the trouble I took to create it.",
+      "words": [
+        {
+          "start": 94.84,
+          "end": 95.16,
+          "word": " After",
+          "probability": 0.6028276085853577
+        },
+        {
+          "start": 95.16,
+          "end": 95.66,
+          "word": " all",
+          "probability": 0.9991673231124878
+        },
+        {
+          "start": 95.66,
+          "end": 95.96000000000001,
+          "word": " the",
+          "probability": 0.9871784448623657
+        },
+        {
+          "start": 95.96000000000001,
+          "end": 96.28,
+          "word": " trouble",
+          "probability": 0.9976660013198853
+        },
+        {
+          "start": 96.28,
+          "end": 96.64,
+          "word": " I",
+          "probability": 0.9693794250488281
+        },
+        {
+          "start": 96.64,
+          "end": 96.82,
+          "word": " took",
+          "probability": 0.9897013902664185
+        },
+        {
+          "start": 96.82,
+          "end": 97.16,
+          "word": " to",
+          "probability": 0.9971327781677246
+        },
+        {
+          "start": 97.16,
+          "end": 97.52,
+          "word": " create",
+          "probability": 0.9974641799926758
+        },
+        {
+          "start": 97.52,
+          "end": 97.98,
+          "word": " it.",
+          "probability": 0.9988977909088135
+        }
+      ]
+    },
+    {
+      "start": 98.86,
+      "end": 102.14,
+      "text": "And all the other Mongols just like it.",
+      "words": [
+        {
+          "start": 98.86,
+          "end": 99.14,
+          "word": " And",
+          "probability": 0.9427133202552795
+        },
+        {
+          "start": 99.14,
+          "end": 99.34,
+          "word": " all",
+          "probability": 0.9935969114303589
+        },
+        {
+          "start": 99.34,
+          "end": 99.56,
+          "word": " the",
+          "probability": 0.9860101938247681
+        },
+        {
+          "start": 99.56,
+          "end": 99.92,
+          "word": " other",
+          "probability": 0.9944931268692017
+        },
+        {
+          "start": 99.92,
+          "end": 100.7,
+          "word": " Mongols",
+          "probability": 0.9102576673030853
+        },
+        {
+          "start": 100.7,
+          "end": 101.36,
+          "word": " just",
+          "probability": 0.9611414670944214
+        },
+        {
+          "start": 101.36,
+          "end": 101.56,
+          "word": " like",
+          "probability": 0.9852997064590454
+        },
+        {
+          "start": 101.56,
+          "end": 102.14,
+          "word": " it.",
+          "probability": 0.9990430474281311
+        }
+      ]
+    },
+    {
+      "start": 102.58,
+      "end": 102.98,
+      "text": "Reyn...",
+      "words": [
+        {
+          "start": 102.58,
+          "end": 102.98,
+          "word": " Reyn...",
+          "probability": 0.37759968141714734
+        }
+      ]
+    }
+  ]
+}

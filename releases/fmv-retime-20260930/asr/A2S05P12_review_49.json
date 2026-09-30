@@ -1,0 +1,40 @@
+{
+  "movie": "A2S05P12",
+  "window": [
+    49,
+    53
+  ],
+  "segments": [
+    {
+      "start": 50.019999999999996,
+      "end": 52.22,
+      "text": "Yes, Father, at once.",
+      "words": [
+        {
+          "start": 50.019999999999996,
+          "end": 50.78,
+          "word": " Yes,",
+          "probability": 0.6577714681625366
+        },
+        {
+          "start": 50.88,
+          "end": 51.18,
+          "word": " Father,",
+          "probability": 0.1528407782316208
+        },
+        {
+          "start": 51.7,
+          "end": 51.84,
+          "word": " at",
+          "probability": 0.9515467882156372
+        },
+        {
+          "start": 51.84,
+          "end": 52.22,
+          "word": " once.",
+          "probability": 0.9985635876655579
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "movie": "A3S04P02",
+  "window": [
+    96,
+    117
+  ],
+  "segments": [
+    {
+      "start": 99.18,
+      "end": 102.94,
+      "text": "Turn the minions you can, destroy the rest.",
+      "words": [
+        {
+          "start": 99.18,
+          "end": 99.86,
+          "word": " Turn",
+          "probability": 0.8286015391349792
+        },
+        {
+          "start": 99.86,
+          "end": 100.12,
+          "word": " the",
+          "probability": 0.9929628968238831
+        },
+        {
+          "start": 100.12,
+          "end": 100.4,
+          "word": " minions",
+          "probability": 0.9333545565605164
+        },
+        {
+          "start": 100.4,
+          "end": 100.72,
+          "word": " you",
+          "probability": 0.704359769821167
+        },
+        {
+          "start": 100.72,
+          "end": 101.16,
+          "word": " can,",
+          "probability": 0.9977797865867615
+        },
+        {
+          "start": 101.6,
+          "end": 102.08,
+          "word": " destroy",
+          "probability": 0.9873649477958679
+        },
+        {
+          "start": 102.08,
+          "end": 102.28,
+          "word": " the",
+          "probability": 0.9955514073371887
+        },
+        {
+          "start": 102.28,
+          "end": 102.94,
+          "word": " rest.",
+          "probability": 0.9972453117370605
+        }
+      ]
+    },
+    {
+      "start": 103.56,
+      "end": 104.94,
+      "text": "The time is at hand.",
+      "words": [
+        {
+          "start": 103.56,
+          "end": 103.74,
+          "word": " The",
+          "probability": 0.9776688814163208
+        },
+        {
+          "start": 103.74,
+          "end": 104.0,
+          "word": " time",
+          "probability": 0.9929977655410767
+        },
+        {
+          "start": 104.0,
+          "end": 104.24,
+          "word": " is",
+          "probability": 0.9479803442955017
+        },
+        {
+          "start": 104.24,
+          "end": 104.46000000000001,
+          "word": " at",
+          "probability": 0.9799385070800781
+        },
+        {
+          "start": 104.46000000000001,
+          "end": 104.94,
+          "word": " hand.",
+          "probability": 0.9883268475532532
+        }
+      ]
+    },
+    {
+      "start": 105.86,
+      "end": 112.94,
+      "text": "Flood the sky with shroud, that I may stride my kingdom at will as a true emperor.",
+      "words": [
+        {
+          "start": 105.86,
+          "end": 106.2,
+          "word": " Flood",
+          "probability": 0.9379279315471649
+        },
+        {
+          "start": 106.2,
+          "end": 106.53999999999999,
+          "word": " the",
+          "probability": 0.9081301689147949
+        },
+        {
+          "start": 106.53999999999999,
+          "end": 106.88,
+          "word": " sky",
+          "probability": 0.9477410912513733
+        },
+        {
+          "start": 106.88,
+          "end": 107.14,
+          "word": " with",
+          "probability": 0.9314550757408142
+        },
+        {
+          "start": 107.14,
+          "end": 107.62,
+          "word": " shroud,",
+          "probability": 0.9710416197776794
+        },
+        {
+          "start": 108.58,
+          "end": 108.68,
+          "word": " that",
+          "probability": 0.7451683282852173
+        },
+        {
+          "start": 108.68,
+          "end": 108.9,
+          "word": " I",
+          "probability": 0.9869104027748108
+        },
+        {
+          "start": 108.9,
+          "end": 109.22,
+          "word": " may",
+          "probability": 0.9950956106185913
+        },
+        {
+          "start": 109.22,
+          "end": 109.66,
+          "word": " stride",
+          "probability": 0.9728503823280334
+        },
+        {
+          "start": 109.66,
+          "end": 109.96000000000001,
+          "word": " my",
+          "probability": 0.9865072965621948
+        },
+        {
+          "start": 109.96000000000001,
+          "end": 110.36,
+          "word": " kingdom",
+          "probability": 0.9475408792495728
+        },
+        {
+          "start": 110.36,
+          "end": 110.62,
+          "word": " at",
+          "probability": 0.9702024459838867
+        },
+        {
+          "start": 110.62,
+          "end": 110.98,
+          "word": " will",
+          "probability": 0.9947367310523987
+        },
+        {
+          "start": 110.98,
+          "end": 111.7,
+          "word": " as",
+          "probability": 0.481283962726593
+        },
+        {
+          "start": 111.7,
+          "end": 111.88,
+          "word": " a",
+          "probability": 0.9529594779014587
+        },
+        {
+          "start": 111.88,
+          "end": 112.24,
+          "word": " true",
+          "probability": 0.9799837470054626
+        },
+        {
+          "start": 112.24,
+          "end": 112.94,
+          "word": " emperor.",
+          "probability": 0.4454546868801117
+        }
+      ]
+    },
+    {
+      "start": 113.36,
+      "end": 114.38,
+      "text": "Your will be done.",
+      "words": [
+        {
+          "start": 113.36,
+          "end": 113.64,
+          "word": " Your",
+          "probability": 0.6407376527786255
+        },
+        {
+          "start": 113.64,
+          "end": 113.84,
+          "word": " will",
+          "probability": 0.9916417598724365
+        },
+        {
+          "start": 113.84,
+          "end": 114.16,
+          "word": " be",
+          "probability": 0.8206453323364258
+        },
+        {
+          "start": 114.16,
+          "end": 114.38,
+          "word": " done.",
+          "probability": 0.9983355402946472
+        }
+      ]
+    },
+    {
+      "start": 114.8,
+      "end": 116.24,
+      "text": "Of course it will.",
+      "words": [
+        {
+          "start": 114.8,
+          "end": 115.18,
+          "word": " Of",
+          "probability": 0.9843846559524536
+        },
+        {
+          "start": 115.18,
+          "end": 115.46000000000001,
+          "word": " course",
+          "probability": 0.9957942962646484
+        },
+        {
+          "start": 115.46000000000001,
+          "end": 115.74,
+          "word": " it",
+          "probability": 0.9187031984329224
+        },
+        {
+          "start": 115.74,
+          "end": 116.24,
+          "word": " will.",
+          "probability": 0.9988399147987366
+        }
+      ]
+    }
+  ]
+}

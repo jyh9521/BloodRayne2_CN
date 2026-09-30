@@ -1,0 +1,1174 @@
+{
+  "movie": "A2S01P01",
+  "duration": 75.008267,
+  "audio_sha256": "8FB94CF5028E97D91E1C0E829A11A4699DEC3D77BB5BFB69CFDF6B2F22F21C42",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 2.22,
+      "end": 8.66,
+      "text": "While Mayor Randolph's highly criticized clean sweep for clean streets initiative appears to be gaining ground in the inner city",
+      "words": [
+        {
+          "start": 2.22,
+          "end": 2.8,
+          "word": " While",
+          "probability": 0.4598676264286041
+        },
+        {
+          "start": 2.8,
+          "end": 3.08,
+          "word": " Mayor",
+          "probability": 0.6456482410430908
+        },
+        {
+          "start": 3.08,
+          "end": 3.66,
+          "word": " Randolph's",
+          "probability": 0.9377304514249166
+        },
+        {
+          "start": 3.66,
+          "end": 3.88,
+          "word": " highly",
+          "probability": 0.9801596403121948
+        },
+        {
+          "start": 3.88,
+          "end": 4.44,
+          "word": " criticized",
+          "probability": 0.935584306716919
+        },
+        {
+          "start": 4.44,
+          "end": 4.92,
+          "word": " clean",
+          "probability": 0.24304035305976868
+        },
+        {
+          "start": 4.92,
+          "end": 5.24,
+          "word": " sweep",
+          "probability": 0.9341349005699158
+        },
+        {
+          "start": 5.24,
+          "end": 5.58,
+          "word": " for",
+          "probability": 0.9405807256698608
+        },
+        {
+          "start": 5.58,
+          "end": 5.82,
+          "word": " clean",
+          "probability": 0.9594205021858215
+        },
+        {
+          "start": 5.82,
+          "end": 6.14,
+          "word": " streets",
+          "probability": 0.9494717121124268
+        },
+        {
+          "start": 6.14,
+          "end": 6.62,
+          "word": " initiative",
+          "probability": 0.9914675951004028
+        },
+        {
+          "start": 6.62,
+          "end": 6.96,
+          "word": " appears",
+          "probability": 0.9933991432189941
+        },
+        {
+          "start": 6.96,
+          "end": 7.14,
+          "word": " to",
+          "probability": 0.9986440539360046
+        },
+        {
+          "start": 7.14,
+          "end": 7.28,
+          "word": " be",
+          "probability": 0.990604817867279
+        },
+        {
+          "start": 7.28,
+          "end": 7.38,
+          "word": " gaining",
+          "probability": 0.9985947012901306
+        },
+        {
+          "start": 7.38,
+          "end": 7.74,
+          "word": " ground",
+          "probability": 0.9987683892250061
+        },
+        {
+          "start": 7.74,
+          "end": 7.92,
+          "word": " in",
+          "probability": 0.9432339668273926
+        },
+        {
+          "start": 7.92,
+          "end": 8.04,
+          "word": " the",
+          "probability": 0.9981880784034729
+        },
+        {
+          "start": 8.04,
+          "end": 8.2,
+          "word": " inner",
+          "probability": 0.9928228855133057
+        },
+        {
+          "start": 8.2,
+          "end": 8.66,
+          "word": " city",
+          "probability": 0.9674669504165649
+        }
+      ]
+    },
+    {
+      "start": 8.66,
+      "end": 11.3,
+      "text": "Prostitution and drug activity have sharply declined",
+      "words": [
+        {
+          "start": 8.66,
+          "end": 9.36,
+          "word": " Prostitution",
+          "probability": 0.7977280020713806
+        },
+        {
+          "start": 9.36,
+          "end": 9.68,
+          "word": " and",
+          "probability": 0.996208667755127
+        },
+        {
+          "start": 9.68,
+          "end": 9.88,
+          "word": " drug",
+          "probability": 0.9940497875213623
+        },
+        {
+          "start": 9.88,
+          "end": 10.36,
+          "word": " activity",
+          "probability": 0.9963917136192322
+        },
+        {
+          "start": 10.36,
+          "end": 10.6,
+          "word": " have",
+          "probability": 0.9845855832099915
+        },
+        {
+          "start": 10.6,
+          "end": 10.92,
+          "word": " sharply",
+          "probability": 0.9861887097358704
+        },
+        {
+          "start": 10.92,
+          "end": 11.3,
+          "word": " declined",
+          "probability": 0.997735857963562
+        }
+      ]
+    },
+    {
+      "start": 11.86,
+      "end": 14.84,
+      "text": "Shelters and missions have reported a drastic drop in homeless",
+      "words": [
+        {
+          "start": 11.86,
+          "end": 12.42,
+          "word": " Shelters",
+          "probability": 0.6425478011369705
+        },
+        {
+          "start": 12.42,
+          "end": 12.62,
+          "word": " and",
+          "probability": 0.9163084626197815
+        },
+        {
+          "start": 12.62,
+          "end": 12.9,
+          "word": " missions",
+          "probability": 0.9358580112457275
+        },
+        {
+          "start": 12.9,
+          "end": 13.18,
+          "word": " have",
+          "probability": 0.9971211552619934
+        },
+        {
+          "start": 13.18,
+          "end": 13.5,
+          "word": " reported",
+          "probability": 0.9981726408004761
+        },
+        {
+          "start": 13.5,
+          "end": 13.74,
+          "word": " a",
+          "probability": 0.9954793453216553
+        },
+        {
+          "start": 13.74,
+          "end": 14.0,
+          "word": " drastic",
+          "probability": 0.9966108202934265
+        },
+        {
+          "start": 14.0,
+          "end": 14.26,
+          "word": " drop",
+          "probability": 0.9972291588783264
+        },
+        {
+          "start": 14.26,
+          "end": 14.46,
+          "word": " in",
+          "probability": 0.9760423898696899
+        },
+        {
+          "start": 14.46,
+          "end": 14.84,
+          "word": " homeless",
+          "probability": 0.9034999012947083
+        }
+      ]
+    },
+    {
+      "start": 21.94,
+      "end": 26.98,
+      "text": "While tensions continue to rise over the city's disappearance of several of the city's prominent citizens",
+      "words": [
+        {
+          "start": 21.94,
+          "end": 22.5,
+          "word": " While",
+          "probability": 0.4478806257247925
+        },
+        {
+          "start": 22.5,
+          "end": 22.84,
+          "word": " tensions",
+          "probability": 0.9868975877761841
+        },
+        {
+          "start": 22.84,
+          "end": 23.3,
+          "word": " continue",
+          "probability": 0.992176353931427
+        },
+        {
+          "start": 23.3,
+          "end": 23.56,
+          "word": " to",
+          "probability": 0.9993141889572144
+        },
+        {
+          "start": 23.56,
+          "end": 23.72,
+          "word": " rise",
+          "probability": 0.9972960352897644
+        },
+        {
+          "start": 23.72,
+          "end": 23.88,
+          "word": " over",
+          "probability": 0.9902820587158203
+        },
+        {
+          "start": 23.88,
+          "end": 24.08,
+          "word": " the",
+          "probability": 0.9995328187942505
+        },
+        {
+          "start": 24.08,
+          "end": 24.54,
+          "word": " city's",
+          "probability": 0.9802777469158173
+        },
+        {
+          "start": 24.54,
+          "end": 24.92,
+          "word": " disappearance",
+          "probability": 0.9993686079978943
+        },
+        {
+          "start": 24.92,
+          "end": 25.2,
+          "word": " of",
+          "probability": 0.9983610510826111
+        },
+        {
+          "start": 25.2,
+          "end": 25.54,
+          "word": " several",
+          "probability": 0.9968992471694946
+        },
+        {
+          "start": 25.54,
+          "end": 25.7,
+          "word": " of",
+          "probability": 0.9064915180206299
+        },
+        {
+          "start": 25.7,
+          "end": 25.84,
+          "word": " the",
+          "probability": 0.9996998310089111
+        },
+        {
+          "start": 25.84,
+          "end": 26.24,
+          "word": " city's",
+          "probability": 0.9677653014659882
+        },
+        {
+          "start": 26.24,
+          "end": 26.54,
+          "word": " prominent",
+          "probability": 0.9991126656532288
+        },
+        {
+          "start": 26.54,
+          "end": 26.98,
+          "word": " citizens",
+          "probability": 0.9984654188156128
+        }
+      ]
+    },
+    {
+      "start": 27.78,
+      "end": 32.0,
+      "text": "Investigations continue, but neither the mayor nor police chief Brewster could be found to comment",
+      "words": [
+        {
+          "start": 27.78,
+          "end": 28.34,
+          "word": " Investigations",
+          "probability": 0.975389838218689
+        },
+        {
+          "start": 28.34,
+          "end": 28.86,
+          "word": " continue,",
+          "probability": 0.9834409952163696
+        },
+        {
+          "start": 28.86,
+          "end": 29.1,
+          "word": " but",
+          "probability": 0.9996391534805298
+        },
+        {
+          "start": 29.1,
+          "end": 29.36,
+          "word": " neither",
+          "probability": 0.999133288860321
+        },
+        {
+          "start": 29.36,
+          "end": 29.56,
+          "word": " the",
+          "probability": 0.9960426092147827
+        },
+        {
+          "start": 29.56,
+          "end": 29.8,
+          "word": " mayor",
+          "probability": 0.9383272528648376
+        },
+        {
+          "start": 29.8,
+          "end": 30.0,
+          "word": " nor",
+          "probability": 0.97658771276474
+        },
+        {
+          "start": 30.0,
+          "end": 30.38,
+          "word": " police",
+          "probability": 0.8866857886314392
+        },
+        {
+          "start": 30.38,
+          "end": 30.64,
+          "word": " chief",
+          "probability": 0.9428759813308716
+        },
+        {
+          "start": 30.64,
+          "end": 31.0,
+          "word": " Brewster",
+          "probability": 0.9885966777801514
+        },
+        {
+          "start": 31.0,
+          "end": 31.14,
+          "word": " could",
+          "probability": 0.9410167336463928
+        },
+        {
+          "start": 31.14,
+          "end": 31.32,
+          "word": " be",
+          "probability": 0.9997962117195129
+        },
+        {
+          "start": 31.32,
+          "end": 31.46,
+          "word": " found",
+          "probability": 0.9996222257614136
+        },
+        {
+          "start": 31.46,
+          "end": 31.66,
+          "word": " to",
+          "probability": 0.9420408606529236
+        },
+        {
+          "start": 31.66,
+          "end": 32.0,
+          "word": " comment",
+          "probability": 0.9670023322105408
+        }
+      ]
+    },
+    {
+      "start": 32.0,
+      "end": 36.88,
+      "text": "This is connected, right? The wholesale slaughter at Zarensky's and the drop-off in street trash?",
+      "words": [
+        {
+          "start": 32.0,
+          "end": 32.52,
+          "word": " This",
+          "probability": 0.5270774364471436
+        },
+        {
+          "start": 32.52,
+          "end": 32.78,
+          "word": " is",
+          "probability": 0.9913091659545898
+        },
+        {
+          "start": 32.78,
+          "end": 33.12,
+          "word": " connected,",
+          "probability": 0.9919317364692688
+        },
+        {
+          "start": 33.32,
+          "end": 33.5,
+          "word": " right?",
+          "probability": 0.9973201155662537
+        },
+        {
+          "start": 33.86,
+          "end": 34.02,
+          "word": " The",
+          "probability": 0.9727281332015991
+        },
+        {
+          "start": 34.02,
+          "end": 34.28,
+          "word": " wholesale",
+          "probability": 0.9768324494361877
+        },
+        {
+          "start": 34.28,
+          "end": 34.68,
+          "word": " slaughter",
+          "probability": 0.9959881901741028
+        },
+        {
+          "start": 34.68,
+          "end": 34.86,
+          "word": " at",
+          "probability": 0.9845002889633179
+        },
+        {
+          "start": 34.86,
+          "end": 35.36,
+          "word": " Zarensky's",
+          "probability": 0.7469797670841217
+        },
+        {
+          "start": 35.36,
+          "end": 35.5,
+          "word": " and",
+          "probability": 0.869898796081543
+        },
+        {
+          "start": 35.5,
+          "end": 35.68,
+          "word": " the",
+          "probability": 0.9912814497947693
+        },
+        {
+          "start": 35.68,
+          "end": 35.88,
+          "word": " drop",
+          "probability": 0.9961022138595581
+        },
+        {
+          "start": 35.88,
+          "end": 36.02,
+          "word": "-off",
+          "probability": 0.8704325258731842
+        },
+        {
+          "start": 36.02,
+          "end": 36.26,
+          "word": " in",
+          "probability": 0.9290421009063721
+        },
+        {
+          "start": 36.26,
+          "end": 36.54,
+          "word": " street",
+          "probability": 0.742732048034668
+        },
+        {
+          "start": 36.54,
+          "end": 36.88,
+          "word": " trash?",
+          "probability": 0.9491320252418518
+        }
+      ]
+    },
+    {
+      "start": 37.26,
+      "end": 40.24,
+      "text": "Brimstone thinks so. Disappearances have skyrocketed.",
+      "words": [
+        {
+          "start": 37.26,
+          "end": 37.56,
+          "word": " Brimstone",
+          "probability": 0.8967071771621704
+        },
+        {
+          "start": 37.56,
+          "end": 37.78,
+          "word": " thinks",
+          "probability": 0.9577957391738892
+        },
+        {
+          "start": 37.78,
+          "end": 38.4,
+          "word": " so.",
+          "probability": 0.9994823932647705
+        },
+        {
+          "start": 38.68,
+          "end": 39.16,
+          "word": " Disappearances",
+          "probability": 0.9905708283185959
+        },
+        {
+          "start": 39.16,
+          "end": 39.4,
+          "word": " have",
+          "probability": 0.9930467009544373
+        },
+        {
+          "start": 39.4,
+          "end": 40.24,
+          "word": " skyrocketed.",
+          "probability": 0.9893942674001058
+        }
+      ]
+    },
+    {
+      "start": 40.42,
+      "end": 43.5,
+      "text": "It's like all the junkies, hookers and homeless fell into a hole in the ground.",
+      "words": [
+        {
+          "start": 40.42,
+          "end": 40.54,
+          "word": " It's",
+          "probability": 0.9908994734287262
+        },
+        {
+          "start": 40.54,
+          "end": 40.66,
+          "word": " like",
+          "probability": 0.9969003200531006
+        },
+        {
+          "start": 40.66,
+          "end": 40.82,
+          "word": " all",
+          "probability": 0.994222104549408
+        },
+        {
+          "start": 40.82,
+          "end": 41.04,
+          "word": " the",
+          "probability": 0.9766333699226379
+        },
+        {
+          "start": 41.04,
+          "end": 41.56,
+          "word": " junkies,",
+          "probability": 0.991074949502945
+        },
+        {
+          "start": 41.78,
+          "end": 42.0,
+          "word": " hookers",
+          "probability": 0.9974860846996307
+        },
+        {
+          "start": 42.0,
+          "end": 42.2,
+          "word": " and",
+          "probability": 0.550772488117218
+        },
+        {
+          "start": 42.2,
+          "end": 42.42,
+          "word": " homeless",
+          "probability": 0.8689570426940918
+        },
+        {
+          "start": 42.42,
+          "end": 42.64,
+          "word": " fell",
+          "probability": 0.9852702617645264
+        },
+        {
+          "start": 42.64,
+          "end": 42.86,
+          "word": " into",
+          "probability": 0.9787565469741821
+        },
+        {
+          "start": 42.86,
+          "end": 43.02,
+          "word": " a",
+          "probability": 0.9959218502044678
+        },
+        {
+          "start": 43.02,
+          "end": 43.12,
+          "word": " hole",
+          "probability": 0.9966975450515747
+        },
+        {
+          "start": 43.12,
+          "end": 43.3,
+          "word": " in",
+          "probability": 0.966513991355896
+        },
+        {
+          "start": 43.3,
+          "end": 43.36,
+          "word": " the",
+          "probability": 0.9988583326339722
+        },
+        {
+          "start": 43.36,
+          "end": 43.5,
+          "word": " ground.",
+          "probability": 0.9997720122337341
+        }
+      ]
+    },
+    {
+      "start": 43.74,
+      "end": 47.22,
+      "text": "That, or a big goddamn vampire convention pulled into town.",
+      "words": [
+        {
+          "start": 43.74,
+          "end": 44.04,
+          "word": " That,",
+          "probability": 0.8236126899719238
+        },
+        {
+          "start": 44.32,
+          "end": 44.46,
+          "word": " or",
+          "probability": 0.9938724040985107
+        },
+        {
+          "start": 44.46,
+          "end": 44.64,
+          "word": " a",
+          "probability": 0.9877744317054749
+        },
+        {
+          "start": 44.64,
+          "end": 44.82,
+          "word": " big",
+          "probability": 0.9876629710197449
+        },
+        {
+          "start": 44.82,
+          "end": 45.2,
+          "word": " goddamn",
+          "probability": 0.887798547744751
+        },
+        {
+          "start": 45.2,
+          "end": 45.8,
+          "word": " vampire",
+          "probability": 0.9462851881980896
+        },
+        {
+          "start": 45.8,
+          "end": 46.28,
+          "word": " convention",
+          "probability": 0.9948529601097107
+        },
+        {
+          "start": 46.28,
+          "end": 46.54,
+          "word": " pulled",
+          "probability": 0.6063911318778992
+        },
+        {
+          "start": 46.54,
+          "end": 46.78,
+          "word": " into",
+          "probability": 0.988827109336853
+        },
+        {
+          "start": 46.78,
+          "end": 47.22,
+          "word": " town.",
+          "probability": 0.9968589544296265
+        }
+      ]
+    },
+    {
+      "start": 47.72,
+      "end": 50.26,
+      "text": "Maybe. We're lucky to have you back for this one, Ren.",
+      "words": [
+        {
+          "start": 47.72,
+          "end": 48.04,
+          "word": " Maybe.",
+          "probability": 0.7380802035331726
+        },
+        {
+          "start": 48.88,
+          "end": 49.08,
+          "word": " We're",
+          "probability": 0.9533018171787262
+        },
+        {
+          "start": 49.08,
+          "end": 49.18,
+          "word": " lucky",
+          "probability": 0.98642897605896
+        },
+        {
+          "start": 49.18,
+          "end": 49.32,
+          "word": " to",
+          "probability": 0.993678629398346
+        },
+        {
+          "start": 49.32,
+          "end": 49.4,
+          "word": " have",
+          "probability": 0.9994680285453796
+        },
+        {
+          "start": 49.4,
+          "end": 49.56,
+          "word": " you",
+          "probability": 0.9985496401786804
+        },
+        {
+          "start": 49.56,
+          "end": 49.68,
+          "word": " back",
+          "probability": 0.9972888231277466
+        },
+        {
+          "start": 49.68,
+          "end": 49.84,
+          "word": " for",
+          "probability": 0.9899279475212097
+        },
+        {
+          "start": 49.84,
+          "end": 49.98,
+          "word": " this",
+          "probability": 0.9983951449394226
+        },
+        {
+          "start": 49.98,
+          "end": 50.16,
+          "word": " one,",
+          "probability": 0.7832810282707214
+        },
+        {
+          "start": 50.26,
+          "end": 50.26,
+          "word": " Ren.",
+          "probability": 0.1851450800895691
+        }
+      ]
+    },
+    {
+      "start": 50.76,
+      "end": 55.68,
+      "text": "Yeah, well, my interests in Brimstone society still manage to overlap from time to time.",
+      "words": [
+        {
+          "start": 50.76,
+          "end": 51.16,
+          "word": " Yeah,",
+          "probability": 0.9796314835548401
+        },
+        {
+          "start": 51.3,
+          "end": 51.62,
+          "word": " well,",
+          "probability": 0.9983787536621094
+        },
+        {
+          "start": 52.04,
+          "end": 52.28,
+          "word": " my",
+          "probability": 0.9923895001411438
+        },
+        {
+          "start": 52.28,
+          "end": 52.56,
+          "word": " interests",
+          "probability": 0.9695669412612915
+        },
+        {
+          "start": 52.56,
+          "end": 52.72,
+          "word": " in",
+          "probability": 0.9679617285728455
+        },
+        {
+          "start": 52.72,
+          "end": 53.12,
+          "word": " Brimstone",
+          "probability": 0.9962949554125468
+        },
+        {
+          "start": 53.12,
+          "end": 53.6,
+          "word": " society",
+          "probability": 0.8392950296401978
+        },
+        {
+          "start": 53.6,
+          "end": 53.84,
+          "word": " still",
+          "probability": 0.9968847632408142
+        },
+        {
+          "start": 53.84,
+          "end": 54.18,
+          "word": " manage",
+          "probability": 0.9191938638687134
+        },
+        {
+          "start": 54.18,
+          "end": 54.46,
+          "word": " to",
+          "probability": 0.999151349067688
+        },
+        {
+          "start": 54.46,
+          "end": 54.76,
+          "word": " overlap",
+          "probability": 0.9918640851974487
+        },
+        {
+          "start": 54.76,
+          "end": 55.06,
+          "word": " from",
+          "probability": 0.9928714632987976
+        },
+        {
+          "start": 55.06,
+          "end": 55.24,
+          "word": " time",
+          "probability": 0.999728262424469
+        },
+        {
+          "start": 55.24,
+          "end": 55.4,
+          "word": " to",
+          "probability": 0.9944928884506226
+        },
+        {
+          "start": 55.4,
+          "end": 55.68,
+          "word": " time.",
+          "probability": 0.9998725652694702
+        }
+      ]
+    },
+    {
+      "start": 56.88,
+      "end": 60.42,
+      "text": "The master list you found at Zarensky's details the Kagan cult's hierarchy.",
+      "words": [
+        {
+          "start": 56.88,
+          "end": 57.06,
+          "word": " The",
+          "probability": 0.990139365196228
+        },
+        {
+          "start": 57.06,
+          "end": 57.4,
+          "word": " master",
+          "probability": 0.8676592111587524
+        },
+        {
+          "start": 57.4,
+          "end": 57.54,
+          "word": " list",
+          "probability": 0.6199707984924316
+        },
+        {
+          "start": 57.54,
+          "end": 57.74,
+          "word": " you",
+          "probability": 0.9941204190254211
+        },
+        {
+          "start": 57.74,
+          "end": 58.06,
+          "word": " found",
+          "probability": 0.6736612319946289
+        },
+        {
+          "start": 58.06,
+          "end": 58.2,
+          "word": " at",
+          "probability": 0.9800032377243042
+        },
+        {
+          "start": 58.2,
+          "end": 58.86,
+          "word": " Zarensky's",
+          "probability": 0.9905866146087646
+        },
+        {
+          "start": 58.86,
+          "end": 59.22,
+          "word": " details",
+          "probability": 0.9143223166465759
+        },
+        {
+          "start": 59.22,
+          "end": 59.54,
+          "word": " the",
+          "probability": 0.9856335520744324
+        },
+        {
+          "start": 59.54,
+          "end": 59.82,
+          "word": " Kagan",
+          "probability": 0.7503056228160858
+        },
+        {
+          "start": 59.82,
+          "end": 60.22,
+          "word": " cult's",
+          "probability": 0.9064753949642181
+        },
+        {
+          "start": 60.22,
+          "end": 60.42,
+          "word": " hierarchy.",
+          "probability": 0.9983988404273987
+        }
+      ]
+    },
+    {
+      "start": 60.42,
+      "end": 68.2,
+      "text": "The top positions are all his offspring, and there's a lot of them, but I gotta go stay in touch. Don't disappear",
+      "words": [
+        {
+          "start": 60.42,
+          "end": 61.04,
+          "word": " The",
+          "probability": 0.8620169758796692
+        },
+        {
+          "start": 61.04,
+          "end": 61.22,
+          "word": " top",
+          "probability": 0.9853863716125488
+        },
+        {
+          "start": 61.22,
+          "end": 61.62,
+          "word": " positions",
+          "probability": 0.9767248034477234
+        },
+        {
+          "start": 61.62,
+          "end": 61.88,
+          "word": " are",
+          "probability": 0.9919058084487915
+        },
+        {
+          "start": 61.88,
+          "end": 62.04,
+          "word": " all",
+          "probability": 0.9860591292381287
+        },
+        {
+          "start": 62.04,
+          "end": 62.22,
+          "word": " his",
+          "probability": 0.9936717748641968
+        },
+        {
+          "start": 62.22,
+          "end": 62.62,
+          "word": " offspring,",
+          "probability": 0.9822514653205872
+        },
+        {
+          "start": 62.84,
+          "end": 62.9,
+          "word": " and",
+          "probability": 0.9884055852890015
+        },
+        {
+          "start": 62.9,
+          "end": 63.24,
+          "word": " there's",
+          "probability": 0.9856652915477753
+        },
+        {
+          "start": 63.24,
+          "end": 63.36,
+          "word": " a",
+          "probability": 0.9914994835853577
+        },
+        {
+          "start": 63.36,
+          "end": 63.58,
+          "word": " lot",
+          "probability": 0.9904060959815979
+        },
+        {
+          "start": 63.58,
+          "end": 63.84,
+          "word": " of",
+          "probability": 0.8216591477394104
+        },
+        {
+          "start": 63.84,
+          "end": 64.24,
+          "word": " them,",
+          "probability": 0.8312249183654785
+        },
+        {
+          "start": 64.24,
+          "end": 65.02,
+          "word": " but",
+          "probability": 0.8756884932518005
+        },
+        {
+          "start": 65.02,
+          "end": 65.46,
+          "word": " I",
+          "probability": 0.4089105725288391
+        },
+        {
+          "start": 65.46,
+          "end": 65.46,
+          "word": " gotta",
+          "probability": 0.7040420770645142
+        },
+        {
+          "start": 65.46,
+          "end": 66.28,
+          "word": " go",
+          "probability": 0.6347538828849792
+        },
+        {
+          "start": 66.28,
+          "end": 66.86,
+          "word": " stay",
+          "probability": 0.28853699564933777
+        },
+        {
+          "start": 66.86,
+          "end": 67.1,
+          "word": " in",
+          "probability": 0.99819415807724
+        },
+        {
+          "start": 67.1,
+          "end": 67.34,
+          "word": " touch.",
+          "probability": 0.9991796612739563
+        },
+        {
+          "start": 67.36,
+          "end": 67.84,
+          "word": " Don't",
+          "probability": 0.9986051321029663
+        },
+        {
+          "start": 67.84,
+          "end": 68.2,
+          "word": " disappear",
+          "probability": 0.9933109283447266
+        }
+      ]
+    },
+    {
+      "start": 69.26,
+      "end": 70.76,
+      "text": "Severin no hell",
+      "words": [
+        {
+          "start": 69.26,
+          "end": 69.94,
+          "word": " Severin",
+          "probability": 0.6942452788352966
+        },
+        {
+          "start": 69.94,
+          "end": 70.42,
+          "word": " no",
+          "probability": 0.19935260713100433
+        },
+        {
+          "start": 70.42,
+          "end": 70.76,
+          "word": " hell",
+          "probability": 0.6661654114723206
+        }
+      ]
+    }
+  ]
+}

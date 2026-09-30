@@ -1,0 +1,107 @@
+{
+  "movie": "A4S02P01",
+  "window": [
+    27,
+    33
+  ],
+  "segments": [
+    {
+      "start": 27.740000000000002,
+      "end": 31.759999999999998,
+      "text": "Overlord Kagan, potential threat approaching from the south. Airborne gunships, my lord.",
+      "words": [
+        {
+          "start": 27.740000000000002,
+          "end": 28.24,
+          "word": " Overlord",
+          "probability": 0.5089346449822187
+        },
+        {
+          "start": 28.24,
+          "end": 28.62,
+          "word": " Kagan,",
+          "probability": 0.8677569031715393
+        },
+        {
+          "start": 29.02,
+          "end": 29.12,
+          "word": " potential",
+          "probability": 0.9578348994255066
+        },
+        {
+          "start": 29.12,
+          "end": 29.34,
+          "word": " threat",
+          "probability": 0.9957874417304993
+        },
+        {
+          "start": 29.34,
+          "end": 29.759999999999998,
+          "word": " approaching",
+          "probability": 0.9655504822731018
+        },
+        {
+          "start": 29.759999999999998,
+          "end": 30.04,
+          "word": " from",
+          "probability": 0.9881177544593811
+        },
+        {
+          "start": 30.04,
+          "end": 30.18,
+          "word": " the",
+          "probability": 0.983405590057373
+        },
+        {
+          "start": 30.18,
+          "end": 30.4,
+          "word": " south.",
+          "probability": 0.8851777911186218
+        },
+        {
+          "start": 30.58,
+          "end": 30.86,
+          "word": " Airborne",
+          "probability": 0.9667227566242218
+        },
+        {
+          "start": 30.86,
+          "end": 31.44,
+          "word": " gunships,",
+          "probability": 0.9527783393859863
+        },
+        {
+          "start": 31.48,
+          "end": 31.56,
+          "word": " my",
+          "probability": 0.8674255609512329
+        },
+        {
+          "start": 31.56,
+          "end": 31.759999999999998,
+          "word": " lord.",
+          "probability": 0.7748614549636841
+        }
+      ]
+    },
+    {
+      "start": 32.42,
+      "end": 32.980000000000004,
+      "text": "Take thee.",
+      "words": [
+        {
+          "start": 32.42,
+          "end": 32.78,
+          "word": " Take",
+          "probability": 0.9038101434707642
+        },
+        {
+          "start": 32.78,
+          "end": 32.980000000000004,
+          "word": " thee.",
+          "probability": 0.6663668155670166
+        }
+      ]
+    }
+  ]
+}

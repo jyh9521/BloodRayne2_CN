@@ -1,0 +1,603 @@
+{
+  "movie": "A4S02P02",
+  "duration": 75.542133,
+  "audio_sha256": "71E9952F98252489BB24FFFD9AEFEDF326F50ACACF5EEB094F684455EBEE02B4",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 40.37,
+      "end": 41.69,
+      "text": "That's my favorite sound.",
+      "words": [
+        {
+          "start": 40.37,
+          "end": 40.57,
+          "word": " That's",
+          "probability": 0.5912487208843231
+        },
+        {
+          "start": 40.57,
+          "end": 40.73,
+          "word": " my",
+          "probability": 0.9850744009017944
+        },
+        {
+          "start": 40.73,
+          "end": 41.13,
+          "word": " favorite",
+          "probability": 0.8695355653762817
+        },
+        {
+          "start": 41.13,
+          "end": 41.69,
+          "word": " sound.",
+          "probability": 0.9969943761825562
+        }
+      ]
+    },
+    {
+      "start": 42.33,
+      "end": 44.11,
+      "text": "Severin, what the hell just happened?",
+      "words": [
+        {
+          "start": 42.33,
+          "end": 42.63,
+          "word": " Severin,",
+          "probability": 0.743984580039978
+        },
+        {
+          "start": 42.87,
+          "end": 43.09,
+          "word": " what",
+          "probability": 0.9882756471633911
+        },
+        {
+          "start": 43.09,
+          "end": 43.25,
+          "word": " the",
+          "probability": 0.9951134324073792
+        },
+        {
+          "start": 43.25,
+          "end": 43.41,
+          "word": " hell",
+          "probability": 0.9846013784408569
+        },
+        {
+          "start": 43.41,
+          "end": 43.75,
+          "word": " just",
+          "probability": 0.9932396411895752
+        },
+        {
+          "start": 43.75,
+          "end": 44.11,
+          "word": " happened?",
+          "probability": 0.9957303404808044
+        }
+      ]
+    },
+    {
+      "start": 44.43,
+      "end": 47.85,
+      "text": "What just happened to you, my dear, was me.",
+      "words": [
+        {
+          "start": 44.43,
+          "end": 44.65,
+          "word": " What",
+          "probability": 0.9676541090011597
+        },
+        {
+          "start": 44.65,
+          "end": 45.03,
+          "word": " just",
+          "probability": 0.9597051739692688
+        },
+        {
+          "start": 45.03,
+          "end": 45.27,
+          "word": " happened",
+          "probability": 0.9924210906028748
+        },
+        {
+          "start": 45.27,
+          "end": 45.49,
+          "word": " to",
+          "probability": 0.9972831010818481
+        },
+        {
+          "start": 45.49,
+          "end": 45.75,
+          "word": " you,",
+          "probability": 0.9965623021125793
+        },
+        {
+          "start": 45.79,
+          "end": 46.09,
+          "word": " my",
+          "probability": 0.9900118708610535
+        },
+        {
+          "start": 46.09,
+          "end": 46.45,
+          "word": " dear,",
+          "probability": 0.997566819190979
+        },
+        {
+          "start": 46.97,
+          "end": 47.31,
+          "word": " was",
+          "probability": 0.9951300621032715
+        },
+        {
+          "start": 47.31,
+          "end": 47.85,
+          "word": " me.",
+          "probability": 0.9035592675209045
+        }
+      ]
+    },
+    {
+      "start": 48.73,
+      "end": 53.95,
+      "text": "So you're a renegade vampire killer, not as impressive as I expected.",
+      "words": [
+        {
+          "start": 48.73,
+          "end": 49.01,
+          "word": " So",
+          "probability": 0.9870069026947021
+        },
+        {
+          "start": 49.01,
+          "end": 49.55,
+          "word": " you're",
+          "probability": 0.8820785880088806
+        },
+        {
+          "start": 49.55,
+          "end": 49.81,
+          "word": " a",
+          "probability": 0.3471815288066864
+        },
+        {
+          "start": 49.81,
+          "end": 50.37,
+          "word": " renegade",
+          "probability": 0.9927024245262146
+        },
+        {
+          "start": 50.37,
+          "end": 50.95,
+          "word": " vampire",
+          "probability": 0.9667704105377197
+        },
+        {
+          "start": 50.95,
+          "end": 51.39,
+          "word": " killer,",
+          "probability": 0.8422773480415344
+        },
+        {
+          "start": 51.63,
+          "end": 51.77,
+          "word": " not",
+          "probability": 0.9936512112617493
+        },
+        {
+          "start": 51.77,
+          "end": 52.03,
+          "word": " as",
+          "probability": 0.9963705539703369
+        },
+        {
+          "start": 52.03,
+          "end": 52.77,
+          "word": " impressive",
+          "probability": 0.9970893263816833
+        },
+        {
+          "start": 52.77,
+          "end": 53.11,
+          "word": " as",
+          "probability": 0.9916744828224182
+        },
+        {
+          "start": 53.11,
+          "end": 53.63,
+          "word": " I",
+          "probability": 0.9915432929992676
+        },
+        {
+          "start": 53.63,
+          "end": 53.95,
+          "word": " expected.",
+          "probability": 0.8191429376602173
+        }
+      ]
+    },
+    {
+      "start": 54.47,
+      "end": 56.27,
+      "text": "Ah, but you've got me at a disadvantage.",
+      "words": [
+        {
+          "start": 54.47,
+          "end": 54.77,
+          "word": " Ah,",
+          "probability": 0.8707312941551208
+        },
+        {
+          "start": 54.77,
+          "end": 54.99,
+          "word": " but",
+          "probability": 0.9967254400253296
+        },
+        {
+          "start": 54.99,
+          "end": 55.27,
+          "word": " you've",
+          "probability": 0.9432724416255951
+        },
+        {
+          "start": 55.27,
+          "end": 55.35,
+          "word": " got",
+          "probability": 0.974867045879364
+        },
+        {
+          "start": 55.35,
+          "end": 55.57,
+          "word": " me",
+          "probability": 0.9981485605239868
+        },
+        {
+          "start": 55.57,
+          "end": 55.67,
+          "word": " at",
+          "probability": 0.9969711303710938
+        },
+        {
+          "start": 55.67,
+          "end": 55.81,
+          "word": " a",
+          "probability": 0.9973873496055603
+        },
+        {
+          "start": 55.81,
+          "end": 56.27,
+          "word": " disadvantage.",
+          "probability": 0.9981106519699097
+        }
+      ]
+    },
+    {
+      "start": 56.47,
+      "end": 57.71,
+      "text": "You don't know me?",
+      "words": [
+        {
+          "start": 56.47,
+          "end": 56.63,
+          "word": " You",
+          "probability": 0.9743280410766602
+        },
+        {
+          "start": 56.63,
+          "end": 56.91,
+          "word": " don't",
+          "probability": 0.9982829391956329
+        },
+        {
+          "start": 56.91,
+          "end": 57.13,
+          "word": " know",
+          "probability": 0.9979401230812073
+        },
+        {
+          "start": 57.13,
+          "end": 57.71,
+          "word": " me?",
+          "probability": 0.8870491981506348
+        }
+      ]
+    },
+    {
+      "start": 57.97,
+      "end": 61.79,
+      "text": "Why, I am Xerx Megastopheli, Grand Inquisitor!",
+      "words": [
+        {
+          "start": 57.97,
+          "end": 58.19,
+          "word": " Why,",
+          "probability": 0.9800686836242676
+        },
+        {
+          "start": 58.19,
+          "end": 58.41,
+          "word": " I",
+          "probability": 0.9969795942306519
+        },
+        {
+          "start": 58.41,
+          "end": 58.65,
+          "word": " am",
+          "probability": 0.9747674465179443
+        },
+        {
+          "start": 58.65,
+          "end": 59.05,
+          "word": " Xerx",
+          "probability": 0.6038843890031179
+        },
+        {
+          "start": 59.05,
+          "end": 60.11,
+          "word": " Megastopheli,",
+          "probability": 0.8134366422891617
+        },
+        {
+          "start": 60.51,
+          "end": 60.85,
+          "word": " Grand",
+          "probability": 0.8555091023445129
+        },
+        {
+          "start": 60.85,
+          "end": 61.79,
+          "word": " Inquisitor!",
+          "probability": 0.997100293636322
+        }
+      ]
+    },
+    {
+      "start": 62.07,
+      "end": 62.57,
+      "text": "Severin?",
+      "words": [
+        {
+          "start": 62.07,
+          "end": 62.57,
+          "word": " Severin?",
+          "probability": 0.9528699517250061
+        }
+      ]
+    },
+    {
+      "start": 62.75,
+      "end": 66.77,
+      "text": "Yes, he's on the list, full-blooded direct descendant of Kagan, your half-brother.",
+      "words": [
+        {
+          "start": 62.75,
+          "end": 63.11,
+          "word": " Yes,",
+          "probability": 0.9774198532104492
+        },
+        {
+          "start": 63.11,
+          "end": 63.43,
+          "word": " he's",
+          "probability": 0.9910167157649994
+        },
+        {
+          "start": 63.43,
+          "end": 63.67,
+          "word": " on",
+          "probability": 0.9980834722518921
+        },
+        {
+          "start": 63.67,
+          "end": 63.85,
+          "word": " the",
+          "probability": 0.9965904951095581
+        },
+        {
+          "start": 63.85,
+          "end": 64.05,
+          "word": " list,",
+          "probability": 0.9967892169952393
+        },
+        {
+          "start": 64.25,
+          "end": 64.43,
+          "word": " full",
+          "probability": 0.8679457306861877
+        },
+        {
+          "start": 64.43,
+          "end": 64.75,
+          "word": "-blooded",
+          "probability": 0.9537251790364584
+        },
+        {
+          "start": 64.75,
+          "end": 65.01,
+          "word": " direct",
+          "probability": 0.6472712755203247
+        },
+        {
+          "start": 65.01,
+          "end": 65.35,
+          "word": " descendant",
+          "probability": 0.7077359557151794
+        },
+        {
+          "start": 65.35,
+          "end": 65.53,
+          "word": " of",
+          "probability": 0.997841477394104
+        },
+        {
+          "start": 65.53,
+          "end": 65.77,
+          "word": " Kagan,",
+          "probability": 0.5939432233572006
+        },
+        {
+          "start": 65.99,
+          "end": 66.21,
+          "word": " your",
+          "probability": 0.984219491481781
+        },
+        {
+          "start": 66.21,
+          "end": 66.49,
+          "word": " half",
+          "probability": 0.9932236671447754
+        },
+        {
+          "start": 66.49,
+          "end": 66.77,
+          "word": "-brother.",
+          "probability": 0.9431838393211365
+        }
+      ]
+    },
+    {
+      "start": 67.13,
+      "end": 68.89,
+      "text": "Xerx is like three down from the top.",
+      "words": [
+        {
+          "start": 67.13,
+          "end": 67.37,
+          "word": " Xerx",
+          "probability": 0.9916963577270508
+        },
+        {
+          "start": 67.37,
+          "end": 67.53,
+          "word": " is",
+          "probability": 0.6751360297203064
+        },
+        {
+          "start": 67.53,
+          "end": 67.77,
+          "word": " like",
+          "probability": 0.8573809862136841
+        },
+        {
+          "start": 67.77,
+          "end": 68.11,
+          "word": " three",
+          "probability": 0.7613270878791809
+        },
+        {
+          "start": 68.11,
+          "end": 68.35,
+          "word": " down",
+          "probability": 0.9758856892585754
+        },
+        {
+          "start": 68.35,
+          "end": 68.55,
+          "word": " from",
+          "probability": 0.990781843662262
+        },
+        {
+          "start": 68.55,
+          "end": 68.75,
+          "word": " the",
+          "probability": 0.9994163513183594
+        },
+        {
+          "start": 68.75,
+          "end": 68.89,
+          "word": " top.",
+          "probability": 0.9957149624824524
+        }
+      ]
+    },
+    {
+      "start": 68.89,
+      "end": 70.17,
+      "text": "Do you ever read anything?",
+      "words": [
+        {
+          "start": 68.89,
+          "end": 69.09,
+          "word": " Do",
+          "probability": 0.7552900910377502
+        },
+        {
+          "start": 69.09,
+          "end": 69.27,
+          "word": " you",
+          "probability": 0.9938659071922302
+        },
+        {
+          "start": 69.27,
+          "end": 69.47,
+          "word": " ever",
+          "probability": 0.9891917109489441
+        },
+        {
+          "start": 69.47,
+          "end": 69.65,
+          "word": " read",
+          "probability": 0.9965231418609619
+        },
+        {
+          "start": 69.65,
+          "end": 70.17,
+          "word": " anything?",
+          "probability": 0.9948450326919556
+        }
+      ]
+    },
+    {
+      "start": 70.67,
+      "end": 71.43,
+      "text": "Fuck off.",
+      "words": [
+        {
+          "start": 70.67,
+          "end": 70.69,
+          "word": " Fuck",
+          "probability": 0.7344100475311279
+        },
+        {
+          "start": 70.69,
+          "end": 71.43,
+          "word": " off.",
+          "probability": 0.9882164597511292
+        }
+      ]
+    },
+    {
+      "start": 72.13,
+      "end": 73.95,
+      "text": "Xerxes, baby, you're meat.",
+      "words": [
+        {
+          "start": 72.13,
+          "end": 72.47,
+          "word": " Xerxes,",
+          "probability": 0.596610963344574
+        },
+        {
+          "start": 72.59,
+          "end": 72.79,
+          "word": " baby,",
+          "probability": 0.9802329540252686
+        },
+        {
+          "start": 73.31,
+          "end": 73.71,
+          "word": " you're",
+          "probability": 0.9756636619567871
+        },
+        {
+          "start": 73.71,
+          "end": 73.95,
+          "word": " meat.",
+          "probability": 0.9049862623214722
+        }
+      ]
+    }
+  ]
+}

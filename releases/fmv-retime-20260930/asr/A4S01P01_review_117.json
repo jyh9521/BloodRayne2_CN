@@ -1,0 +1,106 @@
+{
+  "movie": "A4S01P01",
+  "window": [
+    117,
+    131
+  ],
+  "segments": [
+    {
+      "start": 120.7,
+      "end": 128.64,
+      "text": "Glorious, the fall of the age of man witnessed the dawn of the vampiric age.",
+      "words": [
+        {
+          "start": 120.7,
+          "end": 121.54,
+          "word": " Glorious,",
+          "probability": 0.8756683468818665
+        },
+        {
+          "start": 122.32,
+          "end": 122.66,
+          "word": " the",
+          "probability": 0.9580865502357483
+        },
+        {
+          "start": 122.66,
+          "end": 123.18,
+          "word": " fall",
+          "probability": 0.8295850157737732
+        },
+        {
+          "start": 123.18,
+          "end": 123.46,
+          "word": " of",
+          "probability": 0.9941652417182922
+        },
+        {
+          "start": 123.46,
+          "end": 123.68,
+          "word": " the",
+          "probability": 0.9901099801063538
+        },
+        {
+          "start": 123.68,
+          "end": 124.14,
+          "word": " age",
+          "probability": 0.4955175220966339
+        },
+        {
+          "start": 124.14,
+          "end": 124.56,
+          "word": " of",
+          "probability": 0.997890055179596
+        },
+        {
+          "start": 124.56,
+          "end": 124.94,
+          "word": " man",
+          "probability": 0.8519967198371887
+        },
+        {
+          "start": 124.94,
+          "end": 125.8,
+          "word": " witnessed",
+          "probability": 0.3666418492794037
+        },
+        {
+          "start": 125.8,
+          "end": 126.2,
+          "word": " the",
+          "probability": 0.9927880167961121
+        },
+        {
+          "start": 126.2,
+          "end": 126.56,
+          "word": " dawn",
+          "probability": 0.996955394744873
+        },
+        {
+          "start": 126.56,
+          "end": 126.84,
+          "word": " of",
+          "probability": 0.996268630027771
+        },
+        {
+          "start": 126.84,
+          "end": 127.0,
+          "word": " the",
+          "probability": 0.9878902435302734
+        },
+        {
+          "start": 127.0,
+          "end": 127.9,
+          "word": " vampiric",
+          "probability": 0.9525150855382284
+        },
+        {
+          "start": 127.9,
+          "end": 128.64,
+          "word": " age.",
+          "probability": 0.9645232558250427
+        }
+      ]
+    }
+  ]
+}

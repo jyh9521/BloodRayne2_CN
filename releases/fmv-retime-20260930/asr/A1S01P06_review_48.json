@@ -1,0 +1,179 @@
+{
+  "movie": "A1S01P06",
+  "window": [
+    48,
+    65
+  ],
+  "segments": [
+    {
+      "start": 48.0,
+      "end": 57.68,
+      "text": "Nazi. Hardly. I'm bringing one of my own. That idiot Hitler simply teaching me to lead one. Not that he knows that.",
+      "words": [
+        {
+          "start": 48.0,
+          "end": 48.92,
+          "word": " Nazi.",
+          "probability": 0.20264163613319397
+        },
+        {
+          "start": 49.74,
+          "end": 50.4,
+          "word": " Hardly.",
+          "probability": 0.9867662191390991
+        },
+        {
+          "start": 50.66,
+          "end": 50.76,
+          "word": " I'm",
+          "probability": 0.5947307273745537
+        },
+        {
+          "start": 50.76,
+          "end": 51.04,
+          "word": " bringing",
+          "probability": 0.8696418404579163
+        },
+        {
+          "start": 51.04,
+          "end": 51.38,
+          "word": " one",
+          "probability": 0.139071986079216
+        },
+        {
+          "start": 51.38,
+          "end": 51.5,
+          "word": " of",
+          "probability": 0.9405034780502319
+        },
+        {
+          "start": 51.5,
+          "end": 51.86,
+          "word": " my",
+          "probability": 0.9387827515602112
+        },
+        {
+          "start": 51.86,
+          "end": 52.38,
+          "word": " own.",
+          "probability": 0.9979656934738159
+        },
+        {
+          "start": 52.88,
+          "end": 53.18,
+          "word": " That",
+          "probability": 0.9770336747169495
+        },
+        {
+          "start": 53.18,
+          "end": 53.7,
+          "word": " idiot",
+          "probability": 0.9766947031021118
+        },
+        {
+          "start": 53.7,
+          "end": 54.1,
+          "word": " Hitler",
+          "probability": 0.2290506213903427
+        },
+        {
+          "start": 54.1,
+          "end": 54.46,
+          "word": " simply",
+          "probability": 0.27744847536087036
+        },
+        {
+          "start": 54.46,
+          "end": 54.86,
+          "word": " teaching",
+          "probability": 0.9648429751396179
+        },
+        {
+          "start": 54.86,
+          "end": 55.1,
+          "word": " me",
+          "probability": 0.9664813876152039
+        },
+        {
+          "start": 55.1,
+          "end": 55.2,
+          "word": " to",
+          "probability": 0.9776428937911987
+        },
+        {
+          "start": 55.2,
+          "end": 55.4,
+          "word": " lead",
+          "probability": 0.9961078763008118
+        },
+        {
+          "start": 55.4,
+          "end": 55.8,
+          "word": " one.",
+          "probability": 0.9954637885093689
+        },
+        {
+          "start": 56.16,
+          "end": 56.44,
+          "word": " Not",
+          "probability": 0.987522304058075
+        },
+        {
+          "start": 56.44,
+          "end": 56.6,
+          "word": " that",
+          "probability": 0.998162567615509
+        },
+        {
+          "start": 56.6,
+          "end": 56.74,
+          "word": " he",
+          "probability": 0.9978200197219849
+        },
+        {
+          "start": 56.74,
+          "end": 57.14,
+          "word": " knows",
+          "probability": 0.9900773763656616
+        },
+        {
+          "start": 57.14,
+          "end": 57.68,
+          "word": " that.",
+          "probability": 0.9957568049430847
+        }
+      ]
+    },
+    {
+      "start": 58.480000000000004,
+      "end": 64.98,
+      "text": "Ah. Yes. The Vesper.",
+      "words": [
+        {
+          "start": 58.480000000000004,
+          "end": 59.28,
+          "word": " Ah.",
+          "probability": 0.40961331129074097
+        },
+        {
+          "start": 61.32,
+          "end": 62.12,
+          "word": " Yes.",
+          "probability": 0.6167500019073486
+        },
+        {
+          "start": 63.9,
+          "end": 64.3,
+          "word": " The",
+          "probability": 0.9590438604354858
+        },
+        {
+          "start": 64.3,
+          "end": 64.98,
+          "word": " Vesper.",
+          "probability": 0.9449648261070251
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "movie": "A2S02P16",
+  "window": [
+    27,
+    32
+  ],
+  "segments": [
+    {
+      "start": 27.0,
+      "end": 28.72,
+      "text": "Oh, no.",
+      "words": [
+        {
+          "start": 27.0,
+          "end": 28.48,
+          "word": " Oh,",
+          "probability": 0.9124930500984192
+        },
+        {
+          "start": 28.66,
+          "end": 28.72,
+          "word": " no.",
+          "probability": 0.9817525148391724
+        }
+      ]
+    }
+  ]
+}

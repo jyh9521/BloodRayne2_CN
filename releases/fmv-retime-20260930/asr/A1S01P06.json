@@ -1,0 +1,1261 @@
+{
+  "movie": "A1S01P06",
+  "duration": 151.117633,
+  "audio_sha256": "37BD315889C2E5A8B66E9AC16D88B6B27966BF65E0DC658994DFB09C78A597A6",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 4.14,
+      "end": 10.52,
+      "text": "We thought we were strong enough to take him, but we couldn't even hold him.",
+      "words": [
+        {
+          "start": 4.14,
+          "end": 4.78,
+          "word": " We",
+          "probability": 0.8466181755065918
+        },
+        {
+          "start": 4.78,
+          "end": 5.0,
+          "word": " thought",
+          "probability": 0.960267961025238
+        },
+        {
+          "start": 5.0,
+          "end": 5.24,
+          "word": " we",
+          "probability": 0.9724336862564087
+        },
+        {
+          "start": 5.24,
+          "end": 5.58,
+          "word": " were",
+          "probability": 0.9567955136299133
+        },
+        {
+          "start": 5.58,
+          "end": 5.88,
+          "word": " strong",
+          "probability": 0.9545240998268127
+        },
+        {
+          "start": 5.88,
+          "end": 6.14,
+          "word": " enough",
+          "probability": 0.9972981810569763
+        },
+        {
+          "start": 6.14,
+          "end": 6.5,
+          "word": " to",
+          "probability": 0.9949682354927063
+        },
+        {
+          "start": 6.5,
+          "end": 6.82,
+          "word": " take",
+          "probability": 0.9817559719085693
+        },
+        {
+          "start": 6.82,
+          "end": 7.58,
+          "word": " him,",
+          "probability": 0.8151906728744507
+        },
+        {
+          "start": 7.58,
+          "end": 8.22,
+          "word": " but",
+          "probability": 0.9722665548324585
+        },
+        {
+          "start": 8.22,
+          "end": 8.54,
+          "word": " we",
+          "probability": 0.9874979853630066
+        },
+        {
+          "start": 8.54,
+          "end": 8.78,
+          "word": " couldn't",
+          "probability": 0.9896895587444305
+        },
+        {
+          "start": 8.78,
+          "end": 9.04,
+          "word": " even",
+          "probability": 0.9731238484382629
+        },
+        {
+          "start": 9.04,
+          "end": 9.36,
+          "word": " hold",
+          "probability": 0.9936779141426086
+        },
+        {
+          "start": 9.36,
+          "end": 10.52,
+          "word": " him.",
+          "probability": 0.9895523190498352
+        }
+      ]
+    },
+    {
+      "start": 10.84,
+      "end": 12.64,
+      "text": "Kagan, where is he now?",
+      "words": [
+        {
+          "start": 10.84,
+          "end": 11.04,
+          "word": " Kagan,",
+          "probability": 0.7617536783218384
+        },
+        {
+          "start": 11.64,
+          "end": 11.86,
+          "word": " where",
+          "probability": 0.959131121635437
+        },
+        {
+          "start": 11.86,
+          "end": 12.04,
+          "word": " is",
+          "probability": 0.9971773624420166
+        },
+        {
+          "start": 12.04,
+          "end": 12.24,
+          "word": " he",
+          "probability": 0.9978208541870117
+        },
+        {
+          "start": 12.24,
+          "end": 12.64,
+          "word": " now?",
+          "probability": 0.9985675811767578
+        }
+      ]
+    },
+    {
+      "start": 13.42,
+      "end": 14.72,
+      "text": "L-Library.",
+      "words": [
+        {
+          "start": 13.42,
+          "end": 13.62,
+          "word": " L",
+          "probability": 0.19636067748069763
+        },
+        {
+          "start": 13.62,
+          "end": 14.72,
+          "word": "-Library.",
+          "probability": 0.8654610961675644
+        }
+      ]
+    },
+    {
+      "start": 22.54,
+      "end": 24.32,
+      "text": "I'm going to destroy you.",
+      "words": [
+        {
+          "start": 22.54,
+          "end": 22.88,
+          "word": " I'm",
+          "probability": 0.9836988747119904
+        },
+        {
+          "start": 22.88,
+          "end": 23.06,
+          "word": " going",
+          "probability": 0.9947667121887207
+        },
+        {
+          "start": 23.06,
+          "end": 23.36,
+          "word": " to",
+          "probability": 0.999605119228363
+        },
+        {
+          "start": 23.36,
+          "end": 23.9,
+          "word": " destroy",
+          "probability": 0.9943704009056091
+        },
+        {
+          "start": 23.9,
+          "end": 24.32,
+          "word": " you.",
+          "probability": 0.9932013154029846
+        }
+      ]
+    },
+    {
+      "start": 28.42,
+      "end": 31.3,
+      "text": "Mine aren't you, but you smell.",
+      "words": [
+        {
+          "start": 28.42,
+          "end": 29.04,
+          "word": " Mine",
+          "probability": 0.5914941430091858
+        },
+        {
+          "start": 29.04,
+          "end": 29.5,
+          "word": " aren't",
+          "probability": 0.6395903080701828
+        },
+        {
+          "start": 29.5,
+          "end": 30.0,
+          "word": " you,",
+          "probability": 0.9910516738891602
+        },
+        {
+          "start": 30.2,
+          "end": 30.36,
+          "word": " but",
+          "probability": 0.9799005389213562
+        },
+        {
+          "start": 30.36,
+          "end": 30.9,
+          "word": " you",
+          "probability": 0.9966018199920654
+        },
+        {
+          "start": 30.9,
+          "end": 31.3,
+          "word": " smell.",
+          "probability": 0.9927856922149658
+        }
+      ]
+    },
+    {
+      "start": 33.07,
+      "end": 34.75,
+      "text": "Which one was your mother?",
+      "words": [
+        {
+          "start": 33.07,
+          "end": 33.37,
+          "word": " Which",
+          "probability": 0.9853394031524658
+        },
+        {
+          "start": 33.37,
+          "end": 33.71,
+          "word": " one",
+          "probability": 0.9952947497367859
+        },
+        {
+          "start": 33.71,
+          "end": 33.97,
+          "word": " was",
+          "probability": 0.9961435794830322
+        },
+        {
+          "start": 33.97,
+          "end": 34.33,
+          "word": " your",
+          "probability": 0.9955568909645081
+        },
+        {
+          "start": 34.33,
+          "end": 34.75,
+          "word": " mother?",
+          "probability": 0.9837049841880798
+        }
+      ]
+    },
+    {
+      "start": 37.68,
+      "end": 45.68,
+      "text": "Never mind, I'm terrible with names, but I trust she died, painfully, like the rest of her family.",
+      "words": [
+        {
+          "start": 37.68,
+          "end": 38.0,
+          "word": " Never",
+          "probability": 0.9754050374031067
+        },
+        {
+          "start": 38.0,
+          "end": 38.48,
+          "word": " mind,",
+          "probability": 0.8472524881362915
+        },
+        {
+          "start": 38.66,
+          "end": 38.84,
+          "word": " I'm",
+          "probability": 0.9197267889976501
+        },
+        {
+          "start": 38.84,
+          "end": 39.32,
+          "word": " terrible",
+          "probability": 0.9989945292472839
+        },
+        {
+          "start": 39.32,
+          "end": 39.64,
+          "word": " with",
+          "probability": 0.9975144863128662
+        },
+        {
+          "start": 39.64,
+          "end": 40.14,
+          "word": " names,",
+          "probability": 0.9985013008117676
+        },
+        {
+          "start": 40.48,
+          "end": 40.98,
+          "word": " but",
+          "probability": 0.9668760895729065
+        },
+        {
+          "start": 40.98,
+          "end": 41.28,
+          "word": " I",
+          "probability": 0.9942572116851807
+        },
+        {
+          "start": 41.28,
+          "end": 41.6,
+          "word": " trust",
+          "probability": 0.9923661351203918
+        },
+        {
+          "start": 41.6,
+          "end": 41.96,
+          "word": " she",
+          "probability": 0.996044397354126
+        },
+        {
+          "start": 41.96,
+          "end": 42.56,
+          "word": " died,",
+          "probability": 0.9994646906852722
+        },
+        {
+          "start": 42.9,
+          "end": 43.62,
+          "word": " painfully,",
+          "probability": 0.9952574968338013
+        },
+        {
+          "start": 44.02,
+          "end": 44.32,
+          "word": " like",
+          "probability": 0.9941428303718567
+        },
+        {
+          "start": 44.32,
+          "end": 44.54,
+          "word": " the",
+          "probability": 0.9981574416160583
+        },
+        {
+          "start": 44.54,
+          "end": 44.9,
+          "word": " rest",
+          "probability": 0.9995736479759216
+        },
+        {
+          "start": 44.9,
+          "end": 45.1,
+          "word": " of",
+          "probability": 0.9991341233253479
+        },
+        {
+          "start": 45.1,
+          "end": 45.28,
+          "word": " her",
+          "probability": 0.9904099702835083
+        },
+        {
+          "start": 45.28,
+          "end": 45.68,
+          "word": " family.",
+          "probability": 0.9990144968032837
+        }
+      ]
+    },
+    {
+      "start": 45.68,
+      "end": 48.48,
+      "text": "You Nazi asshole! You're gonna-",
+      "words": [
+        {
+          "start": 45.68,
+          "end": 46.26,
+          "word": " You",
+          "probability": 0.76988285779953
+        },
+        {
+          "start": 46.26,
+          "end": 46.64,
+          "word": " Nazi",
+          "probability": 0.8275335431098938
+        },
+        {
+          "start": 46.64,
+          "end": 47.4,
+          "word": " asshole!",
+          "probability": 0.9238494038581848
+        },
+        {
+          "start": 47.78,
+          "end": 48.02,
+          "word": " You're",
+          "probability": 0.9616857469081879
+        },
+        {
+          "start": 48.02,
+          "end": 48.16,
+          "word": " gonna",
+          "probability": 0.9522510170936584
+        },
+        {
+          "start": 48.16,
+          "end": 48.48,
+          "word": "-",
+          "probability": 0.4546847343444824
+        }
+      ]
+    },
+    {
+      "start": 48.48,
+      "end": 50.2,
+      "text": "Nazi... Hardly.",
+      "words": [
+        {
+          "start": 48.48,
+          "end": 49.46,
+          "word": " Nazi...",
+          "probability": 0.6268759518861771
+        },
+        {
+          "start": 49.46,
+          "end": 50.2,
+          "word": " Hardly.",
+          "probability": 0.898742288351059
+        }
+      ]
+    },
+    {
+      "start": 64.53,
+      "end": 67.31,
+      "text": "Vesper Hushar.",
+      "words": [
+        {
+          "start": 64.53,
+          "end": 65.21,
+          "word": " Vesper",
+          "probability": 0.9050816893577576
+        },
+        {
+          "start": 65.21,
+          "end": 67.31,
+          "word": " Hushar.",
+          "probability": 0.3579246277610461
+        }
+      ]
+    },
+    {
+      "start": 67.85,
+      "end": 74.63,
+      "text": "Exactly what I was looking for destroyed me.",
+      "words": [
+        {
+          "start": 67.85,
+          "end": 68.41,
+          "word": " Exactly",
+          "probability": 0.9163757562637329
+        },
+        {
+          "start": 68.41,
+          "end": 68.69,
+          "word": " what",
+          "probability": 0.9943128824234009
+        },
+        {
+          "start": 68.69,
+          "end": 68.95,
+          "word": " I",
+          "probability": 0.9852209687232971
+        },
+        {
+          "start": 68.95,
+          "end": 69.19,
+          "word": " was",
+          "probability": 0.997381865978241
+        },
+        {
+          "start": 69.19,
+          "end": 69.53,
+          "word": " looking",
+          "probability": 0.9960806965827942
+        },
+        {
+          "start": 69.53,
+          "end": 70.01,
+          "word": " for",
+          "probability": 0.9982516169548035
+        },
+        {
+          "start": 73.63,
+          "end": 74.09,
+          "word": " destroyed",
+          "probability": 0.2292151302099228
+        },
+        {
+          "start": 74.09,
+          "end": 74.63,
+          "word": " me.",
+          "probability": 0.9986189603805542
+        }
+      ]
+    },
+    {
+      "start": 74.95,
+      "end": 77.01,
+      "text": "I'll provide an audience.",
+      "words": [
+        {
+          "start": 74.95,
+          "end": 75.37,
+          "word": " I'll",
+          "probability": 0.9889557361602783
+        },
+        {
+          "start": 75.37,
+          "end": 75.95,
+          "word": " provide",
+          "probability": 0.9915310144424438
+        },
+        {
+          "start": 75.95,
+          "end": 76.37,
+          "word": " an",
+          "probability": 0.9959831237792969
+        },
+        {
+          "start": 76.37,
+          "end": 77.01,
+          "word": " audience.",
+          "probability": 0.9984288811683655
+        }
+      ]
+    },
+    {
+      "start": 78.21,
+      "end": 78.91,
+      "text": "Sir Tremaine?",
+      "words": [
+        {
+          "start": 78.21,
+          "end": 78.51,
+          "word": " Sir",
+          "probability": 0.6050565838813782
+        },
+        {
+          "start": 78.51,
+          "end": 78.91,
+          "word": " Tremaine?",
+          "probability": 0.8870476285616556
+        }
+      ]
+    },
+    {
+      "start": 85.89,
+      "end": 88.69,
+      "text": "Yet another you stole from me, Professor.",
+      "words": [
+        {
+          "start": 85.89,
+          "end": 86.17,
+          "word": " Yet",
+          "probability": 0.9827796220779419
+        },
+        {
+          "start": 86.17,
+          "end": 86.55,
+          "word": " another",
+          "probability": 0.9972004890441895
+        },
+        {
+          "start": 86.55,
+          "end": 87.09,
+          "word": " you",
+          "probability": 0.9674378633499146
+        },
+        {
+          "start": 87.09,
+          "end": 87.55,
+          "word": " stole",
+          "probability": 0.9600251913070679
+        },
+        {
+          "start": 87.55,
+          "end": 87.87,
+          "word": " from",
+          "probability": 0.9940563440322876
+        },
+        {
+          "start": 87.87,
+          "end": 88.15,
+          "word": " me,",
+          "probability": 0.9979801774024963
+        },
+        {
+          "start": 88.25,
+          "end": 88.69,
+          "word": " Professor.",
+          "probability": 0.8082205653190613
+        }
+      ]
+    },
+    {
+      "start": 89.31,
+      "end": 91.47,
+      "text": "Raise it as your own, did you?",
+      "words": [
+        {
+          "start": 89.31,
+          "end": 89.67,
+          "word": " Raise",
+          "probability": 0.8431602716445923
+        },
+        {
+          "start": 89.67,
+          "end": 89.99,
+          "word": " it",
+          "probability": 0.9927573204040527
+        },
+        {
+          "start": 89.99,
+          "end": 90.21,
+          "word": " as",
+          "probability": 0.9972882270812988
+        },
+        {
+          "start": 90.21,
+          "end": 90.51,
+          "word": " your",
+          "probability": 0.9914753437042236
+        },
+        {
+          "start": 90.51,
+          "end": 90.77,
+          "word": " own,",
+          "probability": 0.9989919066429138
+        },
+        {
+          "start": 91.05,
+          "end": 91.05,
+          "word": " did",
+          "probability": 0.9965463280677795
+        },
+        {
+          "start": 91.05,
+          "end": 91.47,
+          "word": " you?",
+          "probability": 0.9978406429290771
+        }
+      ]
+    },
+    {
+      "start": 91.83,
+      "end": 93.91,
+      "text": "Tried to kill its own kind.",
+      "words": [
+        {
+          "start": 91.83,
+          "end": 92.03,
+          "word": " Tried",
+          "probability": 0.7469990253448486
+        },
+        {
+          "start": 92.03,
+          "end": 92.27,
+          "word": " to",
+          "probability": 0.6854165196418762
+        },
+        {
+          "start": 92.27,
+          "end": 92.75,
+          "word": " kill",
+          "probability": 0.9857514500617981
+        },
+        {
+          "start": 92.75,
+          "end": 92.91,
+          "word": " its",
+          "probability": 0.8823129534721375
+        },
+        {
+          "start": 92.91,
+          "end": 93.37,
+          "word": " own",
+          "probability": 0.9956592321395874
+        },
+        {
+          "start": 93.37,
+          "end": 93.91,
+          "word": " kind.",
+          "probability": 0.9980831146240234
+        }
+      ]
+    },
+    {
+      "start": 95.68,
+      "end": 98.55,
+      "text": "The trouble I took.",
+      "words": [
+        {
+          "start": 95.68,
+          "end": 95.98,
+          "word": " The",
+          "probability": 0.9427238702774048
+        },
+        {
+          "start": 95.98,
+          "end": 96.32,
+          "word": " trouble",
+          "probability": 0.9943088889122009
+        },
+        {
+          "start": 96.32,
+          "end": 96.68,
+          "word": " I",
+          "probability": 0.9792045950889587
+        },
+        {
+          "start": 98.37,
+          "end": 98.55,
+          "word": " took.",
+          "probability": 0.9319450855255127
+        }
+      ]
+    },
+    {
+      "start": 98.83,
+      "end": 101.91,
+      "text": "And all the other Mongols just like it.",
+      "words": [
+        {
+          "start": 98.83,
+          "end": 99.13,
+          "word": " And",
+          "probability": 0.9731653928756714
+        },
+        {
+          "start": 99.13,
+          "end": 99.37,
+          "word": " all",
+          "probability": 0.9940734505653381
+        },
+        {
+          "start": 99.37,
+          "end": 99.57,
+          "word": " the",
+          "probability": 0.9877320528030396
+        },
+        {
+          "start": 99.57,
+          "end": 99.93,
+          "word": " other",
+          "probability": 0.9931331276893616
+        },
+        {
+          "start": 99.93,
+          "end": 100.69,
+          "word": " Mongols",
+          "probability": 0.9100936949253082
+        },
+        {
+          "start": 100.69,
+          "end": 101.37,
+          "word": " just",
+          "probability": 0.9285551309585571
+        },
+        {
+          "start": 101.37,
+          "end": 101.57,
+          "word": " like",
+          "probability": 0.9442367553710938
+        },
+        {
+          "start": 101.57,
+          "end": 101.91,
+          "word": " it.",
+          "probability": 0.9989690780639648
+        }
+      ]
+    },
+    {
+      "start": 101.91,
+      "end": 105.79,
+      "text": "Reign, get away! Run!",
+      "words": [
+        {
+          "start": 101.91,
+          "end": 103.15,
+          "word": " Reign,",
+          "probability": 0.37930016964673996
+        },
+        {
+          "start": 103.95,
+          "end": 104.17,
+          "word": " get",
+          "probability": 0.9576169848442078
+        },
+        {
+          "start": 104.17,
+          "end": 104.79,
+          "word": " away!",
+          "probability": 0.9940336346626282
+        },
+        {
+          "start": 105.49,
+          "end": 105.79,
+          "word": " Run!",
+          "probability": 0.980309784412384
+        }
+      ]
+    },
+    {
+      "start": 106.53,
+      "end": 109.85,
+      "text": "Put him down, you lying rat-sucking son of a bitch!",
+      "words": [
+        {
+          "start": 106.53,
+          "end": 106.75,
+          "word": " Put",
+          "probability": 0.934236466884613
+        },
+        {
+          "start": 106.75,
+          "end": 107.07,
+          "word": " him",
+          "probability": 0.9961827397346497
+        },
+        {
+          "start": 107.07,
+          "end": 107.37,
+          "word": " down,",
+          "probability": 0.9985040426254272
+        },
+        {
+          "start": 107.53,
+          "end": 107.69,
+          "word": " you",
+          "probability": 0.9910436868667603
+        },
+        {
+          "start": 107.69,
+          "end": 107.99,
+          "word": " lying",
+          "probability": 0.9733976125717163
+        },
+        {
+          "start": 107.99,
+          "end": 108.41,
+          "word": " rat",
+          "probability": 0.5715506076812744
+        },
+        {
+          "start": 108.41,
+          "end": 108.75,
+          "word": "-sucking",
+          "probability": 0.9241890907287598
+        },
+        {
+          "start": 108.75,
+          "end": 109.05,
+          "word": " son",
+          "probability": 0.9696809649467468
+        },
+        {
+          "start": 109.05,
+          "end": 109.17,
+          "word": " of",
+          "probability": 0.8380707502365112
+        },
+        {
+          "start": 109.17,
+          "end": 109.43,
+          "word": " a",
+          "probability": 0.9834243655204773
+        },
+        {
+          "start": 109.43,
+          "end": 109.85,
+          "word": " bitch!",
+          "probability": 0.9898624420166016
+        }
+      ]
+    },
+    {
+      "start": 110.49,
+      "end": 110.99,
+      "text": "Liar!",
+      "words": [
+        {
+          "start": 110.49,
+          "end": 110.99,
+          "word": " Liar!",
+          "probability": 0.9223430156707764
+        }
+      ]
+    },
+    {
+      "start": 116.88,
+      "end": 118.3,
+      "text": "Do this, Professor!",
+      "words": [
+        {
+          "start": 116.88,
+          "end": 116.88,
+          "word": " Do",
+          "probability": 0.18611760437488556
+        },
+        {
+          "start": 116.88,
+          "end": 117.62,
+          "word": " this,",
+          "probability": 0.9257283806800842
+        },
+        {
+          "start": 117.82,
+          "end": 118.3,
+          "word": " Professor!",
+          "probability": 0.8632825613021851
+        }
+      ]
+    },
+    {
+      "start": 120.18,
+      "end": 122.58,
+      "text": "Fill the half-breed pets!",
+      "words": [
+        {
+          "start": 120.18,
+          "end": 120.7,
+          "word": " Fill",
+          "probability": 0.2723783850669861
+        },
+        {
+          "start": 120.7,
+          "end": 121.16,
+          "word": " the",
+          "probability": 0.7351512908935547
+        },
+        {
+          "start": 121.16,
+          "end": 121.6,
+          "word": " half",
+          "probability": 0.9040431380271912
+        },
+        {
+          "start": 121.6,
+          "end": 122.1,
+          "word": "-breed",
+          "probability": 0.9805206060409546
+        },
+        {
+          "start": 122.1,
+          "end": 122.58,
+          "word": " pets!",
+          "probability": 0.8787345290184021
+        }
+      ]
+    },
+    {
+      "start": 123.18,
+      "end": 123.98,
+      "text": "This, Professor!",
+      "words": [
+        {
+          "start": 123.18,
+          "end": 123.38,
+          "word": " This,",
+          "probability": 0.25451144576072693
+        },
+        {
+          "start": 123.72,
+          "end": 123.98,
+          "word": " Professor!",
+          "probability": 0.980513870716095
+        }
+      ]
+    },
+    {
+      "start": 124.48,
+      "end": 127.14,
+      "text": "Destroy all vampires!",
+      "words": [
+        {
+          "start": 124.48,
+          "end": 125.14,
+          "word": " Destroy",
+          "probability": 0.9672247767448425
+        },
+        {
+          "start": 125.14,
+          "end": 126.22,
+          "word": " all",
+          "probability": 0.9492840766906738
+        },
+        {
+          "start": 126.22,
+          "end": 127.14,
+          "word": " vampires!",
+          "probability": 0.9750658869743347
+        }
+      ]
+    },
+    {
+      "start": 129.02,
+      "end": 131.58,
+      "text": "I'm most definitely not!",
+      "words": [
+        {
+          "start": 129.02,
+          "end": 129.26,
+          "word": " I'm",
+          "probability": 0.6899389028549194
+        },
+        {
+          "start": 129.26,
+          "end": 129.82,
+          "word": " most",
+          "probability": 0.9849897623062134
+        },
+        {
+          "start": 129.82,
+          "end": 130.72,
+          "word": " definitely",
+          "probability": 0.9524134397506714
+        },
+        {
+          "start": 130.72,
+          "end": 131.58,
+          "word": " not!",
+          "probability": 0.8161731958389282
+        }
+      ]
+    },
+    {
+      "start": 138.76,
+      "end": 141.54,
+      "text": "Kagan's sick dream of a fully-bred vampire army,",
+      "words": [
+        {
+          "start": 138.76,
+          "end": 139.4,
+          "word": " Kagan's",
+          "probability": 0.8011783361434937
+        },
+        {
+          "start": 139.4,
+          "end": 139.5,
+          "word": " sick",
+          "probability": 0.9978577494621277
+        },
+        {
+          "start": 139.5,
+          "end": 139.78,
+          "word": " dream",
+          "probability": 0.9952614903450012
+        },
+        {
+          "start": 139.78,
+          "end": 139.98,
+          "word": " of",
+          "probability": 0.9955118298530579
+        },
+        {
+          "start": 139.98,
+          "end": 140.14,
+          "word": " a",
+          "probability": 0.9913780689239502
+        },
+        {
+          "start": 140.14,
+          "end": 140.38,
+          "word": " fully",
+          "probability": 0.9851227402687073
+        },
+        {
+          "start": 140.38,
+          "end": 140.62,
+          "word": "-bred",
+          "probability": 0.8280823628107706
+        },
+        {
+          "start": 140.62,
+          "end": 141.18,
+          "word": " vampire",
+          "probability": 0.9497191309928894
+        },
+        {
+          "start": 141.18,
+          "end": 141.54,
+          "word": " army,",
+          "probability": 0.9971274733543396
+        }
+      ]
+    },
+    {
+      "start": 143.32,
+      "end": 145.24,
+      "text": "and because he murdered my mother's family,",
+      "words": [
+        {
+          "start": 143.32,
+          "end": 143.46,
+          "word": " and",
+          "probability": 0.9521850943565369
+        },
+        {
+          "start": 143.46,
+          "end": 143.72,
+          "word": " because",
+          "probability": 0.9966177344322205
+        },
+        {
+          "start": 143.72,
+          "end": 143.92,
+          "word": " he",
+          "probability": 0.9982794523239136
+        },
+        {
+          "start": 143.92,
+          "end": 144.14,
+          "word": " murdered",
+          "probability": 0.9974448680877686
+        },
+        {
+          "start": 144.14,
+          "end": 144.42,
+          "word": " my",
+          "probability": 0.9979909658432007
+        },
+        {
+          "start": 144.42,
+          "end": 144.88,
+          "word": " mother's",
+          "probability": 0.9923017919063568
+        },
+        {
+          "start": 144.88,
+          "end": 145.24,
+          "word": " family,",
+          "probability": 0.9985960125923157
+        }
+      ]
+    },
+    {
+      "start": 145.24,
+      "end": 150.72,
+      "text": "I've spent the last six decades finding and eliminating his just returning the favor",
+      "words": [
+        {
+          "start": 145.24,
+          "end": 145.9,
+          "word": " I've",
+          "probability": 0.9332090318202972
+        },
+        {
+          "start": 145.9,
+          "end": 146.02,
+          "word": " spent",
+          "probability": 0.9885176420211792
+        },
+        {
+          "start": 146.02,
+          "end": 146.18,
+          "word": " the",
+          "probability": 0.9963268637657166
+        },
+        {
+          "start": 146.18,
+          "end": 146.46,
+          "word": " last",
+          "probability": 0.9954712390899658
+        },
+        {
+          "start": 146.46,
+          "end": 146.84,
+          "word": " six",
+          "probability": 0.8226060271263123
+        },
+        {
+          "start": 146.84,
+          "end": 147.3,
+          "word": " decades",
+          "probability": 0.9973739385604858
+        },
+        {
+          "start": 147.3,
+          "end": 147.74,
+          "word": " finding",
+          "probability": 0.96998131275177
+        },
+        {
+          "start": 147.74,
+          "end": 148.06,
+          "word": " and",
+          "probability": 0.9883130192756653
+        },
+        {
+          "start": 148.06,
+          "end": 148.48,
+          "word": " eliminating",
+          "probability": 0.9965826869010925
+        },
+        {
+          "start": 148.48,
+          "end": 148.88,
+          "word": " his",
+          "probability": 0.984043538570404
+        },
+        {
+          "start": 148.88,
+          "end": 149.78,
+          "word": " just",
+          "probability": 0.07371845841407776
+        },
+        {
+          "start": 149.78,
+          "end": 150.14,
+          "word": " returning",
+          "probability": 0.9949973821640015
+        },
+        {
+          "start": 150.14,
+          "end": 150.46,
+          "word": " the",
+          "probability": 0.9979676604270935
+        },
+        {
+          "start": 150.46,
+          "end": 150.72,
+          "word": " favor",
+          "probability": 0.9445381760597229
+        }
+      ]
+    }
+  ]
+}

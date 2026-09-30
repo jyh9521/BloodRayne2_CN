@@ -1,0 +1,698 @@
+{
+  "movie": "A1S02P04",
+  "duration": 54.187467,
+  "audio_sha256": "9F937C0C8F2A4E7C1CFA5B9D8133DBA6F958A1477DEA890F2358B1B814437D09",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 5.42,
+      "end": 8.06,
+      "text": "Oh, no way. They're real?",
+      "words": [
+        {
+          "start": 5.42,
+          "end": 5.98,
+          "word": " Oh,",
+          "probability": 0.3928837180137634
+        },
+        {
+          "start": 6.04,
+          "end": 6.22,
+          "word": " no",
+          "probability": 0.9043563604354858
+        },
+        {
+          "start": 6.22,
+          "end": 6.68,
+          "word": " way.",
+          "probability": 0.9884921312332153
+        },
+        {
+          "start": 7.36,
+          "end": 7.68,
+          "word": " They're",
+          "probability": 0.9809086918830872
+        },
+        {
+          "start": 7.68,
+          "end": 8.06,
+          "word": " real?",
+          "probability": 0.9905287623405457
+        }
+      ]
+    },
+    {
+      "start": 9.4,
+      "end": 10.7,
+      "text": "What you got? Something interesting?",
+      "words": [
+        {
+          "start": 9.4,
+          "end": 9.6,
+          "word": " What",
+          "probability": 0.7606841325759888
+        },
+        {
+          "start": 9.6,
+          "end": 9.8,
+          "word": " you",
+          "probability": 0.36163389682769775
+        },
+        {
+          "start": 9.8,
+          "end": 9.94,
+          "word": " got?",
+          "probability": 0.9866377115249634
+        },
+        {
+          "start": 10.04,
+          "end": 10.24,
+          "word": " Something",
+          "probability": 0.9790839552879333
+        },
+        {
+          "start": 10.24,
+          "end": 10.7,
+          "word": " interesting?",
+          "probability": 0.9966456294059753
+        }
+      ]
+    },
+    {
+      "start": 11.0,
+      "end": 16.04,
+      "text": "My god, Severn. Zarensky's got the Carpathian Dragons. I thought they were just legend.",
+      "words": [
+        {
+          "start": 11.0,
+          "end": 11.18,
+          "word": " My",
+          "probability": 0.7151033878326416
+        },
+        {
+          "start": 11.18,
+          "end": 11.52,
+          "word": " god,",
+          "probability": 0.7350927591323853
+        },
+        {
+          "start": 11.7,
+          "end": 12.04,
+          "word": " Severn.",
+          "probability": 0.7655684947967529
+        },
+        {
+          "start": 12.3,
+          "end": 12.82,
+          "word": " Zarensky's",
+          "probability": 0.7414132356643677
+        },
+        {
+          "start": 12.82,
+          "end": 12.9,
+          "word": " got",
+          "probability": 0.9974912405014038
+        },
+        {
+          "start": 12.9,
+          "end": 13.1,
+          "word": " the",
+          "probability": 0.9944175481796265
+        },
+        {
+          "start": 13.1,
+          "end": 13.74,
+          "word": " Carpathian",
+          "probability": 0.9863625367482504
+        },
+        {
+          "start": 13.74,
+          "end": 14.18,
+          "word": " Dragons.",
+          "probability": 0.546738862991333
+        },
+        {
+          "start": 14.68,
+          "end": 14.92,
+          "word": " I",
+          "probability": 0.9659409523010254
+        },
+        {
+          "start": 14.92,
+          "end": 15.12,
+          "word": " thought",
+          "probability": 0.8713549375534058
+        },
+        {
+          "start": 15.12,
+          "end": 15.28,
+          "word": " they",
+          "probability": 0.9952797889709473
+        },
+        {
+          "start": 15.28,
+          "end": 15.44,
+          "word": " were",
+          "probability": 0.996911346912384
+        },
+        {
+          "start": 15.44,
+          "end": 15.7,
+          "word": " just",
+          "probability": 0.9953638315200806
+        },
+        {
+          "start": 15.7,
+          "end": 16.04,
+          "word": " legend.",
+          "probability": 0.901549220085144
+        }
+      ]
+    },
+    {
+      "start": 16.26,
+      "end": 18.2,
+      "text": "That's what Brimstone thought as well.",
+      "words": [
+        {
+          "start": 16.26,
+          "end": 16.56,
+          "word": " That's",
+          "probability": 0.7624844908714294
+        },
+        {
+          "start": 16.56,
+          "end": 16.7,
+          "word": " what",
+          "probability": 0.9970659613609314
+        },
+        {
+          "start": 16.7,
+          "end": 17.26,
+          "word": " Brimstone",
+          "probability": 0.9752638141314188
+        },
+        {
+          "start": 17.26,
+          "end": 17.6,
+          "word": " thought",
+          "probability": 0.988865315914154
+        },
+        {
+          "start": 17.6,
+          "end": 17.86,
+          "word": " as",
+          "probability": 0.8655579090118408
+        },
+        {
+          "start": 17.86,
+          "end": 18.2,
+          "word": " well.",
+          "probability": 0.9975124597549438
+        }
+      ]
+    },
+    {
+      "start": 25.27,
+      "end": 26.05,
+      "text": "What happened?",
+      "words": [
+        {
+          "start": 25.27,
+          "end": 25.69,
+          "word": " What",
+          "probability": 0.8052594661712646
+        },
+        {
+          "start": 25.69,
+          "end": 26.05,
+          "word": " happened?",
+          "probability": 0.9948953986167908
+        }
+      ]
+    },
+    {
+      "start": 28.8,
+      "end": 32.36,
+      "text": "Oh, I'm fine. It's just they're so... beautiful.",
+      "words": [
+        {
+          "start": 28.8,
+          "end": 29.14,
+          "word": " Oh,",
+          "probability": 0.5517340898513794
+        },
+        {
+          "start": 29.14,
+          "end": 29.38,
+          "word": " I'm",
+          "probability": 0.9951993227005005
+        },
+        {
+          "start": 29.38,
+          "end": 29.6,
+          "word": " fine.",
+          "probability": 0.9985255599021912
+        },
+        {
+          "start": 29.78,
+          "end": 29.84,
+          "word": " It's",
+          "probability": 0.987381249666214
+        },
+        {
+          "start": 29.84,
+          "end": 30.04,
+          "word": " just",
+          "probability": 0.9991650581359863
+        },
+        {
+          "start": 30.04,
+          "end": 30.44,
+          "word": " they're",
+          "probability": 0.8339937627315521
+        },
+        {
+          "start": 30.44,
+          "end": 31.64,
+          "word": " so...",
+          "probability": 0.9172222912311554
+        },
+        {
+          "start": 31.64,
+          "end": 32.36,
+          "word": " beautiful.",
+          "probability": 0.8249396085739136
+        }
+      ]
+    },
+    {
+      "start": 34.14,
+      "end": 35.52,
+      "text": "And extremely dangerous.",
+      "words": [
+        {
+          "start": 34.14,
+          "end": 34.5,
+          "word": " And",
+          "probability": 0.7367002367973328
+        },
+        {
+          "start": 34.5,
+          "end": 35.0,
+          "word": " extremely",
+          "probability": 0.9958928823471069
+        },
+        {
+          "start": 35.0,
+          "end": 35.52,
+          "word": " dangerous.",
+          "probability": 0.9985791444778442
+        }
+      ]
+    },
+    {
+      "start": 35.72,
+      "end": 40.3,
+      "text": "Listen, if they're the real Carpathian Dragons, they feed from the blood of their damp-hair host.",
+      "words": [
+        {
+          "start": 35.72,
+          "end": 35.98,
+          "word": " Listen,",
+          "probability": 0.9846788644790649
+        },
+        {
+          "start": 36.04,
+          "end": 36.16,
+          "word": " if",
+          "probability": 0.9891869425773621
+        },
+        {
+          "start": 36.16,
+          "end": 36.34,
+          "word": " they're",
+          "probability": 0.996314138174057
+        },
+        {
+          "start": 36.34,
+          "end": 36.56,
+          "word": " the",
+          "probability": 0.9891784191131592
+        },
+        {
+          "start": 36.56,
+          "end": 36.84,
+          "word": " real",
+          "probability": 0.9455928802490234
+        },
+        {
+          "start": 36.84,
+          "end": 37.36,
+          "word": " Carpathian",
+          "probability": 0.9958115021387736
+        },
+        {
+          "start": 37.36,
+          "end": 37.76,
+          "word": " Dragons,",
+          "probability": 0.9227574467658997
+        },
+        {
+          "start": 37.9,
+          "end": 38.18,
+          "word": " they",
+          "probability": 0.9752521514892578
+        },
+        {
+          "start": 38.18,
+          "end": 38.52,
+          "word": " feed",
+          "probability": 0.993850827217102
+        },
+        {
+          "start": 38.52,
+          "end": 38.72,
+          "word": " from",
+          "probability": 0.9964595437049866
+        },
+        {
+          "start": 38.72,
+          "end": 38.96,
+          "word": " the",
+          "probability": 0.9972108006477356
+        },
+        {
+          "start": 38.96,
+          "end": 39.12,
+          "word": " blood",
+          "probability": 0.999215841293335
+        },
+        {
+          "start": 39.12,
+          "end": 39.3,
+          "word": " of",
+          "probability": 0.9974518418312073
+        },
+        {
+          "start": 39.3,
+          "end": 39.44,
+          "word": " their",
+          "probability": 0.9346283078193665
+        },
+        {
+          "start": 39.44,
+          "end": 39.72,
+          "word": " damp",
+          "probability": 0.39365726709365845
+        },
+        {
+          "start": 39.72,
+          "end": 39.88,
+          "word": "-hair",
+          "probability": 0.5835475623607635
+        },
+        {
+          "start": 39.88,
+          "end": 40.3,
+          "word": " host.",
+          "probability": 0.95528644323349
+        }
+      ]
+    },
+    {
+      "start": 40.62,
+      "end": 41.82,
+      "text": "That's you in this case.",
+      "words": [
+        {
+          "start": 40.62,
+          "end": 41.04,
+          "word": " That's",
+          "probability": 0.9783939123153687
+        },
+        {
+          "start": 41.04,
+          "end": 41.16,
+          "word": " you",
+          "probability": 0.9960193037986755
+        },
+        {
+          "start": 41.16,
+          "end": 41.3,
+          "word": " in",
+          "probability": 0.8620579242706299
+        },
+        {
+          "start": 41.3,
+          "end": 41.52,
+          "word": " this",
+          "probability": 0.9986392855644226
+        },
+        {
+          "start": 41.52,
+          "end": 41.82,
+          "word": " case.",
+          "probability": 0.9996864795684814
+        }
+      ]
+    },
+    {
+      "start": 41.82,
+      "end": 45.86,
+      "text": "They alchemically process the raw material into vampire lethal projectiles.",
+      "words": [
+        {
+          "start": 41.82,
+          "end": 42.48,
+          "word": " They",
+          "probability": 0.7869647145271301
+        },
+        {
+          "start": 42.48,
+          "end": 42.98,
+          "word": " alchemically",
+          "probability": 0.98427947362264
+        },
+        {
+          "start": 42.98,
+          "end": 43.44,
+          "word": " process",
+          "probability": 0.7138737440109253
+        },
+        {
+          "start": 43.44,
+          "end": 43.7,
+          "word": " the",
+          "probability": 0.9806808829307556
+        },
+        {
+          "start": 43.7,
+          "end": 43.84,
+          "word": " raw",
+          "probability": 0.9988201260566711
+        },
+        {
+          "start": 43.84,
+          "end": 44.2,
+          "word": " material",
+          "probability": 0.989048957824707
+        },
+        {
+          "start": 44.2,
+          "end": 44.42,
+          "word": " into",
+          "probability": 0.9808666706085205
+        },
+        {
+          "start": 44.42,
+          "end": 44.92,
+          "word": " vampire",
+          "probability": 0.9649489521980286
+        },
+        {
+          "start": 44.92,
+          "end": 45.22,
+          "word": " lethal",
+          "probability": 0.9666985869407654
+        },
+        {
+          "start": 45.22,
+          "end": 45.86,
+          "word": " projectiles.",
+          "probability": 0.9977394342422485
+        }
+      ]
+    },
+    {
+      "start": 46.18,
+      "end": 48.12,
+      "text": "You're gonna have to feed to fill their reservoirs.",
+      "words": [
+        {
+          "start": 46.18,
+          "end": 46.3,
+          "word": " You're",
+          "probability": 0.9436991512775421
+        },
+        {
+          "start": 46.3,
+          "end": 46.38,
+          "word": " gonna",
+          "probability": 0.616909384727478
+        },
+        {
+          "start": 46.38,
+          "end": 46.56,
+          "word": " have",
+          "probability": 0.9948632121086121
+        },
+        {
+          "start": 46.56,
+          "end": 46.76,
+          "word": " to",
+          "probability": 0.9973255395889282
+        },
+        {
+          "start": 46.76,
+          "end": 46.96,
+          "word": " feed",
+          "probability": 0.9912064671516418
+        },
+        {
+          "start": 46.96,
+          "end": 47.22,
+          "word": " to",
+          "probability": 0.9820807576179504
+        },
+        {
+          "start": 47.22,
+          "end": 47.34,
+          "word": " fill",
+          "probability": 0.993415117263794
+        },
+        {
+          "start": 47.34,
+          "end": 47.58,
+          "word": " their",
+          "probability": 0.5739231705665588
+        },
+        {
+          "start": 47.58,
+          "end": 48.12,
+          "word": " reservoirs.",
+          "probability": 0.9956302642822266
+        }
+      ]
+    },
+    {
+      "start": 48.28,
+      "end": 52.48,
+      "text": "You can still use them when their reservoirs are empty, but they'll draw blood directly from you.",
+      "words": [
+        {
+          "start": 48.28,
+          "end": 48.36,
+          "word": " You",
+          "probability": 0.9949187636375427
+        },
+        {
+          "start": 48.36,
+          "end": 48.58,
+          "word": " can",
+          "probability": 0.9979497790336609
+        },
+        {
+          "start": 48.58,
+          "end": 48.8,
+          "word": " still",
+          "probability": 0.9971578121185303
+        },
+        {
+          "start": 48.8,
+          "end": 49.06,
+          "word": " use",
+          "probability": 0.9979038238525391
+        },
+        {
+          "start": 49.06,
+          "end": 49.26,
+          "word": " them",
+          "probability": 0.9976739287376404
+        },
+        {
+          "start": 49.26,
+          "end": 49.44,
+          "word": " when",
+          "probability": 0.9925360679626465
+        },
+        {
+          "start": 49.44,
+          "end": 49.64,
+          "word": " their",
+          "probability": 0.9036144614219666
+        },
+        {
+          "start": 49.64,
+          "end": 50.04,
+          "word": " reservoirs",
+          "probability": 0.9911351799964905
+        },
+        {
+          "start": 50.04,
+          "end": 50.12,
+          "word": " are",
+          "probability": 0.9128230214118958
+        },
+        {
+          "start": 50.12,
+          "end": 50.42,
+          "word": " empty,",
+          "probability": 0.9997246861457825
+        },
+        {
+          "start": 50.66,
+          "end": 50.78,
+          "word": " but",
+          "probability": 0.9876186847686768
+        },
+        {
+          "start": 50.78,
+          "end": 51.1,
+          "word": " they'll",
+          "probability": 0.9927654266357422
+        },
+        {
+          "start": 51.1,
+          "end": 51.26,
+          "word": " draw",
+          "probability": 0.9977729916572571
+        },
+        {
+          "start": 51.26,
+          "end": 51.5,
+          "word": " blood",
+          "probability": 0.9961153268814087
+        },
+        {
+          "start": 51.5,
+          "end": 51.92,
+          "word": " directly",
+          "probability": 0.9967617988586426
+        },
+        {
+          "start": 51.92,
+          "end": 52.22,
+          "word": " from",
+          "probability": 0.9990345239639282
+        },
+        {
+          "start": 52.22,
+          "end": 52.48,
+          "word": " you.",
+          "probability": 0.9964963793754578
+        }
+      ]
+    }
+  ]
+}

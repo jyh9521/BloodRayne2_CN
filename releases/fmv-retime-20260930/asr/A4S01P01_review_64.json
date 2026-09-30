@@ -1,0 +1,322 @@
+{
+  "movie": "A4S01P01",
+  "window": [
+    64,
+    91
+  ],
+  "segments": [
+    {
+      "start": 67.04,
+      "end": 70.32,
+      "text": "More beautiful than I could conceive.",
+      "words": [
+        {
+          "start": 67.04,
+          "end": 67.8,
+          "word": " More",
+          "probability": 0.6335471868515015
+        },
+        {
+          "start": 67.8,
+          "end": 68.56,
+          "word": " beautiful",
+          "probability": 0.9771769642829895
+        },
+        {
+          "start": 68.56,
+          "end": 68.92,
+          "word": " than",
+          "probability": 0.8742519021034241
+        },
+        {
+          "start": 68.92,
+          "end": 69.18,
+          "word": " I",
+          "probability": 0.9606664776802063
+        },
+        {
+          "start": 69.18,
+          "end": 69.52,
+          "word": " could",
+          "probability": 0.9659252762794495
+        },
+        {
+          "start": 69.52,
+          "end": 70.32,
+          "word": " conceive.",
+          "probability": 0.9629853963851929
+        }
+      ]
+    },
+    {
+      "start": 70.8,
+      "end": 77.84,
+      "text": "After so long cowering under the floorboards, the children of the night, finally making",
+      "words": [
+        {
+          "start": 70.8,
+          "end": 71.1,
+          "word": " After",
+          "probability": 0.9831884503364563
+        },
+        {
+          "start": 71.1,
+          "end": 71.7,
+          "word": " so",
+          "probability": 0.9924286007881165
+        },
+        {
+          "start": 71.7,
+          "end": 72.12,
+          "word": " long",
+          "probability": 0.9982814788818359
+        },
+        {
+          "start": 72.12,
+          "end": 72.9,
+          "word": " cowering",
+          "probability": 0.9885577162106832
+        },
+        {
+          "start": 72.9,
+          "end": 73.08,
+          "word": " under",
+          "probability": 0.9853115081787109
+        },
+        {
+          "start": 73.08,
+          "end": 73.38,
+          "word": " the",
+          "probability": 0.9982448816299438
+        },
+        {
+          "start": 73.38,
+          "end": 74.16,
+          "word": " floorboards,",
+          "probability": 0.9642299711704254
+        },
+        {
+          "start": 74.7,
+          "end": 74.86,
+          "word": " the",
+          "probability": 0.886382520198822
+        },
+        {
+          "start": 74.86,
+          "end": 75.28,
+          "word": " children",
+          "probability": 0.9304494857788086
+        },
+        {
+          "start": 75.28,
+          "end": 75.6,
+          "word": " of",
+          "probability": 0.9980456829071045
+        },
+        {
+          "start": 75.6,
+          "end": 75.88,
+          "word": " the",
+          "probability": 0.9963899254798889
+        },
+        {
+          "start": 75.88,
+          "end": 76.38,
+          "word": " night,",
+          "probability": 0.9702839255332947
+        },
+        {
+          "start": 77.03999999999999,
+          "end": 77.38,
+          "word": " finally",
+          "probability": 0.9848877191543579
+        },
+        {
+          "start": 77.38,
+          "end": 77.84,
+          "word": " making",
+          "probability": 0.981879711151123
+        }
+      ]
+    },
+    {
+      "start": 77.84,
+      "end": 79.58,
+      "text": "music in the day.",
+      "words": [
+        {
+          "start": 77.84,
+          "end": 78.42,
+          "word": " music",
+          "probability": 0.997048556804657
+        },
+        {
+          "start": 78.42,
+          "end": 78.76,
+          "word": " in",
+          "probability": 0.9960225820541382
+        },
+        {
+          "start": 78.76,
+          "end": 79.02,
+          "word": " the",
+          "probability": 0.9984627962112427
+        },
+        {
+          "start": 79.02,
+          "end": 79.58,
+          "word": " day.",
+          "probability": 0.9888063669204712
+        }
+      ]
+    },
+    {
+      "start": 80.74,
+      "end": 81.9,
+      "text": "It is time, daughter.",
+      "words": [
+        {
+          "start": 80.74,
+          "end": 80.88,
+          "word": " It",
+          "probability": 0.9778485894203186
+        },
+        {
+          "start": 80.88,
+          "end": 81.08,
+          "word": " is",
+          "probability": 0.9763931035995483
+        },
+        {
+          "start": 81.08,
+          "end": 81.48,
+          "word": " time,",
+          "probability": 0.9992190599441528
+        },
+        {
+          "start": 81.68,
+          "end": 81.9,
+          "word": " daughter.",
+          "probability": 0.9491943120956421
+        }
+      ]
+    },
+    {
+      "start": 82.24,
+      "end": 84.44,
+      "text": "Make this earth as it is in heaven.",
+      "words": [
+        {
+          "start": 82.24,
+          "end": 82.64,
+          "word": " Make",
+          "probability": 0.992789089679718
+        },
+        {
+          "start": 82.64,
+          "end": 83.0,
+          "word": " this",
+          "probability": 0.9973830580711365
+        },
+        {
+          "start": 83.0,
+          "end": 83.34,
+          "word": " earth",
+          "probability": 0.6823471188545227
+        },
+        {
+          "start": 83.34,
+          "end": 83.6,
+          "word": " as",
+          "probability": 0.9811790585517883
+        },
+        {
+          "start": 83.6,
+          "end": 83.62,
+          "word": " it",
+          "probability": 0.9971928000450134
+        },
+        {
+          "start": 83.62,
+          "end": 83.96000000000001,
+          "word": " is",
+          "probability": 0.9983977675437927
+        },
+        {
+          "start": 83.96000000000001,
+          "end": 84.12,
+          "word": " in",
+          "probability": 0.9874275922775269
+        },
+        {
+          "start": 84.12,
+          "end": 84.44,
+          "word": " heaven.",
+          "probability": 0.9078661799430847
+        }
+      ]
+    },
+    {
+      "start": 84.88,
+      "end": 86.86,
+      "text": "Bring my kingdom to me.",
+      "words": [
+        {
+          "start": 84.88,
+          "end": 85.1,
+          "word": " Bring",
+          "probability": 0.9953086972236633
+        },
+        {
+          "start": 85.1,
+          "end": 85.44,
+          "word": " my",
+          "probability": 0.995644211769104
+        },
+        {
+          "start": 85.44,
+          "end": 85.84,
+          "word": " kingdom",
+          "probability": 0.9804831743240356
+        },
+        {
+          "start": 85.84,
+          "end": 86.22,
+          "word": " to",
+          "probability": 0.9971439242362976
+        },
+        {
+          "start": 86.22,
+          "end": 86.86,
+          "word": " me.",
+          "probability": 0.9972353577613831
+        }
+      ]
+    },
+    {
+      "start": 87.3,
+      "end": 88.74,
+      "text": "Create my realm.",
+      "words": [
+        {
+          "start": 87.3,
+          "end": 87.8,
+          "word": " Create",
+          "probability": 0.9916614294052124
+        },
+        {
+          "start": 87.8,
+          "end": 88.32,
+          "word": " my",
+          "probability": 0.9934684038162231
+        },
+        {
+          "start": 88.32,
+          "end": 88.74,
+          "word": " realm.",
+          "probability": 0.9985020160675049
+        }
+      ]
+    }
+  ]
+}

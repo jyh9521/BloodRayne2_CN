@@ -1,0 +1,899 @@
+{
+  "movie": "A1S02P11",
+  "duration": 83.349933,
+  "audio_sha256": "D2DB9D45D2778EEC5D731939ABD935F3BC0C960EF2FD51BF240029D13771986D",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 7.28,
+      "end": 13.18,
+      "text": "Zerks. Zerinsky's dead. His party was a success. With its leaders dead, the city is left wide open.",
+      "words": [
+        {
+          "start": 7.28,
+          "end": 7.88,
+          "word": " Zerks.",
+          "probability": 0.3083574001987775
+        },
+        {
+          "start": 7.88,
+          "end": 8.48,
+          "word": " Zerinsky's",
+          "probability": 0.5528922080993652
+        },
+        {
+          "start": 8.48,
+          "end": 8.7,
+          "word": " dead.",
+          "probability": 0.9915084838867188
+        },
+        {
+          "start": 8.98,
+          "end": 9.28,
+          "word": " His",
+          "probability": 0.9673810601234436
+        },
+        {
+          "start": 9.28,
+          "end": 9.5,
+          "word": " party",
+          "probability": 0.982067346572876
+        },
+        {
+          "start": 9.5,
+          "end": 9.78,
+          "word": " was",
+          "probability": 0.9979743361473083
+        },
+        {
+          "start": 9.78,
+          "end": 9.86,
+          "word": " a",
+          "probability": 0.99470454454422
+        },
+        {
+          "start": 9.86,
+          "end": 10.42,
+          "word": " success.",
+          "probability": 0.9956145286560059
+        },
+        {
+          "start": 10.7,
+          "end": 10.9,
+          "word": " With",
+          "probability": 0.9843848943710327
+        },
+        {
+          "start": 10.9,
+          "end": 11.14,
+          "word": " its",
+          "probability": 0.9379926323890686
+        },
+        {
+          "start": 11.14,
+          "end": 11.36,
+          "word": " leaders",
+          "probability": 0.9477284550666809
+        },
+        {
+          "start": 11.36,
+          "end": 11.64,
+          "word": " dead,",
+          "probability": 0.9848471283912659
+        },
+        {
+          "start": 11.74,
+          "end": 11.9,
+          "word": " the",
+          "probability": 0.975188672542572
+        },
+        {
+          "start": 11.9,
+          "end": 12.1,
+          "word": " city",
+          "probability": 0.9782059192657471
+        },
+        {
+          "start": 12.1,
+          "end": 12.32,
+          "word": " is",
+          "probability": 0.9330993294715881
+        },
+        {
+          "start": 12.32,
+          "end": 12.56,
+          "word": " left",
+          "probability": 0.996679425239563
+        },
+        {
+          "start": 12.56,
+          "end": 12.92,
+          "word": " wide",
+          "probability": 0.9973660111427307
+        },
+        {
+          "start": 12.92,
+          "end": 13.18,
+          "word": " open.",
+          "probability": 0.9906569719314575
+        }
+      ]
+    },
+    {
+      "start": 13.76,
+      "end": 19.14,
+      "text": "Ah, he fulfilled his purpose then. No greater aspiration in the natural order.",
+      "words": [
+        {
+          "start": 13.76,
+          "end": 13.86,
+          "word": " Ah,",
+          "probability": 0.5853576064109802
+        },
+        {
+          "start": 13.9,
+          "end": 14.18,
+          "word": " he",
+          "probability": 0.9793388247489929
+        },
+        {
+          "start": 14.18,
+          "end": 14.64,
+          "word": " fulfilled",
+          "probability": 0.9022377729415894
+        },
+        {
+          "start": 14.64,
+          "end": 14.92,
+          "word": " his",
+          "probability": 0.9982662796974182
+        },
+        {
+          "start": 14.92,
+          "end": 15.4,
+          "word": " purpose",
+          "probability": 0.9964892864227295
+        },
+        {
+          "start": 15.4,
+          "end": 15.88,
+          "word": " then.",
+          "probability": 0.7246659994125366
+        },
+        {
+          "start": 16.18,
+          "end": 16.46,
+          "word": " No",
+          "probability": 0.9923174381256104
+        },
+        {
+          "start": 16.46,
+          "end": 16.94,
+          "word": " greater",
+          "probability": 0.960890531539917
+        },
+        {
+          "start": 16.94,
+          "end": 17.72,
+          "word": " aspiration",
+          "probability": 0.9923052191734314
+        },
+        {
+          "start": 17.72,
+          "end": 18.0,
+          "word": " in",
+          "probability": 0.977018415927887
+        },
+        {
+          "start": 18.0,
+          "end": 18.22,
+          "word": " the",
+          "probability": 0.99406498670578
+        },
+        {
+          "start": 18.22,
+          "end": 18.58,
+          "word": " natural",
+          "probability": 0.9656248688697815
+        },
+        {
+          "start": 18.58,
+          "end": 19.14,
+          "word": " order.",
+          "probability": 0.9827978610992432
+        }
+      ]
+    },
+    {
+      "start": 19.6,
+      "end": 22.06,
+      "text": "And how did our erstwhile brother perish?",
+      "words": [
+        {
+          "start": 19.6,
+          "end": 19.86,
+          "word": " And",
+          "probability": 0.9754500389099121
+        },
+        {
+          "start": 19.86,
+          "end": 20.1,
+          "word": " how",
+          "probability": 0.9812601804733276
+        },
+        {
+          "start": 20.1,
+          "end": 20.26,
+          "word": " did",
+          "probability": 0.9987062215805054
+        },
+        {
+          "start": 20.26,
+          "end": 20.54,
+          "word": " our",
+          "probability": 0.9926988482475281
+        },
+        {
+          "start": 20.54,
+          "end": 21.04,
+          "word": " erstwhile",
+          "probability": 0.6901086866855621
+        },
+        {
+          "start": 21.04,
+          "end": 21.48,
+          "word": " brother",
+          "probability": 0.9911255240440369
+        },
+        {
+          "start": 21.48,
+          "end": 22.06,
+          "word": " perish?",
+          "probability": 0.9849156141281128
+        }
+      ]
+    },
+    {
+      "start": 22.26,
+      "end": 26.4,
+      "text": "Not clear yet. There may be an interloper. I'm investigating.",
+      "words": [
+        {
+          "start": 22.26,
+          "end": 22.56,
+          "word": " Not",
+          "probability": 0.9787024855613708
+        },
+        {
+          "start": 22.56,
+          "end": 22.88,
+          "word": " clear",
+          "probability": 0.995215654373169
+        },
+        {
+          "start": 22.88,
+          "end": 23.34,
+          "word": " yet.",
+          "probability": 0.9891020655632019
+        },
+        {
+          "start": 23.66,
+          "end": 23.88,
+          "word": " There",
+          "probability": 0.9958937168121338
+        },
+        {
+          "start": 23.88,
+          "end": 24.1,
+          "word": " may",
+          "probability": 0.9825162887573242
+        },
+        {
+          "start": 24.1,
+          "end": 24.28,
+          "word": " be",
+          "probability": 0.998124897480011
+        },
+        {
+          "start": 24.28,
+          "end": 24.48,
+          "word": " an",
+          "probability": 0.9968013763427734
+        },
+        {
+          "start": 24.48,
+          "end": 24.96,
+          "word": " interloper.",
+          "probability": 0.9957444667816162
+        },
+        {
+          "start": 25.4,
+          "end": 25.7,
+          "word": " I'm",
+          "probability": 0.9833880960941315
+        },
+        {
+          "start": 25.7,
+          "end": 26.4,
+          "word": " investigating.",
+          "probability": 0.9921835064888
+        }
+      ]
+    },
+    {
+      "start": 27.46,
+      "end": 36.45,
+      "text": "Hmm. I've been working on something that will interest you. Now, now.",
+      "words": [
+        {
+          "start": 27.46,
+          "end": 28.06,
+          "word": " Hmm.",
+          "probability": 0.16523000597953796
+        },
+        {
+          "start": 28.78,
+          "end": 29.08,
+          "word": " I've",
+          "probability": 0.9905360341072083
+        },
+        {
+          "start": 29.08,
+          "end": 29.24,
+          "word": " been",
+          "probability": 0.9992330074310303
+        },
+        {
+          "start": 29.24,
+          "end": 29.56,
+          "word": " working",
+          "probability": 0.9984472393989563
+        },
+        {
+          "start": 29.56,
+          "end": 29.88,
+          "word": " on",
+          "probability": 0.9980034232139587
+        },
+        {
+          "start": 29.88,
+          "end": 30.28,
+          "word": " something",
+          "probability": 0.998254120349884
+        },
+        {
+          "start": 30.28,
+          "end": 30.58,
+          "word": " that",
+          "probability": 0.9944490194320679
+        },
+        {
+          "start": 30.58,
+          "end": 30.78,
+          "word": " will",
+          "probability": 0.644036054611206
+        },
+        {
+          "start": 30.78,
+          "end": 31.26,
+          "word": " interest",
+          "probability": 0.9941222071647644
+        },
+        {
+          "start": 31.26,
+          "end": 31.66,
+          "word": " you.",
+          "probability": 0.9983969330787659
+        },
+        {
+          "start": 35.53,
+          "end": 35.99,
+          "word": " Now,",
+          "probability": 0.8789252042770386
+        },
+        {
+          "start": 36.05,
+          "end": 36.45,
+          "word": " now.",
+          "probability": 0.9892098307609558
+        }
+      ]
+    },
+    {
+      "start": 40.68,
+      "end": 42.78,
+      "text": "Smells like sleds.",
+      "words": [
+        {
+          "start": 40.68,
+          "end": 41.42,
+          "word": " Smells",
+          "probability": 0.5792934894561768
+        },
+        {
+          "start": 41.42,
+          "end": 41.9,
+          "word": " like",
+          "probability": 0.9962164759635925
+        },
+        {
+          "start": 41.9,
+          "end": 42.78,
+          "word": " sleds.",
+          "probability": 0.6157500594854355
+        }
+      ]
+    },
+    {
+      "start": 43.62,
+      "end": 45.94,
+      "text": "Indeed, she's his mother in loose terminology.",
+      "words": [
+        {
+          "start": 43.62,
+          "end": 43.62,
+          "word": " Indeed,",
+          "probability": 0.8280000686645508
+        },
+        {
+          "start": 43.9,
+          "end": 44.12,
+          "word": " she's",
+          "probability": 0.8960200846195221
+        },
+        {
+          "start": 44.12,
+          "end": 44.3,
+          "word": " his",
+          "probability": 0.9924678206443787
+        },
+        {
+          "start": 44.3,
+          "end": 44.64,
+          "word": " mother",
+          "probability": 0.9782318472862244
+        },
+        {
+          "start": 44.64,
+          "end": 44.98,
+          "word": " in",
+          "probability": 0.8085463047027588
+        },
+        {
+          "start": 44.98,
+          "end": 45.22,
+          "word": " loose",
+          "probability": 0.46620985865592957
+        },
+        {
+          "start": 45.22,
+          "end": 45.94,
+          "word": " terminology.",
+          "probability": 0.9981514811515808
+        }
+      ]
+    },
+    {
+      "start": 46.74,
+      "end": 50.0,
+      "text": "Our grand dam of the sewer still has purpose.",
+      "words": [
+        {
+          "start": 46.74,
+          "end": 46.92,
+          "word": " Our",
+          "probability": 0.9766277074813843
+        },
+        {
+          "start": 46.92,
+          "end": 47.36,
+          "word": " grand",
+          "probability": 0.7283989787101746
+        },
+        {
+          "start": 47.36,
+          "end": 47.68,
+          "word": " dam",
+          "probability": 0.22667112946510315
+        },
+        {
+          "start": 47.68,
+          "end": 47.94,
+          "word": " of",
+          "probability": 0.9817357659339905
+        },
+        {
+          "start": 47.94,
+          "end": 48.2,
+          "word": " the",
+          "probability": 0.9878767728805542
+        },
+        {
+          "start": 48.2,
+          "end": 48.48,
+          "word": " sewer",
+          "probability": 0.8370741605758667
+        },
+        {
+          "start": 48.48,
+          "end": 48.94,
+          "word": " still",
+          "probability": 0.9872251152992249
+        },
+        {
+          "start": 48.94,
+          "end": 49.3,
+          "word": " has",
+          "probability": 0.9983901977539062
+        },
+        {
+          "start": 49.3,
+          "end": 50.0,
+          "word": " purpose.",
+          "probability": 0.9897594451904297
+        }
+      ]
+    },
+    {
+      "start": 51.04,
+      "end": 54.02,
+      "text": "Observe him, bursting with thick, rich blood.",
+      "words": [
+        {
+          "start": 51.04,
+          "end": 51.48,
+          "word": " Observe",
+          "probability": 0.9876537919044495
+        },
+        {
+          "start": 51.48,
+          "end": 51.92,
+          "word": " him,",
+          "probability": 0.9957608580589294
+        },
+        {
+          "start": 52.22,
+          "end": 52.56,
+          "word": " bursting",
+          "probability": 0.9975761771202087
+        },
+        {
+          "start": 52.56,
+          "end": 52.92,
+          "word": " with",
+          "probability": 0.9977401494979858
+        },
+        {
+          "start": 52.92,
+          "end": 53.2,
+          "word": " thick,",
+          "probability": 0.9929514527320862
+        },
+        {
+          "start": 53.4,
+          "end": 53.5,
+          "word": " rich",
+          "probability": 0.9993333220481873
+        },
+        {
+          "start": 53.5,
+          "end": 54.02,
+          "word": " blood.",
+          "probability": 0.9909561276435852
+        }
+      ]
+    },
+    {
+      "start": 54.42,
+      "end": 55.82,
+      "text": "You can feed from anywhere.",
+      "words": [
+        {
+          "start": 54.42,
+          "end": 54.48,
+          "word": " You",
+          "probability": 0.9834571480751038
+        },
+        {
+          "start": 54.48,
+          "end": 54.76,
+          "word": " can",
+          "probability": 0.9990425705909729
+        },
+        {
+          "start": 54.76,
+          "end": 54.96,
+          "word": " feed",
+          "probability": 0.9979733824729919
+        },
+        {
+          "start": 54.96,
+          "end": 55.32,
+          "word": " from",
+          "probability": 0.9897089600563049
+        },
+        {
+          "start": 55.32,
+          "end": 55.82,
+          "word": " anywhere.",
+          "probability": 0.9953426122665405
+        }
+      ]
+    },
+    {
+      "start": 58.48,
+      "end": 63.14,
+      "text": "Who could have imagined a manufactured, controllable food source",
+      "words": [
+        {
+          "start": 58.48,
+          "end": 59.24,
+          "word": " Who",
+          "probability": 0.6449201107025146
+        },
+        {
+          "start": 59.24,
+          "end": 59.5,
+          "word": " could",
+          "probability": 0.9890338182449341
+        },
+        {
+          "start": 59.5,
+          "end": 59.74,
+          "word": " have",
+          "probability": 0.8531480431556702
+        },
+        {
+          "start": 59.74,
+          "end": 60.38,
+          "word": " imagined",
+          "probability": 0.9892213344573975
+        },
+        {
+          "start": 60.38,
+          "end": 60.82,
+          "word": " a",
+          "probability": 0.2677792012691498
+        },
+        {
+          "start": 60.82,
+          "end": 61.64,
+          "word": " manufactured,",
+          "probability": 0.9840806126594543
+        },
+        {
+          "start": 62.2,
+          "end": 62.46,
+          "word": " controllable",
+          "probability": 0.9822002947330475
+        },
+        {
+          "start": 62.46,
+          "end": 62.88,
+          "word": " food",
+          "probability": 0.9968649744987488
+        },
+        {
+          "start": 62.88,
+          "end": 63.14,
+          "word": " source",
+          "probability": 0.9933934807777405
+        }
+      ]
+    },
+    {
+      "start": 63.14,
+      "end": 66.68,
+      "text": "to ensure against the coming long winter?",
+      "words": [
+        {
+          "start": 63.14,
+          "end": 63.4,
+          "word": " to",
+          "probability": 0.9020577669143677
+        },
+        {
+          "start": 63.4,
+          "end": 63.94,
+          "word": " ensure",
+          "probability": 0.5920119285583496
+        },
+        {
+          "start": 63.94,
+          "end": 64.38,
+          "word": " against",
+          "probability": 0.9700660109519958
+        },
+        {
+          "start": 64.38,
+          "end": 64.62,
+          "word": " the",
+          "probability": 0.9894406199455261
+        },
+        {
+          "start": 64.62,
+          "end": 65.08,
+          "word": " coming",
+          "probability": 0.9947192668914795
+        },
+        {
+          "start": 65.08,
+          "end": 65.84,
+          "word": " long",
+          "probability": 0.9143736958503723
+        },
+        {
+          "start": 65.84,
+          "end": 66.68,
+          "word": " winter?",
+          "probability": 0.9705415368080139
+        }
+      ]
+    },
+    {
+      "start": 67.76,
+      "end": 71.8,
+      "text": "And fathers thought humans could never be made useful.",
+      "words": [
+        {
+          "start": 67.76,
+          "end": 68.48,
+          "word": " And",
+          "probability": 0.43015748262405396
+        },
+        {
+          "start": 68.48,
+          "end": 69.02,
+          "word": " fathers",
+          "probability": 0.5096285939216614
+        },
+        {
+          "start": 69.02,
+          "end": 69.26,
+          "word": " thought",
+          "probability": 0.6222441792488098
+        },
+        {
+          "start": 69.26,
+          "end": 69.74,
+          "word": " humans",
+          "probability": 0.9453503489494324
+        },
+        {
+          "start": 69.74,
+          "end": 70.1,
+          "word": " could",
+          "probability": 0.9873418211936951
+        },
+        {
+          "start": 70.1,
+          "end": 70.44,
+          "word": " never",
+          "probability": 0.9464008808135986
+        },
+        {
+          "start": 70.44,
+          "end": 70.72,
+          "word": " be",
+          "probability": 0.9969616532325745
+        },
+        {
+          "start": 70.72,
+          "end": 71.0,
+          "word": " made",
+          "probability": 0.9976499676704407
+        },
+        {
+          "start": 71.0,
+          "end": 71.8,
+          "word": " useful.",
+          "probability": 0.9895594120025635
+        }
+      ]
+    },
+    {
+      "start": 74.66,
+      "end": 76.44,
+      "text": "Dead God, Xerxes, it's horrible!",
+      "words": [
+        {
+          "start": 74.66,
+          "end": 74.88,
+          "word": " Dead",
+          "probability": 0.494243323802948
+        },
+        {
+          "start": 74.88,
+          "end": 75.24,
+          "word": " God,",
+          "probability": 0.6097545623779297
+        },
+        {
+          "start": 75.44,
+          "end": 75.74,
+          "word": " Xerxes,",
+          "probability": 0.7842258016268412
+        },
+        {
+          "start": 75.74,
+          "end": 76.14,
+          "word": " it's",
+          "probability": 0.7730019390583038
+        },
+        {
+          "start": 76.14,
+          "end": 76.44,
+          "word": " horrible!",
+          "probability": 0.9875001311302185
+        }
+      ]
+    },
+    {
+      "start": 77.42,
+      "end": 82.34,
+      "text": "Yes, we're also working on the taste. We'll get there.",
+      "words": [
+        {
+          "start": 77.42,
+          "end": 78.14,
+          "word": " Yes,",
+          "probability": 0.5145397782325745
+        },
+        {
+          "start": 78.76,
+          "end": 79.0,
+          "word": " we're",
+          "probability": 0.9485731720924377
+        },
+        {
+          "start": 79.0,
+          "end": 79.36,
+          "word": " also",
+          "probability": 0.9940511584281921
+        },
+        {
+          "start": 79.36,
+          "end": 79.82,
+          "word": " working",
+          "probability": 0.9981212019920349
+        },
+        {
+          "start": 79.82,
+          "end": 80.06,
+          "word": " on",
+          "probability": 0.9981926083564758
+        },
+        {
+          "start": 80.06,
+          "end": 80.36,
+          "word": " the",
+          "probability": 0.993834376335144
+        },
+        {
+          "start": 80.36,
+          "end": 80.88,
+          "word": " taste.",
+          "probability": 0.9732635021209717
+        },
+        {
+          "start": 81.38,
+          "end": 81.7,
+          "word": " We'll",
+          "probability": 0.9802876710891724
+        },
+        {
+          "start": 81.7,
+          "end": 81.96,
+          "word": " get",
+          "probability": 0.9992356300354004
+        },
+        {
+          "start": 81.96,
+          "end": 82.34,
+          "word": " there.",
+          "probability": 0.9991157650947571
+        }
+      ]
+    }
+  ]
+}

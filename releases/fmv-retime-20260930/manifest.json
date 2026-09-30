@@ -1,0 +1,130 @@
+{
+  "movies": [
+    {
+      "movie": "A1S01P01",
+      "duration": 34.367667,
+      "cues": 6,
+      "before": "FE3BFD19C5495ADAE76E515838249941DBCC2044AA8E40EDD425086645E45419",
+      "after": "BE6D4B828BE6116EDC3864AC07953B0EF961D8BEB08958A87CFE9911914445C3"
+    },
+    {
+      "movie": "A1S01P02",
+      "duration": 150.016533,
+      "cues": 32,
+      "before": "FAF8E55D71A6F40C4F58B14D20F1CA802F38F38B0BC45C86ECCD331040580351",
+      "after": "2B0BCDF90A8CB3937B1F1652DCD3D500097280FA21F00B60578A3E87522599A2"
+    },
+    {
+      "movie": "A1S01P06",
+      "duration": 151.117633,
+      "cues": 19,
+      "before": "6732D10D7EB8FBB3EBE30A15DF4C5FBB86C44C06E5D82B095FC6F9CC45BF4398",
+      "after": "CF28DABE0AC119FFF4F4A23B6324DE137288378436B078EF5CF1D185DAE1675A"
+    },
+    {
+      "movie": "A1S02P04",
+      "duration": 54.187467,
+      "cues": 11,
+      "before": "EB9EF3975E7BF1586133BDE79BD3BAB18D18594164BC2BFB9895A72D8D647AE7",
+      "after": "3B8485AAFE5C9542138A737604F3020E76FF87AB959214A945F6DB40DF5DD014"
+    },
+    {
+      "movie": "A1S02P11",
+      "duration": 83.349933,
+      "cues": 14,
+      "before": "E492D8BCF9A922E7108E89F832CF943BAA6455043C63168069A216C211028EDC",
+      "after": "1D7C3D8D83AB24380B23FB99D16C98E37DC91921F61CC3846FDAE86C9E346CD7"
+    },
+    {
+      "movie": "A2S01P01",
+      "duration": 75.008267,
+      "cues": 14,
+      "before": "427915167A959484B4D8F9D9FBCCFC3458A3599CB5576B22965BC0A05DF55BB3",
+      "after": "CADBFEC34DF14A34921FB244198DE61A34624E932C6E09ABD7EDBFDDEC83AEF6"
+    },
+    {
+      "movie": "A2S02P16",
+      "duration": 108.875433,
+      "cues": 21,
+      "before": "15944EA653D7BBD8BB115AA07F22D36415781CF527F745D3860618E83A222284",
+      "after": "E7391CC0897A393F46C78C611403DFE69C64518B0AEE27DFB0289A2F6403A7C7"
+    },
+    {
+      "movie": "A2S05P01",
+      "duration": 105.2051,
+      "cues": 17,
+      "before": "FDD1CAC8FAC368D7453ED7343CB13CF9F8C93B25D6909F32F1DF33FDCDDC355A",
+      "after": "C39D21B2696D2961A21983496E4F45E50E3363BFB9C11E09985376DD814BDBCA"
+    },
+    {
+      "movie": "A2S05P12",
+      "duration": 98.765333,
+      "cues": 19,
+      "before": "1CFA20F68A66D614704F642DF644B3A22CFF865F0EA5401CEC7F54A5C8587696",
+      "after": "B3725F41BA81945C6FEE1FA73EA02F6E53B38D499E955495A5C6C17E024351D7"
+    },
+    {
+      "movie": "A3S01P01",
+      "duration": 67.133733,
+      "cues": 9,
+      "before": "FE47A752532AEFE2B58F9E67103BC34D0082C5D2607833CB91124FB69B96A7FB",
+      "after": "1B1594A5460138375C5581252B802BFB8373EF02E40623EEEC4721C9D2E039EA"
+    },
+    {
+      "movie": "A3S04P02",
+      "duration": 139.172367,
+      "cues": 26,
+      "before": "89773A47401619CD9FBF60AC5D237B28B890876CE52EB3EBD79A76ADE77BDE44",
+      "after": "9B989DB84FA86208A43CE31B18A47DB5CF29E2616AE365B709CD6DA0539E8C45"
+    },
+    {
+      "movie": "A4S01P01",
+      "duration": 131.3312,
+      "cues": 5,
+      "before": "81655D490C4250F926F7E61BC9F7BA84A92F69CE50579DFFDA71E5514D182A37",
+      "after": "17C409FF51D29726A0D4E6F490D0958C077F452AA26364180632B1C75713CBFD"
+    },
+    {
+      "movie": "A4S02P01",
+      "duration": 37.7377,
+      "cues": 8,
+      "before": "17836AA1381C744AAD2B4ED3A70F920387D710C52DD6C7954734D659CA7D075C",
+      "after": "D5AB00802CE6AB4E95720FE595F4FEE49A028D2CD14B74E0935DA9C38A1D6E96"
+    },
+    {
+      "movie": "A4S02P02",
+      "duration": 75.542133,
+      "cues": 11,
+      "before": "F5339F2253526AF9D1A07CC1F47C2A09A4F282C7BFEFAE68548F8136CAA6B9C2",
+      "after": "49F2C0A93C65A8006215CB937F8C980A75B103BF6220B74D4FD966BCD7AD224A"
+    },
+    {
+      "movie": "A4S03P04",
+      "duration": 126.993533,
+      "cues": 10,
+      "before": "69C72C87125E3B6D2605681A671270413A45473AC789215D7FA4F2D76FB2D7B2",
+      "after": "425F180FCFEE0EE12D2A370299D906D6192F74E79C8C68D59A494D37EFFF0E1D"
+    }
+  ],
+  "cues": 222,
+  "policy": "Timestamp bytes only; all subtitle body bytes preserved; no movie/audio/DLL/POD changes",
+  "method": "English audio medium word timestamps; no-VAD second passes; four large-v3 cross-check windows; manual semantic cue mapping; bounded silence refinement",
+  "exceptions": [
+    {
+      "movie": "A1S01P06",
+      "cue": 1,
+      "reason": "onscreen_title"
+    },
+    {
+      "movie": "A2S02P16",
+      "cue": 1,
+      "reason": "reference_text_no_full_audio_match"
+    },
+    {
+      "movie": "A2S02P16",
+      "cue": 2,
+      "reason": "word_boundary_inside_same_utterance"
+    }
+  ],
+  "max_body_bytes": 92
+}

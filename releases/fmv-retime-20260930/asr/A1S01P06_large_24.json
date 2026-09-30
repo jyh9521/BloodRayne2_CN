@@ -1,0 +1,162 @@
+{
+  "movie": "A1S01P06",
+  "model": "faster-whisper large-v3 int8 CPU",
+  "window": [
+    24,
+    41
+  ],
+  "segments": [
+    {
+      "start": 26.160000000000004,
+      "end": 34.36,
+      "text": "oh what a fine aren't you but you smell tainted which one was your mother",
+      "words": [
+        {
+          "start": 26.160000000000004,
+          "end": 27.04,
+          "word": " oh",
+          "probability": 0.016080312430858612
+        },
+        {
+          "start": 27.04,
+          "end": 27.92,
+          "word": " what",
+          "probability": 0.21881985664367676
+        },
+        {
+          "start": 27.92,
+          "end": 28.06,
+          "word": " a",
+          "probability": 0.9291700720787048
+        },
+        {
+          "start": 28.06,
+          "end": 28.5,
+          "word": " fine",
+          "probability": 0.9084691405296326
+        },
+        {
+          "start": 28.5,
+          "end": 29.36,
+          "word": " aren't",
+          "probability": 0.9182311594486237
+        },
+        {
+          "start": 29.36,
+          "end": 29.58,
+          "word": " you",
+          "probability": 0.9943839311599731
+        },
+        {
+          "start": 29.58,
+          "end": 30.1,
+          "word": " but",
+          "probability": 0.5713484883308411
+        },
+        {
+          "start": 30.1,
+          "end": 30.32,
+          "word": " you",
+          "probability": 0.9933411478996277
+        },
+        {
+          "start": 30.32,
+          "end": 30.86,
+          "word": " smell",
+          "probability": 0.9975228905677795
+        },
+        {
+          "start": 30.86,
+          "end": 32.22,
+          "word": " tainted",
+          "probability": 0.9292164146900177
+        },
+        {
+          "start": 32.22,
+          "end": 33.1,
+          "word": " which",
+          "probability": 0.8961442112922668
+        },
+        {
+          "start": 33.1,
+          "end": 33.38,
+          "word": " one",
+          "probability": 0.9991381168365479
+        },
+        {
+          "start": 33.38,
+          "end": 33.78,
+          "word": " was",
+          "probability": 0.9985504746437073
+        },
+        {
+          "start": 33.78,
+          "end": 33.96,
+          "word": " your",
+          "probability": 0.9974538683891296
+        },
+        {
+          "start": 33.96,
+          "end": 34.36,
+          "word": " mother",
+          "probability": 0.989910900592804
+        }
+      ]
+    },
+    {
+      "start": 36.8,
+      "end": 40.9,
+      "text": "never mind i'm terrible with names but i",
+      "words": [
+        {
+          "start": 36.8,
+          "end": 37.68,
+          "word": " never",
+          "probability": 0.8812037706375122
+        },
+        {
+          "start": 37.68,
+          "end": 38.16,
+          "word": " mind",
+          "probability": 0.9275035262107849
+        },
+        {
+          "start": 38.16,
+          "end": 38.6,
+          "word": " i'm",
+          "probability": 0.841699481010437
+        },
+        {
+          "start": 38.6,
+          "end": 39.019999999999996,
+          "word": " terrible",
+          "probability": 0.9993782043457031
+        },
+        {
+          "start": 39.019999999999996,
+          "end": 39.38,
+          "word": " with",
+          "probability": 0.9997010231018066
+        },
+        {
+          "start": 39.38,
+          "end": 39.78,
+          "word": " names",
+          "probability": 0.9992848038673401
+        },
+        {
+          "start": 39.78,
+          "end": 40.84,
+          "word": " but",
+          "probability": 0.9904548525810242
+        },
+        {
+          "start": 40.84,
+          "end": 40.9,
+          "word": " i",
+          "probability": 0.9107193946838379
+        }
+      ]
+    }
+  ]
+}

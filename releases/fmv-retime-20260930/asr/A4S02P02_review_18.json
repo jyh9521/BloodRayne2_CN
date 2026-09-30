@@ -1,0 +1,94 @@
+{
+  "movie": "A4S02P02",
+  "window": [
+    18,
+    28
+  ],
+  "segments": [
+    {
+      "start": 18.74,
+      "end": 23.36,
+      "text": "Approaching target. All units move into the back and surround formation. We're gonna...",
+      "words": [
+        {
+          "start": 18.74,
+          "end": 19.3,
+          "word": " Approaching",
+          "probability": 0.6855495721101761
+        },
+        {
+          "start": 19.3,
+          "end": 19.72,
+          "word": " target.",
+          "probability": 0.9731036424636841
+        },
+        {
+          "start": 20.06,
+          "end": 20.12,
+          "word": " All",
+          "probability": 0.9922420978546143
+        },
+        {
+          "start": 20.12,
+          "end": 20.38,
+          "word": " units",
+          "probability": 0.991204023361206
+        },
+        {
+          "start": 20.38,
+          "end": 20.66,
+          "word": " move",
+          "probability": 0.8421944379806519
+        },
+        {
+          "start": 20.66,
+          "end": 20.86,
+          "word": " into",
+          "probability": 0.918126106262207
+        },
+        {
+          "start": 20.86,
+          "end": 21.08,
+          "word": " the",
+          "probability": 0.9934793710708618
+        },
+        {
+          "start": 21.08,
+          "end": 21.240000000000002,
+          "word": " back",
+          "probability": 0.2616453468799591
+        },
+        {
+          "start": 21.240000000000002,
+          "end": 21.4,
+          "word": " and",
+          "probability": 0.8387215733528137
+        },
+        {
+          "start": 21.4,
+          "end": 21.7,
+          "word": " surround",
+          "probability": 0.9944283962249756
+        },
+        {
+          "start": 21.7,
+          "end": 22.259999999999998,
+          "word": " formation.",
+          "probability": 0.9863793849945068
+        },
+        {
+          "start": 22.58,
+          "end": 22.740000000000002,
+          "word": " We're",
+          "probability": 0.9270105957984924
+        },
+        {
+          "start": 22.740000000000002,
+          "end": 23.36,
+          "word": " gonna...",
+          "probability": 0.3748077154159546
+        }
+      ]
+    }
+  ]
+}

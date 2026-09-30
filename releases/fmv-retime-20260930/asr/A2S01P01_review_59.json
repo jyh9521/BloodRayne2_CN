@@ -1,0 +1,179 @@
+{
+  "movie": "A2S01P01",
+  "window": [
+    59,
+    69
+  ],
+  "segments": [
+    {
+      "start": 59.0,
+      "end": 64.14,
+      "text": "details the Kagan cult's hierarchy. The top positions are all his offspring and there's a lot of them.",
+      "words": [
+        {
+          "start": 59.0,
+          "end": 59.22,
+          "word": " details",
+          "probability": 0.04346957057714462
+        },
+        {
+          "start": 59.22,
+          "end": 59.52,
+          "word": " the",
+          "probability": 0.7687646150588989
+        },
+        {
+          "start": 59.52,
+          "end": 59.82,
+          "word": " Kagan",
+          "probability": 0.6990541219711304
+        },
+        {
+          "start": 59.82,
+          "end": 60.24,
+          "word": " cult's",
+          "probability": 0.8171409666538239
+        },
+        {
+          "start": 60.24,
+          "end": 60.46,
+          "word": " hierarchy.",
+          "probability": 0.9967029690742493
+        },
+        {
+          "start": 60.96,
+          "end": 61.1,
+          "word": " The",
+          "probability": 0.9206399321556091
+        },
+        {
+          "start": 61.1,
+          "end": 61.24,
+          "word": " top",
+          "probability": 0.9930194020271301
+        },
+        {
+          "start": 61.24,
+          "end": 61.62,
+          "word": " positions",
+          "probability": 0.9727809429168701
+        },
+        {
+          "start": 61.62,
+          "end": 61.9,
+          "word": " are",
+          "probability": 0.9928745031356812
+        },
+        {
+          "start": 61.9,
+          "end": 62.06,
+          "word": " all",
+          "probability": 0.9844712018966675
+        },
+        {
+          "start": 62.06,
+          "end": 62.26,
+          "word": " his",
+          "probability": 0.9899160265922546
+        },
+        {
+          "start": 62.26,
+          "end": 62.62,
+          "word": " offspring",
+          "probability": 0.9800588488578796
+        },
+        {
+          "start": 62.62,
+          "end": 62.88,
+          "word": " and",
+          "probability": 0.56777024269104
+        },
+        {
+          "start": 62.88,
+          "end": 63.24,
+          "word": " there's",
+          "probability": 0.9600252211093903
+        },
+        {
+          "start": 63.24,
+          "end": 63.32,
+          "word": " a",
+          "probability": 0.98105388879776
+        },
+        {
+          "start": 63.32,
+          "end": 63.58,
+          "word": " lot",
+          "probability": 0.9812595248222351
+        },
+        {
+          "start": 63.58,
+          "end": 63.84,
+          "word": " of",
+          "probability": 0.8359931707382202
+        },
+        {
+          "start": 63.84,
+          "end": 64.14,
+          "word": " them.",
+          "probability": 0.7922061681747437
+        }
+      ]
+    },
+    {
+      "start": 65.0,
+      "end": 68.22,
+      "text": "I gotta go. Stay in touch. Don't disappear.",
+      "words": [
+        {
+          "start": 65.0,
+          "end": 65.22,
+          "word": " I",
+          "probability": 0.7877165675163269
+        },
+        {
+          "start": 65.22,
+          "end": 65.78,
+          "word": " gotta",
+          "probability": 0.7304573655128479
+        },
+        {
+          "start": 65.78,
+          "end": 66.2,
+          "word": " go.",
+          "probability": 0.8609691262245178
+        },
+        {
+          "start": 66.68,
+          "end": 66.88,
+          "word": " Stay",
+          "probability": 0.9859182834625244
+        },
+        {
+          "start": 66.88,
+          "end": 67.1,
+          "word": " in",
+          "probability": 0.9957109689712524
+        },
+        {
+          "start": 67.1,
+          "end": 67.32,
+          "word": " touch.",
+          "probability": 0.9996448755264282
+        },
+        {
+          "start": 67.52,
+          "end": 67.8,
+          "word": " Don't",
+          "probability": 0.9971725642681122
+        },
+        {
+          "start": 67.8,
+          "end": 68.22,
+          "word": " disappear.",
+          "probability": 0.9678500294685364
+        }
+      ]
+    }
+  ]
+}

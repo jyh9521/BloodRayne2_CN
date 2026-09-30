@@ -1,0 +1,2323 @@
+{
+  "movie": "A1S01P02",
+  "duration": 150.016533,
+  "audio_sha256": "F1519D4CCE1B7BAA17F44835BE732A473668460C6BF1404A83288B0D69D9A495",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 0.46,
+      "end": 3.66,
+      "text": "Oh, Zarensky's really outdone himself tonight, eh?",
+      "words": [
+        {
+          "start": 0.46,
+          "end": 1.14,
+          "word": " Oh,",
+          "probability": 0.3349193036556244
+        },
+        {
+          "start": 1.26,
+          "end": 1.92,
+          "word": " Zarensky's",
+          "probability": 0.721932053565979
+        },
+        {
+          "start": 1.92,
+          "end": 2.2,
+          "word": " really",
+          "probability": 0.986327052116394
+        },
+        {
+          "start": 2.2,
+          "end": 2.58,
+          "word": " outdone",
+          "probability": 0.8712384700775146
+        },
+        {
+          "start": 2.58,
+          "end": 2.98,
+          "word": " himself",
+          "probability": 0.9956836700439453
+        },
+        {
+          "start": 2.98,
+          "end": 3.42,
+          "word": " tonight,",
+          "probability": 0.9645777940750122
+        },
+        {
+          "start": 3.44,
+          "end": 3.66,
+          "word": " eh?",
+          "probability": 0.7867483496665955
+        }
+      ]
+    },
+    {
+      "start": 3.94,
+      "end": 7.24,
+      "text": "Oh man, oh man, I've got to come to Zarensky's more often.",
+      "words": [
+        {
+          "start": 3.94,
+          "end": 4.14,
+          "word": " Oh",
+          "probability": 0.6475647687911987
+        },
+        {
+          "start": 4.14,
+          "end": 4.28,
+          "word": " man,",
+          "probability": 0.6660223007202148
+        },
+        {
+          "start": 4.28,
+          "end": 4.54,
+          "word": " oh",
+          "probability": 0.9334174990653992
+        },
+        {
+          "start": 4.54,
+          "end": 4.78,
+          "word": " man,",
+          "probability": 0.9921363592147827
+        },
+        {
+          "start": 4.84,
+          "end": 5.34,
+          "word": " I've",
+          "probability": 0.989696204662323
+        },
+        {
+          "start": 5.34,
+          "end": 5.54,
+          "word": " got",
+          "probability": 0.7149685621261597
+        },
+        {
+          "start": 5.54,
+          "end": 5.64,
+          "word": " to",
+          "probability": 0.9968594312667847
+        },
+        {
+          "start": 5.64,
+          "end": 5.88,
+          "word": " come",
+          "probability": 0.9960152506828308
+        },
+        {
+          "start": 5.88,
+          "end": 6.0,
+          "word": " to",
+          "probability": 0.9945631623268127
+        },
+        {
+          "start": 6.0,
+          "end": 6.6,
+          "word": " Zarensky's",
+          "probability": 0.9873368620872498
+        },
+        {
+          "start": 6.6,
+          "end": 6.8,
+          "word": " more",
+          "probability": 0.9955270886421204
+        },
+        {
+          "start": 6.8,
+          "end": 7.24,
+          "word": " often.",
+          "probability": 0.9998140931129456
+        }
+      ]
+    },
+    {
+      "start": 7.66,
+      "end": 11.32,
+      "text": "I told him to sell early, but you know Tom. Amazing.",
+      "words": [
+        {
+          "start": 7.66,
+          "end": 7.8,
+          "word": " I",
+          "probability": 0.9521307349205017
+        },
+        {
+          "start": 7.8,
+          "end": 7.92,
+          "word": " told",
+          "probability": 0.9919717311859131
+        },
+        {
+          "start": 7.92,
+          "end": 8.14,
+          "word": " him",
+          "probability": 0.9085161685943604
+        },
+        {
+          "start": 8.14,
+          "end": 8.32,
+          "word": " to",
+          "probability": 0.9951423406600952
+        },
+        {
+          "start": 8.32,
+          "end": 8.44,
+          "word": " sell",
+          "probability": 0.9798728227615356
+        },
+        {
+          "start": 8.44,
+          "end": 8.84,
+          "word": " early,",
+          "probability": 0.9900755286216736
+        },
+        {
+          "start": 8.88,
+          "end": 9.12,
+          "word": " but",
+          "probability": 0.9960851669311523
+        },
+        {
+          "start": 9.12,
+          "end": 9.34,
+          "word": " you",
+          "probability": 0.9645987749099731
+        },
+        {
+          "start": 9.34,
+          "end": 9.54,
+          "word": " know",
+          "probability": 0.7854839563369751
+        },
+        {
+          "start": 9.54,
+          "end": 9.98,
+          "word": " Tom.",
+          "probability": 0.9707387685775757
+        },
+        {
+          "start": 10.84,
+          "end": 11.32,
+          "word": " Amazing.",
+          "probability": 0.9490965604782104
+        }
+      ]
+    },
+    {
+      "start": 12.02,
+      "end": 13.68,
+      "text": "My God, look at that.",
+      "words": [
+        {
+          "start": 12.02,
+          "end": 12.4,
+          "word": " My",
+          "probability": 0.8920839428901672
+        },
+        {
+          "start": 12.4,
+          "end": 12.76,
+          "word": " God,",
+          "probability": 0.5885169506072998
+        },
+        {
+          "start": 12.78,
+          "end": 13.06,
+          "word": " look",
+          "probability": 0.9976900815963745
+        },
+        {
+          "start": 13.06,
+          "end": 13.46,
+          "word": " at",
+          "probability": 0.9985872507095337
+        },
+        {
+          "start": 13.46,
+          "end": 13.68,
+          "word": " that.",
+          "probability": 0.9972186088562012
+        }
+      ]
+    },
+    {
+      "start": 14.1,
+      "end": 15.8,
+      "text": "Good night nurse.",
+      "words": [
+        {
+          "start": 14.1,
+          "end": 14.58,
+          "word": " Good",
+          "probability": 0.6686984896659851
+        },
+        {
+          "start": 14.58,
+          "end": 15.26,
+          "word": " night",
+          "probability": 0.2808970510959625
+        },
+        {
+          "start": 15.26,
+          "end": 15.8,
+          "word": " nurse.",
+          "probability": 0.7254940867424011
+        }
+      ]
+    },
+    {
+      "start": 15.92,
+      "end": 18.2,
+      "text": "Oh, that's definitely stimulating my economy.",
+      "words": [
+        {
+          "start": 15.92,
+          "end": 16.04,
+          "word": " Oh,",
+          "probability": 0.389683336019516
+        },
+        {
+          "start": 16.04,
+          "end": 16.5,
+          "word": " that's",
+          "probability": 0.993488073348999
+        },
+        {
+          "start": 16.5,
+          "end": 16.84,
+          "word": " definitely",
+          "probability": 0.9784954190254211
+        },
+        {
+          "start": 16.84,
+          "end": 17.42,
+          "word": " stimulating",
+          "probability": 0.9877826571464539
+        },
+        {
+          "start": 17.42,
+          "end": 17.78,
+          "word": " my",
+          "probability": 0.9586586952209473
+        },
+        {
+          "start": 17.78,
+          "end": 18.2,
+          "word": " economy.",
+          "probability": 0.9982684850692749
+        }
+      ]
+    },
+    {
+      "start": 19.4,
+      "end": 23.26,
+      "text": "Jesus, Bill sees her and I'll be on my back for the rest of the weekend.",
+      "words": [
+        {
+          "start": 19.4,
+          "end": 19.88,
+          "word": " Jesus,",
+          "probability": 0.7355812191963196
+        },
+        {
+          "start": 20.08,
+          "end": 20.26,
+          "word": " Bill",
+          "probability": 0.973304271697998
+        },
+        {
+          "start": 20.26,
+          "end": 20.6,
+          "word": " sees",
+          "probability": 0.9689452648162842
+        },
+        {
+          "start": 20.6,
+          "end": 20.96,
+          "word": " her",
+          "probability": 0.9984126091003418
+        },
+        {
+          "start": 20.96,
+          "end": 21.04,
+          "word": " and",
+          "probability": 0.7518244385719299
+        },
+        {
+          "start": 21.04,
+          "end": 21.24,
+          "word": " I'll",
+          "probability": 0.9916805624961853
+        },
+        {
+          "start": 21.24,
+          "end": 21.38,
+          "word": " be",
+          "probability": 0.9991056323051453
+        },
+        {
+          "start": 21.38,
+          "end": 21.56,
+          "word": " on",
+          "probability": 0.9963010549545288
+        },
+        {
+          "start": 21.56,
+          "end": 21.84,
+          "word": " my",
+          "probability": 0.9987853169441223
+        },
+        {
+          "start": 21.84,
+          "end": 22.02,
+          "word": " back",
+          "probability": 0.9963843822479248
+        },
+        {
+          "start": 22.02,
+          "end": 22.22,
+          "word": " for",
+          "probability": 0.9887786507606506
+        },
+        {
+          "start": 22.22,
+          "end": 22.34,
+          "word": " the",
+          "probability": 0.9982463121414185
+        },
+        {
+          "start": 22.34,
+          "end": 22.52,
+          "word": " rest",
+          "probability": 0.9980515241622925
+        },
+        {
+          "start": 22.52,
+          "end": 22.8,
+          "word": " of",
+          "probability": 0.9985800981521606
+        },
+        {
+          "start": 22.8,
+          "end": 22.86,
+          "word": " the",
+          "probability": 0.9967723488807678
+        },
+        {
+          "start": 22.86,
+          "end": 23.26,
+          "word": " weekend.",
+          "probability": 0.9956509470939636
+        }
+      ]
+    },
+    {
+      "start": 23.64,
+      "end": 26.38,
+      "text": "Okay, mics are working fine. I'm gonna check out the upper floors.",
+      "words": [
+        {
+          "start": 23.64,
+          "end": 23.94,
+          "word": " Okay,",
+          "probability": 0.6834520697593689
+        },
+        {
+          "start": 24.22,
+          "end": 24.32,
+          "word": " mics",
+          "probability": 0.6781555414199829
+        },
+        {
+          "start": 24.32,
+          "end": 24.48,
+          "word": " are",
+          "probability": 0.9861621856689453
+        },
+        {
+          "start": 24.48,
+          "end": 24.72,
+          "word": " working",
+          "probability": 0.9970484375953674
+        },
+        {
+          "start": 24.72,
+          "end": 25.06,
+          "word": " fine.",
+          "probability": 0.9982627034187317
+        },
+        {
+          "start": 25.18,
+          "end": 25.34,
+          "word": " I'm",
+          "probability": 0.9857594072818756
+        },
+        {
+          "start": 25.34,
+          "end": 25.42,
+          "word": " gonna",
+          "probability": 0.615617036819458
+        },
+        {
+          "start": 25.42,
+          "end": 25.6,
+          "word": " check",
+          "probability": 0.9877803325653076
+        },
+        {
+          "start": 25.6,
+          "end": 25.7,
+          "word": " out",
+          "probability": 0.9567677974700928
+        },
+        {
+          "start": 25.7,
+          "end": 25.8,
+          "word": " the",
+          "probability": 0.9963514804840088
+        },
+        {
+          "start": 25.8,
+          "end": 25.98,
+          "word": " upper",
+          "probability": 0.5608215928077698
+        },
+        {
+          "start": 25.98,
+          "end": 26.38,
+          "word": " floors.",
+          "probability": 0.996248185634613
+        }
+      ]
+    },
+    {
+      "start": 28.1,
+      "end": 32.04,
+      "text": "Pardon me, Mayor, Governor. I'll return in just one minute.",
+      "words": [
+        {
+          "start": 28.1,
+          "end": 28.72,
+          "word": " Pardon",
+          "probability": 0.08626027405261993
+        },
+        {
+          "start": 28.72,
+          "end": 29.14,
+          "word": " me,",
+          "probability": 0.9897283315658569
+        },
+        {
+          "start": 29.3,
+          "end": 29.56,
+          "word": " Mayor,",
+          "probability": 0.7996887564659119
+        },
+        {
+          "start": 29.78,
+          "end": 30.06,
+          "word": " Governor.",
+          "probability": 0.944281280040741
+        },
+        {
+          "start": 30.36,
+          "end": 30.64,
+          "word": " I'll",
+          "probability": 0.9599817395210266
+        },
+        {
+          "start": 30.64,
+          "end": 30.92,
+          "word": " return",
+          "probability": 0.9926155805587769
+        },
+        {
+          "start": 30.92,
+          "end": 31.02,
+          "word": " in",
+          "probability": 0.997661828994751
+        },
+        {
+          "start": 31.02,
+          "end": 31.3,
+          "word": " just",
+          "probability": 0.9890978336334229
+        },
+        {
+          "start": 31.3,
+          "end": 31.52,
+          "word": " one",
+          "probability": 0.9299058318138123
+        },
+        {
+          "start": 31.52,
+          "end": 32.04,
+          "word": " minute.",
+          "probability": 0.8452354073524475
+        }
+      ]
+    },
+    {
+      "start": 32.52,
+      "end": 34.78,
+      "text": "Yes, yes, yes. It's very clever.",
+      "words": [
+        {
+          "start": 32.52,
+          "end": 32.64,
+          "word": " Yes,",
+          "probability": 0.217052161693573
+        },
+        {
+          "start": 32.98,
+          "end": 33.36,
+          "word": " yes,",
+          "probability": 0.5821244120597839
+        },
+        {
+          "start": 33.86,
+          "end": 33.86,
+          "word": " yes.",
+          "probability": 0.5950677990913391
+        },
+        {
+          "start": 33.98,
+          "end": 34.26,
+          "word": " It's",
+          "probability": 0.6607281118631363
+        },
+        {
+          "start": 34.26,
+          "end": 34.48,
+          "word": " very",
+          "probability": 0.9981420040130615
+        },
+        {
+          "start": 34.48,
+          "end": 34.78,
+          "word": " clever.",
+          "probability": 0.995854914188385
+        }
+      ]
+    },
+    {
+      "start": 35.8,
+      "end": 38.64,
+      "text": "You look thirsty, Chief. Why don't you hail a passing scotch?",
+      "words": [
+        {
+          "start": 35.8,
+          "end": 35.98,
+          "word": " You",
+          "probability": 0.8504377007484436
+        },
+        {
+          "start": 35.98,
+          "end": 36.2,
+          "word": " look",
+          "probability": 0.9878915548324585
+        },
+        {
+          "start": 36.2,
+          "end": 36.58,
+          "word": " thirsty,",
+          "probability": 0.9965516328811646
+        },
+        {
+          "start": 36.82,
+          "end": 36.98,
+          "word": " Chief.",
+          "probability": 0.8074108362197876
+        },
+        {
+          "start": 37.16,
+          "end": 37.34,
+          "word": " Why",
+          "probability": 0.9920986890792847
+        },
+        {
+          "start": 37.34,
+          "end": 37.42,
+          "word": " don't",
+          "probability": 0.998600423336029
+        },
+        {
+          "start": 37.42,
+          "end": 37.6,
+          "word": " you",
+          "probability": 0.9962584972381592
+        },
+        {
+          "start": 37.6,
+          "end": 37.72,
+          "word": " hail",
+          "probability": 0.9524199366569519
+        },
+        {
+          "start": 37.72,
+          "end": 37.98,
+          "word": " a",
+          "probability": 0.9882182478904724
+        },
+        {
+          "start": 37.98,
+          "end": 38.2,
+          "word": " passing",
+          "probability": 0.9859030246734619
+        },
+        {
+          "start": 38.2,
+          "end": 38.64,
+          "word": " scotch?",
+          "probability": 0.7577508687973022
+        }
+      ]
+    },
+    {
+      "start": 40.36,
+      "end": 40.8,
+      "text": "Hello.",
+      "words": [
+        {
+          "start": 40.36,
+          "end": 40.8,
+          "word": " Hello.",
+          "probability": 0.9047690629959106
+        }
+      ]
+    },
+    {
+      "start": 41.48,
+      "end": 48.26,
+      "text": "Welcome. Dario Zurinski, and I, uh, too mean welcome.",
+      "words": [
+        {
+          "start": 41.48,
+          "end": 42.1,
+          "word": " Welcome.",
+          "probability": 0.9229066967964172
+        },
+        {
+          "start": 42.98,
+          "end": 43.34,
+          "word": " Dario",
+          "probability": 0.47922953963279724
+        },
+        {
+          "start": 43.34,
+          "end": 44.06,
+          "word": " Zurinski,",
+          "probability": 0.45311030000448227
+        },
+        {
+          "start": 44.62,
+          "end": 44.98,
+          "word": " and",
+          "probability": 0.9900031089782715
+        },
+        {
+          "start": 44.98,
+          "end": 45.7,
+          "word": " I,",
+          "probability": 0.9672430753707886
+        },
+        {
+          "start": 45.7,
+          "end": 46.1,
+          "word": " uh,",
+          "probability": 0.6906880736351013
+        },
+        {
+          "start": 46.42,
+          "end": 46.82,
+          "word": " too",
+          "probability": 0.24141904711723328
+        },
+        {
+          "start": 46.82,
+          "end": 47.48,
+          "word": " mean",
+          "probability": 0.6261160969734192
+        },
+        {
+          "start": 47.48,
+          "end": 48.26,
+          "word": " welcome.",
+          "probability": 0.5575209259986877
+        }
+      ]
+    },
+    {
+      "start": 48.96,
+      "end": 51.98,
+      "text": "It kills me to ask, darling, but have we met?",
+      "words": [
+        {
+          "start": 48.96,
+          "end": 49.28,
+          "word": " It",
+          "probability": 0.9871245622634888
+        },
+        {
+          "start": 49.28,
+          "end": 49.5,
+          "word": " kills",
+          "probability": 0.9950876832008362
+        },
+        {
+          "start": 49.5,
+          "end": 49.68,
+          "word": " me",
+          "probability": 0.9979806542396545
+        },
+        {
+          "start": 49.68,
+          "end": 49.92,
+          "word": " to",
+          "probability": 0.9984751343727112
+        },
+        {
+          "start": 49.92,
+          "end": 50.2,
+          "word": " ask,",
+          "probability": 0.9993928670883179
+        },
+        {
+          "start": 50.4,
+          "end": 50.52,
+          "word": " darling,",
+          "probability": 0.8887203335762024
+        },
+        {
+          "start": 50.6,
+          "end": 50.98,
+          "word": " but",
+          "probability": 0.998710036277771
+        },
+        {
+          "start": 50.98,
+          "end": 51.58,
+          "word": " have",
+          "probability": 0.6586626768112183
+        },
+        {
+          "start": 51.58,
+          "end": 51.82,
+          "word": " we",
+          "probability": 0.9977906942367554
+        },
+        {
+          "start": 51.82,
+          "end": 51.98,
+          "word": " met?",
+          "probability": 0.9934927821159363
+        }
+      ]
+    },
+    {
+      "start": 52.38,
+      "end": 55.04,
+      "text": "Darling, I'm sure you'd remember.",
+      "words": [
+        {
+          "start": 52.38,
+          "end": 53.0,
+          "word": " Darling,",
+          "probability": 0.9791883826255798
+        },
+        {
+          "start": 53.4,
+          "end": 53.9,
+          "word": " I'm",
+          "probability": 0.9853600561618805
+        },
+        {
+          "start": 53.9,
+          "end": 54.28,
+          "word": " sure",
+          "probability": 0.9978883862495422
+        },
+        {
+          "start": 54.28,
+          "end": 54.7,
+          "word": " you'd",
+          "probability": 0.9930150806903839
+        },
+        {
+          "start": 54.7,
+          "end": 55.04,
+          "word": " remember.",
+          "probability": 0.998191773891449
+        }
+      ]
+    },
+    {
+      "start": 55.04,
+      "end": 58.4,
+      "text": "But you have no drink. Heads will roll!",
+      "words": [
+        {
+          "start": 55.04,
+          "end": 55.12,
+          "word": " But",
+          "probability": 0.20902782678604126
+        },
+        {
+          "start": 55.12,
+          "end": 56.02,
+          "word": " you",
+          "probability": 0.8271124362945557
+        },
+        {
+          "start": 56.02,
+          "end": 56.28,
+          "word": " have",
+          "probability": 0.9840280413627625
+        },
+        {
+          "start": 56.28,
+          "end": 56.58,
+          "word": " no",
+          "probability": 0.9953842759132385
+        },
+        {
+          "start": 56.58,
+          "end": 57.0,
+          "word": " drink.",
+          "probability": 0.9925857186317444
+        },
+        {
+          "start": 57.42,
+          "end": 57.78,
+          "word": " Heads",
+          "probability": 0.8901818692684174
+        },
+        {
+          "start": 57.78,
+          "end": 58.12,
+          "word": " will",
+          "probability": 0.9964426159858704
+        },
+        {
+          "start": 58.12,
+          "end": 58.4,
+          "word": " roll!",
+          "probability": 0.7497177124023438
+        }
+      ]
+    },
+    {
+      "start": 59.2,
+      "end": 61.88,
+      "text": "I've brought up a case of lovely Malo for this evening.",
+      "words": [
+        {
+          "start": 59.2,
+          "end": 59.5,
+          "word": " I've",
+          "probability": 0.8523886203765869
+        },
+        {
+          "start": 59.5,
+          "end": 59.62,
+          "word": " brought",
+          "probability": 0.9833486676216125
+        },
+        {
+          "start": 59.62,
+          "end": 59.84,
+          "word": " up",
+          "probability": 0.9731162190437317
+        },
+        {
+          "start": 59.84,
+          "end": 59.92,
+          "word": " a",
+          "probability": 0.9838594198226929
+        },
+        {
+          "start": 59.92,
+          "end": 60.06,
+          "word": " case",
+          "probability": 0.9946132302284241
+        },
+        {
+          "start": 60.06,
+          "end": 60.36,
+          "word": " of",
+          "probability": 0.9967441558837891
+        },
+        {
+          "start": 60.36,
+          "end": 60.8,
+          "word": " lovely",
+          "probability": 0.9611720442771912
+        },
+        {
+          "start": 60.8,
+          "end": 61.16,
+          "word": " Malo",
+          "probability": 0.29636892676353455
+        },
+        {
+          "start": 61.16,
+          "end": 61.36,
+          "word": " for",
+          "probability": 0.8670467734336853
+        },
+        {
+          "start": 61.36,
+          "end": 61.54,
+          "word": " this",
+          "probability": 0.983535647392273
+        },
+        {
+          "start": 61.54,
+          "end": 61.88,
+          "word": " evening.",
+          "probability": 0.9981574416160583
+        }
+      ]
+    },
+    {
+      "start": 62.36,
+      "end": 65.38,
+      "text": "Please, but something stronger.",
+      "words": [
+        {
+          "start": 62.36,
+          "end": 62.74,
+          "word": " Please,",
+          "probability": 0.9121946096420288
+        },
+        {
+          "start": 63.34,
+          "end": 63.56,
+          "word": " but",
+          "probability": 0.9789897799491882
+        },
+        {
+          "start": 63.56,
+          "end": 64.58,
+          "word": " something",
+          "probability": 0.987116277217865
+        },
+        {
+          "start": 64.58,
+          "end": 65.38,
+          "word": " stronger.",
+          "probability": 0.7709070444107056
+        }
+      ]
+    },
+    {
+      "start": 66.18,
+      "end": 68.7,
+      "text": "I never drink wine.",
+      "words": [
+        {
+          "start": 66.18,
+          "end": 66.44,
+          "word": " I",
+          "probability": 0.9953250885009766
+        },
+        {
+          "start": 66.44,
+          "end": 66.76,
+          "word": " never",
+          "probability": 0.9960979223251343
+        },
+        {
+          "start": 66.76,
+          "end": 67.32,
+          "word": " drink",
+          "probability": 0.9930220246315002
+        },
+        {
+          "start": 67.32,
+          "end": 68.7,
+          "word": " wine.",
+          "probability": 0.4175628125667572
+        }
+      ]
+    },
+    {
+      "start": 69.4,
+      "end": 70.68,
+      "text": "Meet me at the stairs, will you?",
+      "words": [
+        {
+          "start": 69.4,
+          "end": 69.56,
+          "word": " Meet",
+          "probability": 0.95229572057724
+        },
+        {
+          "start": 69.56,
+          "end": 69.74,
+          "word": " me",
+          "probability": 0.9967942833900452
+        },
+        {
+          "start": 69.74,
+          "end": 69.86,
+          "word": " at",
+          "probability": 0.9938870072364807
+        },
+        {
+          "start": 69.86,
+          "end": 70.04,
+          "word": " the",
+          "probability": 0.9985128045082092
+        },
+        {
+          "start": 70.04,
+          "end": 70.24,
+          "word": " stairs,",
+          "probability": 0.992181658744812
+        },
+        {
+          "start": 70.36,
+          "end": 70.44,
+          "word": " will",
+          "probability": 0.9550955295562744
+        },
+        {
+          "start": 70.44,
+          "end": 70.68,
+          "word": " you?",
+          "probability": 0.4949851334095001
+        }
+      ]
+    },
+    {
+      "start": 71.18,
+      "end": 73.82,
+      "text": "If you can tear yourself away, darling.",
+      "words": [
+        {
+          "start": 71.18,
+          "end": 71.48,
+          "word": " If",
+          "probability": 0.9172049760818481
+        },
+        {
+          "start": 71.48,
+          "end": 71.64,
+          "word": " you",
+          "probability": 0.9872926473617554
+        },
+        {
+          "start": 71.64,
+          "end": 72.02,
+          "word": " can",
+          "probability": 0.992705762386322
+        },
+        {
+          "start": 72.02,
+          "end": 72.24,
+          "word": " tear",
+          "probability": 0.9600435495376587
+        },
+        {
+          "start": 72.24,
+          "end": 72.7,
+          "word": " yourself",
+          "probability": 0.9982646107673645
+        },
+        {
+          "start": 72.7,
+          "end": 73.14,
+          "word": " away,",
+          "probability": 0.9988679885864258
+        },
+        {
+          "start": 73.5,
+          "end": 73.82,
+          "word": " darling.",
+          "probability": 0.8657354712486267
+        }
+      ]
+    },
+    {
+      "start": 75.42,
+      "end": 79.82,
+      "text": "Nice turn out. City council, captains of industry, high rollers, mob bosses.",
+      "words": [
+        {
+          "start": 75.42,
+          "end": 75.84,
+          "word": " Nice",
+          "probability": 0.8459519147872925
+        },
+        {
+          "start": 75.84,
+          "end": 76.04,
+          "word": " turn",
+          "probability": 0.8071710467338562
+        },
+        {
+          "start": 76.04,
+          "end": 76.28,
+          "word": " out.",
+          "probability": 0.5685057640075684
+        },
+        {
+          "start": 76.48,
+          "end": 76.72,
+          "word": " City",
+          "probability": 0.9922897219657898
+        },
+        {
+          "start": 76.72,
+          "end": 77.16,
+          "word": " council,",
+          "probability": 0.7043517231941223
+        },
+        {
+          "start": 77.36,
+          "end": 77.62,
+          "word": " captains",
+          "probability": 0.8541812002658844
+        },
+        {
+          "start": 77.62,
+          "end": 77.84,
+          "word": " of",
+          "probability": 0.9971722960472107
+        },
+        {
+          "start": 77.84,
+          "end": 78.16,
+          "word": " industry,",
+          "probability": 0.971207857131958
+        },
+        {
+          "start": 78.42,
+          "end": 78.66,
+          "word": " high",
+          "probability": 0.901159405708313
+        },
+        {
+          "start": 78.66,
+          "end": 78.9,
+          "word": " rollers,",
+          "probability": 0.8207419514656067
+        },
+        {
+          "start": 79.18,
+          "end": 79.36,
+          "word": " mob",
+          "probability": 0.9916935563087463
+        },
+        {
+          "start": 79.36,
+          "end": 79.82,
+          "word": " bosses.",
+          "probability": 0.9771397709846497
+        }
+      ]
+    },
+    {
+      "start": 80.22,
+      "end": 81.72,
+      "text": "Everyone's here but the crown heads of Europe.",
+      "words": [
+        {
+          "start": 80.22,
+          "end": 80.66,
+          "word": " Everyone's",
+          "probability": 0.9651578962802887
+        },
+        {
+          "start": 80.66,
+          "end": 80.74,
+          "word": " here",
+          "probability": 0.9540054202079773
+        },
+        {
+          "start": 80.74,
+          "end": 80.86,
+          "word": " but",
+          "probability": 0.869186282157898
+        },
+        {
+          "start": 80.86,
+          "end": 81.06,
+          "word": " the",
+          "probability": 0.9900638461112976
+        },
+        {
+          "start": 81.06,
+          "end": 81.18,
+          "word": " crown",
+          "probability": 0.8960192799568176
+        },
+        {
+          "start": 81.18,
+          "end": 81.3,
+          "word": " heads",
+          "probability": 0.9017200469970703
+        },
+        {
+          "start": 81.3,
+          "end": 81.52,
+          "word": " of",
+          "probability": 0.9971286654472351
+        },
+        {
+          "start": 81.52,
+          "end": 81.72,
+          "word": " Europe.",
+          "probability": 0.9778382182121277
+        }
+      ]
+    },
+    {
+      "start": 81.72,
+      "end": 85.66,
+      "text": "They're shooting up in the bathroom with a couple of Sultans. You find anything?",
+      "words": [
+        {
+          "start": 81.72,
+          "end": 82.38,
+          "word": " They're",
+          "probability": 0.7829468548297882
+        },
+        {
+          "start": 82.38,
+          "end": 82.62,
+          "word": " shooting",
+          "probability": 0.994583785533905
+        },
+        {
+          "start": 82.62,
+          "end": 82.82,
+          "word": " up",
+          "probability": 0.9832761287689209
+        },
+        {
+          "start": 82.82,
+          "end": 82.94,
+          "word": " in",
+          "probability": 0.9727367162704468
+        },
+        {
+          "start": 82.94,
+          "end": 83.1,
+          "word": " the",
+          "probability": 0.983516275882721
+        },
+        {
+          "start": 83.1,
+          "end": 83.36,
+          "word": " bathroom",
+          "probability": 0.9937259554862976
+        },
+        {
+          "start": 83.36,
+          "end": 83.56,
+          "word": " with",
+          "probability": 0.9845952987670898
+        },
+        {
+          "start": 83.56,
+          "end": 83.64,
+          "word": " a",
+          "probability": 0.9907842874526978
+        },
+        {
+          "start": 83.64,
+          "end": 83.86,
+          "word": " couple",
+          "probability": 0.9930294156074524
+        },
+        {
+          "start": 83.86,
+          "end": 84.12,
+          "word": " of",
+          "probability": 0.9846528172492981
+        },
+        {
+          "start": 84.12,
+          "end": 84.58,
+          "word": " Sultans.",
+          "probability": 0.8431448936462402
+        },
+        {
+          "start": 84.92,
+          "end": 85.14,
+          "word": " You",
+          "probability": 0.9220697283744812
+        },
+        {
+          "start": 85.14,
+          "end": 85.34,
+          "word": " find",
+          "probability": 0.9925826787948608
+        },
+        {
+          "start": 85.34,
+          "end": 85.66,
+          "word": " anything?",
+          "probability": 0.998391330242157
+        }
+      ]
+    },
+    {
+      "start": 85.92,
+      "end": 92.28,
+      "text": "Mm-hmm. Nose-round a bit upstairs. Looks like our host Zyrinski, darling, is a member of your extended family. A brother, likely.",
+      "words": [
+        {
+          "start": 85.92,
+          "end": 85.92,
+          "word": " Mm",
+          "probability": 0.3863475024700165
+        },
+        {
+          "start": 85.92,
+          "end": 86.32,
+          "word": "-hmm.",
+          "probability": 0.6833795309066772
+        },
+        {
+          "start": 86.5,
+          "end": 86.76,
+          "word": " Nose",
+          "probability": 0.9410108625888824
+        },
+        {
+          "start": 86.76,
+          "end": 86.9,
+          "word": "-round",
+          "probability": 0.5582533478736877
+        },
+        {
+          "start": 86.9,
+          "end": 87.04,
+          "word": " a",
+          "probability": 0.9329838752746582
+        },
+        {
+          "start": 87.04,
+          "end": 87.12,
+          "word": " bit",
+          "probability": 0.9972579479217529
+        },
+        {
+          "start": 87.12,
+          "end": 87.62,
+          "word": " upstairs.",
+          "probability": 0.9416908025741577
+        },
+        {
+          "start": 87.82,
+          "end": 87.96,
+          "word": " Looks",
+          "probability": 0.9792814254760742
+        },
+        {
+          "start": 87.96,
+          "end": 88.2,
+          "word": " like",
+          "probability": 0.9970685839653015
+        },
+        {
+          "start": 88.2,
+          "end": 88.34,
+          "word": " our",
+          "probability": 0.9054322242736816
+        },
+        {
+          "start": 88.34,
+          "end": 88.56,
+          "word": " host",
+          "probability": 0.9875472784042358
+        },
+        {
+          "start": 88.56,
+          "end": 89.14,
+          "word": " Zyrinski,",
+          "probability": 0.2970104366540909
+        },
+        {
+          "start": 89.56,
+          "end": 89.68,
+          "word": " darling,",
+          "probability": 0.9836720824241638
+        },
+        {
+          "start": 89.7,
+          "end": 89.9,
+          "word": " is",
+          "probability": 0.9832166433334351
+        },
+        {
+          "start": 89.9,
+          "end": 89.96,
+          "word": " a",
+          "probability": 0.9976307153701782
+        },
+        {
+          "start": 89.96,
+          "end": 90.12,
+          "word": " member",
+          "probability": 0.9992924928665161
+        },
+        {
+          "start": 90.12,
+          "end": 90.34,
+          "word": " of",
+          "probability": 0.9977082014083862
+        },
+        {
+          "start": 90.34,
+          "end": 90.48,
+          "word": " your",
+          "probability": 0.9868131875991821
+        },
+        {
+          "start": 90.48,
+          "end": 90.78,
+          "word": " extended",
+          "probability": 0.9883559942245483
+        },
+        {
+          "start": 90.78,
+          "end": 91.26,
+          "word": " family.",
+          "probability": 0.9973823428153992
+        },
+        {
+          "start": 91.56,
+          "end": 91.76,
+          "word": " A",
+          "probability": 0.9506740570068359
+        },
+        {
+          "start": 91.76,
+          "end": 91.92,
+          "word": " brother,",
+          "probability": 0.9865397810935974
+        },
+        {
+          "start": 92.22,
+          "end": 92.28,
+          "word": " likely.",
+          "probability": 0.996834933757782
+        }
+      ]
+    },
+    {
+      "start": 92.48,
+      "end": 96.82,
+      "text": "Half-brother. Like I'm half-vampire. Never forget that.",
+      "words": [
+        {
+          "start": 92.48,
+          "end": 92.92,
+          "word": " Half",
+          "probability": 0.8561088442802429
+        },
+        {
+          "start": 92.92,
+          "end": 93.4,
+          "word": "-brother.",
+          "probability": 0.8285822769006094
+        },
+        {
+          "start": 93.6,
+          "end": 93.84,
+          "word": " Like",
+          "probability": 0.9952812790870667
+        },
+        {
+          "start": 93.84,
+          "end": 94.26,
+          "word": " I'm",
+          "probability": 0.9701958298683167
+        },
+        {
+          "start": 94.26,
+          "end": 94.64,
+          "word": " half",
+          "probability": 0.9397053718566895
+        },
+        {
+          "start": 94.64,
+          "end": 95.3,
+          "word": "-vampire.",
+          "probability": 0.9558976888656616
+        },
+        {
+          "start": 95.7,
+          "end": 96.12,
+          "word": " Never",
+          "probability": 0.9841170907020569
+        },
+        {
+          "start": 96.12,
+          "end": 96.5,
+          "word": " forget",
+          "probability": 0.9979845285415649
+        },
+        {
+          "start": 96.5,
+          "end": 96.82,
+          "word": " that.",
+          "probability": 0.999580442905426
+        }
+      ]
+    },
+    {
+      "start": 97.0,
+      "end": 102.74,
+      "text": "Yeah, well, that's still all bad news for him. There's one room in particular upstairs, locked tight. Very high security.",
+      "words": [
+        {
+          "start": 97.0,
+          "end": 97.34,
+          "word": " Yeah,",
+          "probability": 0.981304407119751
+        },
+        {
+          "start": 97.36,
+          "end": 97.54,
+          "word": " well,",
+          "probability": 0.9746260046958923
+        },
+        {
+          "start": 97.56,
+          "end": 97.88,
+          "word": " that's",
+          "probability": 0.9959349036216736
+        },
+        {
+          "start": 97.88,
+          "end": 98.12,
+          "word": " still",
+          "probability": 0.9876296520233154
+        },
+        {
+          "start": 98.12,
+          "end": 98.34,
+          "word": " all",
+          "probability": 0.9558446407318115
+        },
+        {
+          "start": 98.34,
+          "end": 98.56,
+          "word": " bad",
+          "probability": 0.9967711567878723
+        },
+        {
+          "start": 98.56,
+          "end": 98.76,
+          "word": " news",
+          "probability": 0.9979318380355835
+        },
+        {
+          "start": 98.76,
+          "end": 98.92,
+          "word": " for",
+          "probability": 0.9967789053916931
+        },
+        {
+          "start": 98.92,
+          "end": 99.14,
+          "word": " him.",
+          "probability": 0.999477207660675
+        },
+        {
+          "start": 99.5,
+          "end": 99.74,
+          "word": " There's",
+          "probability": 0.9957233369350433
+        },
+        {
+          "start": 99.74,
+          "end": 99.94,
+          "word": " one",
+          "probability": 0.9909975528717041
+        },
+        {
+          "start": 99.94,
+          "end": 100.06,
+          "word": " room",
+          "probability": 0.9990315437316895
+        },
+        {
+          "start": 100.06,
+          "end": 100.16,
+          "word": " in",
+          "probability": 0.9648288488388062
+        },
+        {
+          "start": 100.16,
+          "end": 100.5,
+          "word": " particular",
+          "probability": 0.9923513531684875
+        },
+        {
+          "start": 100.5,
+          "end": 100.92,
+          "word": " upstairs,",
+          "probability": 0.9741170406341553
+        },
+        {
+          "start": 101.1,
+          "end": 101.36,
+          "word": " locked",
+          "probability": 0.9867960214614868
+        },
+        {
+          "start": 101.36,
+          "end": 101.62,
+          "word": " tight.",
+          "probability": 0.9776161909103394
+        },
+        {
+          "start": 101.78,
+          "end": 102.06,
+          "word": " Very",
+          "probability": 0.9861885905265808
+        },
+        {
+          "start": 102.06,
+          "end": 102.28,
+          "word": " high",
+          "probability": 0.9978929162025452
+        },
+        {
+          "start": 102.28,
+          "end": 102.74,
+          "word": " security.",
+          "probability": 0.9343187212944031
+        }
+      ]
+    },
+    {
+      "start": 102.96,
+      "end": 104.26,
+      "text": "You didn't break in?",
+      "words": [
+        {
+          "start": 102.96,
+          "end": 103.3,
+          "word": " You",
+          "probability": 0.9276782870292664
+        },
+        {
+          "start": 103.3,
+          "end": 103.62,
+          "word": " didn't",
+          "probability": 0.9990946650505066
+        },
+        {
+          "start": 103.62,
+          "end": 103.92,
+          "word": " break",
+          "probability": 0.9988304972648621
+        },
+        {
+          "start": 103.92,
+          "end": 104.26,
+          "word": " in?",
+          "probability": 0.9918648600578308
+        }
+      ]
+    },
+    {
+      "start": 104.58,
+      "end": 111.28,
+      "text": "You're interrupting. A lot of Zyrinski's staff are wearing a sigil. The vampire overlord Kagan may be long dead, but his cult is still at large.",
+      "words": [
+        {
+          "start": 104.58,
+          "end": 104.94,
+          "word": " You're",
+          "probability": 0.9863135814666748
+        },
+        {
+          "start": 104.94,
+          "end": 105.32,
+          "word": " interrupting.",
+          "probability": 0.9955611228942871
+        },
+        {
+          "start": 105.78,
+          "end": 105.88,
+          "word": " A",
+          "probability": 0.9893993735313416
+        },
+        {
+          "start": 105.88,
+          "end": 106.02,
+          "word": " lot",
+          "probability": 0.9981614947319031
+        },
+        {
+          "start": 106.02,
+          "end": 106.14,
+          "word": " of",
+          "probability": 0.9963032007217407
+        },
+        {
+          "start": 106.14,
+          "end": 106.7,
+          "word": " Zyrinski's",
+          "probability": 0.947740912437439
+        },
+        {
+          "start": 106.7,
+          "end": 106.8,
+          "word": " staff",
+          "probability": 0.9976755976676941
+        },
+        {
+          "start": 106.8,
+          "end": 106.98,
+          "word": " are",
+          "probability": 0.990942656993866
+        },
+        {
+          "start": 106.98,
+          "end": 107.1,
+          "word": " wearing",
+          "probability": 0.998178243637085
+        },
+        {
+          "start": 107.1,
+          "end": 107.36,
+          "word": " a",
+          "probability": 0.8641532063484192
+        },
+        {
+          "start": 107.36,
+          "end": 107.6,
+          "word": " sigil.",
+          "probability": 0.9897518754005432
+        },
+        {
+          "start": 107.8,
+          "end": 108.02,
+          "word": " The",
+          "probability": 0.9945681095123291
+        },
+        {
+          "start": 108.02,
+          "end": 108.34,
+          "word": " vampire",
+          "probability": 0.7861641645431519
+        },
+        {
+          "start": 108.34,
+          "end": 108.76,
+          "word": " overlord",
+          "probability": 0.9643311202526093
+        },
+        {
+          "start": 108.76,
+          "end": 109.1,
+          "word": " Kagan",
+          "probability": 0.7660984992980957
+        },
+        {
+          "start": 109.1,
+          "end": 109.24,
+          "word": " may",
+          "probability": 0.9215552806854248
+        },
+        {
+          "start": 109.24,
+          "end": 109.4,
+          "word": " be",
+          "probability": 0.9048252701759338
+        },
+        {
+          "start": 109.4,
+          "end": 109.54,
+          "word": " long",
+          "probability": 0.9596402645111084
+        },
+        {
+          "start": 109.54,
+          "end": 109.82,
+          "word": " dead,",
+          "probability": 0.9692700505256653
+        },
+        {
+          "start": 109.86,
+          "end": 110.0,
+          "word": " but",
+          "probability": 0.9878286123275757
+        },
+        {
+          "start": 110.0,
+          "end": 110.3,
+          "word": " his",
+          "probability": 0.9974417686462402
+        },
+        {
+          "start": 110.3,
+          "end": 110.48,
+          "word": " cult",
+          "probability": 0.874613881111145
+        },
+        {
+          "start": 110.48,
+          "end": 110.68,
+          "word": " is",
+          "probability": 0.9874337315559387
+        },
+        {
+          "start": 110.68,
+          "end": 110.82,
+          "word": " still",
+          "probability": 0.9984039664268494
+        },
+        {
+          "start": 110.82,
+          "end": 111.02,
+          "word": " at",
+          "probability": 0.9970375299453735
+        },
+        {
+          "start": 111.02,
+          "end": 111.28,
+          "word": " large.",
+          "probability": 0.9935703277587891
+        }
+      ]
+    },
+    {
+      "start": 111.28,
+      "end": 117.38,
+      "text": "Like Brimstone suspected. And that makes Zarensky their grand wizard. Sick bastard.",
+      "words": [
+        {
+          "start": 111.28,
+          "end": 111.9,
+          "word": " Like",
+          "probability": 0.8515366315841675
+        },
+        {
+          "start": 111.9,
+          "end": 112.42,
+          "word": " Brimstone",
+          "probability": 0.8273483912150065
+        },
+        {
+          "start": 112.42,
+          "end": 113.0,
+          "word": " suspected.",
+          "probability": 0.9235633015632629
+        },
+        {
+          "start": 113.54,
+          "end": 113.76,
+          "word": " And",
+          "probability": 0.9642306566238403
+        },
+        {
+          "start": 113.76,
+          "end": 114.0,
+          "word": " that",
+          "probability": 0.994550883769989
+        },
+        {
+          "start": 114.0,
+          "end": 114.2,
+          "word": " makes",
+          "probability": 0.9080631136894226
+        },
+        {
+          "start": 114.2,
+          "end": 114.9,
+          "word": " Zarensky",
+          "probability": 0.7732996419072151
+        },
+        {
+          "start": 114.9,
+          "end": 115.14,
+          "word": " their",
+          "probability": 0.9303992390632629
+        },
+        {
+          "start": 115.14,
+          "end": 115.48,
+          "word": " grand",
+          "probability": 0.6233527064323425
+        },
+        {
+          "start": 115.48,
+          "end": 115.94,
+          "word": " wizard.",
+          "probability": 0.9864264726638794
+        },
+        {
+          "start": 116.64,
+          "end": 116.82,
+          "word": " Sick",
+          "probability": 0.9840647578239441
+        },
+        {
+          "start": 116.82,
+          "end": 117.38,
+          "word": " bastard.",
+          "probability": 0.9858111143112183
+        }
+      ]
+    },
+    {
+      "start": 117.66,
+      "end": 121.06,
+      "text": "Whatever's behind that door upstairs is probably very educational.",
+      "words": [
+        {
+          "start": 117.66,
+          "end": 118.02,
+          "word": " Whatever's",
+          "probability": 0.927188903093338
+        },
+        {
+          "start": 118.02,
+          "end": 118.26,
+          "word": " behind",
+          "probability": 0.9973980188369751
+        },
+        {
+          "start": 118.26,
+          "end": 118.5,
+          "word": " that",
+          "probability": 0.9705983400344849
+        },
+        {
+          "start": 118.5,
+          "end": 118.66,
+          "word": " door",
+          "probability": 0.9976692795753479
+        },
+        {
+          "start": 118.66,
+          "end": 119.08,
+          "word": " upstairs",
+          "probability": 0.9659280776977539
+        },
+        {
+          "start": 119.08,
+          "end": 119.44,
+          "word": " is",
+          "probability": 0.9805930852890015
+        },
+        {
+          "start": 119.44,
+          "end": 119.82,
+          "word": " probably",
+          "probability": 0.9952138662338257
+        },
+        {
+          "start": 119.82,
+          "end": 120.38,
+          "word": " very",
+          "probability": 0.959290623664856
+        },
+        {
+          "start": 120.38,
+          "end": 121.06,
+          "word": " educational.",
+          "probability": 0.9218799471855164
+        }
+      ]
+    },
+    {
+      "start": 121.86,
+      "end": 126.56,
+      "text": "This might be fun after all. I'll take a look. You have something for me?",
+      "words": [
+        {
+          "start": 121.86,
+          "end": 122.06,
+          "word": " This",
+          "probability": 0.8755507469177246
+        },
+        {
+          "start": 122.06,
+          "end": 122.28,
+          "word": " might",
+          "probability": 0.9980133771896362
+        },
+        {
+          "start": 122.28,
+          "end": 122.54,
+          "word": " be",
+          "probability": 0.9979216456413269
+        },
+        {
+          "start": 122.54,
+          "end": 122.7,
+          "word": " fun",
+          "probability": 0.9985710382461548
+        },
+        {
+          "start": 122.7,
+          "end": 123.16,
+          "word": " after",
+          "probability": 0.9161682724952698
+        },
+        {
+          "start": 123.16,
+          "end": 123.42,
+          "word": " all.",
+          "probability": 0.9813318252563477
+        },
+        {
+          "start": 123.52,
+          "end": 123.76,
+          "word": " I'll",
+          "probability": 0.9934844076633453
+        },
+        {
+          "start": 123.76,
+          "end": 123.94,
+          "word": " take",
+          "probability": 0.9984993934631348
+        },
+        {
+          "start": 123.94,
+          "end": 124.1,
+          "word": " a",
+          "probability": 0.9993496537208557
+        },
+        {
+          "start": 124.1,
+          "end": 124.36,
+          "word": " look.",
+          "probability": 0.99934321641922
+        },
+        {
+          "start": 124.92,
+          "end": 125.28,
+          "word": " You",
+          "probability": 0.910536527633667
+        },
+        {
+          "start": 125.28,
+          "end": 125.52,
+          "word": " have",
+          "probability": 0.989197313785553
+        },
+        {
+          "start": 125.52,
+          "end": 125.86,
+          "word": " something",
+          "probability": 0.9975587129592896
+        },
+        {
+          "start": 125.86,
+          "end": 126.12,
+          "word": " for",
+          "probability": 0.9992246627807617
+        },
+        {
+          "start": 126.12,
+          "end": 126.56,
+          "word": " me?",
+          "probability": 0.9998263716697693
+        }
+      ]
+    },
+    {
+      "start": 129.63,
+      "end": 131.93,
+      "text": "Hello, angels. I missed you.",
+      "words": [
+        {
+          "start": 129.63,
+          "end": 130.01,
+          "word": " Hello,",
+          "probability": 0.9799323678016663
+        },
+        {
+          "start": 130.25,
+          "end": 130.65,
+          "word": " angels.",
+          "probability": 0.7972447872161865
+        },
+        {
+          "start": 130.85,
+          "end": 131.11,
+          "word": " I",
+          "probability": 0.998965859413147
+        },
+        {
+          "start": 131.11,
+          "end": 131.39,
+          "word": " missed",
+          "probability": 0.9668937921524048
+        },
+        {
+          "start": 131.39,
+          "end": 131.93,
+          "word": " you.",
+          "probability": 0.9976766705513
+        }
+      ]
+    },
+    {
+      "start": 139.47,
+      "end": 142.41,
+      "text": "Not your style, Rain, but you'll want to be a little cautious, okay?",
+      "words": [
+        {
+          "start": 139.47,
+          "end": 139.61,
+          "word": " Not",
+          "probability": 0.9730682373046875
+        },
+        {
+          "start": 139.61,
+          "end": 139.95,
+          "word": " your",
+          "probability": 0.9933589100837708
+        },
+        {
+          "start": 139.95,
+          "end": 140.23,
+          "word": " style,",
+          "probability": 0.9947872161865234
+        },
+        {
+          "start": 140.37,
+          "end": 140.45,
+          "word": " Rain,",
+          "probability": 0.23330628871917725
+        },
+        {
+          "start": 140.47,
+          "end": 140.63,
+          "word": " but",
+          "probability": 0.9897839426994324
+        },
+        {
+          "start": 140.63,
+          "end": 140.87,
+          "word": " you'll",
+          "probability": 0.9337436258792877
+        },
+        {
+          "start": 140.87,
+          "end": 140.93,
+          "word": " want",
+          "probability": 0.9827187061309814
+        },
+        {
+          "start": 140.93,
+          "end": 141.15,
+          "word": " to",
+          "probability": 0.9947367310523987
+        },
+        {
+          "start": 141.15,
+          "end": 141.27,
+          "word": " be",
+          "probability": 0.9968776702880859
+        },
+        {
+          "start": 141.27,
+          "end": 141.29,
+          "word": " a",
+          "probability": 0.9950363039970398
+        },
+        {
+          "start": 141.29,
+          "end": 141.53,
+          "word": " little",
+          "probability": 0.9956371188163757
+        },
+        {
+          "start": 141.53,
+          "end": 141.99,
+          "word": " cautious,",
+          "probability": 0.9931696653366089
+        },
+        {
+          "start": 142.21,
+          "end": 142.41,
+          "word": " okay?",
+          "probability": 0.8231631517410278
+        }
+      ]
+    },
+    {
+      "start": 142.69,
+      "end": 145.97,
+      "text": "Oh, that's real nice. Both hands on the stairwell, please.",
+      "words": [
+        {
+          "start": 142.69,
+          "end": 143.07,
+          "word": " Oh,",
+          "probability": 0.982297420501709
+        },
+        {
+          "start": 143.17,
+          "end": 143.47,
+          "word": " that's",
+          "probability": 0.9961066544055939
+        },
+        {
+          "start": 143.47,
+          "end": 143.67,
+          "word": " real",
+          "probability": 0.9748318195343018
+        },
+        {
+          "start": 143.67,
+          "end": 144.09,
+          "word": " nice.",
+          "probability": 0.999420166015625
+        },
+        {
+          "start": 144.45,
+          "end": 144.55,
+          "word": " Both",
+          "probability": 0.9937771558761597
+        },
+        {
+          "start": 144.55,
+          "end": 144.79,
+          "word": " hands",
+          "probability": 0.9967252612113953
+        },
+        {
+          "start": 144.79,
+          "end": 145.07,
+          "word": " on",
+          "probability": 0.9962676167488098
+        },
+        {
+          "start": 145.07,
+          "end": 145.17,
+          "word": " the",
+          "probability": 0.9849737882614136
+        },
+        {
+          "start": 145.17,
+          "end": 145.59,
+          "word": " stairwell,",
+          "probability": 0.9811915159225464
+        },
+        {
+          "start": 145.59,
+          "end": 145.97,
+          "word": " please.",
+          "probability": 0.9994572997093201
+        }
+      ]
+    }
+  ]
+}

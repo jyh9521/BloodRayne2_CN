@@ -1,0 +1,127 @@
+{
+  "movie": "A4S02P02",
+  "model": "faster-whisper large-v3 int8 CPU",
+  "window": [
+    18,
+    28
+  ],
+  "segments": [
+    {
+      "start": 18.62,
+      "end": 22.759999999999998,
+      "text": "Approaching target. All units move into the bank and surround formation. We're gonna-",
+      "words": [
+        {
+          "start": 18.62,
+          "end": 19.16,
+          "word": " Approaching",
+          "probability": 0.8736380040645599
+        },
+        {
+          "start": 19.16,
+          "end": 19.48,
+          "word": " target.",
+          "probability": 0.9741700887680054
+        },
+        {
+          "start": 19.68,
+          "end": 19.92,
+          "word": " All",
+          "probability": 0.987204372882843
+        },
+        {
+          "start": 19.92,
+          "end": 20.18,
+          "word": " units",
+          "probability": 0.9885672330856323
+        },
+        {
+          "start": 20.18,
+          "end": 20.5,
+          "word": " move",
+          "probability": 0.851346492767334
+        },
+        {
+          "start": 20.5,
+          "end": 20.7,
+          "word": " into",
+          "probability": 0.9445223212242126
+        },
+        {
+          "start": 20.7,
+          "end": 20.82,
+          "word": " the",
+          "probability": 0.9794312119483948
+        },
+        {
+          "start": 20.82,
+          "end": 21.06,
+          "word": " bank",
+          "probability": 0.9302853345870972
+        },
+        {
+          "start": 21.06,
+          "end": 21.2,
+          "word": " and",
+          "probability": 0.9707835912704468
+        },
+        {
+          "start": 21.2,
+          "end": 21.48,
+          "word": " surround",
+          "probability": 0.9941393136978149
+        },
+        {
+          "start": 21.48,
+          "end": 21.96,
+          "word": " formation.",
+          "probability": 0.969305694103241
+        },
+        {
+          "start": 22.3,
+          "end": 22.58,
+          "word": " We're",
+          "probability": 0.9004697501659393
+        },
+        {
+          "start": 22.58,
+          "end": 22.68,
+          "word": " gonna",
+          "probability": 0.775173544883728
+        },
+        {
+          "start": 22.68,
+          "end": 22.759999999999998,
+          "word": "-",
+          "probability": 0.18085424602031708
+        }
+      ]
+    },
+    {
+      "start": 22.759999999999998,
+      "end": 23.46,
+      "text": "STAAAARP!",
+      "words": [
+        {
+          "start": 22.759999999999998,
+          "end": 23.46,
+          "word": " STAAAARP!",
+          "probability": 0.34973696172237395
+        }
+      ]
+    },
+    {
+      "start": 25.12,
+      "end": 25.66,
+      "text": "STAAAARP!",
+      "words": [
+        {
+          "start": 25.12,
+          "end": 25.66,
+          "word": " STAAAARP!",
+          "probability": 0.8169846415519715
+        }
+      ]
+    }
+  ]
+}

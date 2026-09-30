@@ -1,0 +1,572 @@
+{
+  "movie": "A4S02P01",
+  "duration": 37.7377,
+  "audio_sha256": "B3496BB4210935FB1C20C6BDAF80242558CAF9E1CDA3AA912B037D37B5022528",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.44,
+      "text": "My overlord Kagan, welcome. You are most welcome.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "word": " My",
+          "probability": 0.7136884331703186
+        },
+        {
+          "start": 0.38,
+          "end": 0.88,
+          "word": " overlord",
+          "probability": 0.9045895040035248
+        },
+        {
+          "start": 0.88,
+          "end": 1.5,
+          "word": " Kagan,",
+          "probability": 0.7172823250293732
+        },
+        {
+          "start": 1.96,
+          "end": 2.42,
+          "word": " welcome.",
+          "probability": 0.972246527671814
+        },
+        {
+          "start": 2.66,
+          "end": 2.88,
+          "word": " You",
+          "probability": 0.992489218711853
+        },
+        {
+          "start": 2.88,
+          "end": 3.16,
+          "word": " are",
+          "probability": 0.9934341907501221
+        },
+        {
+          "start": 3.16,
+          "end": 3.66,
+          "word": " most",
+          "probability": 0.983867883682251
+        },
+        {
+          "start": 3.66,
+          "end": 4.44,
+          "word": " welcome.",
+          "probability": 0.9840323328971863
+        }
+      ]
+    },
+    {
+      "start": 4.68,
+      "end": 8.28,
+      "text": "Do not so presume to welcome me to my own kingdom, Xerxes.",
+      "words": [
+        {
+          "start": 4.68,
+          "end": 4.9,
+          "word": " Do",
+          "probability": 0.9595966935157776
+        },
+        {
+          "start": 4.9,
+          "end": 5.14,
+          "word": " not",
+          "probability": 0.996755063533783
+        },
+        {
+          "start": 5.14,
+          "end": 5.4,
+          "word": " so",
+          "probability": 0.9832003116607666
+        },
+        {
+          "start": 5.4,
+          "end": 5.68,
+          "word": " presume",
+          "probability": 0.98531174659729
+        },
+        {
+          "start": 5.68,
+          "end": 5.9,
+          "word": " to",
+          "probability": 0.9903727769851685
+        },
+        {
+          "start": 5.9,
+          "end": 6.2,
+          "word": " welcome",
+          "probability": 0.9956243634223938
+        },
+        {
+          "start": 6.2,
+          "end": 6.5,
+          "word": " me",
+          "probability": 0.9806953072547913
+        },
+        {
+          "start": 6.5,
+          "end": 6.72,
+          "word": " to",
+          "probability": 0.9759423732757568
+        },
+        {
+          "start": 6.72,
+          "end": 6.9,
+          "word": " my",
+          "probability": 0.9957268238067627
+        },
+        {
+          "start": 6.9,
+          "end": 7.1,
+          "word": " own",
+          "probability": 0.9930908679962158
+        },
+        {
+          "start": 7.1,
+          "end": 7.44,
+          "word": " kingdom,",
+          "probability": 0.9284873008728027
+        },
+        {
+          "start": 7.76,
+          "end": 8.28,
+          "word": " Xerxes.",
+          "probability": 0.7458369533220927
+        }
+      ]
+    },
+    {
+      "start": 8.52,
+      "end": 9.2,
+      "text": "Is it ready?",
+      "words": [
+        {
+          "start": 8.52,
+          "end": 8.78,
+          "word": " Is",
+          "probability": 0.9756100177764893
+        },
+        {
+          "start": 8.78,
+          "end": 8.98,
+          "word": " it",
+          "probability": 0.9968039989471436
+        },
+        {
+          "start": 8.98,
+          "end": 9.2,
+          "word": " ready?",
+          "probability": 0.9983470439910889
+        }
+      ]
+    },
+    {
+      "start": 9.48,
+      "end": 12.08,
+      "text": "Oh, it is most definitely ready.",
+      "words": [
+        {
+          "start": 9.48,
+          "end": 9.82,
+          "word": " Oh,",
+          "probability": 0.9572116136550903
+        },
+        {
+          "start": 9.86,
+          "end": 10.12,
+          "word": " it",
+          "probability": 0.993586003780365
+        },
+        {
+          "start": 10.12,
+          "end": 10.58,
+          "word": " is",
+          "probability": 0.9796361923217773
+        },
+        {
+          "start": 10.58,
+          "end": 10.94,
+          "word": " most",
+          "probability": 0.36226674914360046
+        },
+        {
+          "start": 10.94,
+          "end": 11.58,
+          "word": " definitely",
+          "probability": 0.9753628373146057
+        },
+        {
+          "start": 11.58,
+          "end": 12.08,
+          "word": " ready.",
+          "probability": 0.9988013505935669
+        }
+      ]
+    },
+    {
+      "start": 12.22,
+      "end": 13.36,
+      "text": "Show it to me.",
+      "words": [
+        {
+          "start": 12.22,
+          "end": 12.54,
+          "word": " Show",
+          "probability": 0.9892680048942566
+        },
+        {
+          "start": 12.54,
+          "end": 12.78,
+          "word": " it",
+          "probability": 0.9973337650299072
+        },
+        {
+          "start": 12.78,
+          "end": 13.0,
+          "word": " to",
+          "probability": 0.9958266615867615
+        },
+        {
+          "start": 13.0,
+          "end": 13.36,
+          "word": " me.",
+          "probability": 0.9980579018592834
+        }
+      ]
+    },
+    {
+      "start": 13.68,
+      "end": 15.92,
+      "text": "Of course, father. Of course. It is here.",
+      "words": [
+        {
+          "start": 13.68,
+          "end": 13.92,
+          "word": " Of",
+          "probability": 0.9881302118301392
+        },
+        {
+          "start": 13.92,
+          "end": 14.12,
+          "word": " course,",
+          "probability": 0.9986494183540344
+        },
+        {
+          "start": 14.14,
+          "end": 14.46,
+          "word": " father.",
+          "probability": 0.711125373840332
+        },
+        {
+          "start": 14.58,
+          "end": 14.84,
+          "word": " Of",
+          "probability": 0.9835282564163208
+        },
+        {
+          "start": 14.84,
+          "end": 15.18,
+          "word": " course.",
+          "probability": 0.9995645880699158
+        },
+        {
+          "start": 15.18,
+          "end": 15.32,
+          "word": " It",
+          "probability": 0.9932169318199158
+        },
+        {
+          "start": 15.32,
+          "end": 15.56,
+          "word": " is",
+          "probability": 0.9956175088882446
+        },
+        {
+          "start": 15.56,
+          "end": 15.92,
+          "word": " here.",
+          "probability": 0.9988604784011841
+        }
+      ]
+    },
+    {
+      "start": 16.42,
+      "end": 19.34,
+      "text": "Reconstructed from the principles of the Vesper Shard.",
+      "words": [
+        {
+          "start": 16.42,
+          "end": 17.02,
+          "word": " Reconstructed",
+          "probability": 0.9959754943847656
+        },
+        {
+          "start": 17.02,
+          "end": 17.2,
+          "word": " from",
+          "probability": 0.9976237416267395
+        },
+        {
+          "start": 17.2,
+          "end": 17.5,
+          "word": " the",
+          "probability": 0.9976481795310974
+        },
+        {
+          "start": 17.5,
+          "end": 17.92,
+          "word": " principles",
+          "probability": 0.9105271100997925
+        },
+        {
+          "start": 17.92,
+          "end": 18.16,
+          "word": " of",
+          "probability": 0.9981820583343506
+        },
+        {
+          "start": 18.16,
+          "end": 18.38,
+          "word": " the",
+          "probability": 0.9845641851425171
+        },
+        {
+          "start": 18.38,
+          "end": 18.82,
+          "word": " Vesper",
+          "probability": 0.9375879466533661
+        },
+        {
+          "start": 18.82,
+          "end": 19.34,
+          "word": " Shard.",
+          "probability": 0.8079213500022888
+        }
+      ]
+    },
+    {
+      "start": 19.7,
+      "end": 21.0,
+      "text": "The Sun Gun.",
+      "words": [
+        {
+          "start": 19.7,
+          "end": 20.08,
+          "word": " The",
+          "probability": 0.9208720326423645
+        },
+        {
+          "start": 20.08,
+          "end": 20.64,
+          "word": " Sun",
+          "probability": 0.6218257546424866
+        },
+        {
+          "start": 20.64,
+          "end": 21.0,
+          "word": " Gun.",
+          "probability": 0.901930034160614
+        }
+      ]
+    },
+    {
+      "start": 21.36,
+      "end": 25.46,
+      "text": "These are portable versions of the large unit constructed on the roof.",
+      "words": [
+        {
+          "start": 21.36,
+          "end": 21.6,
+          "word": " These",
+          "probability": 0.9953418970108032
+        },
+        {
+          "start": 21.6,
+          "end": 21.86,
+          "word": " are",
+          "probability": 0.9960773587226868
+        },
+        {
+          "start": 21.86,
+          "end": 22.24,
+          "word": " portable",
+          "probability": 0.9945803284645081
+        },
+        {
+          "start": 22.24,
+          "end": 22.78,
+          "word": " versions",
+          "probability": 0.9946735501289368
+        },
+        {
+          "start": 22.78,
+          "end": 23.02,
+          "word": " of",
+          "probability": 0.9962218999862671
+        },
+        {
+          "start": 23.02,
+          "end": 23.28,
+          "word": " the",
+          "probability": 0.9973567724227905
+        },
+        {
+          "start": 23.28,
+          "end": 23.62,
+          "word": " large",
+          "probability": 0.9952073693275452
+        },
+        {
+          "start": 23.62,
+          "end": 24.0,
+          "word": " unit",
+          "probability": 0.9879090189933777
+        },
+        {
+          "start": 24.0,
+          "end": 24.64,
+          "word": " constructed",
+          "probability": 0.9731148481369019
+        },
+        {
+          "start": 24.64,
+          "end": 24.92,
+          "word": " on",
+          "probability": 0.997666597366333
+        },
+        {
+          "start": 24.92,
+          "end": 25.12,
+          "word": " the",
+          "probability": 0.998348593711853
+        },
+        {
+          "start": 25.12,
+          "end": 25.46,
+          "word": " roof.",
+          "probability": 0.9876533150672913
+        }
+      ]
+    },
+    {
+      "start": 25.94,
+      "end": 27.6,
+      "text": "They feed from it.",
+      "words": [
+        {
+          "start": 25.94,
+          "end": 26.44,
+          "word": " They",
+          "probability": 0.9943763017654419
+        },
+        {
+          "start": 26.44,
+          "end": 26.82,
+          "word": " feed",
+          "probability": 0.8670466542243958
+        },
+        {
+          "start": 26.82,
+          "end": 27.26,
+          "word": " from",
+          "probability": 0.9983668923377991
+        },
+        {
+          "start": 27.26,
+          "end": 27.6,
+          "word": " it.",
+          "probability": 0.9907088279724121
+        }
+      ]
+    },
+    {
+      "start": 27.82,
+      "end": 31.79,
+      "text": "Overlord Gunships, my lord.",
+      "words": [
+        {
+          "start": 27.82,
+          "end": 28.24,
+          "word": " Overlord",
+          "probability": 0.9223790168762207
+        },
+        {
+          "start": 30.83,
+          "end": 31.41,
+          "word": " Gunships,",
+          "probability": 0.7330266237258911
+        },
+        {
+          "start": 31.43,
+          "end": 31.55,
+          "word": " my",
+          "probability": 0.9756465554237366
+        },
+        {
+          "start": 31.55,
+          "end": 31.79,
+          "word": " lord.",
+          "probability": 0.9513493180274963
+        }
+      ]
+    },
+    {
+      "start": 31.79,
+      "end": 35.99,
+      "text": "Take these and test them. And no prisoners.",
+      "words": [
+        {
+          "start": 31.79,
+          "end": 32.77,
+          "word": " Take",
+          "probability": 0.804993212223053
+        },
+        {
+          "start": 32.77,
+          "end": 33.19,
+          "word": " these",
+          "probability": 0.9727818369865417
+        },
+        {
+          "start": 33.19,
+          "end": 33.43,
+          "word": " and",
+          "probability": 0.9398549795150757
+        },
+        {
+          "start": 33.43,
+          "end": 33.71,
+          "word": " test",
+          "probability": 0.9928680658340454
+        },
+        {
+          "start": 33.71,
+          "end": 34.41,
+          "word": " them.",
+          "probability": 0.9938850998878479
+        },
+        {
+          "start": 34.97,
+          "end": 35.23,
+          "word": " And",
+          "probability": 0.9447460770606995
+        },
+        {
+          "start": 35.23,
+          "end": 35.47,
+          "word": " no",
+          "probability": 0.9123712778091431
+        },
+        {
+          "start": 35.47,
+          "end": 35.99,
+          "word": " prisoners.",
+          "probability": 0.9885285496711731
+        }
+      ]
+    }
+  ]
+}

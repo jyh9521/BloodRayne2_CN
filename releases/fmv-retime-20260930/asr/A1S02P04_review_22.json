@@ -1,0 +1,58 @@
+{
+  "movie": "A1S02P04",
+  "window": [
+    22,
+    27
+  ],
+  "segments": [
+    {
+      "start": 22.86,
+      "end": 26.0,
+      "text": "Rain, Rain, are you there? What happened?",
+      "words": [
+        {
+          "start": 22.86,
+          "end": 23.42,
+          "word": " Rain,",
+          "probability": 0.3899274468421936
+        },
+        {
+          "start": 24.14,
+          "end": 24.4,
+          "word": " Rain,",
+          "probability": 0.8685798645019531
+        },
+        {
+          "start": 24.6,
+          "end": 24.66,
+          "word": " are",
+          "probability": 0.6444609761238098
+        },
+        {
+          "start": 24.66,
+          "end": 24.86,
+          "word": " you",
+          "probability": 0.9983213543891907
+        },
+        {
+          "start": 24.86,
+          "end": 25.14,
+          "word": " there?",
+          "probability": 0.997622549533844
+        },
+        {
+          "start": 25.54,
+          "end": 25.7,
+          "word": " What",
+          "probability": 0.9742230772972107
+        },
+        {
+          "start": 25.7,
+          "end": 26.0,
+          "word": " happened?",
+          "probability": 0.9899537563323975
+        }
+      ]
+    }
+  ]
+}

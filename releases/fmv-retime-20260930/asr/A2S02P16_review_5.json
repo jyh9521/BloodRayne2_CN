@@ -1,0 +1,96 @@
+{
+  "movie": "A2S02P16",
+  "window": [
+    5,
+    14
+  ],
+  "segments": [
+    {
+      "start": 6.86,
+      "end": 9.54,
+      "text": "Rain, where'd you end up?",
+      "words": [
+        {
+          "start": 6.86,
+          "end": 7.54,
+          "word": " Rain,",
+          "probability": 0.45201361179351807
+        },
+        {
+          "start": 8.6,
+          "end": 8.86,
+          "word": " where'd",
+          "probability": 0.8996760547161102
+        },
+        {
+          "start": 8.86,
+          "end": 8.98,
+          "word": " you",
+          "probability": 0.9978951215744019
+        },
+        {
+          "start": 8.98,
+          "end": 9.16,
+          "word": " end",
+          "probability": 0.9980859756469727
+        },
+        {
+          "start": 9.16,
+          "end": 9.54,
+          "word": " up?",
+          "probability": 0.9993221759796143
+        }
+      ]
+    },
+    {
+      "start": 10.08,
+      "end": 10.84,
+      "text": "Under the clock.",
+      "words": [
+        {
+          "start": 10.08,
+          "end": 10.2,
+          "word": " Under",
+          "probability": 0.9730122089385986
+        },
+        {
+          "start": 10.2,
+          "end": 10.559999999999999,
+          "word": " the",
+          "probability": 0.9993452429771423
+        },
+        {
+          "start": 10.559999999999999,
+          "end": 10.84,
+          "word": " clock.",
+          "probability": 0.9864063858985901
+        }
+      ]
+    },
+    {
+      "start": 11.14,
+      "end": 12.04,
+      "text": "Under the station.",
+      "words": [
+        {
+          "start": 11.14,
+          "end": 11.36,
+          "word": " Under",
+          "probability": 0.9964025020599365
+        },
+        {
+          "start": 11.36,
+          "end": 11.7,
+          "word": " the",
+          "probability": 0.9987558126449585
+        },
+        {
+          "start": 11.7,
+          "end": 12.04,
+          "word": " station.",
+          "probability": 0.9825074076652527
+        }
+      ]
+    }
+  ]
+}

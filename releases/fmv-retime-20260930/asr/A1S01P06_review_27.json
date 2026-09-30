@@ -1,0 +1,221 @@
+{
+  "movie": "A1S01P06",
+  "window": [
+    27,
+    46
+  ],
+  "segments": [
+    {
+      "start": 27.0,
+      "end": 34.72,
+      "text": "Oh, what a fine, aren't you? But you smell tainted. Which one was your mother?",
+      "words": [
+        {
+          "start": 27.0,
+          "end": 27.1,
+          "word": " Oh,",
+          "probability": 0.08570795506238937
+        },
+        {
+          "start": 27.92,
+          "end": 28.18,
+          "word": " what",
+          "probability": 0.6982944011688232
+        },
+        {
+          "start": 28.18,
+          "end": 28.44,
+          "word": " a",
+          "probability": 0.9728202819824219
+        },
+        {
+          "start": 28.44,
+          "end": 28.94,
+          "word": " fine,",
+          "probability": 0.9022544622421265
+        },
+        {
+          "start": 29.2,
+          "end": 29.62,
+          "word": " aren't",
+          "probability": 0.9753230214118958
+        },
+        {
+          "start": 29.62,
+          "end": 29.98,
+          "word": " you?",
+          "probability": 0.9965863227844238
+        },
+        {
+          "start": 30.240000000000002,
+          "end": 30.38,
+          "word": " But",
+          "probability": 0.9126490354537964
+        },
+        {
+          "start": 30.38,
+          "end": 30.9,
+          "word": " you",
+          "probability": 0.9877162575721741
+        },
+        {
+          "start": 30.9,
+          "end": 31.62,
+          "word": " smell",
+          "probability": 0.9800511598587036
+        },
+        {
+          "start": 31.62,
+          "end": 32.66,
+          "word": " tainted.",
+          "probability": 0.7685269415378571
+        },
+        {
+          "start": 33.2,
+          "end": 33.38,
+          "word": " Which",
+          "probability": 0.9848297238349915
+        },
+        {
+          "start": 33.38,
+          "end": 33.7,
+          "word": " one",
+          "probability": 0.9853785037994385
+        },
+        {
+          "start": 33.7,
+          "end": 33.96,
+          "word": " was",
+          "probability": 0.9941376447677612
+        },
+        {
+          "start": 33.96,
+          "end": 34.32,
+          "word": " your",
+          "probability": 0.9948582649230957
+        },
+        {
+          "start": 34.32,
+          "end": 34.72,
+          "word": " mother?",
+          "probability": 0.9892259240150452
+        }
+      ]
+    },
+    {
+      "start": 37.66,
+      "end": 45.66,
+      "text": "Never mind, I'm terrible with names, but I trust she died painfully, like the rest of her family.",
+      "words": [
+        {
+          "start": 37.66,
+          "end": 38.0,
+          "word": " Never",
+          "probability": 0.7957414984703064
+        },
+        {
+          "start": 38.0,
+          "end": 38.46,
+          "word": " mind,",
+          "probability": 0.8720061182975769
+        },
+        {
+          "start": 38.6,
+          "end": 38.82,
+          "word": " I'm",
+          "probability": 0.9679240882396698
+        },
+        {
+          "start": 38.82,
+          "end": 39.32,
+          "word": " terrible",
+          "probability": 0.9990662932395935
+        },
+        {
+          "start": 39.32,
+          "end": 39.64,
+          "word": " with",
+          "probability": 0.9962669014930725
+        },
+        {
+          "start": 39.64,
+          "end": 40.1,
+          "word": " names,",
+          "probability": 0.9975985884666443
+        },
+        {
+          "start": 40.76,
+          "end": 40.980000000000004,
+          "word": " but",
+          "probability": 0.9673454761505127
+        },
+        {
+          "start": 40.980000000000004,
+          "end": 41.3,
+          "word": " I",
+          "probability": 0.9903287291526794
+        },
+        {
+          "start": 41.3,
+          "end": 41.6,
+          "word": " trust",
+          "probability": 0.9883040189743042
+        },
+        {
+          "start": 41.6,
+          "end": 41.94,
+          "word": " she",
+          "probability": 0.9911919236183167
+        },
+        {
+          "start": 41.94,
+          "end": 42.58,
+          "word": " died",
+          "probability": 0.9987632036209106
+        },
+        {
+          "start": 42.58,
+          "end": 43.620000000000005,
+          "word": " painfully,",
+          "probability": 0.7376880794763565
+        },
+        {
+          "start": 44.16,
+          "end": 44.32,
+          "word": " like",
+          "probability": 0.9873985052108765
+        },
+        {
+          "start": 44.32,
+          "end": 44.54,
+          "word": " the",
+          "probability": 0.9969933032989502
+        },
+        {
+          "start": 44.54,
+          "end": 44.879999999999995,
+          "word": " rest",
+          "probability": 0.9993316531181335
+        },
+        {
+          "start": 44.879999999999995,
+          "end": 45.120000000000005,
+          "word": " of",
+          "probability": 0.9984933137893677
+        },
+        {
+          "start": 45.120000000000005,
+          "end": 45.260000000000005,
+          "word": " her",
+          "probability": 0.99241042137146
+        },
+        {
+          "start": 45.260000000000005,
+          "end": 45.66,
+          "word": " family.",
+          "probability": 0.9981746673583984
+        }
+      ]
+    }
+  ]
+}

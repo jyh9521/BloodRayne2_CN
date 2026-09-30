@@ -1,0 +1,240 @@
+{
+  "movie": "A1S01P06",
+  "window": [
+    136,
+    151
+  ],
+  "segments": [
+    {
+      "start": 138.88,
+      "end": 142.72,
+      "text": "Kagan's sick dream of a fully-bred vampire army died with him that day.",
+      "words": [
+        {
+          "start": 138.88,
+          "end": 139.44,
+          "word": " Kagan's",
+          "probability": 0.8357540567715963
+        },
+        {
+          "start": 139.44,
+          "end": 139.5,
+          "word": " sick",
+          "probability": 0.9970916509628296
+        },
+        {
+          "start": 139.5,
+          "end": 139.78,
+          "word": " dream",
+          "probability": 0.9943536520004272
+        },
+        {
+          "start": 139.78,
+          "end": 139.98,
+          "word": " of",
+          "probability": 0.9928723573684692
+        },
+        {
+          "start": 139.98,
+          "end": 140.14,
+          "word": " a",
+          "probability": 0.9864701628684998
+        },
+        {
+          "start": 140.14,
+          "end": 140.36,
+          "word": " fully",
+          "probability": 0.9778027534484863
+        },
+        {
+          "start": 140.36,
+          "end": 140.66,
+          "word": "-bred",
+          "probability": 0.7734401921431223
+        },
+        {
+          "start": 140.66,
+          "end": 141.22,
+          "word": " vampire",
+          "probability": 0.9117103815078735
+        },
+        {
+          "start": 141.22,
+          "end": 141.5,
+          "word": " army",
+          "probability": 0.9981163740158081
+        },
+        {
+          "start": 141.5,
+          "end": 141.84,
+          "word": " died",
+          "probability": 0.9789344668388367
+        },
+        {
+          "start": 141.84,
+          "end": 142.02,
+          "word": " with",
+          "probability": 0.9169493913650513
+        },
+        {
+          "start": 142.02,
+          "end": 142.22,
+          "word": " him",
+          "probability": 0.9756787419319153
+        },
+        {
+          "start": 142.22,
+          "end": 142.36,
+          "word": " that",
+          "probability": 0.994688868522644
+        },
+        {
+          "start": 142.36,
+          "end": 142.72,
+          "word": " day.",
+          "probability": 0.9991689920425415
+        }
+      ]
+    },
+    {
+      "start": 143.28,
+      "end": 148.88,
+      "text": "And because he murdered my mother's family, I've spent the last six decades finding and eliminating his.",
+      "words": [
+        {
+          "start": 143.28,
+          "end": 143.46,
+          "word": " And",
+          "probability": 0.9777830243110657
+        },
+        {
+          "start": 143.46,
+          "end": 143.72,
+          "word": " because",
+          "probability": 0.9931939840316772
+        },
+        {
+          "start": 143.72,
+          "end": 143.88,
+          "word": " he",
+          "probability": 0.9985343217849731
+        },
+        {
+          "start": 143.88,
+          "end": 144.14,
+          "word": " murdered",
+          "probability": 0.9977840781211853
+        },
+        {
+          "start": 144.14,
+          "end": 144.4,
+          "word": " my",
+          "probability": 0.9978389143943787
+        },
+        {
+          "start": 144.4,
+          "end": 144.88,
+          "word": " mother's",
+          "probability": 0.992368757724762
+        },
+        {
+          "start": 144.88,
+          "end": 145.24,
+          "word": " family,",
+          "probability": 0.9990965127944946
+        },
+        {
+          "start": 145.66,
+          "end": 145.92,
+          "word": " I've",
+          "probability": 0.9819275438785553
+        },
+        {
+          "start": 145.92,
+          "end": 146.02,
+          "word": " spent",
+          "probability": 0.9962466359138489
+        },
+        {
+          "start": 146.02,
+          "end": 146.18,
+          "word": " the",
+          "probability": 0.997369647026062
+        },
+        {
+          "start": 146.18,
+          "end": 146.46,
+          "word": " last",
+          "probability": 0.9936413168907166
+        },
+        {
+          "start": 146.46,
+          "end": 146.84,
+          "word": " six",
+          "probability": 0.8711401224136353
+        },
+        {
+          "start": 146.84,
+          "end": 147.3,
+          "word": " decades",
+          "probability": 0.999117910861969
+        },
+        {
+          "start": 147.3,
+          "end": 147.72,
+          "word": " finding",
+          "probability": 0.9859888553619385
+        },
+        {
+          "start": 147.72,
+          "end": 148.04,
+          "word": " and",
+          "probability": 0.9926758408546448
+        },
+        {
+          "start": 148.04,
+          "end": 148.48,
+          "word": " eliminating",
+          "probability": 0.9979498982429504
+        },
+        {
+          "start": 148.48,
+          "end": 148.88,
+          "word": " his.",
+          "probability": 0.9958394765853882
+        }
+      ]
+    },
+    {
+      "start": 149.48,
+      "end": 150.72,
+      "text": "Just returning the favor.",
+      "words": [
+        {
+          "start": 149.48,
+          "end": 149.78,
+          "word": " Just",
+          "probability": 0.984509289264679
+        },
+        {
+          "start": 149.78,
+          "end": 150.14,
+          "word": " returning",
+          "probability": 0.9937832355499268
+        },
+        {
+          "start": 150.14,
+          "end": 150.46,
+          "word": " the",
+          "probability": 0.999137282371521
+        },
+        {
+          "start": 150.46,
+          "end": 150.72,
+          "word": " favor.",
+          "probability": 0.9016624689102173
+        }
+      ]
+    }
+  ]
+}

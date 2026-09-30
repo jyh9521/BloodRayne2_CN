@@ -1,0 +1,32 @@
+Changed field: ASCII start/end timestamps in 15 video/*_RU.srt files; 222 cues. Original caption bytes, order, encoding, punctuation and lengths unchanged.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\MODIFIED_FILE.zip
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\VERIFICATION.txt
+ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\ROLLBACK.sh
+Working directory: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut
+BASELINE command: python "_cn_project\releases\fmv-retime-20260930\verify.py" baseline
+BASELINE input: live original RU files, original snapshots and baseline.json hashes (before installation).
+BASELINE output: BASELINE_OK movies=15 cues=222 overlaps=78 out_of_video=7 original_hashes=ok
+BASELINE exit: 0
+MODIFIED command: python "_cn_project\releases\fmv-retime-20260930\verify.py" modified
+MODIFIED input: payload/video, original snapshots, manifest.json, protected live assets.
+MODIFIED output: MODIFIED_OK movies=15 cues=222 text_bytes_unchanged=222 overlaps=0 out_of_video=0 protected_assets=unchanged
+MODIFIED exit: 0
+ROLLBACK command: & "C:\Program Files\Git\bin\bash.exe" "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\ROLLBACK.sh" -GameRoot "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\testroot"
+ROLLBACK input: isolated testroot containing installed modified subtitles and original backup.
+ROLLBACK output: ROLLBACK_OK ru_srt=15 original_hashes_restored=15 prior_timestamps_restored=yes
+ROLLBACK exit: 0
+ROLLBACK verification command: python "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\verify.py" rollback --root "C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-retime-20260930\testroot"
+ROLLBACK verification output: ROLLBACK_OK files=15 original_hashes_restored=15 prior_timestamps_restored=yes text_preserved=yes
+ROLLBACK verification exit: 0
+INSTALL command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "_cn_project\releases\fmv-retime-20260930\install.ps1"
+INSTALL output: INSTALL_OK ru_srt=15 cues=222 timestamp_only=yes text_preserved=yes
+INSTALL exit: 0
+INSTALLED command: python "_cn_project\releases\fmv-retime-20260930\verify.py" installed
+INSTALLED output: INSTALLED_OK movies=15 cues=222 text_bytes_unchanged=222 overlaps=0 out_of_video=0 protected_assets=unchanged
+INSTALLED exit: 0
+PACKAGE output: ZIP_OK entries=20 ru_srt=15 payload_hashes=ok
+PACKAGE exit: 0
+Restored status: isolated testroot restored to original SHA-256 and prior timestamps; live game retains retimed RU files. Live originals preserved in _cn_project/test_backup/fmv_retime_20260930/video.
+Exception: A2S02P16 cue 1 reference_text_no_full_audio_match retained without rewriting; A1S01P06 cue 1 onscreen title. See README and timing_review.tsv.
+In-game playback has not been tested; game was not launched. No BIK/audio/POD/DLL/EXE changes.

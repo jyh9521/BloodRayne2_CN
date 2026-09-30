@@ -1,0 +1,440 @@
+{
+  "movie": "A1S01P01",
+  "duration": 34.367667,
+  "audio_sha256": "66DC7F36B4036FF2B17A80ADB7E01A4B7EBF30CC22963EB38F917ACD4C3D930A",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 4.05,
+      "end": 6.55,
+      "text": "You ready you've been quiet tonight",
+      "words": [
+        {
+          "start": 4.05,
+          "end": 4.63,
+          "word": " You",
+          "probability": 0.8597952723503113
+        },
+        {
+          "start": 4.63,
+          "end": 4.95,
+          "word": " ready",
+          "probability": 0.9419115781784058
+        },
+        {
+          "start": 4.95,
+          "end": 5.87,
+          "word": " you've",
+          "probability": 0.6235925555229187
+        },
+        {
+          "start": 5.87,
+          "end": 5.97,
+          "word": " been",
+          "probability": 0.9987103939056396
+        },
+        {
+          "start": 5.97,
+          "end": 6.27,
+          "word": " quiet",
+          "probability": 0.9653304815292358
+        },
+        {
+          "start": 6.27,
+          "end": 6.55,
+          "word": " tonight",
+          "probability": 0.9891951084136963
+        }
+      ]
+    },
+    {
+      "start": 8.55,
+      "end": 11.83,
+      "text": "Yeah, you shouldn't worry you've got me here to help",
+      "words": [
+        {
+          "start": 8.55,
+          "end": 9.11,
+          "word": " Yeah,",
+          "probability": 0.8572435975074768
+        },
+        {
+          "start": 9.11,
+          "end": 9.67,
+          "word": " you",
+          "probability": 0.9256923198699951
+        },
+        {
+          "start": 9.67,
+          "end": 9.93,
+          "word": " shouldn't",
+          "probability": 0.9989340901374817
+        },
+        {
+          "start": 9.93,
+          "end": 10.21,
+          "word": " worry",
+          "probability": 0.9987691044807434
+        },
+        {
+          "start": 10.21,
+          "end": 10.79,
+          "word": " you've",
+          "probability": 0.9019328951835632
+        },
+        {
+          "start": 10.79,
+          "end": 10.89,
+          "word": " got",
+          "probability": 0.9912747144699097
+        },
+        {
+          "start": 10.89,
+          "end": 11.11,
+          "word": " me",
+          "probability": 0.9960058331489563
+        },
+        {
+          "start": 11.11,
+          "end": 11.23,
+          "word": " here",
+          "probability": 0.9977691173553467
+        },
+        {
+          "start": 11.23,
+          "end": 11.45,
+          "word": " to",
+          "probability": 0.9995438456535339
+        },
+        {
+          "start": 11.45,
+          "end": 11.83,
+          "word": " help",
+          "probability": 0.9995414018630981
+        }
+      ]
+    },
+    {
+      "start": 12.61,
+      "end": 18.05,
+      "text": "I'm not worried Severin, and I don't need your help or the brimstone societies",
+      "words": [
+        {
+          "start": 12.61,
+          "end": 13.17,
+          "word": " I'm",
+          "probability": 0.9890002012252808
+        },
+        {
+          "start": 13.17,
+          "end": 13.43,
+          "word": " not",
+          "probability": 0.9942784309387207
+        },
+        {
+          "start": 13.43,
+          "end": 13.77,
+          "word": " worried",
+          "probability": 0.9975287318229675
+        },
+        {
+          "start": 13.77,
+          "end": 14.29,
+          "word": " Severin,",
+          "probability": 0.455851748585701
+        },
+        {
+          "start": 14.29,
+          "end": 14.73,
+          "word": " and",
+          "probability": 0.9997441172599792
+        },
+        {
+          "start": 14.73,
+          "end": 14.95,
+          "word": " I",
+          "probability": 0.9995704293251038
+        },
+        {
+          "start": 14.95,
+          "end": 15.19,
+          "word": " don't",
+          "probability": 0.9998447597026825
+        },
+        {
+          "start": 15.19,
+          "end": 15.37,
+          "word": " need",
+          "probability": 0.9996557235717773
+        },
+        {
+          "start": 15.37,
+          "end": 15.65,
+          "word": " your",
+          "probability": 0.9995647072792053
+        },
+        {
+          "start": 15.65,
+          "end": 16.19,
+          "word": " help",
+          "probability": 0.9987161159515381
+        },
+        {
+          "start": 16.19,
+          "end": 16.65,
+          "word": " or",
+          "probability": 0.8310256600379944
+        },
+        {
+          "start": 16.65,
+          "end": 16.89,
+          "word": " the",
+          "probability": 0.9954749941825867
+        },
+        {
+          "start": 16.89,
+          "end": 17.33,
+          "word": " brimstone",
+          "probability": 0.9270433982213339
+        },
+        {
+          "start": 17.33,
+          "end": 18.05,
+          "word": " societies",
+          "probability": 0.8326717019081116
+        }
+      ]
+    },
+    {
+      "start": 18.05,
+      "end": 20.83,
+      "text": "Well good thing I'm fun to have around them",
+      "words": [
+        {
+          "start": 18.05,
+          "end": 19.13,
+          "word": " Well",
+          "probability": 0.4182892143726349
+        },
+        {
+          "start": 19.13,
+          "end": 19.37,
+          "word": " good",
+          "probability": 0.8913925886154175
+        },
+        {
+          "start": 19.37,
+          "end": 19.51,
+          "word": " thing",
+          "probability": 0.9960651993751526
+        },
+        {
+          "start": 19.51,
+          "end": 19.71,
+          "word": " I'm",
+          "probability": 0.7753313481807709
+        },
+        {
+          "start": 19.71,
+          "end": 19.77,
+          "word": " fun",
+          "probability": 0.9368658661842346
+        },
+        {
+          "start": 19.77,
+          "end": 19.93,
+          "word": " to",
+          "probability": 0.9984325766563416
+        },
+        {
+          "start": 19.93,
+          "end": 20.05,
+          "word": " have",
+          "probability": 0.9996809959411621
+        },
+        {
+          "start": 20.05,
+          "end": 20.33,
+          "word": " around",
+          "probability": 0.9965189695358276
+        },
+        {
+          "start": 20.33,
+          "end": 20.83,
+          "word": " them",
+          "probability": 0.8341734409332275
+        }
+      ]
+    },
+    {
+      "start": 21.69,
+      "end": 26.87,
+      "text": "Yes, it's a very good thing. I expect a number of horrible deaths tonight",
+      "words": [
+        {
+          "start": 21.69,
+          "end": 22.25,
+          "word": " Yes,",
+          "probability": 0.9466811418533325
+        },
+        {
+          "start": 22.49,
+          "end": 22.83,
+          "word": " it's",
+          "probability": 0.9997139871120453
+        },
+        {
+          "start": 22.83,
+          "end": 23.01,
+          "word": " a",
+          "probability": 0.9997817873954773
+        },
+        {
+          "start": 23.01,
+          "end": 23.29,
+          "word": " very",
+          "probability": 0.9997391104698181
+        },
+        {
+          "start": 23.29,
+          "end": 23.55,
+          "word": " good",
+          "probability": 0.9995991587638855
+        },
+        {
+          "start": 23.55,
+          "end": 24.01,
+          "word": " thing.",
+          "probability": 0.9971762895584106
+        },
+        {
+          "start": 24.11,
+          "end": 24.67,
+          "word": " I",
+          "probability": 0.9985264539718628
+        },
+        {
+          "start": 24.67,
+          "end": 24.95,
+          "word": " expect",
+          "probability": 0.9743699431419373
+        },
+        {
+          "start": 24.95,
+          "end": 25.19,
+          "word": " a",
+          "probability": 0.9990315437316895
+        },
+        {
+          "start": 25.19,
+          "end": 25.37,
+          "word": " number",
+          "probability": 0.9998201727867126
+        },
+        {
+          "start": 25.37,
+          "end": 25.75,
+          "word": " of",
+          "probability": 0.9998154044151306
+        },
+        {
+          "start": 25.75,
+          "end": 26.19,
+          "word": " horrible",
+          "probability": 0.9994654059410095
+        },
+        {
+          "start": 26.19,
+          "end": 26.59,
+          "word": " deaths",
+          "probability": 0.9650688171386719
+        },
+        {
+          "start": 26.59,
+          "end": 26.87,
+          "word": " tonight",
+          "probability": 0.9987137317657471
+        }
+      ]
+    },
+    {
+      "start": 27.49,
+      "end": 31.17,
+      "text": "Uh-huh, I'm guessing that dress will cause a few of them",
+      "words": [
+        {
+          "start": 27.49,
+          "end": 28.05,
+          "word": " Uh",
+          "probability": 0.5838193893432617
+        },
+        {
+          "start": 28.05,
+          "end": 28.33,
+          "word": "-huh,",
+          "probability": 0.9718754887580872
+        },
+        {
+          "start": 28.57,
+          "end": 28.79,
+          "word": " I'm",
+          "probability": 0.9987543225288391
+        },
+        {
+          "start": 28.79,
+          "end": 29.13,
+          "word": " guessing",
+          "probability": 0.9982064962387085
+        },
+        {
+          "start": 29.13,
+          "end": 29.51,
+          "word": " that",
+          "probability": 0.9965879917144775
+        },
+        {
+          "start": 29.51,
+          "end": 29.89,
+          "word": " dress",
+          "probability": 0.9236076474189758
+        },
+        {
+          "start": 29.89,
+          "end": 30.13,
+          "word": " will",
+          "probability": 0.9771379232406616
+        },
+        {
+          "start": 30.13,
+          "end": 30.27,
+          "word": " cause",
+          "probability": 0.977756917476654
+        },
+        {
+          "start": 30.27,
+          "end": 30.49,
+          "word": " a",
+          "probability": 0.9981885552406311
+        },
+        {
+          "start": 30.49,
+          "end": 30.63,
+          "word": " few",
+          "probability": 0.9964424967765808
+        },
+        {
+          "start": 30.63,
+          "end": 30.79,
+          "word": " of",
+          "probability": 0.9982572197914124
+        },
+        {
+          "start": 30.79,
+          "end": 31.17,
+          "word": " them",
+          "probability": 0.9998705387115479
+        }
+      ]
+    }
+  ]
+}

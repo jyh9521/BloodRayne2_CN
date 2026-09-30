@@ -1,0 +1,248 @@
+{
+  "movie": "A1S01P06",
+  "window": [
+    110,
+    133
+  ],
+  "segments": [
+    {
+      "start": 110.0,
+      "end": 113.76,
+      "text": "Liar. Definitely. But so is he.",
+      "words": [
+        {
+          "start": 110.0,
+          "end": 111.12,
+          "word": " Liar.",
+          "probability": 0.8873900175094604
+        },
+        {
+          "start": 111.36,
+          "end": 112.0,
+          "word": " Definitely.",
+          "probability": 0.9490787386894226
+        },
+        {
+          "start": 112.48,
+          "end": 112.76,
+          "word": " But",
+          "probability": 0.9899653196334839
+        },
+        {
+          "start": 112.76,
+          "end": 113.06,
+          "word": " so",
+          "probability": 0.9883284568786621
+        },
+        {
+          "start": 113.06,
+          "end": 113.36,
+          "word": " is",
+          "probability": 0.9936376214027405
+        },
+        {
+          "start": 113.36,
+          "end": 113.76,
+          "word": " he.",
+          "probability": 0.9885076284408569
+        }
+      ]
+    },
+    {
+      "start": 114.32,
+      "end": 116.66,
+      "text": "Didn't you tell it what you intended to do?",
+      "words": [
+        {
+          "start": 114.32,
+          "end": 114.72,
+          "word": " Didn't",
+          "probability": 0.9875361323356628
+        },
+        {
+          "start": 114.72,
+          "end": 114.94,
+          "word": " you",
+          "probability": 0.9965884685516357
+        },
+        {
+          "start": 114.94,
+          "end": 115.14,
+          "word": " tell",
+          "probability": 0.9943021535873413
+        },
+        {
+          "start": 115.14,
+          "end": 115.28,
+          "word": " it",
+          "probability": 0.9520852565765381
+        },
+        {
+          "start": 115.28,
+          "end": 115.48,
+          "word": " what",
+          "probability": 0.9958635568618774
+        },
+        {
+          "start": 115.48,
+          "end": 115.78,
+          "word": " you",
+          "probability": 0.9970114231109619
+        },
+        {
+          "start": 115.78,
+          "end": 116.04,
+          "word": " intended",
+          "probability": 0.9871875047683716
+        },
+        {
+          "start": 116.04,
+          "end": 116.4,
+          "word": " to",
+          "probability": 0.994358241558075
+        },
+        {
+          "start": 116.4,
+          "end": 116.66,
+          "word": " do?",
+          "probability": 0.9987882971763611
+        }
+      ]
+    },
+    {
+      "start": 117.2,
+      "end": 122.58,
+      "text": "This, Professor. You kill your filthy half-breed pets.",
+      "words": [
+        {
+          "start": 117.2,
+          "end": 117.58,
+          "word": " This,",
+          "probability": 0.8625316023826599
+        },
+        {
+          "start": 117.78,
+          "end": 118.26,
+          "word": " Professor.",
+          "probability": 0.8470370769500732
+        },
+        {
+          "start": 118.96000000000001,
+          "end": 119.52,
+          "word": " You",
+          "probability": 0.9648377299308777
+        },
+        {
+          "start": 119.52,
+          "end": 120.12,
+          "word": " kill",
+          "probability": 0.44910502433776855
+        },
+        {
+          "start": 120.12,
+          "end": 120.56,
+          "word": " your",
+          "probability": 0.917683482170105
+        },
+        {
+          "start": 120.56,
+          "end": 121.06,
+          "word": " filthy",
+          "probability": 0.9965908527374268
+        },
+        {
+          "start": 121.06,
+          "end": 121.58,
+          "word": " half",
+          "probability": 0.7680073380470276
+        },
+        {
+          "start": 121.58,
+          "end": 122.12,
+          "word": "-breed",
+          "probability": 0.9749420086542765
+        },
+        {
+          "start": 122.12,
+          "end": 122.58,
+          "word": " pets.",
+          "probability": 0.9837608933448792
+        }
+      ]
+    },
+    {
+      "start": 123.16,
+      "end": 127.12,
+      "text": "This, Professor. Destroy all vampires.",
+      "words": [
+        {
+          "start": 123.16,
+          "end": 123.4,
+          "word": " This,",
+          "probability": 0.5735882520675659
+        },
+        {
+          "start": 123.7,
+          "end": 124.0,
+          "word": " Professor.",
+          "probability": 0.9897604584693909
+        },
+        {
+          "start": 124.6,
+          "end": 125.16,
+          "word": " Destroy",
+          "probability": 0.9700015187263489
+        },
+        {
+          "start": 125.16,
+          "end": 126.22,
+          "word": " all",
+          "probability": 0.9518125057220459
+        },
+        {
+          "start": 126.22,
+          "end": 127.12,
+          "word": " vampires.",
+          "probability": 0.979112982749939
+        }
+      ]
+    },
+    {
+      "start": 127.56,
+      "end": 131.56,
+      "text": "I think most definitely not!",
+      "words": [
+        {
+          "start": 127.56,
+          "end": 128.18,
+          "word": " I",
+          "probability": 0.9901303648948669
+        },
+        {
+          "start": 128.18,
+          "end": 128.82,
+          "word": " think",
+          "probability": 0.9796002507209778
+        },
+        {
+          "start": 128.82,
+          "end": 129.76,
+          "word": " most",
+          "probability": 0.6773390769958496
+        },
+        {
+          "start": 129.76,
+          "end": 130.68,
+          "word": " definitely",
+          "probability": 0.9805862903594971
+        },
+        {
+          "start": 130.68,
+          "end": 131.56,
+          "word": " not!",
+          "probability": 0.9120874404907227
+        }
+      ]
+    }
+  ]
+}

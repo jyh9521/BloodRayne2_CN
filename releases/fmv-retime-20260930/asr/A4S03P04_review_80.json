@@ -1,0 +1,46 @@
+{
+  "movie": "A4S03P04",
+  "window": [
+    80,
+    89
+  ],
+  "segments": [
+    {
+      "start": 82.94,
+      "end": 85.2,
+      "text": "Don't worry, you're safe now.",
+      "words": [
+        {
+          "start": 82.94,
+          "end": 83.74,
+          "word": " Don't",
+          "probability": 0.9025806784629822
+        },
+        {
+          "start": 83.74,
+          "end": 84.0,
+          "word": " worry,",
+          "probability": 0.9942190647125244
+        },
+        {
+          "start": 84.54,
+          "end": 84.6,
+          "word": " you're",
+          "probability": 0.9724349677562714
+        },
+        {
+          "start": 84.6,
+          "end": 84.8,
+          "word": " safe",
+          "probability": 0.9991115927696228
+        },
+        {
+          "start": 84.8,
+          "end": 85.2,
+          "word": " now.",
+          "probability": 0.9957612156867981
+        }
+      ]
+    }
+  ]
+}

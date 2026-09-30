@@ -1,0 +1,83 @@
+{
+  "movie": "A4S03P04",
+  "model": "faster-whisper large-v3 int8 CPU",
+  "window": [
+    120,
+    127
+  ],
+  "segments": [
+    {
+      "start": 122.48,
+      "end": 125.96,
+      "text": "Severin, these next few years are going to be very interesting.",
+      "words": [
+        {
+          "start": 122.48,
+          "end": 123.1,
+          "word": " Severin,",
+          "probability": 0.7474743127822876
+        },
+        {
+          "start": 123.1,
+          "end": 123.48,
+          "word": " these",
+          "probability": 0.9793796539306641
+        },
+        {
+          "start": 123.48,
+          "end": 123.74,
+          "word": " next",
+          "probability": 0.9955920577049255
+        },
+        {
+          "start": 123.74,
+          "end": 123.98,
+          "word": " few",
+          "probability": 0.9932898879051208
+        },
+        {
+          "start": 123.98,
+          "end": 124.34,
+          "word": " years",
+          "probability": 0.9972473978996277
+        },
+        {
+          "start": 124.34,
+          "end": 124.5,
+          "word": " are",
+          "probability": 0.9734295606613159
+        },
+        {
+          "start": 124.5,
+          "end": 124.6,
+          "word": " going",
+          "probability": 0.46617063879966736
+        },
+        {
+          "start": 124.6,
+          "end": 124.68,
+          "word": " to",
+          "probability": 0.9965927004814148
+        },
+        {
+          "start": 124.68,
+          "end": 124.8,
+          "word": " be",
+          "probability": 0.9979554414749146
+        },
+        {
+          "start": 124.8,
+          "end": 125.3,
+          "word": " very",
+          "probability": 0.9296086430549622
+        },
+        {
+          "start": 125.3,
+          "end": 125.96,
+          "word": " interesting.",
+          "probability": 0.9936859011650085
+        }
+      ]
+    }
+  ]
+}

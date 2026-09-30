@@ -1,0 +1,768 @@
+{
+  "movie": "A4S03P04",
+  "duration": 126.993533,
+  "audio_sha256": "CAE539E2A6B205670FE871FFF6928C3E1005426DA4E19406625ED631935F8BB1",
+  "model": "faster-whisper medium int8 CPU",
+  "segments": [
+    {
+      "start": 0.82,
+      "end": 8.28,
+      "text": "And it's crucial that we do, because if Kagan was telling the truth at all, there are others like him out there, powerful vampire overlords.",
+      "words": [
+        {
+          "start": 0.82,
+          "end": 0.88,
+          "word": " And",
+          "probability": 0.31999126076698303
+        },
+        {
+          "start": 0.88,
+          "end": 1.9,
+          "word": " it's",
+          "probability": 0.9327182173728943
+        },
+        {
+          "start": 1.9,
+          "end": 2.22,
+          "word": " crucial",
+          "probability": 0.9901836514472961
+        },
+        {
+          "start": 2.22,
+          "end": 2.4,
+          "word": " that",
+          "probability": 0.9896100759506226
+        },
+        {
+          "start": 2.4,
+          "end": 2.56,
+          "word": " we",
+          "probability": 0.9987479448318481
+        },
+        {
+          "start": 2.56,
+          "end": 2.86,
+          "word": " do,",
+          "probability": 0.9984557628631592
+        },
+        {
+          "start": 3.14,
+          "end": 3.28,
+          "word": " because",
+          "probability": 0.9857819080352783
+        },
+        {
+          "start": 3.28,
+          "end": 3.52,
+          "word": " if",
+          "probability": 0.9759148955345154
+        },
+        {
+          "start": 3.52,
+          "end": 3.64,
+          "word": " Kagan",
+          "probability": 0.8371171951293945
+        },
+        {
+          "start": 3.64,
+          "end": 3.82,
+          "word": " was",
+          "probability": 0.9919365644454956
+        },
+        {
+          "start": 3.82,
+          "end": 3.96,
+          "word": " telling",
+          "probability": 0.9931796789169312
+        },
+        {
+          "start": 3.96,
+          "end": 4.18,
+          "word": " the",
+          "probability": 0.9824476838111877
+        },
+        {
+          "start": 4.18,
+          "end": 4.36,
+          "word": " truth",
+          "probability": 0.9972520470619202
+        },
+        {
+          "start": 4.36,
+          "end": 4.56,
+          "word": " at",
+          "probability": 0.9842729568481445
+        },
+        {
+          "start": 4.56,
+          "end": 4.72,
+          "word": " all,",
+          "probability": 0.9968807697296143
+        },
+        {
+          "start": 5.12,
+          "end": 5.16,
+          "word": " there",
+          "probability": 0.9251028895378113
+        },
+        {
+          "start": 5.16,
+          "end": 5.36,
+          "word": " are",
+          "probability": 0.9758967161178589
+        },
+        {
+          "start": 5.36,
+          "end": 5.56,
+          "word": " others",
+          "probability": 0.9881012439727783
+        },
+        {
+          "start": 5.56,
+          "end": 5.8,
+          "word": " like",
+          "probability": 0.9912069439888
+        },
+        {
+          "start": 5.8,
+          "end": 6.04,
+          "word": " him",
+          "probability": 0.9978078007698059
+        },
+        {
+          "start": 6.04,
+          "end": 6.14,
+          "word": " out",
+          "probability": 0.9946651458740234
+        },
+        {
+          "start": 6.14,
+          "end": 6.4,
+          "word": " there,",
+          "probability": 0.9983154535293579
+        },
+        {
+          "start": 6.92,
+          "end": 7.2,
+          "word": " powerful",
+          "probability": 0.9168634414672852
+        },
+        {
+          "start": 7.2,
+          "end": 7.78,
+          "word": " vampire",
+          "probability": 0.8633899688720703
+        },
+        {
+          "start": 7.78,
+          "end": 8.28,
+          "word": " overlords.",
+          "probability": 0.9963591694831848
+        }
+      ]
+    },
+    {
+      "start": 8.68,
+      "end": 13.7,
+      "text": "And once they learn of Kagan's demise, it won't take long for them to come to claim his property for themselves.",
+      "words": [
+        {
+          "start": 8.68,
+          "end": 8.86,
+          "word": " And",
+          "probability": 0.9670940637588501
+        },
+        {
+          "start": 8.86,
+          "end": 9.16,
+          "word": " once",
+          "probability": 0.9910770654678345
+        },
+        {
+          "start": 9.16,
+          "end": 9.4,
+          "word": " they",
+          "probability": 0.9976763129234314
+        },
+        {
+          "start": 9.4,
+          "end": 9.56,
+          "word": " learn",
+          "probability": 0.9951674938201904
+        },
+        {
+          "start": 9.56,
+          "end": 9.7,
+          "word": " of",
+          "probability": 0.9954814910888672
+        },
+        {
+          "start": 9.7,
+          "end": 10.12,
+          "word": " Kagan's",
+          "probability": 0.9964754382769266
+        },
+        {
+          "start": 10.12,
+          "end": 10.5,
+          "word": " demise,",
+          "probability": 0.9988256096839905
+        },
+        {
+          "start": 10.74,
+          "end": 10.8,
+          "word": " it",
+          "probability": 0.9829581379890442
+        },
+        {
+          "start": 10.8,
+          "end": 11.0,
+          "word": " won't",
+          "probability": 0.9930672943592072
+        },
+        {
+          "start": 11.0,
+          "end": 11.28,
+          "word": " take",
+          "probability": 0.9967966675758362
+        },
+        {
+          "start": 11.28,
+          "end": 11.44,
+          "word": " long",
+          "probability": 0.9876404404640198
+        },
+        {
+          "start": 11.44,
+          "end": 11.58,
+          "word": " for",
+          "probability": 0.9961904287338257
+        },
+        {
+          "start": 11.58,
+          "end": 11.72,
+          "word": " them",
+          "probability": 0.997374415397644
+        },
+        {
+          "start": 11.72,
+          "end": 11.9,
+          "word": " to",
+          "probability": 0.9883678555488586
+        },
+        {
+          "start": 11.9,
+          "end": 12.02,
+          "word": " come",
+          "probability": 0.9954450130462646
+        },
+        {
+          "start": 12.02,
+          "end": 12.24,
+          "word": " to",
+          "probability": 0.9065620303153992
+        },
+        {
+          "start": 12.24,
+          "end": 12.36,
+          "word": " claim",
+          "probability": 0.9968534111976624
+        },
+        {
+          "start": 12.36,
+          "end": 12.66,
+          "word": " his",
+          "probability": 0.9957659244537354
+        },
+        {
+          "start": 12.66,
+          "end": 12.98,
+          "word": " property",
+          "probability": 0.9957805871963501
+        },
+        {
+          "start": 12.98,
+          "end": 13.16,
+          "word": " for",
+          "probability": 0.9936275482177734
+        },
+        {
+          "start": 13.16,
+          "end": 13.7,
+          "word": " themselves.",
+          "probability": 0.9985769987106323
+        }
+      ]
+    },
+    {
+      "start": 14.46,
+      "end": 16.92,
+      "text": "They won't come alone, and they won't want to negotiate.",
+      "words": [
+        {
+          "start": 14.46,
+          "end": 14.58,
+          "word": " They",
+          "probability": 0.9883573651313782
+        },
+        {
+          "start": 14.58,
+          "end": 14.76,
+          "word": " won't",
+          "probability": 0.9974779784679413
+        },
+        {
+          "start": 14.76,
+          "end": 15.0,
+          "word": " come",
+          "probability": 0.9972178936004639
+        },
+        {
+          "start": 15.0,
+          "end": 15.38,
+          "word": " alone,",
+          "probability": 0.9891048073768616
+        },
+        {
+          "start": 15.56,
+          "end": 15.72,
+          "word": " and",
+          "probability": 0.5171075463294983
+        },
+        {
+          "start": 15.72,
+          "end": 15.9,
+          "word": " they",
+          "probability": 0.946215808391571
+        },
+        {
+          "start": 15.9,
+          "end": 16.1,
+          "word": " won't",
+          "probability": 0.9939005970954895
+        },
+        {
+          "start": 16.1,
+          "end": 16.28,
+          "word": " want",
+          "probability": 0.9955222606658936
+        },
+        {
+          "start": 16.28,
+          "end": 16.48,
+          "word": " to",
+          "probability": 0.9964978694915771
+        },
+        {
+          "start": 16.48,
+          "end": 16.92,
+          "word": " negotiate.",
+          "probability": 0.9970556497573853
+        }
+      ]
+    },
+    {
+      "start": 40.52,
+      "end": 42.22,
+      "text": "What about Brimstone? Still no word?",
+      "words": [
+        {
+          "start": 40.52,
+          "end": 40.64,
+          "word": " What",
+          "probability": 0.7502551674842834
+        },
+        {
+          "start": 40.64,
+          "end": 40.88,
+          "word": " about",
+          "probability": 0.9988465309143066
+        },
+        {
+          "start": 40.88,
+          "end": 41.36,
+          "word": " Brimstone?",
+          "probability": 0.9802937904993693
+        },
+        {
+          "start": 41.7,
+          "end": 41.88,
+          "word": " Still",
+          "probability": 0.993791401386261
+        },
+        {
+          "start": 41.88,
+          "end": 42.08,
+          "word": " no",
+          "probability": 0.9965097308158875
+        },
+        {
+          "start": 42.08,
+          "end": 42.22,
+          "word": " word?",
+          "probability": 0.9975812435150146
+        }
+      ]
+    },
+    {
+      "start": 42.66,
+      "end": 46.96,
+      "text": "Nothing. But if Brimstone still exists, it's because they prepared for this.",
+      "words": [
+        {
+          "start": 42.66,
+          "end": 43.04,
+          "word": " Nothing.",
+          "probability": 0.9425643682479858
+        },
+        {
+          "start": 43.62,
+          "end": 43.78,
+          "word": " But",
+          "probability": 0.9940493106842041
+        },
+        {
+          "start": 43.78,
+          "end": 43.96,
+          "word": " if",
+          "probability": 0.9880286455154419
+        },
+        {
+          "start": 43.96,
+          "end": 44.48,
+          "word": " Brimstone",
+          "probability": 0.9956397414207458
+        },
+        {
+          "start": 44.48,
+          "end": 44.74,
+          "word": " still",
+          "probability": 0.9953501224517822
+        },
+        {
+          "start": 44.74,
+          "end": 45.22,
+          "word": " exists,",
+          "probability": 0.9966369867324829
+        },
+        {
+          "start": 45.52,
+          "end": 45.7,
+          "word": " it's",
+          "probability": 0.9905210435390472
+        },
+        {
+          "start": 45.7,
+          "end": 45.96,
+          "word": " because",
+          "probability": 0.9991623163223267
+        },
+        {
+          "start": 45.96,
+          "end": 46.18,
+          "word": " they",
+          "probability": 0.9983944296836853
+        },
+        {
+          "start": 46.18,
+          "end": 46.5,
+          "word": " prepared",
+          "probability": 0.6864401698112488
+        },
+        {
+          "start": 46.5,
+          "end": 46.72,
+          "word": " for",
+          "probability": 0.9977638721466064
+        },
+        {
+          "start": 46.72,
+          "end": 46.96,
+          "word": " this.",
+          "probability": 0.9990465044975281
+        }
+      ]
+    },
+    {
+      "start": 47.58,
+      "end": 49.54,
+      "text": "I wouldn't expect them to greet us with open arms.",
+      "words": [
+        {
+          "start": 47.58,
+          "end": 47.7,
+          "word": " I",
+          "probability": 0.993599534034729
+        },
+        {
+          "start": 47.7,
+          "end": 47.94,
+          "word": " wouldn't",
+          "probability": 0.9970201551914215
+        },
+        {
+          "start": 47.94,
+          "end": 48.18,
+          "word": " expect",
+          "probability": 0.9978653788566589
+        },
+        {
+          "start": 48.18,
+          "end": 48.36,
+          "word": " them",
+          "probability": 0.9974547028541565
+        },
+        {
+          "start": 48.36,
+          "end": 48.56,
+          "word": " to",
+          "probability": 0.9982630610466003
+        },
+        {
+          "start": 48.56,
+          "end": 48.64,
+          "word": " greet",
+          "probability": 0.9473212361335754
+        },
+        {
+          "start": 48.64,
+          "end": 48.8,
+          "word": " us",
+          "probability": 0.9970334768295288
+        },
+        {
+          "start": 48.8,
+          "end": 49.02,
+          "word": " with",
+          "probability": 0.9979534149169922
+        },
+        {
+          "start": 49.02,
+          "end": 49.24,
+          "word": " open",
+          "probability": 0.9971965551376343
+        },
+        {
+          "start": 49.24,
+          "end": 49.54,
+          "word": " arms.",
+          "probability": 0.9998294115066528
+        }
+      ]
+    },
+    {
+      "start": 49.54,
+      "end": 54.1,
+      "text": "It's likely they've drawn definite lines, declared open war on everything even vaguely",
+      "words": [
+        {
+          "start": 49.54,
+          "end": 50.24,
+          "word": " It's",
+          "probability": 0.8960122168064117
+        },
+        {
+          "start": 50.24,
+          "end": 50.4,
+          "word": " likely",
+          "probability": 0.9808068871498108
+        },
+        {
+          "start": 50.4,
+          "end": 50.72,
+          "word": " they've",
+          "probability": 0.9688821732997894
+        },
+        {
+          "start": 50.72,
+          "end": 50.84,
+          "word": " drawn",
+          "probability": 0.9977176189422607
+        },
+        {
+          "start": 50.84,
+          "end": 51.26,
+          "word": " definite",
+          "probability": 0.9929962754249573
+        },
+        {
+          "start": 51.26,
+          "end": 51.76,
+          "word": " lines,",
+          "probability": 0.9799501895904541
+        },
+        {
+          "start": 52.1,
+          "end": 52.22,
+          "word": " declared",
+          "probability": 0.9614500999450684
+        },
+        {
+          "start": 52.22,
+          "end": 52.54,
+          "word": " open",
+          "probability": 0.9763058423995972
+        },
+        {
+          "start": 52.54,
+          "end": 52.76,
+          "word": " war",
+          "probability": 0.6847909092903137
+        },
+        {
+          "start": 52.76,
+          "end": 53.06,
+          "word": " on",
+          "probability": 0.6852530837059021
+        },
+        {
+          "start": 53.06,
+          "end": 53.42,
+          "word": " everything",
+          "probability": 0.9840767979621887
+        },
+        {
+          "start": 53.42,
+          "end": 53.78,
+          "word": " even",
+          "probability": 0.8266251087188721
+        },
+        {
+          "start": 53.78,
+          "end": 54.1,
+          "word": " vaguely",
+          "probability": 0.9965580999851227
+        }
+      ]
+    },
+    {
+      "start": 54.1,
+      "end": 56.74,
+      "text": "vampiric, which includes the both of us.",
+      "words": [
+        {
+          "start": 54.1,
+          "end": 54.78,
+          "word": " vampiric,",
+          "probability": 0.9046483834584554
+        },
+        {
+          "start": 55.12,
+          "end": 55.36,
+          "word": " which",
+          "probability": 0.9618701338768005
+        },
+        {
+          "start": 55.36,
+          "end": 55.82,
+          "word": " includes",
+          "probability": 0.9970741271972656
+        },
+        {
+          "start": 55.82,
+          "end": 56.02,
+          "word": " the",
+          "probability": 0.9908297061920166
+        },
+        {
+          "start": 56.02,
+          "end": 56.16,
+          "word": " both",
+          "probability": 0.9972347617149353
+        },
+        {
+          "start": 56.16,
+          "end": 56.36,
+          "word": " of",
+          "probability": 0.9975540041923523
+        },
+        {
+          "start": 56.36,
+          "end": 56.74,
+          "word": " us.",
+          "probability": 0.9994068145751953
+        }
+      ]
+    },
+    {
+      "start": 56.86,
+      "end": 57.5,
+      "text": "Stay down.",
+      "words": [
+        {
+          "start": 56.86,
+          "end": 57.08,
+          "word": " Stay",
+          "probability": 0.5960561037063599
+        },
+        {
+          "start": 57.08,
+          "end": 57.5,
+          "word": " down.",
+          "probability": 0.9845719337463379
+        }
+      ]
+    },
+    {
+      "start": 123.52,
+      "end": 126.34,
+      "text": "These next few years are gonna be very interesting.",
+      "words": [
+        {
+          "start": 123.52,
+          "end": 123.68,
+          "word": " These",
+          "probability": 0.9809235334396362
+        },
+        {
+          "start": 123.68,
+          "end": 124.02,
+          "word": " next",
+          "probability": 0.9983392953872681
+        },
+        {
+          "start": 124.02,
+          "end": 124.2,
+          "word": " few",
+          "probability": 0.9906692504882812
+        },
+        {
+          "start": 124.2,
+          "end": 124.46,
+          "word": " years",
+          "probability": 0.9984458088874817
+        },
+        {
+          "start": 124.46,
+          "end": 124.64,
+          "word": " are",
+          "probability": 0.9905067086219788
+        },
+        {
+          "start": 124.64,
+          "end": 124.78,
+          "word": " gonna",
+          "probability": 0.6803717613220215
+        },
+        {
+          "start": 124.78,
+          "end": 125.12,
+          "word": " be",
+          "probability": 0.9964070916175842
+        },
+        {
+          "start": 125.12,
+          "end": 125.66,
+          "word": " very",
+          "probability": 0.9613654613494873
+        },
+        {
+          "start": 125.66,
+          "end": 126.34,
+          "word": " interesting.",
+          "probability": 0.9942193031311035
+        }
+      ]
+    }
+  ]
+}

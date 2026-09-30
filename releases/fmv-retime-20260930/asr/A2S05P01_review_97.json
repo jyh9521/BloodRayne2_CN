@@ -1,0 +1,53 @@
+{
+  "movie": "A2S05P01",
+  "window": [
+    97,
+    104
+  ],
+  "segments": [
+    {
+      "start": 97.0,
+      "end": 98.4,
+      "text": "I understand.",
+      "words": [
+        {
+          "start": 97.0,
+          "end": 97.78,
+          "word": " I",
+          "probability": 0.2657696008682251
+        },
+        {
+          "start": 97.78,
+          "end": 98.4,
+          "word": " understand.",
+          "probability": 0.5996673703193665
+        }
+      ]
+    },
+    {
+      "start": 99.3,
+      "end": 101.32,
+      "text": "Most definitely, Farrow.",
+      "words": [
+        {
+          "start": 99.3,
+          "end": 99.66,
+          "word": " Most",
+          "probability": 0.9163909554481506
+        },
+        {
+          "start": 99.66,
+          "end": 100.52,
+          "word": " definitely,",
+          "probability": 0.9506316184997559
+        },
+        {
+          "start": 100.72,
+          "end": 101.32,
+          "word": " Farrow.",
+          "probability": 0.4626621603965759
+        }
+      ]
+    }
+  ]
+}

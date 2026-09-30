@@ -1,0 +1,137 @@
+{
+  "movie": "A3S04P02",
+  "window": [
+    60,
+    75
+  ],
+  "segments": [
+    {
+      "start": 61.56,
+      "end": 69.92,
+      "text": "Hmm. Quicker than I remembered. A shame. You might have amounted to something. Throw out",
+      "words": [
+        {
+          "start": 61.56,
+          "end": 62.32,
+          "word": " Hmm.",
+          "probability": 0.1973072737455368
+        },
+        {
+          "start": 63.38,
+          "end": 63.82,
+          "word": " Quicker",
+          "probability": 0.9483973979949951
+        },
+        {
+          "start": 63.82,
+          "end": 63.9,
+          "word": " than",
+          "probability": 0.9918946623802185
+        },
+        {
+          "start": 63.9,
+          "end": 64.26,
+          "word": " I",
+          "probability": 0.9670950770378113
+        },
+        {
+          "start": 64.26,
+          "end": 64.66,
+          "word": " remembered.",
+          "probability": 0.8251433968544006
+        },
+        {
+          "start": 65.82,
+          "end": 66.0,
+          "word": " A",
+          "probability": 0.9742005467414856
+        },
+        {
+          "start": 66.0,
+          "end": 66.38,
+          "word": " shame.",
+          "probability": 0.9929249286651611
+        },
+        {
+          "start": 67.16,
+          "end": 67.22,
+          "word": " You",
+          "probability": 0.7944894433021545
+        },
+        {
+          "start": 67.22,
+          "end": 67.46,
+          "word": " might",
+          "probability": 0.9892517924308777
+        },
+        {
+          "start": 67.46,
+          "end": 67.62,
+          "word": " have",
+          "probability": 0.7456366419792175
+        },
+        {
+          "start": 67.62,
+          "end": 68.08,
+          "word": " amounted",
+          "probability": 0.9938029646873474
+        },
+        {
+          "start": 68.08,
+          "end": 68.2,
+          "word": " to",
+          "probability": 0.9976440072059631
+        },
+        {
+          "start": 68.2,
+          "end": 68.62,
+          "word": " something.",
+          "probability": 0.996459424495697
+        },
+        {
+          "start": 69.26,
+          "end": 69.52,
+          "word": " Throw",
+          "probability": 0.8379590511322021
+        },
+        {
+          "start": 69.52,
+          "end": 69.92,
+          "word": " out",
+          "probability": 0.9930363297462463
+        }
+      ]
+    },
+    {
+      "start": 69.92,
+      "end": 71.94,
+      "text": "the trash. Remember that.",
+      "words": [
+        {
+          "start": 69.92,
+          "end": 70.2,
+          "word": " the",
+          "probability": 0.9882326722145081
+        },
+        {
+          "start": 70.2,
+          "end": 70.56,
+          "word": " trash.",
+          "probability": 0.9456766843795776
+        },
+        {
+          "start": 71.2,
+          "end": 71.5,
+          "word": " Remember",
+          "probability": 0.2031317800283432
+        },
+        {
+          "start": 71.5,
+          "end": 71.94,
+          "word": " that.",
+          "probability": 0.8963688015937805
+        }
+      ]
+    }
+  ]
+}
