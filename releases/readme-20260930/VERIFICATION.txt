@@ -1,0 +1,19 @@
+Changed fields: README.md rewritten for players; detailed source build instructions moved to BUILDING.md. Overlay archive and game payload unchanged.
+References inspected: https://github.com/jyh9521/redfaction-cn ; https://github.com/jyh9521/BloodRayne_CN ; https://github.com/jyh9521/NOLF_CN ; https://github.com/jyh9521/NOLF2_CN
+BASELINE command: python "_cn_project\releases\readme-20260930\verify.py" baseline
+BASELINE input: saved original README bytes and existing overlay ZIP SHA-256.
+BASELINE output: BASELINE_OK readme_original_hash=preserved overlay_package=unchanged
+BASELINE exit: 0
+MODIFIED command: python "_cn_project\releases\readme-20260930\verify.py" modified
+MODIFIED input: rewritten README, separate BUILDING.md, current overlay ZIP.
+MODIFIED output: MODIFIED_OK player_readme=yes build_guide=separate overlay_package=unchanged crc=all_valid
+MODIFIED exit: 0
+ROLLBACK command: & "C:\Program Files\Git\bin\bash.exe" "_cn_project\releases\readme-20260930\ROLLBACK.sh"
+ROLLBACK input: isolated README copy and original byte snapshot.
+ROLLBACK output: ROLLBACK_OK isolated_readme=restored original_hash=matched live_readme=retained
+ROLLBACK exit: 0
+Restored status: isolated README reverted to original SHA-256; repository README remains rewritten. Game files and release payload unchanged; no game launch.
+MODIFIED_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\readme-20260930\MODIFIED_FILE.md
+DIFF_FILE: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\readme-20260930\DIFF_FILE.diff
+VERIFICATION: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\readme-20260930\VERIFICATION.txt
+ROLLBACK: C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\readme-20260930\ROLLBACK.sh
