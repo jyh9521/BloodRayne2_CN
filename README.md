@@ -4,6 +4,10 @@ BloodRayne 2: Terminal Cut 的简体中文汉化补丁，适用于 Steam 终极�
 
 包含菜单、招式说明、剧情字幕、游戏提示和预渲染动画字幕，也为部分原本没有字幕的对白、战斗台词补上了中文。配音保留英语。
 
+## 本次更新
+
+v1.0.2：修正 A2S02P16 开头两条视频字幕，与英语配音对应；其余字幕与时间轴保持不变。
+
 ## 下载与使用
 
 **[下载覆盖版汉化补丁](https://github.com/jyh9521/BloodRayne2_CN/raw/refs/heads/main/dist/BloodRayne2_CN_current.zip)**

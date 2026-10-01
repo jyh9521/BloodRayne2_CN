@@ -1,0 +1,24 @@
+Changed: A2S02P16 cue 1 = 莱恩？; cue 2 = 你到哪儿了？
+Timing and cue count unchanged; 19 remaining cues byte-equivalent.
+Four artifacts (absolute paths):
+C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-correction-20261001\MODIFIED_FILE.srt
+C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-correction-20261001\DIFF_FILE.diff
+C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-correction-20261001\VERIFICATION.txt
+C:\Program Files (x86)\Steam\steamapps\common\BloodRayne 2 Terminal Cut\_cn_project\releases\fmv-correction-20261001\ROLLBACK.sh
+Commands executed from game root; interpreter environment PYTHONIOENCODING=utf-8.
+BASELINE command: python _cn_project/releases/fmv-correction-20261001/build.py baseline
+Input: installed video/A2S02P16_RU.srt and canonical video_subtitles copy.
+Literal output: BASELINE_OK cues=21 installed=canonical original_hash=preserved
+Exit: 0
+MODIFIED command: python _cn_project/releases/fmv-correction-20261001/build.py modified
+Input: original snapshot and existing character_map.tsv; replacement strings 莱恩？ and 你到哪儿了？.
+Literal output: MODIFIED_OK cues=21 changed=2 unchanged=19 timestamps=unchanged carrier_bytes=6,12 each_below_64=yes
+Literal output: RELEASE_OK version=1.0.2 files=17 entries=18 crc=valid hashes=valid direct_overlay=yes
+Exit: 0
+ROLLBACK command: python _cn_project/releases/fmv-correction-20261001/build.py rollback
+Input: modified file copied to isolated testroot; restore from original snapshot.
+Literal output: ROLLBACK_OK isolated_original_hash=matched installed_correction=retained
+Exit: 0
+Restored status: isolated copy equals original SHA256; live and canonical corrected subtitles retained.
+No game launched. Static validation does not constitute playback verification.
+PACKAGE_DIFF_OK changed=target_srt,readme other_16_game_files=identical; exit=0. ROLLBACK.sh executed by C:\Program Files\Git\bin\bash.exe; output=ROLLBACK_OK isolated_original_hash=matched installed_correction=retained; exit=0.

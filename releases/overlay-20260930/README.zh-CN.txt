@@ -1,4 +1,4 @@
-﻿BloodRayne 2 Terminal Cut 简体中文汉化 v1.0.1 覆盖版
+﻿BloodRayne 2 Terminal Cut 简体中文汉化 v1.0.2 覆盖版
 
 使用方法
 将本压缩包的全部内容直接解压到 Steam 游戏根目录，选择覆盖同名文件。
@@ -13,5 +13,5 @@ LANGUAGE.POD、dinput8.dll、video 内 15 个 RU 字幕，共 17 个游戏文件
 覆盖前可自行备份同名文件。需要撤销时恢复备份，并删除原本没有的汉化字幕和 DLL。
 其他模组若使用同名 dinput8.dll，直接覆盖会替换它；本包不自动合并代理 DLL。
 
-视频 A2S02P16 第一句保留译文与当前英语音轨没有完整对应，仍保留原译文待复核。
+本次修正：视频 A2S02P16 开头改为“莱恩？”“你到哪儿了？”，与英语配音对应。
 项目：https://github.com/jyh9521/BloodRayne2_CN

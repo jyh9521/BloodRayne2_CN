@@ -1,0 +1,82 @@
+{
+  "version": "1.0.2-overlay",
+  "changed_cues": {
+    "A2S02P16:1": "莱恩？",
+    "A2S02P16:2": "你到哪儿了？"
+  },
+  "baseline": {
+    "sha256": "e7391cc0897a393f46c78c611403dfe69c64518b0aee27dfb0289a2f6403a7c7",
+    "bytes": 1534
+  },
+  "modified_sha256": "78ffec11ae82bf8cac4a677a25656f5a04cac37dedbe4eff436c07f17bbe4178",
+  "files": [
+    {
+      "path": "LANGUAGE.POD",
+      "sha256": "3f262cd2b6d69fed03344df1ba10e3fa4853b81249c6eda8bb428941773562d8"
+    },
+    {
+      "path": "dinput8.dll",
+      "sha256": "d525cb5521fadc0373641e6cf7edbf988e5fb178ec65b61670cd85a5139a09dc"
+    },
+    {
+      "path": "video/A1S01P01_RU.srt",
+      "sha256": "be6d4b828be6116edc3864ac07953b0ef961d8beb08958a87cfe9911914445c3"
+    },
+    {
+      "path": "video/A1S01P02_RU.srt",
+      "sha256": "2b0bcdf90a8cb3937b1f1652dcd3d500097280fa21f00b60578a3e87522599a2"
+    },
+    {
+      "path": "video/A1S01P06_RU.srt",
+      "sha256": "cf28dabe0ac119fff4f4a23b6324de137288378436b078ef5cf1d185dae1675a"
+    },
+    {
+      "path": "video/A1S02P04_RU.srt",
+      "sha256": "3b8485aafe5c9542138a737604f3020e76ff87ab959214a945f6db40df5dd014"
+    },
+    {
+      "path": "video/A1S02P11_RU.srt",
+      "sha256": "1d7c3d8d83ab24380b23fb99d16c98e37dc91921f61cc3846fdae86c9e346cd7"
+    },
+    {
+      "path": "video/A2S01P01_RU.srt",
+      "sha256": "cadbfec34df14a34921fb244198de61a34624e932c6e09abd7edbfddec83aef6"
+    },
+    {
+      "path": "video/A2S02P16_RU.srt",
+      "sha256": "78ffec11ae82bf8cac4a677a25656f5a04cac37dedbe4eff436c07f17bbe4178"
+    },
+    {
+      "path": "video/A2S05P01_RU.srt",
+      "sha256": "c39d21b2696d2961a21983496e4f45e50e3363bfb9c11e09985376dd814bdbca"
+    },
+    {
+      "path": "video/A2S05P12_RU.srt",
+      "sha256": "b3725f41ba81945c6fee1fa73ea02f6e53b38d499e955495a5c6c17e024351d7"
+    },
+    {
+      "path": "video/A3S01P01_RU.srt",
+      "sha256": "1b1594a5460138375c5581252b802bfb8373ef02e40623eeec4721c9d2e039ea"
+    },
+    {
+      "path": "video/A3S04P02_RU.srt",
+      "sha256": "9b989db84fa86208a43ce31b18a47db5cf29e2616ae365b709cd6da0539e8c45"
+    },
+    {
+      "path": "video/A4S01P01_RU.srt",
+      "sha256": "17c409ff51d29726a0d4e6f490d0958c077f452aa26364180632b1c75713cbfd"
+    },
+    {
+      "path": "video/A4S02P01_RU.srt",
+      "sha256": "d5ab00802ce6ab4e95720fe595f4fee49a028d2cd14b74e0935da9c38a1d6e96"
+    },
+    {
+      "path": "video/A4S02P02_RU.srt",
+      "sha256": "49f2c0a93c65a8006215cb937f8c980a75b103bf6220b74d4fd966bcd7ad224a"
+    },
+    {
+      "path": "video/A4S03P04_RU.srt",
+      "sha256": "425f180fcfee0ee12d2a370299d906d6192f74e79c8c68d59a494d37efff0e1d"
+    }
+  ]
+}

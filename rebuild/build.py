@@ -69,7 +69,7 @@ def main():
     (payload/'video').mkdir(exist_ok=True)
     for p in source_srt: shutil.copy2(p,payload/'video'/p.name)
     files=[payload/'LANGUAGE.POD',payload/'dinput8.dll',*sorted((payload/'video').glob('*.srt'))]
-    manifest={'version':'1.0.1-overlay-source-rebuild','files':[{'path':p.relative_to(payload).as_posix(),'sha256':sha(p),'bytes':p.stat().st_size} for p in files]}
+    manifest={'version':'1.0.2-overlay-source-rebuild','files':[{'path':p.relative_to(payload).as_posix(),'sha256':sha(p),'bytes':p.stat().st_size} for p in files]}
     (out/'rebuild_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     readme=REPO/'releases/overlay-20260930/README.zh-CN.txt'
     archive=out/'BloodRayne2_CN_rebuilt.zip'
